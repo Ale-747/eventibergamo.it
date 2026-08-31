@@ -1,0 +1,701 @@
+{
+  "_generato_da": "sito/genera.py — non modificare a mano",
+  "aggiornato_il": "2026-08-28",
+  "brand": {
+    "nome": "Eventibergamo",
+    "handle": "@eventibergamo",
+    "copertura": "Città & provincia"
+  },
+  "contatti": [
+    {
+      "etichetta": "Instagram",
+      "valore": "@eventibergamo",
+      "url": "https://instagram.com/eventibergamo"
+    }
+  ],
+  "riposo": {
+    "titolo": "Ci vediamo\nvenerdì",
+    "lead": "La guida di questa settimana è finita. Quella nuova esce il venerdì per il weekend e il lunedì per i giorni feriali.",
+    "cta": "Nel frattempo siamo su Instagram: lì gli eventi li mettiamo ogni giorno."
+  },
+  "guide": [
+    {
+      "id": "weekend-2026-09-04",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-09-04",
+        "a": "2026-09-06",
+        "etichetta": "4 → 6 settembre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "Un concerto a 1,50€, gli oratori che ballano\ne una discoteca che riapre dopo l'estate.",
+      "hook": "Dentro: 31 serate tra città e provincia, sera per sera.\nCon orari, zone e i prezzi dove le fonti li pubblicano.",
+      "giorni": [
+        {
+          "data": "2026-09-04",
+          "etichetta": "Venerdì 4 settembre",
+          "breve": "Venerdì 4",
+          "nota": "Il concerto al NXT è dentro la sagra della carbonara: cena e palco nello stesso piazzale.",
+          "eventi": [
+            {
+              "ora": "20:00",
+              "nome": "Liscio con Rino Travagliante",
+              "luogo": "Tetris, Ranica",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Frankie hi-nrg mc",
+              "luogo": "NXT Station, Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 1.5
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Deja Vu — cover 360° italiano",
+              "luogo": "Gerundium Fest, Casirate d'Adda",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "120 Coveriro",
+              "luogo": "Pro Rock Beer Fest, Solza",
+              "zona": "Isola",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Afro con Dj's Vavi, Valo e Sira",
+              "luogo": "In.con.tra, Palazzago",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "ATN 2000 a Tuono",
+              "luogo": "Sagra di Almè, Almè",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Evergreen",
+              "luogo": "Festa patronale, Gorle",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Lady Lake",
+              "luogo": "Festa Sant'Antonio, Martinengo",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Musica con Dj Stip & Scrib",
+              "luogo": "Oratorio Comenduno, Albino",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
+            },
+            {
+              "ora": null,
+              "nome": "Dosson Party Anni 80",
+              "luogo": "Località Dosson, San Giovanni Bianco",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://trovasagre.com/sagre/lombardia/bergamo"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-05",
+          "etichetta": "Sabato 5 settembre",
+          "breve": "Sabato 5",
+          "nota": "Il Bolgia riapre dopo l'estate: garden e main room, dalle 23:30 alle 8. Uscita A4 Dalmine.",
+          "eventi": [
+            {
+              "ora": "10:00",
+              "nome": "StraBergamo — Sports Village",
+              "luogo": "Sentierone, Bergamo",
+              "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/evento/strabergamo-il-programma-delledizione-2026/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Onde Musicali sul Lago d'Iseo",
+              "luogo": "Lovere",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Musica nei Cortili",
+              "luogo": "Martinengo",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Voglio Tornare negli Anni 90",
+              "luogo": "Baia delle Rose, Costa Volpino",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Vascombriccola — tributo Vasco",
+              "luogo": "Festa della Basella, Urgnano",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Musica Techno Rama",
+              "luogo": "In.con.tra, Palazzago",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Sismica — cover dance",
+              "luogo": "Gerundium Fest, Casirate d'Adda",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Dinamo Duo",
+              "luogo": "Pro Rock Beer Fest, Solza",
+              "zona": "Isola",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Tributo Mengoni",
+              "luogo": "Oratorio Comenduno, Albino",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "23:30",
+              "nome": "Bolgia Opening: Manda Moor, USH",
+              "luogo": "Bolgia, Osio Sopra",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://diffusionimusicali.org/2026/08/27/5-9-26-bolgia-bergamo-opening-manda-moor-b2b-sirus-hood-ush/"
+            },
+            {
+              "ora": null,
+              "nome": "Teenage Dream — party anni 2000",
+              "luogo": "NXT Station, Bergamo",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://nxtbergamo.it/eventi/"
+            },
+            {
+              "ora": null,
+              "nome": "Mercatino antiquario, 70 espositori",
+              "luogo": "Piazzale Trattati di Roma, Romano di Lombardia",
+              "zona": "Bassa",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-06",
+          "etichetta": "Domenica 6 settembre",
+          "breve": "Domenica 6",
+          "nota": "Stra-Alpini a partenza libera dalle 7:30 alle 9 dal Sentierone: 8€ con pettorale e t-shirt.",
+          "eventi": [
+            {
+              "ora": "07:30",
+              "nome": "StraBergamo — Stra-Alpini",
+              "luogo": "Sentierone, Bergamo",
+              "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 8
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/evento/strabergamo-il-programma-delledizione-2026/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Esterno notte — ultima serata",
+              "luogo": "Cortile biblioteca Caversazzi, Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Chiapperini Francesco Ensemble",
+              "luogo": "Parco Castello, Clusone",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Voglio Tornare negli Anni 90",
+              "luogo": "Gerundium Fest, Casirate d'Adda",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "4Ub Italian — tributo U2",
+              "luogo": "Oratorio Comenduno, Albino",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": null,
+              "nome": "Mellow Mood, Lion D e Forelock",
+              "luogo": "NXT Station, Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://nxtbergamo.it/eventi/"
+            },
+            {
+              "ora": null,
+              "nome": "Fiera di Sant'Alessandro",
+              "luogo": "Sentierone, Bergamo",
+              "zona": "Centro",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.visitbergamo.net/oggetto/festa-di-santalessandro/"
+            },
+            {
+              "ora": null,
+              "nome": "Antiquariato e cose usate",
+              "luogo": "Piazza Caduti, Sotto il Monte",
+              "zona": "Isola",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
+            },
+            {
+              "ora": null,
+              "nome": "Mercatino dell'antiquariato",
+              "luogo": "Piazza Maggiore, Martinengo",
+              "zona": "Bassa",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
+            }
+          ]
+        }
+      ],
+      "sempre_aperte": [
+        {
+          "nome": "Gerundium Fest",
+          "luogo": "Casirate d'Adda, via dell'Industria",
+          "quando": "ven → dom",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Pro Rock Beer Fest",
+          "luogo": "Solza",
+          "quando": "ven → dom · 21:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "In.con.tra",
+          "luogo": "Palazzago, oratorio",
+          "quando": "ven → dom · 21:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Oratorio in Festa",
+          "luogo": "Nembro, San Filippo Neri",
+          "quando": "fino a domenica",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Sagra della carbonara",
+          "luogo": "Piazzale degli Alpini, Bergamo",
+          "quando": "ven e dom",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "◉"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema all'aperto",
+          "icona": "▷"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        }
+      ]
+    },
+    {
+      "id": "settimana-2026-09-07",
+      "formato": "settimana",
+      "periodo": {
+        "da": "2026-09-07",
+        "a": "2026-09-10",
+        "etichetta": "7 → 10 settembre"
+      },
+      "titolo": "La Settimana",
+      "sottotitolo": "Finita l'estate delle sagre, in città si torna\na sedersi e ad ascoltare.",
+      "hook": "Dentro: 12 appuntamenti da lunedì a giovedì.\nDue mostre gratis, un sold out e Dimartino in chiesa.",
+      "giorni": [
+        {
+          "data": "2026-09-07",
+          "etichetta": "Lunedì 7 settembre",
+          "breve": "Lunedì 7",
+          "nota": "Le due sedi dei concerti del Conservatorio non sono ancora pubblicate: controlla prima di uscire.",
+          "eventi": [
+            {
+              "ora": "17:00",
+              "nome": "Ottoni del Conservatorio",
+              "luogo": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            },
+            {
+              "ora": "20:30",
+              "nome": "Masterclass Marco Toro — il finale",
+              "luogo": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            },
+            {
+              "ora": "20:45",
+              "nome": "Te lo prometto — Calandrone e Lingiardi",
+              "luogo": "Santa Maria Maggiore, Bergamo",
+              "zona": "Centro",
+              "categoria": "altro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://moltefedi.it/edizione-2026/"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-08",
+          "etichetta": "Martedì 8 settembre",
+          "breve": "Martedì 8",
+          "nota": "Il Festival Pianistico segna sold out: senza biglietto è una serata da rimandare a mercoledì.",
+          "eventi": [
+            {
+              "ora": "20:30",
+              "nome": "Mahler Chamber Orchestra / Yuja Wang",
+              "luogo": "Teatro Donizetti, Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "da",
+                "valore": 30
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.festivalpianistico.it/concerto/mahler-chamber-orchestra-yuja-wang-pianista-2026-bergamo/"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-09",
+          "etichetta": "Mercoledì 9 settembre",
+          "breve": "Mercoledì 9",
+          "nota": "Dimartino costa 10€ con la CARD di Molte fedi, 15€ senza: si prenota su moltefedi.it.",
+          "eventi": [
+            {
+              "ora": "21:00",
+              "nome": "Dimartino — L'improbabile piena dell'Oreto",
+              "luogo": "Chiesa di Longuelo, Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "da",
+                "valore": 10
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.parrocchiadilonguelo.it/limprobabile-piena-delloreto-dimartino-in-concerto-mercoledi-9-settembre-ore-21-00/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Racconti di fine estate",
+              "luogo": "Curno",
+              "zona": "Centro",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-10",
+          "etichetta": "Giovedì 10 settembre",
+          "breve": "Giovedì 10",
+          "nota": "Due visite alla stessa ora in due paesi diversi: sono i 400 anni di Enea Salmeggia, devi scegliere.",
+          "eventi": [
+            {
+              "ora": "20:30",
+              "nome": "Enea Salmeggia a Villa di Serio",
+              "luogo": "Villa di Serio",
+              "zona": "Valli",
+              "categoria": "visita",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            },
+            {
+              "ora": "20:30",
+              "nome": "Enea Salmeggia a Cenate Sotto",
+              "luogo": "Cenate Sotto",
+              "zona": "Valli",
+              "categoria": "visita",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.visitbergamo.net/it/eventi/"
+            }
+          ]
+        }
+      ],
+      "sempre_aperte": [
+        {
+          "nome": "Tabula Plena",
+          "luogo": "Palazzo della Ragione, Bergamo",
+          "quando": "fino al 18 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Chiara Camoni. La Forza",
+          "luogo": "Giardini dell'Accademia Carrara",
+          "quando": "fino al 31 dicembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Festa della Madonna della Castagna",
+          "luogo": "Bergamo, via Madonna della Castagna",
+          "quando": "fino al 13 settembre",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festa della Madonna dell'Olmo",
+          "luogo": "Verdellino",
+          "quando": "fino al 14 settembre",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✱"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
+        },
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "⚑"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        }
+      ]
+    }
+  ]
+}

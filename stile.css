@@ -1,0 +1,189 @@
+/* Palette e caratteri arrivano da render/build.py: se cambi lì, cambia anche qui,
+   altrimenti il sito e le slide smettono di sembrare la stessa cosa. */
+
+:root {
+  --acc: #D8FA3C; --hot: #FF2E93; --mut: #8C877D;
+  --line: #2B2723; --bg: #141110; --fg: #EFE9DE; --on-acc: #141110;
+  --grana: #fff; --grana-op: .055;
+}
+:root[data-tema="settimana"] {
+  --acc: #C8202B; --hot: #E8730F; --mut: #7A7268;
+  --line: #D6CBB6; --bg: #EFE6D6; --fg: #141110; --on-acc: #EFE6D6;
+  --grana: #000; --grana-op: .07;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: 'Archivo', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  transition: background .35s ease, color .35s ease;
+}
+
+body::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  opacity: var(--grana-op);
+  background-image: radial-gradient(var(--grana) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+.guscio { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 40px 22px 80px; }
+
+/* ---------------------------------------------------------------- testata */
+.marchio { display: flex; align-items: center; gap: 12px; }
+.punto {
+  width: 20px; height: 20px; border-radius: 50%; flex: none;
+  background: linear-gradient(90deg, var(--hot) 50%, var(--acc) 50%);
+}
+.marchio b {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 20px; letter-spacing: .3em; text-transform: uppercase;
+}
+
+/* Selettore fra la guida in corso e la prossima. Compare solo quando esistono
+   entrambe: un solo bottone che non porta da nessuna parte è peggio di nessuno. */
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.tab {
+  font: inherit; cursor: pointer; background: none; color: var(--mut);
+  border: 2px solid var(--line); padding: 8px 14px 6px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 15px; letter-spacing: .14em; text-transform: uppercase;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.tab:hover { color: var(--fg); border-color: var(--mut); }
+.tab.sel { background: var(--acc); border-color: var(--acc); color: var(--on-acc); }
+.tab:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+
+.anticipo {
+  margin-top: 18px; border-left: 5px solid var(--hot); padding: 5px 0 5px 18px;
+  font-size: 17px; font-weight: 600; line-height: 1.4;
+}
+
+.quando {
+  flex: none; align-self: center; color: var(--mut);
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 16px; letter-spacing: .1em; text-transform: uppercase; text-align: right;
+}
+
+.occhiello {
+  display: flex; align-items: center; gap: 16px; margin: 26px 0 6px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 17px; letter-spacing: .26em; text-transform: uppercase; color: var(--acc);
+}
+.occhiello::after { content: ""; flex: 1; height: 2px; background: var(--acc); }
+
+h1 {
+  font-family: 'Anton', sans-serif; font-weight: 400;
+  font-size: clamp(52px, 15vw, 104px); line-height: .92; text-transform: uppercase;
+  letter-spacing: -.01em;
+}
+h1 em { font-style: normal; color: var(--acc); display: block; }
+
+.pillola {
+  display: inline-block; margin-top: 18px; padding: 7px 16px 4px;
+  background: var(--hot); color: var(--on-acc);
+  font-family: 'Anton', sans-serif; font-size: 22px; letter-spacing: .04em;
+}
+[data-tema="settimana"] .pillola { background: var(--acc); color: var(--on-acc); }
+
+.sommario { margin-top: 22px; font-size: 19px; line-height: 1.45; color: var(--mut); font-weight: 500; }
+.gancio { margin-top: 14px; font-size: 19px; line-height: 1.45; font-weight: 600; }
+
+/* ---------------------------------------------------------------- chip categorie */
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  border: 2px solid var(--line); padding: 6px 12px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 15px; letter-spacing: .14em; text-transform: uppercase;
+}
+.chip i { font-style: normal; color: var(--hot); font-size: 17px; }
+
+/* ---------------------------------------------------------------- giorni */
+.giorno { margin-top: 54px; scroll-margin-top: 20px; }
+.giorno h2 {
+  font-family: 'Anton', sans-serif; font-weight: 400; text-transform: uppercase;
+  font-size: clamp(30px, 7vw, 44px); line-height: 1; letter-spacing: -.005em;
+}
+.giorno.oggi h2 { color: var(--acc); }
+.oggi-bollo {
+  display: inline-block; margin-left: 12px; vertical-align: middle;
+  background: var(--acc); color: var(--on-acc); padding: 4px 9px 2px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 14px; letter-spacing: .18em; text-transform: uppercase;
+}
+
+ul.lista { list-style: none; margin-top: 20px; }
+ul.lista li {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 18px 0; border-bottom: 2px solid var(--line);
+}
+ul.lista li:first-child { border-top: 3px solid var(--hot); }
+
+.ora {
+  font-family: 'Anton', sans-serif; font-size: 27px; color: var(--acc);
+  width: 82px; flex: none; line-height: 1.15;
+}
+.corpo { flex: 1; min-width: 0; }
+.nome { font-size: 20px; font-weight: 700; line-height: 1.25; }
+.nome i { font-style: normal; color: var(--hot); margin-right: 9px; }
+.dove {
+  margin-top: 6px; font-size: 15px; color: var(--mut); font-weight: 500;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.zona {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 13px; letter-spacing: .16em; text-transform: uppercase;
+  background: var(--acc); color: var(--on-acc); padding: 3px 8px 1px;
+}
+.prezzo {
+  flex: none; min-width: 86px; text-align: center; align-self: center;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 20px;
+  border: 2px solid var(--acc); color: var(--acc); padding: 7px 10px 4px; line-height: 1;
+}
+.prezzo.pay { background: var(--hot); border-color: var(--hot); color: #141110; }
+[data-tema="settimana"] .prezzo.pay { color: var(--on-acc); }
+.prezzo.nd { border-color: var(--mut); color: var(--mut); opacity: .75; }
+
+.nota {
+  margin-top: 20px; border-left: 5px solid var(--hot); padding: 5px 0 5px 18px;
+  font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--mut);
+}
+
+/* ---------------------------------------------------------------- piede */
+.piede { margin-top: 70px; border-top: 3px solid var(--line); padding-top: 26px; }
+.contatti { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+.contatti a {
+  display: inline-flex; align-items: center; gap: 9px; text-decoration: none;
+  background: var(--acc); color: var(--on-acc); padding: 10px 16px 8px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 17px; letter-spacing: .14em; text-transform: uppercase;
+}
+.contatti a:hover { background: var(--hot); }
+[data-tema="settimana"] .contatti a:hover { color: var(--on-acc); }
+.minuto { margin-top: 24px; font-size: 13px; color: var(--mut); line-height: 1.6; }
+.minuto a { color: var(--mut); }
+
+/* ---------------------------------------------------------------- riposo */
+.riposo { min-height: 78vh; display: flex; flex-direction: column; justify-content: center; }
+.riposo .lead { margin-top: 22px; font-size: 20px; line-height: 1.45; color: var(--mut); max-width: 30em; }
+.riposo .cta { margin-top: 16px; font-size: 20px; line-height: 1.45; font-weight: 600; max-width: 30em; }
+
+/* Sotto i 560px il badge prezzo centrato verticalmente galleggia a metà dei nomi
+   lunghi: lo si aggancia in alto, alla stessa riga dell'ora, così l'occhio legge
+   ora → prezzo su una linea e il nome sotto, a tutta larghezza. */
+@media (max-width: 560px) {
+  .guscio { padding: 32px 18px 60px; }
+  ul.lista li { gap: 10px; flex-wrap: wrap; padding: 16px 0; }
+  .ora { width: 62px; font-size: 22px; order: 1; }
+  .prezzo { order: 2; align-self: flex-start; min-width: 0; font-size: 16px; padding: 5px 9px 3px; }
+  .corpo { order: 3; flex: 1 0 100%; }
+  .nome { font-size: 18px; }
+  .quando { order: 2; align-self: flex-start; font-size: 14px; text-align: left; }
+  h1 { font-size: clamp(46px, 14vw, 72px); }
+  .tab { font-size: 13px; padding: 7px 11px 5px; }
+}
