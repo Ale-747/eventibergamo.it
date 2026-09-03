@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-09-02",
+  "aggiornato_il": "2026-09-03",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -901,8 +901,8 @@
         "etichetta": "7 → 10 settembre"
       },
       "titolo": "La Settimana",
-      "sottotitolo": "Finita l'estate delle sagre, in città si torna\na sedersi e ad ascoltare.",
-      "hook": "Dentro: 12 appuntamenti da lunedì a giovedì.\nDue mostre gratis, un sold out e Dimartino in chiesa.",
+      "sottotitolo": "Le sagre restano in provincia: in città si torna\na sedersi e ad ascoltare.",
+      "hook": "Dentro: 18 appuntamenti da lunedì a giovedì.\nTre mostre gratis, un sold out e Dimartino in chiesa.",
       "giorni": [
         {
           "data": "2026-09-07",
@@ -921,6 +921,18 @@
               },
               "rilevanza": 2,
               "fonte": "https://www.visitbergamo.net/it/eventi/"
+            },
+            {
+              "ora": "17:45",
+              "nome": "Aperilibro — Adriana Lafranconi",
+              "luogo": "Ristorante Damimmo, Bergamo",
+              "zona": "Centro",
+              "categoria": "altro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.rbbg.it/library/bergamo-gavazzeni/cal/CDF-aHR0cHM6Ly9iZXJnYW1vLmNvc2VkYWZhcmUubmV0L2V2ZW50aS9hdHRpdml0YS0vYWx0cmUtYXR0aXZpdGEtL2FwZXJpbGlicm8tbWF0dGktbGV0dHVyYS1peC1lZGl6aW9uZS0yMDI2LTY0MTY5Lmh0bWw"
             },
             {
               "ora": "20:30",
@@ -952,7 +964,7 @@
           "data": "2026-09-08",
           "etichetta": "Martedì 8 settembre",
           "breve": "Martedì 8",
-          "nota": "Il Festival Pianistico segna sold out: senza biglietto è una serata da rimandare a mercoledì.",
+          "nota": "Il Festival Pianistico è sold out: senza biglietto, l'alternativa gratis è l'open day di arti marziali all'Edoné.",
           "eventi": [
             {
               "ora": "20:30",
@@ -966,6 +978,18 @@
               },
               "rilevanza": 3,
               "fonte": "https://www.festivalpianistico.it/concerto/mahler-chamber-orchestra-yuja-wang-pianista-2026-bergamo/"
+            },
+            {
+              "ora": null,
+              "nome": "Open day arti marziali",
+              "luogo": "Edoné, Bergamo",
+              "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.bergamotomorrow.it/2026/08/28/localissimo-verso-la-fine-dellestivo-di-edone-musica-cultura-e-comunita/"
             }
           ]
         },
@@ -1006,8 +1030,44 @@
           "data": "2026-09-10",
           "etichetta": "Giovedì 10 settembre",
           "breve": "Giovedì 10",
-          "nota": "Due visite alla stessa ora in due paesi diversi: sono i 400 anni di Enea Salmeggia, devi scegliere.",
+          "nota": "Le due visite su Salmeggia sono alla stessa ora in paesi diversi: scegline una. A cena, casoncelli a Guzzanica o liscio a Chiuduno.",
           "eventi": [
+            {
+              "ora": "18:00",
+              "nome": "Workshop miscelazione analcolici",
+              "luogo": "Edoné, Bergamo",
+              "zona": "Centro",
+              "categoria": "aperitivo",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.bergamotomorrow.it/2026/08/28/localissimo-verso-la-fine-dellestivo-di-edone-musica-cultura-e-comunita/"
+            },
+            {
+              "ora": "19:00",
+              "nome": "Sagra di San Vito",
+              "luogo": "Guzzanica, Dalmine",
+              "zona": "Bassa",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/2026/09/01/taragna-moscato-funghi-uva-e-patate-le-sagre-di-settembre-in-bergamasca/916745"
+            },
+            {
+              "ora": "19:00",
+              "nome": "40° Settembre Chiudunese",
+              "luogo": "Multiarea Palasettembre, Chiuduno",
+              "zona": "Bassa",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/2026/09/01/taragna-moscato-funghi-uva-e-patate-le-sagre-di-settembre-in-bergamasca/916745"
+            },
             {
               "ora": "20:30",
               "nome": "Enea Salmeggia a Villa di Serio",
@@ -1049,15 +1109,21 @@
           "categoria": "mostra"
         },
         {
+          "nome": "Porte aperte",
+          "luogo": "Casa Suardi, Bergamo",
+          "quando": "fino al 12 settembre",
+          "categoria": "mostra"
+        },
+        {
           "nome": "Festa della Madonna della Castagna",
           "luogo": "Bergamo, via Madonna della Castagna",
           "quando": "fino al 13 settembre",
           "categoria": "sagra"
         },
         {
-          "nome": "Festa della Madonna dell'Olmo",
-          "luogo": "Verdellino",
-          "quando": "fino al 14 settembre",
+          "nome": "Crespi in festa",
+          "luogo": "Capriate San Gervasio",
+          "quando": "fino al 13 settembre",
           "categoria": "sagra"
         }
       ],
@@ -1073,9 +1139,24 @@
           "icona": "✱"
         },
         {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
           "chiave": "teatro",
           "etichetta": "Teatro e spettacoli",
           "icona": "▣"
+        },
+        {
+          "chiave": "aperitivo",
+          "etichetta": "Aperitivi e serate",
+          "icona": "◐"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
         },
         {
           "chiave": "visita",
@@ -1086,11 +1167,6 @@
           "chiave": "mostra",
           "etichetta": "Mostre e arte",
           "icona": "◧"
-        },
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
         }
       ]
     }
