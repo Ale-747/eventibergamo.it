@@ -100,8 +100,24 @@ h1 em { font-style: normal; color: var(--acc); display: block; }
   border: 2px solid var(--line); padding: 6px 12px;
   font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
   font-size: 15px; letter-spacing: .14em; text-transform: uppercase;
+  /* Sono bottoni di filtro, ma restano identici a com'erano da fermi:
+     l'aspetto è quello di prima, cambia solo cosa succede al click. */
+  background: none; color: inherit; cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
 }
 .chip i { font-style: normal; color: var(--hot); font-size: 17px; }
+.chip:hover { border-color: var(--mut); }
+.chip.sel { background: var(--acc); border-color: var(--acc); color: var(--on-acc); }
+.chip.sel i { color: var(--on-acc); }
+.chip:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+
+/* Il filtro nasconde: `hidden` deve battere il display: flex delle righe. */
+[hidden] { display: none !important; }
+
+.vuoto {
+  margin-top: 40px; border-left: 5px solid var(--hot); padding: 5px 0 5px 18px;
+  font-size: 17px; font-weight: 600; line-height: 1.4; color: var(--mut);
+}
 
 /* ---------------------------------------------------------------- giorni */
 .giorno { margin-top: 54px; scroll-margin-top: 20px; }
@@ -122,7 +138,10 @@ ul.lista li {
   display: flex; gap: 16px; align-items: flex-start;
   padding: 18px 0; border-bottom: 2px solid var(--line);
 }
-ul.lista li:first-child { border-top: 3px solid var(--hot); }
+/* Il filo sopra la lista sta sulla prima riga VISIBILE: con un filtro acceso
+   la prima riga del DOM può essere nascosta, e il bordo sparirebbe. La classe
+   la mette applicaFiltri(). */
+ul.lista li.primo { border-top: 3px solid var(--hot); }
 
 .ora {
   font-family: 'Anton', sans-serif; font-size: 27px; color: var(--acc);

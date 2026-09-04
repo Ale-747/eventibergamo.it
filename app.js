@@ -98,7 +98,8 @@ function renderGuida() {
   const primo = titolo.shift();
 
   const chips = attiva.categorie.map((c) =>
-    `<span class="chip"><i>${esc(c.icona)}</i>${esc(c.etichetta)}</span>`).join("");
+    `<button type="button" class="chip" data-cat="${esc(c.chiave)}" aria-pressed="false"
+      ><i>${esc(c.icona)}</i>${esc(c.etichetta)}</button>`).join("");
 
   const icona = (chiave) => attiva.categorie.find((c) => c.chiave === chiave)?.icona ?? "✱";
 
@@ -107,7 +108,7 @@ function renderGuida() {
     const righe = g.eventi.map((e) => {
       const p = badgePrezzo(e.prezzo);
       const zona = e.zona ? `<span class="zona">${esc(e.zona)}</span>` : "";
-      return `<li>
+      return `<li data-cat="${esc(e.categoria)}">
         <div class="ora">${esc(e.ora ?? "—")}</div>
         <div class="corpo">
           <div class="nome"><i>${esc(icona(e.categoria))}</i>${esc(e.nome)}</div>
@@ -126,7 +127,7 @@ function renderGuida() {
 
   const sempre = attiva.sempre_aperte.length ? `<section class="giorno">
       <h2>Aperte tutto il periodo</h2>
-      <ul class="lista">${attiva.sempre_aperte.map((v) => `<li>
+      <ul class="lista">${attiva.sempre_aperte.map((v) => `<li data-cat="${esc(v.categoria ?? "")}">
           <div class="corpo">
             <div class="nome"><i>${esc(icona(v.categoria))}</i>${esc(v.nome)}</div>
             <div class="dove">${esc(v.luogo ?? "")}</div>
@@ -154,6 +155,7 @@ function renderGuida() {
       <p class="gancio">${nl(attiva.hook)}</p>
       <div class="chips">${chips}</div>
     </header>
+    <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
     ${sempre}
     ${piede(dati, attiva, avviso)}
@@ -163,14 +165,58 @@ function renderGuida() {
     const g = STATO.valide.find((x) => x.id === b.dataset.id);
     if (!g || g.id === STATO.attiva.id) return;
     STATO.attiva = g;
+    STATO.filtri = new Set();   // le categorie di un'altra guida non sono le stesse
     renderGuida();
     window.scrollTo({ top: 0 });
   }));
+
+  document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    const c = b.dataset.cat;
+    if (STATO.filtri.has(c)) STATO.filtri.delete(c); else STATO.filtri.add(c);
+    applicaFiltri();
+  }));
+
+  applicaFiltri();
 
   // Solo sulla guida in corso ha senso saltare a oggi: su quella futura si parte dall'inizio.
   const corrente = document.querySelector(".giorno.oggi");
   if (corrente) corrente.scrollIntoView({ block: "start" });
   document.title = `${dati.brand.nome} — ${etichettaPeriodo(attiva.periodo)}`;
+}
+
+/* I filtri non rifanno il render: nascondono. Rifare il render rimanderebbe la
+   pagina in cima (o su "oggi") a ogni click, e chi sta leggendo il sabato sera
+   perderebbe il segno. Qui si tocca solo l'attributo `hidden`.
+
+   Nessun filtro attivo = tutti gli eventi. Un chip acceso ne lascia passare uno
+   solo, due chip due: si somma, non si restringe. Le sezioni che restano senza
+   eventi spariscono, altrimenti resterebbe un titolo di giorno con sotto il nulla. */
+
+function applicaFiltri() {
+  const f = STATO.filtri;
+
+  document.querySelectorAll(".chip").forEach((b) => {
+    const acceso = f.has(b.dataset.cat);
+    b.classList.toggle("sel", acceso);
+    b.setAttribute("aria-pressed", acceso);
+  });
+
+  let visibili = 0;
+  document.querySelectorAll(".giorno").forEach((sezione) => {
+    let n = 0;
+    sezione.querySelectorAll("li[data-cat]").forEach((li) => {
+      const mostra = f.size === 0 || f.has(li.dataset.cat);
+      li.hidden = !mostra;
+      if (mostra) n += 1;
+      // Il filo rosso sopra la lista sta sulla prima riga *visibile*, non sulla prima.
+      li.classList.toggle("primo", mostra && n === 1);
+    });
+    sezione.hidden = n === 0;
+    visibili += n;
+  });
+
+  const vuoto = $("#vuoto");
+  if (vuoto) vuoto.hidden = visibili > 0;
 }
 
 function renderRiposo(dati) {
@@ -193,8 +239,17 @@ function renderRiposo(dati) {
 }
 
 function piede(dati, guida, avviso, opz = {}) {
-  const contatti = (dati?.contatti ?? []).map((c) =>
-    `<a href="${esc(c.url)}" rel="noopener">${esc(c.valore)}</a>`).join("");
+  // Il bottone Instagram porta al carosello di *questa* guida, quando è già uscito:
+  // chi arriva dal sito trova il post giusto, non il profilo da cui ripescarlo.
+  // La guida è quella aperta, cioè quella in corso o — se non ce n'è — la prossima;
+  // senza permalink (post non ancora pubblicato, o pagina di riposo) resta il profilo.
+  const post = guida?.permalink || null;
+  const contatti = (dati?.contatti ?? []).map((c) => {
+    const ig = /instagram\.com/.test(c.url ?? "");
+    const url = ig && post ? post : c.url;
+    const titolo = ig && post ? ' title="Il carosello di questa guida su Instagram"' : "";
+    return `<a href="${esc(url)}" rel="noopener"${titolo}>${esc(c.valore)}</a>`;
+  }).join("");
   // Sulla pagina di riposo il piede resta essenziale: citare il periodo di una guida
   // già finita, o spiegare i badge prezzo che nessuno sta vedendo, è solo rumore.
   const minuto = opz.minimale ? "" : `
@@ -217,7 +272,7 @@ fetch("dati/corrente.json", { cache: "no-cache" })
     const oggi = oggiRoma();
     const { valide, inCorso, attiva } = scegli(dati.guide ?? [], oggi);
     if (!attiva) return renderRiposo(dati);
-    STATO = { dati, oggi, valide, inCorso, attiva };
+    STATO = { dati, oggi, valide, inCorso, attiva, filtri: new Set() };
     renderGuida();
   })
   .catch(() => renderRiposo(null));
