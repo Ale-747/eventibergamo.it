@@ -206,3 +206,26 @@ ul.lista li.primo { border-top: 3px solid var(--hot); }
   h1 { font-size: clamp(46px, 14vw, 72px); }
   .tab { font-size: 13px; padding: 7px 11px 5px; }
 }
+
+/* ---------------------------------------------------------------- link nel corpo
+   Le pagine statiche (giorno, archivio, zona, categoria) hanno link dentro liste e
+   paragrafi, dove app.js non ne metteva. Senza queste righe prendono l'azzurro di
+   default del browser e spaccano la palette. */
+.marchio a { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+.dove a { color: var(--mut); text-decoration: underline; text-underline-offset: 3px; }
+.dove a:hover, .nome a:hover { color: var(--acc); }
+.nome a { color: inherit; text-decoration: none; }
+.giorno h2 a { color: inherit; text-decoration: none; }
+.giorno h2 a:hover { color: var(--acc); }
+.anticipo a, .lead a, .sommario a, .vuoto a { color: inherit; }
+
+/* Le briciole in fondo: portano alle pagine per zona e categoria. Sono l'unico
+   modo perché un crawler ci arrivi — una pagina senza link in entrata non viene
+   visitata, per quanto stia in sitemap.xml. */
+.trame { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.trame a {
+  border: 2px solid var(--line); padding: 5px 10px 3px; text-decoration: none; color: var(--mut);
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
+}
+.trame a:hover { border-color: var(--acc); color: var(--acc); }

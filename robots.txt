@@ -1,0 +1,5 @@
+# eventibergamo.it
+User-agent: *
+Allow: /
+
+Sitemap: https://eventibergamo.it/sitemap.xml

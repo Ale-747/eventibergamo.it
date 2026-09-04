@@ -85,9 +85,21 @@ function selettore() {
   return `<nav class="tabs" aria-label="Quale guida">${valide.map(voce).join("")}</nav>`;
 }
 
+/* I dati strutturati della home sono scritti in pagina da statico.py e stanno
+   fuori da #app, quindi il render non li tocca. Se però qui si finisce per
+   mostrare una guida diversa da quella pre-renderizzata — la data è cambiata,
+   o si è cliccato un altro periodo — quel markup descrive eventi che non sono
+   più a schermo, e dati strutturati che non corrispondono alla pagina fanno più
+   danno che bene: si buttano. */
+function allineaDatiStrutturati(idAttiva) {
+  document.querySelectorAll('script[type="application/ld+json"][data-guida]')
+    .forEach((s) => { if (s.dataset.guida !== idAttiva) s.remove(); });
+}
+
 function renderGuida() {
   const { dati, attiva, inCorso, oggi } = STATO;
   document.documentElement.dataset.tema = attiva.formato;
+  allineaDatiStrutturati(attiva.id);
 
   const futura = attiva.periodo.da > oggi;
   const avviso = futura
@@ -221,6 +233,7 @@ function applicaFiltri() {
 
 function renderRiposo(dati) {
   document.documentElement.dataset.tema = "weekend";
+  allineaDatiStrutturati(null);
   const r = dati?.riposo ?? {};
   const brand = dati?.brand ?? { nome: "Eventibergamo" };
   const [primo, ...resto] = (r.titolo ?? "Ci vediamo\npresto").split("\n");
@@ -266,7 +279,7 @@ function piede(dati, guida, avviso, opz = {}) {
 
 /* ------------------------------------------------------------------ avvio */
 
-fetch("dati/corrente.json", { cache: "no-cache" })
+fetch("/dati/corrente.json", { cache: "no-cache" })
   .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
   .then((dati) => {
     const oggi = oggiRoma();
@@ -275,4 +288,10 @@ fetch("dati/corrente.json", { cache: "no-cache" })
     STATO = { dati, oggi, valide, inCorso, attiva, filtri: new Set() };
     renderGuida();
   })
-  .catch(() => renderRiposo(null));
+  /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida
+     scritta da statico.py, ed è comunque più utile di un cartello di scuse.
+     Solo se davvero non c'è nulla — pagina servita senza pre-render — si ricade
+     sulla schermata di riposo. */
+  .catch(() => {
+    if (!document.querySelector("#app header")) renderRiposo(null);
+  });
