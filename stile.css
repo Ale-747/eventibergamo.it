@@ -277,6 +277,36 @@ ul.sale .prezzo {
   color: var(--mut); font-weight: 500;
 }
 
+/* Il ponte dalla guida eventi alla sezione cinema. Non è una riga di link come
+   la trama in fondo: è un blocco che dice cosa c'è di là e quanto è grosso, e sta
+   in coda alla guida perché chi è arrivato in fondo ha finito di leggere. Prende
+   l'ambra del tema cinema anche dentro i temi weekend e settimana, così si vede
+   che porta da un'altra parte. */
+.rimando {
+  display: block; margin-top: 46px; text-decoration: none; color: inherit;
+  border: 2px solid #F2C14E; background: #101826; color: #ECE6DA;
+  padding: 22px 24px 24px; transition: transform .12s ease;
+}
+.rimando:hover { transform: translateY(-2px); }
+.rimando:focus-visible { outline: 3px solid #FF5C39; outline-offset: 3px; }
+.rimando .occhiello { display: flex; align-items: center; gap: 14px; }
+.rimando .occhiello span {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 15px;
+  letter-spacing: .26em; text-transform: uppercase; color: #F2C14E;
+}
+.rimando .occhiello::after { content: ""; flex: 1; height: 2px; background: #F2C14E; }
+.rimando b {
+  display: block; margin-top: 12px; font-family: 'Anton', sans-serif; font-weight: 400;
+  font-size: 40px; line-height: 1; color: #F2C14E; text-transform: uppercase;
+}
+.rimando .dettaglio { display: block; margin-top: 10px; font-size: 16px; color: #ECE6DA; }
+.rimando .freccia {
+  display: inline-block; margin-top: 16px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 17px;
+  letter-spacing: .12em; text-transform: uppercase;
+  background: #FF5C39; color: #101826; padding: 9px 15px 7px;
+}
+
 /* Nelle pagine sala la prima colonna non è un'ora secca ma un "quando"
    ("lun 7, 21:00", "mar 16:00 · mer 21:00"): serve più larghezza. */
 ul.lista.orari .ora { width: 132px; font-size: 20px; line-height: 1.25; }

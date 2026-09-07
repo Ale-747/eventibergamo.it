@@ -66,13 +66,48 @@ function scegli(guide, oggi) {
   return { valide, inCorso, attiva };
 }
 
+/* La settimana di cinema "di adesso", scelta come le guide: quella in corso,
+   altrimenti la prossima. Il cinema sta in una lista sua dentro corrente.json
+   (`dati.cinema`) perché lì l'unità è il film e non la serata — vedi
+   sito/genera.py, compila_cinema(). */
+
+function scegliCinema(settimane, oggi) {
+  return [...(settimane ?? [])]
+    .filter((c) => c.periodo.a >= oggi)
+    .sort((a, b) => a.periodo.da.localeCompare(b.periodo.da))
+    .find((c) => c.periodo.da <= oggi) ?? null;
+}
+
+/* Il ponte verso /cinema/. Stesso markup di rimando_cinema() in statico.py: la
+   home viene ricostruita da qui, e un blocco che esistesse solo nel pre-render
+   sparirebbe appena questa funzione gira. Senza, dalla home non si arriva più
+   alla sezione cinema in nessun modo — il piede qui sotto non ha la trama di
+   link che scrive statico.py. */
+
+function rimandoCinema(cin) {
+  if (!cin) return "";
+  const nFilm = (cin.film ?? []).length;
+  const nSale = (cin.sale ?? []).length;
+  const comuni = new Set((cin.sale ?? []).map((s) => s.comune).filter(Boolean)).size;
+  return `<a class="rimando" href="/cinema/">
+      <span class="occhiello"><span>Anche al cinema</span></span>
+      <b>${esc(etichettaPeriodo(cin.periodo))}</b>
+      <span class="dettaglio">${nFilm} film in ${nSale} sale di ${comuni} comuni, con orari e prezzi</span>
+      <span class="freccia">Vai alla programmazione &rarr;</span></a>`;
+}
+
 /* ------------------------------------------------------------------ render */
 
 let STATO = null;
 
 function selettore() {
-  const { valide, inCorso, attiva } = STATO;
-  if (valide.length < 2) return "";
+  const { valide, inCorso, attiva, cinema } = STATO;
+  // La tab del cinema c'è anche quando la guida è una sola: è l'altra linea del
+  // sito, non un'alternativa fra guide, e va raggiungibile comunque.
+  const alCinema = cinema
+    ? `<a class="tab cinema" href="/cinema/">Al cinema · ${esc(etichettaPeriodo(cinema.periodo))}</a>`
+    : "";
+  if (valide.length < 2) return alCinema ? `<nav class="tabs" aria-label="Sezioni">${alCinema}</nav>` : "";
   // In ordine cronologico da sinistra: la guida in corso si chiama "Adesso", le
   // altre si presentano con il loro periodo — un'etichetta è più utile di "prima/poi".
   // Ci vanno TUTTE le guide valide: se ne mostrassimo solo due, quella aperta
@@ -82,7 +117,7 @@ function selettore() {
     return `<button type="button" class="tab${g.id === attiva.id ? " sel" : ""}"
       data-id="${esc(g.id)}" aria-pressed="${g.id === attiva.id}">${esc(testo)}</button>`;
   };
-  return `<nav class="tabs" aria-label="Quale guida">${valide.map(voce).join("")}</nav>`;
+  return `<nav class="tabs" aria-label="Quale guida">${valide.map(voce).join("")}${alCinema}</nav>`;
 }
 
 /* I dati strutturati della home sono scritti in pagina da statico.py e stanno
@@ -170,10 +205,11 @@ function renderGuida() {
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
     ${sempre}
+    ${rimandoCinema(STATO.cinema)}
     ${piede(dati, attiva, avviso)}
   `;
 
-  document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("button.tab").forEach((b) => b.addEventListener("click", () => {
     const g = STATO.valide.find((x) => x.id === b.dataset.id);
     if (!g || g.id === STATO.attiva.id) return;
     STATO.attiva = g;
@@ -231,7 +267,7 @@ function applicaFiltri() {
   if (vuoto) vuoto.hidden = visibili > 0;
 }
 
-function renderRiposo(dati) {
+function renderRiposo(dati, cinema = null) {
   document.documentElement.dataset.tema = "weekend";
   allineaDatiStrutturati(null);
   const r = dati?.riposo ?? {};
@@ -246,6 +282,7 @@ function renderRiposo(dati) {
         <p class="lead">${esc(r.lead ?? "")}</p>
         <p class="cta">${esc(r.cta ?? "")}</p>
       </header>
+      ${rimandoCinema(cinema)}
       ${piede(dati, null, null, { minimale: true })}
     </div>`;
   document.title = `${brand.nome} — Bergamo, città e provincia`;
@@ -284,8 +321,9 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
   .then((dati) => {
     const oggi = oggiRoma();
     const { valide, inCorso, attiva } = scegli(dati.guide ?? [], oggi);
-    if (!attiva) return renderRiposo(dati);
-    STATO = { dati, oggi, valide, inCorso, attiva, filtri: new Set() };
+    const cinema = scegliCinema(dati.cinema, oggi);
+    if (!attiva) return renderRiposo(dati, cinema);
+    STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set() };
     renderGuida();
   })
   /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida
