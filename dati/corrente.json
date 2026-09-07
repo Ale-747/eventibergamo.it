@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-09-04",
+  "aggiornato_il": "2026-09-07",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -23,545 +23,6 @@
     "_nota": "Radice degli URL assoluti: canonical, og:url, sitemap.xml, robots.txt."
   },
   "guide": [
-    {
-      "id": "weekend-2026-09-04",
-      "formato": "weekend",
-      "periodo": {
-        "da": "2026-09-04",
-        "a": "2026-09-06",
-        "etichetta": "4 → 6 settembre"
-      },
-      "titolo": "Il Weekend",
-      "sottotitolo": "Un concerto a 1,50€, gli oratori che ballano\ne una discoteca che riapre dopo l'estate.",
-      "hook": "Dentro: 31 serate tra città e provincia, sera per sera.\nCon orari, zone e i prezzi dove le fonti li pubblicano.",
-      "giorni": [
-        {
-          "data": "2026-09-04",
-          "etichetta": "Venerdì 4 settembre",
-          "breve": "Venerdì 4",
-          "nota": "Il concerto al NXT è dentro la sagra della carbonara: cena e palco nello stesso piazzale.",
-          "eventi": [
-            {
-              "ora": "20:00",
-              "nome": "Liscio con Rino Travagliante",
-              "luogo": "Tetris, Ranica",
-              "sede": "Tetris",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Frankie hi-nrg mc",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 1.5
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Deja Vu — cover 360° italiano",
-              "luogo": "Gerundium Fest, Casirate d'Adda",
-              "sede": "Gerundium Fest",
-              "comune": "Casirate d'Adda",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "120 Coveriro",
-              "luogo": "Pro Rock Beer Fest, Solza",
-              "sede": "Pro Rock Beer Fest",
-              "comune": "Solza",
-              "zona": "Isola",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Afro con Dj's Vavi, Valo e Sira",
-              "luogo": "In.con.tra, Palazzago",
-              "sede": "In.con.tra",
-              "comune": "Palazzago",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "ATN 2000 a Tuono",
-              "luogo": "Sagra di Almè, Almè",
-              "sede": "Sagra di Almè",
-              "comune": "Almè",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Evergreen",
-              "luogo": "Festa patronale, Gorle",
-              "sede": "Festa patronale",
-              "comune": "Gorle",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Lady Lake",
-              "luogo": "Festa Sant'Antonio, Martinengo",
-              "sede": "Festa Sant'Antonio",
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Musica con Dj Stip & Scrib",
-              "luogo": "Oratorio Comenduno, Albino",
-              "sede": "Oratorio Comenduno",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "Dosson Party Anni 80",
-              "luogo": "Località Dosson, San Giovanni Bianco",
-              "sede": "Località Dosson",
-              "comune": "San Giovanni Bianco",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://trovasagre.com/sagre/lombardia/bergamo"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-05",
-          "etichetta": "Sabato 5 settembre",
-          "breve": "Sabato 5",
-          "nota": "Il Bolgia riapre dopo l'estate: garden e main room, dalle 23:30 alle 8. Uscita A4 Dalmine.",
-          "eventi": [
-            {
-              "ora": "10:00",
-              "nome": "StraBergamo — Sports Village",
-              "luogo": "Sentierone, Bergamo",
-              "sede": "Sentierone",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamonews.it/evento/strabergamo-il-programma-delledizione-2026/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Onde Musicali sul Lago d'Iseo",
-              "luogo": "Lovere",
-              "sede": null,
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Musica nei Cortili",
-              "luogo": "Martinengo",
-              "sede": null,
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.visitbergamo.net/it/eventi/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Voglio Tornare negli Anni 90",
-              "luogo": "Baia delle Rose, Costa Volpino",
-              "sede": "Baia delle Rose",
-              "comune": "Costa Volpino",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Vascombriccola — tributo Vasco",
-              "luogo": "Festa della Basella, Urgnano",
-              "sede": "Festa della Basella",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Musica Techno Rama",
-              "luogo": "In.con.tra, Palazzago",
-              "sede": "In.con.tra",
-              "comune": "Palazzago",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Sismica — cover dance",
-              "luogo": "Gerundium Fest, Casirate d'Adda",
-              "sede": "Gerundium Fest",
-              "comune": "Casirate d'Adda",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Dinamo Duo",
-              "luogo": "Pro Rock Beer Fest, Solza",
-              "sede": "Pro Rock Beer Fest",
-              "comune": "Solza",
-              "zona": "Isola",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo Mengoni",
-              "luogo": "Oratorio Comenduno, Albino",
-              "sede": "Oratorio Comenduno",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "23:30",
-              "nome": "Bolgia Opening: Manda Moor, USH",
-              "luogo": "Bolgia, Osio Sopra",
-              "sede": "Bolgia",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://diffusionimusicali.org/2026/08/27/5-9-26-bolgia-bergamo-opening-manda-moor-b2b-sirus-hood-ush/"
-            },
-            {
-              "ora": null,
-              "nome": "Teenage Dream — party anni 2000",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://nxtbergamo.it/eventi/"
-            },
-            {
-              "ora": null,
-              "nome": "Mercatino antiquario, 70 espositori",
-              "luogo": "Piazzale Trattati di Roma, Romano di Lombardia",
-              "sede": "Piazzale Trattati di Roma",
-              "comune": "Romano di Lombardia",
-              "zona": "Bassa",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-06",
-          "etichetta": "Domenica 6 settembre",
-          "breve": "Domenica 6",
-          "nota": "Stra-Alpini a partenza libera dalle 7:30 alle 9 dal Sentierone: 8€ con pettorale e t-shirt.",
-          "eventi": [
-            {
-              "ora": "07:30",
-              "nome": "StraBergamo — Stra-Alpini",
-              "luogo": "Sentierone, Bergamo",
-              "sede": "Sentierone",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 8
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamonews.it/evento/strabergamo-il-programma-delledizione-2026/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Esterno notte — ultima serata",
-              "luogo": "Cortile biblioteca Caversazzi, Bergamo",
-              "sede": "Cortile biblioteca Caversazzi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Chiapperini Francesco Ensemble",
-              "luogo": "Parco Castello, Clusone",
-              "sede": "Parco Castello",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Voglio Tornare negli Anni 90",
-              "luogo": "Gerundium Fest, Casirate d'Adda",
-              "sede": "Gerundium Fest",
-              "comune": "Casirate d'Adda",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/evento/gerundium-fest-a-casirate-dadda-il-programma-delledizione-2026/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "4Ub Italian — tributo U2",
-              "luogo": "Oratorio Comenduno, Albino",
-              "sede": "Oratorio Comenduno",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "Mellow Mood, Lion D e Forelock",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://nxtbergamo.it/eventi/"
-            },
-            {
-              "ora": null,
-              "nome": "Fiera di Sant'Alessandro",
-              "luogo": "Sentierone, Bergamo",
-              "sede": "Sentierone",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.visitbergamo.net/oggetto/festa-di-santalessandro/"
-            },
-            {
-              "ora": null,
-              "nome": "Antiquariato e cose usate",
-              "luogo": "Piazza Caduti, Sotto il Monte",
-              "sede": "Piazza Caduti",
-              "comune": "Sotto il Monte",
-              "zona": "Isola",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
-            },
-            {
-              "ora": null,
-              "nome": "Mercatino dell'antiquariato",
-              "luogo": "Piazza Maggiore, Martinengo",
-              "sede": "Piazza Maggiore",
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.virgilio.it/italia/bergamo/eventi/mese/settembre"
-            }
-          ]
-        }
-      ],
-      "sempre_aperte": [
-        {
-          "nome": "Gerundium Fest",
-          "luogo": "Casirate d'Adda, via dell'Industria",
-          "quando": "ven → dom",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Pro Rock Beer Fest",
-          "luogo": "Solza",
-          "quando": "ven → dom · 21:30",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "In.con.tra",
-          "luogo": "Palazzago, oratorio",
-          "quando": "ven → dom · 21:30",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Oratorio in Festa",
-          "luogo": "Nembro, San Filippo Neri",
-          "quando": "fino a domenica",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Sagra della carbonara",
-          "luogo": "Piazzale degli Alpini, Bergamo",
-          "quando": "ven e dom",
-          "categoria": "sagra"
-        }
-      ],
-      "categorie": [
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "◉"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "△"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
-        },
-        {
-          "chiave": "cinema",
-          "etichetta": "Cinema all'aperto",
-          "icona": "▷"
-        },
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
-        }
-      ],
-      "permalink": "https://www.instagram.com/p/Dcwz1fBDPih/"
-    },
     {
       "id": "settimana-2026-09-07",
       "formato": "settimana",
@@ -1335,6 +796,1284 @@
           "chiave": "famiglia",
           "etichetta": "Con i bambini",
           "icona": "✦"
+        }
+      ]
+    }
+  ],
+  "cinema": [
+    {
+      "id": "cinema-2026-09-07",
+      "formato": "cinema",
+      "periodo": {
+        "da": "2026-09-07",
+        "a": "2026-09-13",
+        "etichetta": "7 → 13 settembre"
+      },
+      "titolo": "Tutti i film e dove li danno",
+      "sottotitolo": "Dal lunedì alla domenica: multisala, sale d'essai e sale della comunità.",
+      "hook": "18 film in 16 sale e 10 comuni. Dal Conca Verde all'arena di Cologno, da Seriate a Clusone.",
+      "film": [
+        {
+          "titolo": "Oasis — Don't Look Back in Anger",
+          "regia": "Lovelace, Southern",
+          "durata": null,
+          "genere": "documentario",
+          "versione": [
+            "evento",
+            "VO"
+          ],
+          "nota": "Esce giovedì 10.",
+          "rilevanza": 3,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 10, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-10",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Odissea",
+          "regia": "Christopher Nolan",
+          "durata": null,
+          "genere": "azione",
+          "versione": [],
+          "nota": "Mar 8 ad Arcadia in originale.",
+          "rilevanza": 2,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/",
+          "sale": [
+            {
+              "id": "capitol",
+              "nome": "Capitol Multisala",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "monosala",
+              "quando": "lun 7, 20:30",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:40",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:40"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 21:45",
+              "prezzo": "8,50–10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "18:20"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:45"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 21:30",
+              "prezzo": null,
+              "spettacoli": []
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun 7, 18:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "18:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Arrapaho",
+          "regia": "Ciro Ippolito",
+          "durata": null,
+          "genere": "commedia",
+          "versione": [
+            "evento"
+          ],
+          "nota": "Rassegna Cinemarcord, con il cast in sala.",
+          "rilevanza": 3,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "schermo-bianco",
+              "nome": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "dom 13, 21:30",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-13",
+                  "ora": "21:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Serpenti",
+          "regia": "Roberto De Paolis",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": "Una sera sola: domenica 13.",
+          "rilevanza": 3,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "dom 13, 20:30",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-13",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Un giorno senza donne",
+          "regia": "Pamela Hogan",
+          "durata": "70'",
+          "genere": "documentario",
+          "versione": [
+            "VO"
+          ],
+          "nota": "Inglese sottotitolato.",
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio 10 · ven 11",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-10",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-11",
+                  "ora": "19:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "The Dog Stars",
+          "regia": "Ridley Scott",
+          "durata": "118'",
+          "genere": "thriller",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/clusone/5540/",
+          "sale": [
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "lun 7, 21:00",
+              "prezzo": "8,00 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:50",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:50"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 22:40",
+              "prezzo": "8,50–10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "22:40"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 19:50",
+              "prezzo": null,
+              "spettacoli": []
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 7, 22:30",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "22:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Tony — Diario di un giovane cuoco",
+          "regia": "Matt Johnson",
+          "durata": null,
+          "genere": "biografico",
+          "versione": [],
+          "nota": "Lun 7 allo Schermo Bianco in originale.",
+          "rilevanza": 2,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "schermo-bianco",
+              "nome": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "lun 7 · mer 9, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 7, 19:50",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "19:50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il caso 137",
+          "regia": "Dominik Moll",
+          "durata": null,
+          "genere": "thriller",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": "Dalla rassegna Pomeriggio al cinema.",
+          "rilevanza": 2,
+          "fonte": "https://www.bergamotomorrow.it/2026/09/05/al-cinema-del-borgo-i-martedi-dessai-da-vedere-e-riscoprire/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 16:00 · mer 21:00",
+              "prezzo": "3,50–4 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-08",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Hen — Storia di una gallina",
+          "regia": null,
+          "durata": "96'",
+          "genere": "animazione",
+          "versione": [],
+          "nota": "Seriate è tornata a programmare.",
+          "rilevanza": 2,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/seriate/20710/",
+          "sale": [
+            {
+              "id": "gavazzeni-seriate",
+              "nome": "Cineteatro Gavazzeni",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "17:00 e 21:00",
+              "prezzo": "5,00 €",
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Disclosure Day",
+          "regia": null,
+          "durata": null,
+          "genere": "fantascienza",
+          "versione": [],
+          "nota": "Una delle ultime sere dell'arena.",
+          "rilevanza": 2,
+          "fonte": "https://bergamoalcinema.it/",
+          "sale": [
+            {
+              "id": "arena-cologno",
+              "nome": "Arena Estiva Oratorio",
+              "comune": "Cologno al Serio",
+              "zona": "Bassa",
+              "tipo": "arena",
+              "quando": "lun 7, 21:15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Nobody Knows",
+          "regia": "Hirokazu Kore-eda",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": "Retrospettiva Kore-eda.",
+          "rilevanza": 2,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "mer 9, 20:30",
+              "prezzo": "6,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Silent Friend",
+          "regia": "Ildikó Enyedi",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "VO"
+          ],
+          "nota": "Mar 8 e mer 9, in originale.",
+          "rilevanza": 2,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "mar 8 · mer 9, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-08",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Terapia di famiglia",
+          "regia": null,
+          "durata": null,
+          "genere": "commedia",
+          "versione": [
+            "VO"
+          ],
+          "nota": "In versione originale.",
+          "rilevanza": 2,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "lun 7, 20:45",
+              "prezzo": "5,00 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Oceania",
+          "regia": "Thomas Kail",
+          "durata": "115'",
+          "genere": "famiglia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/provincia/",
+          "sale": [
+            {
+              "id": "nuovo-albino",
+              "nome": "Nuovo Cineteatro Albino",
+              "comune": "Albino",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "lun 7, 21:00",
+              "prezzo": "8,00 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:10",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:10"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 22:00",
+              "prezzo": "8,50–10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "16:50"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "22:00"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 21:15",
+              "prezzo": null,
+              "spettacoli": []
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun 7, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 7, 20:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il malloppo",
+          "regia": null,
+          "durata": null,
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/",
+          "sale": [
+            {
+              "id": "capitol",
+              "nome": "Capitol Multisala",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "monosala",
+              "quando": "lun 7, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:20",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:20"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 22:15",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "22:15"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, sera",
+              "prezzo": "3,50 €",
+              "spettacoli": []
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun 7, 21:20",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "18:50"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:20"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 7, 20:10",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Coyote vs. Acme",
+          "regia": null,
+          "durata": null,
+          "genere": "animazione",
+          "versione": [],
+          "nota": "All'UCI Orio anche in versione originale sottotitolata.",
+          "rilevanza": 1,
+          "fonte": "https://www.mymovies.it/cinema/bergamo/provincia/",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:30",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 21:50",
+              "prezzo": "8,50–10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "16:10"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:50"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "VO sott., 14:00",
+              "prezzo": null,
+              "spettacoli": []
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun 7, 20:30",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "18:25"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 7, 20:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "20:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Spider-Man: Brand New Day",
+          "regia": null,
+          "durata": null,
+          "genere": "azione",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-08",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-09",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 22:15",
+              "prezzo": "8,50–10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-07",
+                  "ora": "16:40"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-09-07",
+                  "ora": "22:15"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun 7, 22:00",
+              "prezzo": null,
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Il Cileno",
+          "regia": "Castro San Martín",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "mar 8, 20:30",
+              "prezzo": "3,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-08",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "speciali": [
+        {
+          "nome": "Cinemarcord: Arrapaho, cast in sala",
+          "quando": "dom 13, 21:30",
+          "genere": "commedia",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": "schermo-bianco",
+          "luogo": "Lo Schermo Bianco, Bergamo"
+        },
+        {
+          "nome": "A Practice of Freedom",
+          "quando": "ven 11, 21:00",
+          "genere": "documentario",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": "sala-orologio",
+          "luogo": "Sala dell'Orologio, Bergamo"
+        },
+        {
+          "nome": "Original is Better",
+          "quando": "lun e gio, 21:00",
+          "genere": "drammatico",
+          "fonte": "https://sas.18tickets.it/",
+          "sala": "conca-verde",
+          "luogo": "Conca Verde, Bergamo"
+        },
+        {
+          "nome": "Riflessi dell'Invisibile: Kore-eda",
+          "quando": "mer 9, 20:30",
+          "genere": "drammatico",
+          "fonte": "https://sas.18tickets.it/",
+          "sala": "conca-verde",
+          "luogo": "Conca Verde, Bergamo"
+        },
+        {
+          "nome": "Pomeriggio al cinema",
+          "quando": "mar 16:00 · mer 21:00",
+          "genere": "thriller",
+          "fonte": "https://www.bergamotomorrow.it/2026/09/05/al-cinema-del-borgo-i-martedi-dessai-da-vedere-e-riscoprire/",
+          "sala": "del-borgo",
+          "luogo": "Cinema Teatro del Borgo, Bergamo"
+        }
+      ],
+      "generi": [
+        {
+          "chiave": "documentario",
+          "etichetta": "Documentario",
+          "icona": "▣"
+        },
+        {
+          "chiave": "azione",
+          "etichetta": "Azione",
+          "icona": "▲"
+        },
+        {
+          "chiave": "commedia",
+          "etichetta": "Commedia",
+          "icona": "●"
+        },
+        {
+          "chiave": "drammatico",
+          "etichetta": "Drammatico",
+          "icona": "◆"
+        },
+        {
+          "chiave": "thriller",
+          "etichetta": "Thriller",
+          "icona": "◑"
+        },
+        {
+          "chiave": "biografico",
+          "etichetta": "Biografico",
+          "icona": "⚑"
+        },
+        {
+          "chiave": "animazione",
+          "etichetta": "Animazione",
+          "icona": "✦"
+        },
+        {
+          "chiave": "fantascienza",
+          "etichetta": "Fantascienza",
+          "icona": "⊕"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Per famiglie",
+          "icona": "✿"
+        }
+      ],
+      "sale": [
+        {
+          "id": "arcadia-stezzano",
+          "nome": "Arcadia Stezzano",
+          "comune": "Stezzano",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "Le Due Torri, Via Guzzanica 62/64",
+          "url": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "gestore": null,
+          "schermi": 7,
+          "note": "7 sale. Il sito ufficiale pubblica in anticipo: e' da qui che si scoprono i film-evento delle settimane dopo."
+        },
+        {
+          "id": "capitol",
+          "nome": "Capitol Multisala",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "monosala",
+          "indirizzo": "Via Tasso 41",
+          "url": "https://www.mymovies.it/cinema/bergamo/5486/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Le fonti si contraddicono sul numero di sale (3 o 4): schermi lasciato a null finché non lo verifico sul posto. Prima visione in centro città."
+        },
+        {
+          "id": "notorious-curno",
+          "nome": "Notorious Cinemas Curno",
+          "comune": "Curno",
+          "zona": "Centro",
+          "tipo": "multiplex",
+          "indirizzo": "Via Lega Lombarda 39",
+          "url": "https://www.mymovies.it/cinema/bergamo/curno/5525/",
+          "gestore": null,
+          "schermi": null,
+          "note": null
+        },
+        {
+          "id": "uci-orio",
+          "nome": "UCI Cinemas Orio",
+          "comune": "Azzano San Paolo",
+          "zona": "Centro",
+          "tipo": "multiplex",
+          "indirizzo": "Via Toscana 2, Oriocenter",
+          "url": "https://www.ucicinemas.it/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Il multiplex più grande della provincia, dentro Oriocenter. Ha quasi sempre tutto: citarlo per ogni film lo rende inutile, si cita quando è l'unico o quando ha VO/IMAX."
+        },
+        {
+          "id": "starplex-romano",
+          "nome": "Starplex Romano",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "SS Soncinese 498",
+          "url": "https://www.mymovies.it/cinema/bergamo/romanodilombardia/6060/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Il multiplex della Bassa: per chi sta a sud, è più vicino di Orio."
+        },
+        {
+          "id": "schermo-bianco",
+          "nome": "Lo Schermo Bianco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Daste e Spalenga 15",
+          "url": "https://www.mymovies.it/cinema/bergamo/24147/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Dentro l'ex centrale Daste. Sala piccola, programmazione a rassegne: da controllare a mano, non compare sempre sui portali."
+        },
+        {
+          "id": "auditorium-liberta",
+          "nome": "Auditorium di Piazza Libertà",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Norberto Duzioni 2",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "248 posti. Programma da settembre a giugno; d'estate Lab 80 si sposta all'arena Esterno Notte. È la sala d'autore della città."
+        },
+        {
+          "id": "conca-verde",
+          "nome": "Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Guglielmo Mattioli 65",
+          "url": "https://www.sas.bg.it/cinema-conca-verde/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 4,
+          "note": "Programmazione aggiornata ogni martedì e valida fino al mercoledì successivo: è la fonte più affidabile per il giovedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "garden-clusone",
+          "nome": "Cinema Garden",
+          "comune": "Clusone",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via XXV Aprile 1",
+          "url": "https://www.mymovies.it/cinema/bergamo/clusone/5540/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Circuito ACEC/SAS. Il cinema dell'alta Valle Seriana."
+        },
+        {
+          "id": "anteo-treviglio",
+          "nome": "Anteo spazioCinema",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "tipo": "dessai",
+          "indirizzo": "Viale Montegrappa",
+          "url": "https://www.mymovies.it/cinema/bergamo/treviglio/6586/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Marchio Anteo: d'autore e versione originale fuori città. È la sala forte della Bassa."
+        },
+        {
+          "id": "del-borgo",
+          "nome": "Cinema Teatro del Borgo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Sant'Anna 51",
+          "url": "https://www.sas.bg.it/cinema-teatro-del-borgo/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 1,
+          "note": "Come Conca Verde: programma aggiornato il martedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "gavazzeni-seriate",
+          "nome": "Cineteatro Gavazzeni",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via Marconi 40",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "arena-cologno",
+          "nome": "Arena Estiva Oratorio",
+          "comune": "Cologno al Serio",
+          "zona": "Bassa",
+          "tipo": "arena",
+          "indirizzo": "Via Alessandro Manzoni 15",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "lottagono",
+          "nome": "Cinema Teatro Lottagono",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazzale San Paolo 35",
+          "url": "https://www.mymovies.it/cinema/bergamo/20734/",
+          "gestore": null,
+          "schermi": 2,
+          "note": "Quartiere Loreto."
+        },
+        {
+          "id": "nuovo-albino",
+          "nome": "Nuovo Cineteatro Albino",
+          "comune": "Albino",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Piazza San Giuliano 36",
+          "url": "https://www.mymovies.it/cinema/bergamo/albino/6008/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "La sala di riferimento della media Valle Seriana."
+        },
+        {
+          "id": "sala-orologio",
+          "nome": "Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Palazzo Libertà, Piazza Libertà",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "Terza sala aperta dentro Palazzo Libertà nel 2024. Verificare se ha programmazione autonoma o solo eventi."
         }
       ]
     }

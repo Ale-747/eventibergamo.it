@@ -11,6 +11,13 @@
   --line: #D6CBB6; --bg: #EFE6D6; --fg: #141110; --on-acc: #EFE6D6;
   --grana: #000; --grana-op: .07;
 }
+/* Sala buia, per la linea cinema: ricopiata da .cinema in render/build.py.
+   È il secondo punto di copia manuale della palette, come il tema settimana. */
+:root[data-tema="cinema"] {
+  --acc: #F2C14E; --hot: #FF5C39; --mut: #7E8798;
+  --line: #25314A; --bg: #101826; --fg: #ECE6DA; --on-acc: #101826;
+  --grana: #fff; --grana-op: .05;
+}
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -229,3 +236,55 @@ ul.lista li.primo { border-top: 3px solid var(--hot); }
   font-size: 13px; letter-spacing: .14em; text-transform: uppercase;
 }
 .trame a:hover { border-color: var(--acc); color: var(--acc); }
+
+/* ---------------------------------------------------------------- cinema
+   Una riga qui è un FILM, e sotto ci sono le sale che lo danno: nome, comune,
+   orario, prezzo. È la stessa forma delle slide, ed è la ragione per cui questa
+   sezione esiste — i titoli li sa Google, le sale no. */
+
+ul.lista.cinema li.film { align-items: flex-start; }
+
+ul.sale {
+  list-style: none; margin-top: 10px;
+  display: flex; flex-direction: column; gap: 5px;
+}
+ul.sale li {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 0; border: 0; font-size: 15px; line-height: 1.35;
+}
+ul.sale .sala { flex: 1; min-width: 0; }
+ul.sale .sala a { color: var(--acc); font-weight: 700; text-decoration: none; }
+ul.sale .sala a:hover { text-decoration: underline; }
+ul.sale .comune { color: var(--mut); font-weight: 500; }
+ul.sale .comune::before { content: "· "; }
+ul.sale b { flex: none; font-weight: 700; color: var(--fg); white-space: nowrap; }
+ul.sale .prezzo {
+  flex: none; min-width: 76px; padding: 3px 7px 1px; font-size: 15px;
+  border-width: 1.5px; align-self: baseline;
+}
+
+.conta {
+  flex: none; width: 62px; text-align: center; align-self: flex-start;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 12px;
+  letter-spacing: .12em; text-transform: uppercase;
+  border: 2px solid var(--acc); color: var(--acc); padding: 6px 4px 5px; line-height: 1;
+}
+.conta b { display: block; font-family: 'Anton', sans-serif; font-weight: 400;
+  font-size: 24px; line-height: 1; margin-bottom: 2px; }
+
+.fnota {
+  margin-top: 8px; font-size: 14px; font-style: italic;
+  color: var(--mut); font-weight: 500;
+}
+
+/* Nelle pagine sala la prima colonna non è un'ora secca ma un "quando"
+   ("lun 7, 21:00", "mar 16:00 · mer 21:00"): serve più larghezza. */
+ul.lista.orari .ora { width: 132px; font-size: 20px; line-height: 1.25; }
+
+.tab.cinema { border-color: var(--acc); }
+
+@media (max-width: 560px) {
+  ul.sale li { flex-wrap: wrap; gap: 6px 10px; }
+  ul.sale .sala { flex: 1 0 100%; }
+  .conta { width: 52px; }
+}
