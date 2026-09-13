@@ -347,6 +347,92 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DdHSuDcjbta/"
+    },
+    {
+      "id": "settimana-2026-09-14",
+      "formato": "settimana",
+      "periodo": {
+        "da": "2026-09-14",
+        "a": "2026-09-17",
+        "etichetta": "14 → 17 settembre"
+      },
+      "titolo": "La Settimana",
+      "sottotitolo": "Le sagre si spostano a giovedì, il resto della\nsettimana si ascolta e si legge.",
+      "hook": "Dentro: 23 appuntamenti da lunedì a giovedì.\nGhosh in Sant'Agostino, tre sagre che aprono giovedì.",
+      "sempre_aperte": [
+        {
+          "nome": "Isaac Julien. Museum Dreams",
+          "luogo": "gres art 671, Bergamo",
+          "quando": "fino al 4 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Tabula Plena",
+          "luogo": "Palazzo della Ragione, Città Alta",
+          "quando": "fino al 18 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Chiara Camoni. La Forza",
+          "luogo": "Giardini PwC, Accademia Carrara",
+          "quando": "fino al 31 dicembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Landscape Festival",
+          "luogo": "Piazza Vecchia, Bergamo",
+          "quando": "fino al 20 settembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Circo Rolando Orfei",
+          "luogo": "Oriocenter, Azzano San Paolo",
+          "quando": "fino al 4 ottobre",
+          "categoria": "famiglia"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "◆"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✱"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "✦"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "⚑"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -1897,6 +1983,368 @@
       ],
       "guida": "weekend-2026-09-11",
       "formato": "weekend"
+    },
+    {
+      "data": "2026-09-14",
+      "etichetta": "Lunedì 14 settembre",
+      "breve": "Lunedì 14",
+      "nota": "Ai giardini della Carrara l'ingresso è libero ma la prenotazione è obbligatoria: si chiude prima di arrivare in fondo alla sala.",
+      "eventi": [
+        {
+          "ora": "17:30",
+          "nome": "La natura in città",
+          "luogo": "Giardini PwC Accademia Carrara, Bergamo",
+          "sede": "Giardini PwC Accademia Carrara",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.landscapefestival.it/en/calendario2026"
+        },
+        {
+          "ora": "17:45",
+          "nome": "Aperilibro — Matti per la lettura",
+          "luogo": "Biblioteca Gavazzeni, Bergamo",
+          "sede": "Biblioteca Gavazzeni",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "20:30",
+          "nome": "Serata GDR",
+          "luogo": "Biblioteca Caversazzi, Bergamo",
+          "sede": "Biblioteca Caversazzi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "20:45",
+          "nome": "Amitav Ghosh — L'occhio fantasma",
+          "luogo": "Aula Magna Sant'Agostino, Bergamo",
+          "sede": "Aula Magna Sant'Agostino",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://moltefedi.it/edizione-2026/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "Armonie senza confini: Italia e Cina",
+          "luogo": "Chiesa della Madonna del Bosco, Bergamo",
+          "sede": "Chiesa della Madonna del Bosco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.visitbergamo.net/oggetto/armonie-senza-confini-italia-e-cina-un-dialogo-attraverso-le-corde/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Senso Converso in concerto",
+          "luogo": "Festa del Madùní, Verdellino",
+          "sede": "Festa del Madùní",
+          "comune": "Verdellino",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+        },
+        {
+          "ora": null,
+          "nome": "Jolly Roger Pirate Show",
+          "luogo": "Oratorio di Guzzanica, Dalmine",
+          "sede": "Oratorio di Guzzanica",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/evento/dalmine-a-guzzanica-torna-la-sagra-di-san-vito/"
+        }
+      ],
+      "guida": "settimana-2026-09-14",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-09-15",
+      "etichetta": "Martedì 15 settembre",
+      "breve": "Martedì 15",
+      "nota": "L'abbazia di Pontida è a venti minuti dalla città: ingresso libero, ma il chiostro la sera si riempie in fretta.",
+      "eventi": [
+        {
+          "ora": "10:00",
+          "nome": "GdL Confronti: «Libertà» di Franzen",
+          "luogo": "Biblioteca Tiraboschi, Bergamo",
+          "sede": "Biblioteca Tiraboschi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "15:00",
+          "nome": "Université d'Été",
+          "luogo": "Astino, Bergamo",
+          "sede": "Astino",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.landscapefestival.it/en/calendario2026"
+        },
+        {
+          "ora": "16:00",
+          "nome": "GdL L'Aleph: Le casalinghe di Tokyo",
+          "luogo": "Biblioteca Tiraboschi, Bergamo",
+          "sede": "Biblioteca Tiraboschi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "20:45",
+          "nome": "Sorella morte",
+          "luogo": "Abbazia di San Giacomo, Pontida",
+          "sede": "Abbazia di San Giacomo",
+          "comune": "Pontida",
+          "zona": "Isola",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://moltefedi.it/evento/sorella-morte/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Henrik Andersen & The Jazz Rebels",
+          "luogo": "La Serra, Seriate",
+          "sede": "La Serra",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.visitbergamo.net/oggetto/the-jazz-rebels/"
+        }
+      ],
+      "guida": "settimana-2026-09-14",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-09-16",
+      "etichetta": "Mercoledì 16 settembre",
+      "breve": "Mercoledì 16",
+      "nota": "Lo yoga alla gres art è nel parco: se piove salta, e il calendario lo annuncia solo in giornata.",
+      "eventi": [
+        {
+          "ora": "08:30",
+          "nome": "Garden Masterclass — James Hitchmough",
+          "luogo": "UniBg, Aula 2 Salvecchio, Bergamo",
+          "sede": "UniBg, Aula 2 Salvecchio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.landscapefestival.it/en/calendario2026"
+        },
+        {
+          "ora": "18:30",
+          "nome": "Yoga vinyasa al tramonto + aperitivo",
+          "luogo": "gres art 671, Bergamo",
+          "sede": "gres art 671",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://gresart671.org/calendario/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "L'Africa non è così",
+          "luogo": "Cineteatro S. Caterina, Bergamo",
+          "sede": "Cineteatro S. Caterina",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://moltefedi.it/edizione-2026/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "GdL Spaginando: «Vita» di Mazzucco",
+          "luogo": "Biblioteca Galizzi, Bergamo",
+          "sede": "Biblioteca Galizzi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        }
+      ],
+      "guida": "settimana-2026-09-14",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-09-17",
+      "etichetta": "Giovedì 17 settembre",
+      "breve": "Giovedì 17",
+      "nota": "Le tre sagre aprono giovedì e tengono fino a domenica.",
+      "eventi": [
+        {
+          "ora": "10:30",
+          "nome": "Parchi per tutti",
+          "luogo": "Vicolo Sant'Agata 19, Bergamo",
+          "sede": "Vicolo Sant'Agata 19",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "visita",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.landscapefestival.it/en/calendario2026"
+        },
+        {
+          "ora": "14:30",
+          "nome": "CullanDo — La musica dalla nascita",
+          "luogo": "Consultorio ASST Bergamo Ovest, Treviglio",
+          "sede": "Consultorio ASST Bergamo Ovest",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.visitbergamo.net/oggetto/cullando-la-musica-dalla-nascita/"
+        },
+        {
+          "ora": "17:30",
+          "nome": "Babykart Electric",
+          "luogo": "ChorusLife, Bergamo",
+          "sede": "ChorusLife",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/09/10/landscape-festival-tante-sagre-e-balli-cosa-fare-stasera-a-bergamo-e-provincia/920336"
+        },
+        {
+          "ora": "18:00",
+          "nome": "GdL Andromeda: «Libertà» di Franzen",
+          "luogo": "Biblioteca Tiraboschi, Bergamo",
+          "sede": "Biblioteca Tiraboschi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa Alpina al Parco Rosselli",
+          "luogo": "Parco Rosselli, Bergamo",
+          "sede": "Parco Rosselli",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://santacaterinabg.it/2026/09/01/17-20-settembre-festa-alpina-al-parco-rosselli-ingresso-da-viale-g-cesare-e-via-celestini/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa dell'Uva e dei Fiori",
+          "luogo": "Centro paese, Foresto Sparso",
+          "sede": "Centro paese",
+          "comune": "Foresto Sparso",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/calendario/categoria/feste-e-sagre-bergamo/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa degli Angeli",
+          "luogo": "Oratorio, Casnigo",
+          "sede": "Oratorio",
+          "comune": "Casnigo",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/calendario/categoria/feste-e-sagre-bergamo/"
+        }
+      ],
+      "guida": "settimana-2026-09-14",
+      "formato": "settimana"
     }
   ],
   "cinema": [
