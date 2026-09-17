@@ -24,596 +24,6 @@
   },
   "guide": [
     {
-      "id": "weekend-2026-09-11",
-      "formato": "weekend",
-      "periodo": {
-        "da": "2026-09-11",
-        "a": "2026-09-13",
-        "etichetta": "11 → 13 settembre"
-      },
-      "titolo": "Il Weekend",
-      "sottotitolo": "Cuartero al Bolgia, il Druso riapre, e a Brusaporto\nsi balla tre sere tra le rovine del castello. Gratis.",
-      "hook": "Dentro: 34 serate tra città e provincia, i dj set per primi.\nCon orari, zone e i prezzi dove le fonti li pubblicano.",
-      "giorni": [
-        {
-          "data": "2026-09-11",
-          "etichetta": "Venerdì 11 settembre",
-          "breve": "Venerdì 11",
-          "nota": "A Brusaporto si entra gratis tutte e tre le sere: cucina aperta e bar sulle rovine, si balla fino a mezzanotte.",
-          "eventi": [
-            {
-              "ora": "18:00",
-              "nome": "Festa dell'uva e dell'agricoltura",
-              "luogo": "Centro storico, Trescore Balneario",
-              "sede": "Centro storico",
-              "comune": "Trescore Balneario",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.montagneepaesi.com/trescore-balneario-67a-festa-delluva-grande-sfilata-e-giochi-delle-contrade-dall11-al-13-settembre/"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Musica con Dj Corrado Presti",
-              "luogo": "La Volèe, Romano di Lombardia",
-              "sede": "La Volèe",
-              "comune": "Romano di Lombardia",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Sagra della Taragna",
-              "luogo": "Campo sportivo Stabello, Zogno",
-              "sede": "Campo sportivo Stabello",
-              "comune": "Zogno",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamonews.it/2026/09/01/taragna-moscato-funghi-uva-e-patate-le-sagre-di-settembre-in-bergamasca/916745/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Omar Codazzi",
-              "luogo": "Palasettembre, Chiuduno",
-              "sede": "Palasettembre",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 8
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.berghinfest.it/eventi"
-            },
-            {
-              "ora": "21:00",
-              "nome": "80Voglia di Italia in concerto",
-              "luogo": "Piazza Cavour, Trescore Balneario",
-              "sede": "Piazza Cavour",
-              "comune": "Trescore Balneario",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.montagneepaesi.com/trescore-balneario-67a-festa-delluva-grande-sfilata-e-giochi-delle-contrade-dall11-al-13-settembre/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Candle Light, a lume di candela",
-              "luogo": "Cusio",
-              "sede": null,
-              "comune": "Cusio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://fungolandia.it/il-programma-completo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Afro con Dj Nello e Flaviano",
-              "luogo": "Zootecnica Abbazia, Albino",
-              "sede": "Zootecnica Abbazia",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo 883 Reloaded",
-              "luogo": "Gas Beer, Fiorano al Serio",
-              "sede": "Gas Beer",
-              "comune": "Fiorano al Serio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo Modà – Sensazione Modà",
-              "luogo": "Like It, Cenate Sotto",
-              "sede": "Like It",
-              "comune": "Cenate Sotto",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "22:00",
-              "nome": "Afro con Dj Mauri",
-              "luogo": "Oratorio, Peia",
-              "sede": "Oratorio",
-              "comune": "Peia",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "22:00",
-              "nome": "Pulsar Ensamble Electro",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.cheventi.it/regioni/lombardia/bergamo/"
-            },
-            {
-              "ora": "23:00",
-              "nome": "Musica con Dj Paolo",
-              "luogo": "Like It, Cenate Sotto",
-              "sede": "Like It",
-              "comune": "Cenate Sotto",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "Inrovina Festival, afro tra le rovine",
-              "luogo": "Parco del Castello, Brusaporto",
-              "sede": "Parco del Castello",
-              "comune": "Brusaporto",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://inrovinafestival.it/"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-12",
-          "etichetta": "Sabato 12 settembre",
-          "breve": "Sabato 12",
-          "nota": "Bolgia e Druso aprono a mezzanotte scarsa: se parti da Brusaporto alle 23 arrivi in tempo per entrambi.",
-          "eventi": [
-            {
-              "ora": "19:00",
-              "nome": "UTŌPIA e VENTICINQUE all'Inrovina",
-              "luogo": "Parco del Castello, Brusaporto",
-              "sede": "Parco del Castello",
-              "comune": "Brusaporto",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://inrovinafestival.it/"
-            },
-            {
-              "ora": "20:00",
-              "nome": "Afro con Dj Mauri",
-              "luogo": "Totem Brewing, Scanzorosciate",
-              "sede": "Totem Brewing",
-              "comune": "Scanzorosciate",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Le fanfare e i cori in città",
-              "luogo": "Centro e Città Alta, Bergamo",
-              "sede": "Centro e Città Alta",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamotomorrow.it/2026/09/08/bergamo-e-gli-alpini-il-raduno-per-il-105-di-fondazione-e-la-41a-adunata-sezionale/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Eloisa Manera e Stefano Greco",
-              "luogo": "Roccolo di Corte, Ardesio",
-              "sede": "Roccolo di Corte",
-              "comune": "Ardesio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Rocca by night",
-              "luogo": "Rocca, Bergamo",
-              "sede": "Rocca",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.visitbergamo.net/it/eventi/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Afro con Dj Nello",
-              "luogo": "Festa Gas Beer, Fiorano al Serio",
-              "sede": "Festa Gas Beer",
-              "comune": "Fiorano al Serio",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo Ligabue, LigaStory",
-              "luogo": "Oratorio Alzano Sopra, Alzano Lombardo",
-              "sede": "Oratorio Alzano Sopra",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo Ultimo",
-              "luogo": "Torcio's, Villa di Serio",
-              "sede": "Torcio's",
-              "comune": "Villa di Serio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Sergio Sgrilli, Vieni che te le suono",
-              "luogo": "Festa dell'uva, Trescore Balneario",
-              "sede": "Festa dell'uva",
-              "comune": "Trescore Balneario",
-              "zona": "Valli",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.montagneepaesi.com/trescore-balneario-67a-festa-delluva-grande-sfilata-e-giochi-delle-contrade-dall11-al-13-settembre/"
-            },
-            {
-              "ora": "23:00",
-              "nome": "Disco Flower — il Druso riapre",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.cheventi.it/regioni/lombardia/bergamo/"
-            },
-            {
-              "ora": "23:30",
-              "nome": "Adrián Mills + Cuartero al Bolgia",
-              "luogo": "Bolgia, Osio Sopra",
-              "sede": "Bolgia",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://diffusionimusicali.org/2026/09/01/12-9-adrian-mills-cuartero-bolgia-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "Gabass in concerto",
-              "luogo": "Patata d'autore, Martinengo",
-              "sede": "Patata d'autore",
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/09/01/taragna-moscato-funghi-uva-e-patate-le-sagre-di-settembre-in-bergamasca/916745/"
-            },
-            {
-              "ora": null,
-              "nome": "MAB – Mattoncini a Bergamo",
-              "luogo": "ChorusLife, Bergamo",
-              "sede": "ChorusLife",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.ojeventi.it/eventi/mattoncini-a-bergamo-dal-12-al-13-settembre-2026-bg/"
-            },
-            {
-              "ora": null,
-              "nome": "Cinemarcord 2026",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.cinefacts.it/cinefacts-news-2819/cinemarcord-torna-a-bergamo-il-12-e-13-settembre-la-vii-edizione-della-convention-dedicata-al-cinema-e-al-collezionismo.html"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-13",
-          "etichetta": "Domenica 13 settembre",
-          "breve": "Domenica 13",
-          "nota": "In città la sfilata degli Alpini chiude il centro dalle 10:30 alle 13: se devi attraversarla, mettici il doppio.",
-          "eventi": [
-            {
-              "ora": "06:30",
-              "nome": "Alba musicale sulle Orobie",
-              "luogo": "Mezzoldo",
-              "sede": null,
-              "comune": "Mezzoldo",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://fungolandia.it/il-programma-completo/"
-            },
-            {
-              "ora": "10:30",
-              "nome": "La sfilata degli Alpini",
-              "luogo": "Centro città, Bergamo",
-              "sede": "Centro città",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamotomorrow.it/2026/09/08/bergamo-e-gli-alpini-il-raduno-per-il-105-di-fondazione-e-la-41a-adunata-sezionale/"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Alì Babà e i 40 ladroni",
-              "luogo": "Teatro Nuovo, Treviglio",
-              "sede": "Teatro Nuovo",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.comune.treviglio.bg.it/it/news/trevigliocultura-festival-2026-la-scoperta"
-            },
-            {
-              "ora": "18:00",
-              "nome": "Keith St. John ft. Rowan Robertson",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.cheventi.it/regioni/lombardia/bergamo/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Le Note contadine in concerto",
-              "luogo": "Zootecnica Abbazia, Albino",
-              "sede": "Zootecnica Abbazia",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "Inrovina Festival, la serata pop",
-              "luogo": "Parco del Castello, Brusaporto",
-              "sede": "Parco del Castello",
-              "comune": "Brusaporto",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://inrovinafestival.it/"
-            },
-            {
-              "ora": null,
-              "nome": "La sfilata dei carri",
-              "luogo": "Centro storico, Trescore Balneario",
-              "sede": "Centro storico",
-              "comune": "Trescore Balneario",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.montagneepaesi.com/trescore-balneario-67a-festa-delluva-grande-sfilata-e-giochi-delle-contrade-dall11-al-13-settembre/"
-            }
-          ]
-        }
-      ],
-      "sempre_aperte": [
-        {
-          "nome": "Inrovina Festival",
-          "luogo": "Brusaporto, Parco del Castello",
-          "quando": "ven → dom · gratis",
-          "categoria": "dj"
-        },
-        {
-          "nome": "Sagra di San Vito",
-          "luogo": "Dalmine, oratorio di Guzzanica",
-          "quando": "ven → dom · 19:00",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Crespi in festa",
-          "luogo": "Capriate San Gervasio, Crespi d'Adda",
-          "quando": "ven → dom",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Sagra della Patata",
-          "luogo": "Rovetta, piazza Ferrari",
-          "quando": "ven → dom · 19:30",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Hop Hop Street Food",
-          "luogo": "Brembate, piazzale Mercato",
-          "quando": "ven → dom · 10:30",
-          "categoria": "sagra"
-        }
-      ],
-      "categorie": [
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "◉"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "⚑"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "▣"
-        },
-        {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "✦"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
-        },
-        {
-          "chiave": "altro",
-          "etichetta": "Altro",
-          "icona": "✱"
-        }
-      ],
-      "permalink": "https://www.instagram.com/p/DdHSuDcjbta/"
-    },
-    {
       "id": "settimana-2026-09-14",
       "formato": "settimana",
       "periodo": {
@@ -1055,6 +465,730 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DdO7q2TDWYQ/"
+    },
+    {
+      "id": "weekend-2026-09-18",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-09-18",
+        "a": "2026-09-20",
+        "etichetta": "18 → 20 settembre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "Holy Priest al Bolgia, gli Inti-Illimani a Villa d'Almè,\ne domenica Borgo Palazzo diventa pedonale.",
+      "hook": "Dentro: 44 appuntamenti tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "giorni": [
+        {
+          "data": "2026-09-18",
+          "etichetta": "Venerdì 18 settembre",
+          "breve": "Venerdì 18",
+          "nota": "Parco Rosselli: si entra da via dei Celestini, posti al coperto.",
+          "eventi": [
+            {
+              "ora": "20:00",
+              "nome": "Liscio con Mario D'Ambrosio",
+              "luogo": "Tetris, Ranica",
+              "sede": "Tetris",
+              "comune": "Ranica",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-mario-dambrosio-tetris-ranica-4/"
+            },
+            {
+              "ora": "20:30",
+              "nome": "Ciserano balla: dall'italodisco al reggaeton",
+              "luogo": "Piazza Giovanni XXIII, Ciserano",
+              "sede": "Piazza Giovanni XXIII",
+              "comune": "Ciserano",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.comune.ciserano.bg.it/sites/default/files/2026-08/sangiuliano-1_1_0.pdf"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Pooh Goodbye, tributo Pooh",
+              "luogo": "Quei Bravi Ragazzi, Brembate",
+              "sede": "Quei Bravi Ragazzi",
+              "comune": "Brembate",
+              "zona": "Isola",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:15",
+              "nome": "Rewind, solo musica italiana",
+              "luogo": "Festa degli Angeli, oratorio, Casnigo",
+              "sede": "Festa degli Angeli, oratorio",
+              "comune": "Casnigo",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-rewind-in-concerto-festa-degli-angeli-casnigo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Revival '70-'90 con Dj Wish Key",
+              "luogo": "Festa Alpini, Parco Rosselli, Bergamo",
+              "sede": "Festa Alpini, Parco Rosselli",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-revival-con-wish-key-alpini-borgo-santa-caterina-bergamo-citta-app-bergamo-it-alpinibergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Blascover, tributo Vasco Rossi",
+              "luogo": "Birrengo Fest, area feste, Pedrengo",
+              "sede": "Birrengo Fest, area feste",
+              "comune": "Pedrengo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamotomorrow.it/2026/09/14/birrengo-fest-2026-a-pedrengo-quattro-giorni-tra-tavolate-e-musica-dal-vivo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Calimocho, tributo Nomadi",
+              "luogo": "Crespi d'Adda, Capriate San Gervasio",
+              "sede": "Crespi d'Adda",
+              "comune": "Capriate San Gervasio",
+              "zona": "Isola",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Sputo, tributo Lucio Dalla",
+              "luogo": "Torcio's, Villa di Serio",
+              "sede": "Torcio's",
+              "comune": "Villa di Serio",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-lucio-dalla-sputo-torcios-villa-di-serio-app-bergamo-it-torcios-2/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Flexsound in concerto",
+              "luogo": "Like It, Cenate Sotto",
+              "sede": "Like It",
+              "comune": "Cenate Sotto",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-flexsound-in-concerto-like-it-cenate-sotto-app-bergamo-it-likeitcenatesotto/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Chester e i Finalmente li conosco",
+              "luogo": "Dieci10, Bergamo",
+              "sede": "Dieci10",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-chester-e-i-finalmente-li-conosco-in-concerto-dieci-10-bergamo-citta/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Afro con Dj Nello",
+              "luogo": "Pub Music, Castione della Presolana",
+              "sede": "Pub Music",
+              "comune": "Castione della Presolana",
+              "zona": "Valli",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-afro-con-dj-nello-pub-music-castione-della-presolana-2/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "AfroFunky con Dj Pier Kuce",
+              "luogo": "Strabar, Terno d'Isola",
+              "sede": "Strabar",
+              "comune": "Terno d'Isola",
+              "zona": "Isola",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-afrofunky-con-dj-pier-kuce-strabar-terno-disola-6/"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Emo Vibez, tributo Linkin Park e BMTH",
+              "luogo": "Druso, Ranica",
+              "sede": "Druso",
+              "comune": "Ranica",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 15
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.cheventi.it/eventi/2026-emo-vibez-linkin-park-e-bring-me-the-horizon-tribute-al-druso-di-bergamo-gorle-bg/"
+            },
+            {
+              "ora": "22:30",
+              "nome": "Atomics in concerto",
+              "luogo": "Monangi Brew Pub, Dalmine",
+              "sede": "Monangi Brew Pub",
+              "comune": "Dalmine",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-atomics-in-concerto-monangi-brew-dalmine-app-bergamo-it-monangi/"
+            },
+            {
+              "ora": "23:00",
+              "nome": "Latino con Dj Mundial",
+              "luogo": "Ritrovo Brasil, Ponte San Pietro",
+              "sede": "Ritrovo Brasil",
+              "comune": "Ponte San Pietro",
+              "zona": "Isola",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-latinoamericano-dj-mundial-ritrovo-brasil-ponte-san-pietro-16/"
+            },
+            {
+              "ora": null,
+              "nome": "Certe Notti Magiche, party anni '90",
+              "luogo": "NXT, piazzale degli Alpini, Bergamo",
+              "sede": "NXT, piazzale degli Alpini",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://nxtbergamo.it/certe-notti-magiche-18-settembre/"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-19",
+          "etichetta": "Sabato 19 settembre",
+          "breve": "Sabato 19",
+          "nota": "Bolgia aperto dalle 22:30 alle 6. Al Druso porte alle 21.",
+          "eventi": [
+            {
+              "ora": "19:00",
+              "nome": "Anteprima Bergamo Buskers Festival",
+              "luogo": "ChorusLife, piazza Sagittario, Bergamo",
+              "sede": "ChorusLife, piazza Sagittario",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "altro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.ecodibergamo.it/stories/premium/bergamo-citta/festa-del-borgo-e-buskers-festival-due-giorni-di-eventi-a-bergamo-o_3950828_11/"
+            },
+            {
+              "ora": "20:00",
+              "nome": "Notte bianca in Borgo Santa Caterina",
+              "luogo": "Borgo Santa Caterina, Bergamo",
+              "sede": "Borgo Santa Caterina",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/evento/a-borgo-santa-caterina-notte-bianca-a-tema-fiori-e-piante/"
+            },
+            {
+              "ora": "20:45",
+              "nome": "Inti-Illimani Histórico",
+              "luogo": "Teatro Serassi, Villa d'Almè",
+              "sede": "Teatro Serassi",
+              "comune": "Villa d'Almè",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 30
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.cheventi.it/eventi/2026-de-vuelta-a-casa-inti-illimani-historico-a-bergamo-villa-dalme-bg/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Video Killed The Radio Star, party '80",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 11
+              },
+              "rilevanza": 3,
+              "fonte": "https://dice.fm/partner/tickets/event/nvxkpq-video-killed-the-radio-star-19th-sep-daste-bergamo-tickets"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Sfilata dei campanacci con Dj Malby",
+              "luogo": "La Transumanza, Schilpario",
+              "sede": "La Transumanza",
+              "comune": "Schilpario",
+              "zona": "Valli",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/la-transumanza-a-schilpario-2/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Mamma Mia! live show e dj set",
+              "luogo": "Piazza Giovanni XXIII, Ciserano",
+              "sede": "Piazza Giovanni XXIII",
+              "comune": "Ciserano",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.comune.ciserano.bg.it/sites/default/files/2026-08/sangiuliano-1_1_0.pdf"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Baraonda Nomade, tributo Nomadi",
+              "luogo": "Festa Alpini, Parco Rosselli, Bergamo",
+              "sede": "Festa Alpini, Parco Rosselli",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-nomadi-baraonda-nomade-alpini-borgo-santa-caterina-bergamo-citta-app-bergamo-it-alpinibergamo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "La Voce delle Donne, Notte Bianca",
+              "luogo": "Piazza San Vittore, Calcio",
+              "sede": "Piazza San Vittore",
+              "comune": "Calcio",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/notte-bianca-a-calcio-5/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Beat Italiano",
+              "luogo": "Birrengo Fest, area feste, Pedrengo",
+              "sede": "Birrengo Fest, area feste",
+              "comune": "Pedrengo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamotomorrow.it/2026/09/14/birrengo-fest-2026-a-pedrengo-quattro-giorni-tra-tavolate-e-musica-dal-vivo/"
+            },
+            {
+              "ora": "21:45",
+              "nome": "FolkStone, acoustic set",
+              "luogo": "Festa in Rosso, Palafeste, Grumello del Monte",
+              "sede": "Festa in Rosso, Palafeste",
+              "comune": "Grumello del Monte",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-folkstone-in-concerto-festa-in-rosso-grumello-del-monte/"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Higher Power, tributo Coldplay",
+              "luogo": "Druso, Ranica",
+              "sede": "Druso",
+              "comune": "Ranica",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 10
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.cheventi.it/eventi/2026-higher-power-coldplay-tribute-in-concerto-al-druso-di-bergamo-ranica-bg/"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Mega fluo party anni '90-'00",
+              "luogo": "Piazza Vittorio Emanuele II, Dalmine",
+              "sede": "Piazza Vittorio Emanuele II",
+              "comune": "Dalmine",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/la-terza-di-settembre-e-festa-a-mariano-di-dalmine/"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Fuochi per l'Addolorata",
+              "luogo": "Campo parrocchiale, Santa Brigida",
+              "sede": "Campo parrocchiale",
+              "comune": "Santa Brigida",
+              "zona": "Valli",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/a-santa-brigida-fuochi-per-laddolorata/"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Latino con Bibi e Simone",
+              "luogo": "Decibel Club, Chignolo d'Isola",
+              "sede": "Decibel Club",
+              "comune": "Chignolo d'Isola",
+              "zona": "Isola",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-latinoamericano-con-bibi-e-simone-discoteca-decibel-chignolo-disola-13/"
+            },
+            {
+              "ora": "22:30",
+              "nome": "Holy Priest e Super Marco May",
+              "luogo": "Bolgia, Osio Sopra",
+              "sede": "Bolgia",
+              "comune": "Osio Sopra",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://diffusionimusicali.org/2026/09/11/19-9-holy-priest-bolgia-bergamo/"
+            },
+            {
+              "ora": "22:30",
+              "nome": "Latino con Dj Steve Dp",
+              "luogo": "Golf Club La Rossera, Chiuduno",
+              "sede": "Golf Club La Rossera",
+              "comune": "Chiuduno",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-latinoamericano-con-dj-steve-dp-rossera-chiuduno/"
+            }
+          ]
+        },
+        {
+          "data": "2026-09-20",
+          "etichetta": "Domenica 20 settembre",
+          "breve": "Domenica 20",
+          "nota": "Borgo Palazzo è pedonale dalle 10 alle 19; il gran finale dei buskers è alle 18. A Mariano i fuochi partono alle 22:30.",
+          "eventi": [
+            {
+              "ora": "09:00",
+              "nome": "Millegradini, partenza collettiva",
+              "luogo": "Piazzetta Don Spada, Bergamo",
+              "sede": "Piazzetta Don Spada",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.ecodibergamo.it/stories/eppen/extra/appuntamenti/millegradini-2026-o_3880395_11/"
+            },
+            {
+              "ora": "10:00",
+              "nome": "Festa del Borgo",
+              "luogo": "Via Borgo Palazzo, Bergamo",
+              "sede": "Via Borgo Palazzo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/2026/09/15/borgo-palazzo-in-festa-eventi-musicali-giochi-sport-e-centinaia-di-negozi-aperti/922437"
+            },
+            {
+              "ora": "14:00",
+              "nome": "Bergamo Buskers Festival",
+              "luogo": "Borgo Palazzo, piazza Sant'Anna, Bergamo",
+              "sede": "Borgo Palazzo, piazza Sant'Anna",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "altro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.ecodibergamo.it/stories/premium/bergamo-citta/festa-del-borgo-e-buskers-festival-due-giorni-di-eventi-a-bergamo-o_3950828_11/"
+            },
+            {
+              "ora": "14:30",
+              "nome": "Sfilata folkloristica della Transumanza",
+              "luogo": "Centro paese, Schilpario",
+              "sede": "Centro paese",
+              "comune": "Schilpario",
+              "zona": "Valli",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/la-transumanza-a-schilpario-2/"
+            },
+            {
+              "ora": "17:00",
+              "nome": "Thomas Adès, recital di pianoforte",
+              "luogo": "Sala Piatti, Bergamo",
+              "sede": "Sala Piatti",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamonews.it/evento/alla-sala-piatti-concerto-del-pianista-thomas-ades/"
+            },
+            {
+              "ora": "18:00",
+              "nome": "Mercante d'Autore in concerto",
+              "luogo": "Druso, Ranica",
+              "sede": "Druso",
+              "comune": "Ranica",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "da",
+                "valore": 10
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.cheventi.it/eventi/2026-mercante-dautore-in-concerto-al-druso-di-bergamo-gorle-bg/"
+            },
+            {
+              "ora": "20:30",
+              "nome": "Vipers in concerto e fuochi",
+              "luogo": "Piazza Vittorio Emanuele II, Dalmine",
+              "sede": "Piazza Vittorio Emanuele II",
+              "comune": "Dalmine",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamonews.it/evento/la-terza-di-settembre-e-festa-a-mariano-di-dalmine/"
+            },
+            {
+              "ora": "20:30",
+              "nome": "Ciro e gli Amanti di Vigevano",
+              "luogo": "Piazza Giovanni XXIII, Ciserano",
+              "sede": "Piazza Giovanni XXIII",
+              "comune": "Ciserano",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.comune.ciserano.bg.it/sites/default/files/2026-08/sangiuliano-1_1_0.pdf"
+            },
+            {
+              "ora": "21:00",
+              "nome": "'80 contro '90: Castaldo e Stokholma",
+              "luogo": "Teatro Verdi, Bonate Sopra",
+              "sede": "Teatro Verdi",
+              "comune": "Bonate Sopra",
+              "zona": "Isola",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 15
+              },
+              "rilevanza": 3,
+              "fonte": "https://moltefedi.it/edizione-2026/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "All that Swing, social dance",
+              "luogo": "NXT, piazzale degli Alpini, Bergamo",
+              "sede": "NXT, piazzale degli Alpini",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "danza",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://nxtbergamo.it/all-that-swing-20-settembre/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Colpa delle Favole, tributo Ultimo",
+              "luogo": "Birrengo Fest, area feste, Pedrengo",
+              "sede": "Birrengo Fest, area feste",
+              "comune": "Pedrengo",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamotomorrow.it/2026/09/14/birrengo-fest-2026-a-pedrengo-quattro-giorni-tra-tavolate-e-musica-dal-vivo/"
+            },
+            {
+              "ora": "21:30",
+              "nome": "Latino con Dj Blanco",
+              "luogo": "Cascina del Sole, Carobbio degli Angeli",
+              "sede": "Cascina del Sole",
+              "comune": "Carobbio degli Angeli",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-latinoamericano-con-dj-blanco-cascina-del-sole-carobbio-degli-angeli-app-bergamo-it-cdscarobbio-3/"
+            }
+          ]
+        }
+      ],
+      "sempre_aperte": [
+        {
+          "nome": "Festa degli Alpini",
+          "luogo": "Parco Rosselli, Bergamo",
+          "quando": "ven → dom · gratis",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Streeat Food Truck Festival",
+          "luogo": "ChorusLife, Bergamo",
+          "quando": "ven → dom · gratis",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festa della Taragna",
+          "luogo": "Stabello, Zogno",
+          "quando": "ven → dom · 18:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Castel Beer Fest",
+          "luogo": "Castel Rozzone, oratorio Don Bosco",
+          "quando": "ven → dom · 19:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festa degli Alpini",
+          "luogo": "Villa d'Adda, piazzale Donatori",
+          "quando": "ven → dom · 19:30",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "◉"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✱"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "✿"
+        }
+      ]
     }
   ],
   "cinema": [
