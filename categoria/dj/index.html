@@ -22,9 +22,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#141110">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Barlow+Condensed:wght@800&display=swap" rel="stylesheet">
+<link rel="preload" href="/font/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/stile.css">
 </head>
 <body>
@@ -33,18 +31,18 @@
       <div class="marchio"><a href="/"><span class="punto"></span><b>Eventibergamo</b></a></div>
       <div class="occhiello"><span>Categoria</span></div>
       <h1>Dj set / party<em>a Bergamo</em></h1>
-      <div class="pillola">1 in arrivo · 20 in tutto</div>
+      <div class="pillola">0 in arrivo · 20 in tutto</div>
       <p class="sommario">Dj set / party a Bergamo e provincia: tutti gli appuntamenti che abbiamo pubblicato, con orario, luogo, zona e prezzo dove le fonti lo dicono.</p>
     </header>
-    <section class="giorno" id="arrivo"><h2>In arrivo</h2><ul class="lista"><li data-cat="dj" class="primo">
+    <p class="vuoto">Niente in programma in questo momento. Sotto trovi quello che è già passato, e in <a href="/">home</a> la guida di adesso.</p>
+    <section class="giorno" id="passati"><h2>Già passati</h2><ul class="lista"><li data-cat="dj" class="primo">
         <div class="ora">—</div>
         <div class="corpo">
           <div class="nome"><i>◉</i>Inrovina Festival, la serata pop</div>
           <div class="dove"><a href="/2026/09/13-domenica/">domenica 13 settembre 2026</a> · Parco del Castello, Brusaporto <span class="zona">Centro</span></div>
         </div>
         <div class="prezzo">gratis</div>
-      </li></ul></section>
-    <section class="giorno" id="passati"><h2>Già passati</h2><ul class="lista"><li data-cat="dj" class="primo">
+      </li><li data-cat="dj">
         <div class="ora">23:30</div>
         <div class="corpo">
           <div class="nome"><i>◉</i>Adrián Mills + Cuartero al Bolgia</div>
@@ -188,7 +186,6 @@
       <a href="/">Home</a> · <a href="/archivio/">Archivio</a> · Bergamo, città e provincia.</p>
   </footer>
   </main>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Dj set / party a Bergamo","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Event","name":"Inrovina Festival, la serata pop","startDate":"2026-09-13","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Parco del Castello","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Brusaporto"}},"url":"https://eventibergamo.it/2026/09/13-domenica/","offers":{"@type":"Offer","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://inrovinafestival.it/","price":"0"}}}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Eventibergamo","item":"https://eventibergamo.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://eventibergamo.it/archivio/"},{"@type":"ListItem","position":3,"name":"Dj set / party","item":"https://eventibergamo.it/categoria/dj/"}]}</script>
 
 </body>

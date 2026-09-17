@@ -22,9 +22,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#141110">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Barlow+Condensed:wght@800&display=swap" rel="stylesheet">
+<link rel="preload" href="/font/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/stile.css">
 </head>
 <body>
@@ -33,66 +31,18 @@
       <div class="marchio"><a href="/"><span class="punto"></span><b>Eventibergamo</b></a></div>
       <div class="occhiello"><span>Categoria</span></div>
       <h1>Incontri e libri<em>a Bergamo</em></h1>
-      <div class="pillola">11 in arrivo · 11 in tutto</div>
+      <div class="pillola">1 in arrivo · 11 in tutto</div>
       <p class="sommario">Incontri e libri a Bergamo e provincia: tutti gli appuntamenti che abbiamo pubblicato, con orario, luogo, zona e prezzo dove le fonti lo dicono.</p>
     </header>
     <section class="giorno" id="arrivo"><h2>In arrivo</h2><ul class="lista"><li data-cat="incontro" class="primo">
-        <div class="ora">17:30</div>
+        <div class="ora">18:00</div>
         <div class="corpo">
-          <div class="nome"><i>◆</i>La natura in città</div>
-          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Giardini PwC Accademia Carrara, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo">gratis</div>
-      </li><li data-cat="incontro">
-        <div class="ora">17:45</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>Aperilibro — Matti per la lettura</div>
-          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Biblioteca Gavazzeni, Bergamo <span class="zona">Centro</span></div>
+          <div class="nome"><i>◆</i>GdL Andromeda: «Libertà» di Franzen</div>
+          <div class="dove"><a href="/2026/09/17-giovedi/">giovedì 17 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
         </div>
         <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
-        <div class="ora">20:45</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>Amitav Ghosh — L'occhio fantasma</div>
-          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Aula Magna Sant'Agostino, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
-        <div class="ora">10:00</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>GdL Confronti: «Libertà» di Franzen</div>
-          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
-        <div class="ora">15:00</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>Université d'Été</div>
-          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Astino, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
-        <div class="ora">16:00</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>GdL L'Aleph: Le casalinghe di Tokyo</div>
-          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
-        <div class="ora">20:45</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>Sorella morte</div>
-          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Abbazia di San Giacomo, Pontida <span class="zona">Isola</span></div>
-        </div>
-        <div class="prezzo">gratis</div>
-      </li><li data-cat="incontro">
-        <div class="ora">08:30</div>
-        <div class="corpo">
-          <div class="nome"><i>◆</i>Garden Masterclass — James Hitchmough</div>
-          <div class="dove"><a href="/2026/09/16-mercoledi/">mercoledì 16 settembre 2026</a> · UniBg, Aula 2 Salvecchio, Bergamo <span class="zona">Centro</span></div>
-        </div>
-        <div class="prezzo nd">n.d.</div>
-      </li><li data-cat="incontro">
+      </li></ul></section>
+    <section class="giorno" id="passati"><h2>Già passati</h2><ul class="lista"><li data-cat="incontro" class="primo">
         <div class="ora">20:45</div>
         <div class="corpo">
           <div class="nome"><i>◆</i>L'Africa non è così</div>
@@ -107,14 +57,62 @@
         </div>
         <div class="prezzo nd">n.d.</div>
       </li><li data-cat="incontro">
-        <div class="ora">18:00</div>
+        <div class="ora">08:30</div>
         <div class="corpo">
-          <div class="nome"><i>◆</i>GdL Andromeda: «Libertà» di Franzen</div>
-          <div class="dove"><a href="/2026/09/17-giovedi/">giovedì 17 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
+          <div class="nome"><i>◆</i>Garden Masterclass — James Hitchmough</div>
+          <div class="dove"><a href="/2026/09/16-mercoledi/">mercoledì 16 settembre 2026</a> · UniBg, Aula 2 Salvecchio, Bergamo <span class="zona">Centro</span></div>
         </div>
         <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">20:45</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>Sorella morte</div>
+          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Abbazia di San Giacomo, Pontida <span class="zona">Isola</span></div>
+        </div>
+        <div class="prezzo">gratis</div>
+      </li><li data-cat="incontro">
+        <div class="ora">16:00</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>GdL L'Aleph: Le casalinghe di Tokyo</div>
+          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">15:00</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>Université d'Été</div>
+          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Astino, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">10:00</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>GdL Confronti: «Libertà» di Franzen</div>
+          <div class="dove"><a href="/2026/09/15-martedi/">martedì 15 settembre 2026</a> · Biblioteca Tiraboschi, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">20:45</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>Amitav Ghosh — L'occhio fantasma</div>
+          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Aula Magna Sant'Agostino, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">17:45</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>Aperilibro — Matti per la lettura</div>
+          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Biblioteca Gavazzeni, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo nd">n.d.</div>
+      </li><li data-cat="incontro">
+        <div class="ora">17:30</div>
+        <div class="corpo">
+          <div class="nome"><i>◆</i>La natura in città</div>
+          <div class="dove"><a href="/2026/09/14-lunedi/">lunedì 14 settembre 2026</a> · Giardini PwC Accademia Carrara, Bergamo <span class="zona">Centro</span></div>
+        </div>
+        <div class="prezzo">gratis</div>
       </li></ul></section>
-    
     <footer class="piede">
     <div class="occhiello"><span>Scrivici</span></div>
     <div class="contatti"><a href="https://instagram.com/eventibergamo" rel="noopener">@eventibergamo</a></div>
@@ -125,7 +123,7 @@
       <a href="/">Home</a> · <a href="/archivio/">Archivio</a> · Bergamo, città e provincia.</p>
   </footer>
   </main>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Incontri e libri a Bergamo","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Event","name":"La natura in città","startDate":"2026-09-14T17:30:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Giardini PwC Accademia Carrara","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/14-lunedi/","offers":{"@type":"Offer","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://www.landscapefestival.it/en/calendario2026","price":"0"}}},{"@type":"ListItem","position":2,"item":{"@type":"Event","name":"Aperilibro — Matti per la lettura","startDate":"2026-09-14T17:45:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Gavazzeni","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/14-lunedi/"}},{"@type":"ListItem","position":3,"item":{"@type":"Event","name":"Amitav Ghosh — L'occhio fantasma","startDate":"2026-09-14T20:45:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Aula Magna Sant'Agostino","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/14-lunedi/"}},{"@type":"ListItem","position":4,"item":{"@type":"Event","name":"GdL Confronti: «Libertà» di Franzen","startDate":"2026-09-15T10:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Tiraboschi","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/15-martedi/"}},{"@type":"ListItem","position":5,"item":{"@type":"Event","name":"Université d'Été","startDate":"2026-09-15T15:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Astino","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/15-martedi/"}},{"@type":"ListItem","position":6,"item":{"@type":"Event","name":"GdL L'Aleph: Le casalinghe di Tokyo","startDate":"2026-09-15T16:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Tiraboschi","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/15-martedi/"}},{"@type":"ListItem","position":7,"item":{"@type":"Event","name":"Sorella morte","startDate":"2026-09-15T20:45:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Abbazia di San Giacomo","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Pontida"}},"url":"https://eventibergamo.it/2026/09/15-martedi/","offers":{"@type":"Offer","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://moltefedi.it/evento/sorella-morte/","price":"0"}}},{"@type":"ListItem","position":8,"item":{"@type":"Event","name":"Garden Masterclass — James Hitchmough","startDate":"2026-09-16T08:30:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"UniBg, Aula 2 Salvecchio","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/16-mercoledi/"}},{"@type":"ListItem","position":9,"item":{"@type":"Event","name":"L'Africa non è così","startDate":"2026-09-16T20:45:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Cineteatro S. Caterina","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/16-mercoledi/"}},{"@type":"ListItem","position":10,"item":{"@type":"Event","name":"GdL Spaginando: «Vita» di Mazzucco","startDate":"2026-09-16T20:45:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Galizzi","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/16-mercoledi/"}},{"@type":"ListItem","position":11,"item":{"@type":"Event","name":"GdL Andromeda: «Libertà» di Franzen","startDate":"2026-09-17T18:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Tiraboschi","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/17-giovedi/"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Incontri e libri a Bergamo","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Event","name":"GdL Andromeda: «Libertà» di Franzen","startDate":"2026-09-17T18:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Biblioteca Tiraboschi","address":{"@type":"PostalAddress","addressRegion":"BG","addressCountry":"IT","addressLocality":"Bergamo"}},"url":"https://eventibergamo.it/2026/09/17-giovedi/"}}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Eventibergamo","item":"https://eventibergamo.it/"},{"@type":"ListItem","position":2,"name":"Archivio","item":"https://eventibergamo.it/archivio/"},{"@type":"ListItem","position":3,"name":"Incontri e libri","item":"https://eventibergamo.it/categoria/incontro/"}]}</script>
 
 </body>
