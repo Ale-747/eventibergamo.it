@@ -3123,6 +3123,2096 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DdZCl90CIGd/"
+    },
+    {
+      "id": "cinema-2026-09-25",
+      "formato": "cinema",
+      "periodo": {
+        "da": "2026-09-25",
+        "a": "2026-10-01",
+        "etichetta": "25 set → 1 ott"
+      },
+      "titolo": "Tutti i film e dove li danno",
+      "sottotitolo": "Da venerdì a giovedì: multisala, sale d'essai e sale della comunità.",
+      "hook": "20 film in 16 sale e 10 comuni, con orari e prezzi dove le sale li pubblicano.",
+      "film": [
+        {
+          "titolo": "Naza",
+          "regia": "Abraham, Szor",
+          "durata": "80'",
+          "genere": "documentario",
+          "versione": [
+            "prima visione",
+            "VO"
+          ],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "lun-mer, più orari",
+              "prezzo": "6,50 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "18:40"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "22:30"
+                }
+              ]
+            },
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "lun 28, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "schermo-bianco",
+              "nome": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "mar 29, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "sala-orologio",
+              "nome": "Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "mer 30, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-30",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "lun-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "16:30"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "lun-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "19:45"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "lun-mer, 20:30",
+              "prezzo": "10 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "22:00"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "22:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Odissea",
+          "regia": "Nolan",
+          "durata": "172'",
+          "genere": "azione",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://bergamoalcinema.it/",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:50"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": "8,50–10,70",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "16:45"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "lun 28, 17:30 e 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "don-bosco-bolgare",
+              "nome": "Cineteatro Don Bosco",
+              "comune": "Bolgare",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "ven-dom, più orari",
+              "prezzo": "5 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "qoelet-redona",
+              "nome": "Cineteatro Qoelet",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven 25, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-trescore",
+              "nome": "Cinema Teatro Nuovo",
+              "comune": "Trescore Balneario",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "dom 27 e mar 29",
+              "prezzo": "6–7 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Una storia",
+          "regia": "Anna Foglietta",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": "Martedì 29 alle 21 con ospiti in sala",
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": "6,50–7,50",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "18:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Maigret, l'amore e la morte",
+          "regia": "Bonitzer",
+          "durata": null,
+          "genere": "thriller",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": "Venerdì 25 alle 21 e martedì 30 all'Anteo anche in originale",
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven-mar, più orari",
+              "prezzo": "6,50–7,50",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "18:00"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "19:15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Nessun dolore",
+          "regia": "Amelio",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://treviglio.spaziocinema.18tickets.it/",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "22:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Oceania",
+          "regia": "Kail",
+          "durata": "117'",
+          "genere": "famiglia",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://bergamoalcinema.it/",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "sab 26 e dom 27",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "14:40"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": "8,50–10,70",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:45"
+                }
+              ]
+            },
+            {
+              "id": "agora-petosino",
+              "nome": "Cinema Agorà Petosino",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:00"
+                }
+              ]
+            },
+            {
+              "id": "sorriso-gorle",
+              "nome": "Cineteatro Sorriso",
+              "comune": "Gorle",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "The Invite",
+          "regia": "Olivia Wilde",
+          "durata": "107'",
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "schermo-bianco",
+              "nome": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "19:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": "10–10,70 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "22:05"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "22:05"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "22:05"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:00"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "22:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Palestina 36",
+          "regia": "Jacir",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": "Domenica 27 alle 20:15 in originale sottotitolato",
+          "rilevanza": 2,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven-lun, più orari",
+              "prezzo": "6,50–7,50",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Calle Malaga",
+          "regia": "Touzani",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": "Mercoledì 30 in originale sottotitolato",
+          "rilevanza": 2,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven-mer, più orari",
+              "prezzo": "6,50–7,50",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Santiago",
+          "regia": "Samuell",
+          "durata": null,
+          "genere": "commedia",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": "Martedì 29 in originale sottotitolato",
+          "rilevanza": 2,
+          "fonte": "https://lab80.it/it/programmazione",
+          "sale": [
+            {
+              "id": "sala-orologio",
+              "nome": "Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven-mar, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Ritorno a Buenos Aires",
+          "regia": "Bechis",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "18:15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il malloppo",
+          "regia": "De Biasi",
+          "durata": null,
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://nembro.18tickets.it/",
+          "sale": [
+            {
+              "id": "san-filippo-neri-nembro",
+              "nome": "CineTeatro San Filippo Neri",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven-dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il cileno",
+          "regia": "Castro San Martín",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mer 30 e gio 1",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Ultimo — Live a Tor Vergata",
+          "regia": "Testi",
+          "durata": "165'",
+          "genere": "musicale",
+          "versione": [
+            "evento"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.notoriouscinemas.it/curno/index.php",
+          "sale": [
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "21:30"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "21:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "21:15"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "21:15"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "21:15"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-trescore",
+              "nome": "Cinema Teatro Nuovo",
+              "comune": "Trescore Balneario",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven 25 e sab 26, 20:45",
+              "prezzo": "15 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Coyote vs. Acme",
+          "regia": "Dave Green",
+          "durata": null,
+          "genere": "famiglia",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "16:50"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:10"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": "8,50–10,70",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:35"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:35"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:35"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:35"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:35"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "sab 26 e dom 27, 15:10",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:10"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:10"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-albino",
+              "nome": "Nuovo Cineteatro Albino",
+              "comune": "Albino",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven 25, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "L'isola dei ricordi",
+          "regia": "Crawford, Mercado",
+          "durata": "109'",
+          "genere": "animazione",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:10"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven-mer, più orari",
+              "prezzo": "8,50–10,70",
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:05"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:05"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "19:55"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "19:55"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "19:55"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven-mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-25",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-25",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-26",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-27",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-28",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-29",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Tuner — L'accordatore",
+          "regia": "Roher",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": "Rassegna Pomeriggio al cinema",
+          "rilevanza": 1,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 29, 16:00",
+              "prezzo": "4 €",
+              "spettacoli": [
+                {
+                  "data": "2026-09-29",
+                  "ora": "16:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "The Bibi Files",
+          "regia": "Bloom",
+          "durata": null,
+          "genere": "documentario",
+          "versione": [
+            "evento"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://nembro.18tickets.it/",
+          "sale": [
+            {
+              "id": "san-filippo-neri-nembro",
+              "nome": "CineTeatro San Filippo Neri",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "mer 30, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-30",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il silenzio degli altri",
+          "regia": "Libertad",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": "Cineforum",
+          "rilevanza": 1,
+          "fonte": "https://gorle.18tickets.it/",
+          "sale": [
+            {
+              "id": "sorriso-gorle",
+              "nome": "Cineteatro Sorriso",
+              "comune": "Gorle",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mer 30, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-09-30",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Francesco",
+          "regia": "Cavani",
+          "durata": null,
+          "genere": "biografico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://petosino.18tickets.it/",
+          "sale": [
+            {
+              "id": "agora-petosino",
+              "nome": "Cinema Agorà Petosino",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio 1, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "speciali": [
+        {
+          "nome": "Refn: Drive + Her Private Hell",
+          "quando": "lun 28, 20:15 e 22:00",
+          "genere": "thriller",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": "schermo-bianco",
+          "luogo": "Lo Schermo Bianco, Bergamo"
+        },
+        {
+          "nome": "Libri proibiti — The Librarians",
+          "quando": "mar 29, 21:00",
+          "genere": "documentario",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": "auditorium-liberta",
+          "luogo": "Auditorium di Piazza Libertà, Bergamo"
+        },
+        {
+          "nome": "Sentimental Value, in originale",
+          "quando": "sab 26, 21:00",
+          "genere": "drammatico",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": null,
+          "luogo": "Chiostro del Carmine, Città Alta"
+        },
+        {
+          "nome": "Nouvelle Vague di Linklater",
+          "quando": "mer 30, 21:00",
+          "genere": "drammatico",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": null,
+          "luogo": "Chiostro del Carmine, Città Alta"
+        },
+        {
+          "nome": "La stangata, ingresso libero",
+          "quando": "mer 30, 21:00",
+          "genere": "commedia",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": "schermo-bianco",
+          "luogo": "Lo Schermo Bianco, Bergamo"
+        }
+      ],
+      "generi": [
+        {
+          "chiave": "documentario",
+          "etichetta": "Documentario",
+          "icona": "▣"
+        },
+        {
+          "chiave": "azione",
+          "etichetta": "Azione",
+          "icona": "▲"
+        },
+        {
+          "chiave": "drammatico",
+          "etichetta": "Drammatico",
+          "icona": "◆"
+        },
+        {
+          "chiave": "thriller",
+          "etichetta": "Thriller",
+          "icona": "◑"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Per famiglie",
+          "icona": "✿"
+        },
+        {
+          "chiave": "commedia",
+          "etichetta": "Commedia",
+          "icona": "●"
+        },
+        {
+          "chiave": "musicale",
+          "etichetta": "Musicale",
+          "icona": "♪"
+        },
+        {
+          "chiave": "animazione",
+          "etichetta": "Animazione",
+          "icona": "✦"
+        },
+        {
+          "chiave": "biografico",
+          "etichetta": "Biografico",
+          "icona": "⚑"
+        }
+      ],
+      "sale": [
+        {
+          "id": "conca-verde",
+          "nome": "Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Guglielmo Mattioli 65",
+          "url": "https://www.sas.bg.it/cinema-conca-verde/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 4,
+          "note": "Programmazione aggiornata ogni martedì e valida fino al mercoledì successivo: è la fonte più affidabile per il giovedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "auditorium-liberta",
+          "nome": "Auditorium di Piazza Libertà",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Norberto Duzioni 2",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "248 posti. Programma da settembre a giugno; d'estate Lab 80 si sposta all'arena Esterno Notte. È la sala d'autore della città."
+        },
+        {
+          "id": "schermo-bianco",
+          "nome": "Lo Schermo Bianco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Daste e Spalenga 15",
+          "url": "https://www.mymovies.it/cinema/bergamo/24147/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Dentro l'ex centrale Daste. Sala piccola, programmazione a rassegne: da controllare a mano, non compare sempre sui portali."
+        },
+        {
+          "id": "sala-orologio",
+          "nome": "Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Palazzo Libertà, Piazza Libertà",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "Terza sala aperta dentro Palazzo Libertà nel 2024. Verificare se ha programmazione autonoma o solo eventi."
+        },
+        {
+          "id": "lottagono",
+          "nome": "Cinema Teatro Lottagono",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazzale San Paolo 35",
+          "url": "https://www.mymovies.it/cinema/bergamo/20734/",
+          "gestore": null,
+          "schermi": 2,
+          "note": "Quartiere Loreto."
+        },
+        {
+          "id": "arcadia-stezzano",
+          "nome": "Arcadia Stezzano",
+          "comune": "Stezzano",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "Le Due Torri, Via Guzzanica 62/64",
+          "url": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "gestore": null,
+          "schermi": 7,
+          "note": "7 sale. Il sito ufficiale pubblica in anticipo: e' da qui che si scoprono i film-evento delle settimane dopo."
+        },
+        {
+          "id": "notorious-curno",
+          "nome": "Notorious Cinemas Curno",
+          "comune": "Curno",
+          "zona": "Centro",
+          "tipo": "multiplex",
+          "indirizzo": "Via Lega Lombarda 39",
+          "url": "https://www.mymovies.it/cinema/bergamo/curno/5525/",
+          "gestore": null,
+          "schermi": null,
+          "note": null
+        },
+        {
+          "id": "anteo-treviglio",
+          "nome": "Anteo spazioCinema",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "tipo": "dessai",
+          "indirizzo": "Viale Montegrappa",
+          "url": "https://www.mymovies.it/cinema/bergamo/treviglio/6586/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Marchio Anteo: d'autore e versione originale fuori città. È la sala forte della Bassa."
+        },
+        {
+          "id": "don-bosco-bolgare",
+          "nome": "Cineteatro Don Bosco",
+          "comune": "Bolgare",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Caduti di Nassirya 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "qoelet-redona",
+          "nome": "Cineteatro Qoelet",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via Leone XIII 22, Redona",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": "Sala della comunità di Redona."
+        },
+        {
+          "id": "nuovo-trescore",
+          "nome": "Cinema Teatro Nuovo",
+          "comune": "Trescore Balneario",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Antonio Locatelli 104",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": "Val Cavallina."
+        },
+        {
+          "id": "agora-petosino",
+          "nome": "Cinema Agorà Petosino",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via Martiri della Libertà 91",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "sorriso-gorle",
+          "nome": "Cineteatro Sorriso",
+          "comune": "Gorle",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Giovanni XXIII 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "del-borgo",
+          "nome": "Cinema Teatro del Borgo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Sant'Anna 51",
+          "url": "https://www.sas.bg.it/cinema-teatro-del-borgo/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 1,
+          "note": "Come Conca Verde: programma aggiornato il martedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "san-filippo-neri-nembro",
+          "nome": "CineTeatro San Filippo Neri",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Vittoria 12",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "nuovo-albino",
+          "nome": "Nuovo Cineteatro Albino",
+          "comune": "Albino",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Piazza San Giuliano 36",
+          "url": "https://www.mymovies.it/cinema/bergamo/albino/6008/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "La sala di riferimento della media Valle Seriana."
+        }
+      ]
     }
   ]
 }
