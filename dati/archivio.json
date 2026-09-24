@@ -608,6 +608,72 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/Ddhfu7MjqcM/"
+    },
+    {
+      "id": "weekend-2026-09-25",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-09-25",
+        "a": "2026-09-27",
+        "etichetta": "25 → 27 settembre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "Pooh e Ligabue alla ChorusLife, Eczodia al Bolgia,\nsabato Art2Night in tutta la città.",
+      "hook": "Dentro: 45 appuntamenti tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "sempre_aperte": [
+        {
+          "nome": "Sagra dell'Uva di Pontida",
+          "luogo": "Area feste, Cisano Bergamasco",
+          "quando": "ven → dom · gratis",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Castagna in Festa",
+          "luogo": "Piazza XX Settembre, Sarnico",
+          "quando": "ven → dom · 19:00",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "I Giorni del Melgotto",
+          "luogo": "Parco Zilioli, Gandino",
+          "quando": "ven → dom · 19:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Ragnarök Viking Fest",
+          "luogo": "Cascina Bosco Grosso, Casirate d'Adda",
+          "quando": "ven → dom · 19:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Street Food Market",
+          "luogo": "Piazza Garibaldi, Treviglio",
+          "quando": "ven → dom · 10:30",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "◉"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -3566,6 +3632,601 @@
       ],
       "guida": "settimana-2026-09-21",
       "formato": "settimana"
+    },
+    {
+      "data": "2026-09-25",
+      "etichetta": "Venerdì 25 settembre",
+      "breve": "Venerdì 25",
+      "nota": "Nei locali segnati gratis l'ingresso è libero, la consumazione no.",
+      "eventi": [
+        {
+          "ora": "19:00",
+          "nome": "Sagra della Polenta",
+          "luogo": "Oratorio di Valtrighe, Mapello",
+          "sede": "Oratorio di Valtrighe",
+          "comune": "Mapello",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/evento/a-valtrighe-due-week-end-con-la-sagra-della-polenta-3/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Torre in Festa",
+          "luogo": "Oratorio San Giovanni Bosco, Torre de' Roveri",
+          "sede": "Oratorio San Giovanni Bosco",
+          "comune": "Torre de' Roveri",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-torre-in-festa-oratorio-san-giovanni-bosco-torre-de-roveri-10/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa de l'Unità",
+          "luogo": "Parco Nochetto, Bolgare",
+          "sede": "Parco Nochetto",
+          "comune": "Bolgare",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-de-lunita-parco-nochetto-bolgare-2/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa Autunno sportivo",
+          "luogo": "PalaIncontro, Cenate Sotto",
+          "sede": "PalaIncontro",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-autunno-sportivo-palaincontro-cenate-sotto-2/"
+        },
+        {
+          "ora": "20:30",
+          "nome": "FunkIdea in concerto",
+          "luogo": "Badaboom, Verdellino",
+          "sede": "Badaboom",
+          "comune": "Verdellino",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-funkidea-in-concerto-badaboom-verdellino/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Pooh, 60 anni: la nostra storia",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 49
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.ticketone.it/event/pooh-la-nostra-storia-choruslife-arena-20798598/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Cato Band in concerto",
+          "luogo": "La Caroscéra, Casnigo",
+          "sede": "La Caroscéra",
+          "comune": "Casnigo",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-cato-band-in-concerto-la-caroscera-casnigo-app-bergamo-it-carosceracasnigo/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Carbonara Festival, dj set",
+          "luogo": "Prato delle Associazioni, Mozzo",
+          "sede": "Prato delle Associazioni",
+          "comune": "Mozzo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-25-27-settembre-nella-bergamasca/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Druso Rock Night",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-druso-rock-night-in-concerto-druso-ranica-app-bergamo-it-drusoranica/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Vascombriccola, tributo Vasco",
+          "luogo": "Area feste, Scanzorosciate",
+          "sede": "Area feste",
+          "comune": "Scanzorosciate",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-vasco-rossi-vascombriccola-area-feste-scanzorosciate/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Sensazione Modà, tributo Modà",
+          "luogo": "Torcio's, Villa di Serio",
+          "sede": "Torcio's",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-moda-sensazione-moda-torcios-villa-di-serio-app-bergamo-it-torcios-3/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Peter Pan, tributo Ultimo",
+          "luogo": "Like It, Cenate Sotto",
+          "sede": "Like It",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-ultimo-peter-pan-like-it-cenate-sotto-app-bergamo-it-likeitcenatesotto/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Liscio con Daniel Guerini",
+          "luogo": "Piazza Cassinone, Seriate",
+          "sede": "Piazza Cassinone",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-daniel-guerini-piazza-cassinone-seriate/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Latino con Dj Il Chichi",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-latinoamericano-con-dj-il-chichi-discoteca-decibel-chignolo-disola-10/"
+        },
+        {
+          "ora": "22:30",
+          "nome": "Southbound in concerto",
+          "luogo": "Monangi Brew, Dalmine",
+          "sede": "Monangi Brew",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-ten-legs-unplugged-in-concerto-monangi-brew-dalmine-app-bergamo-it-monangi/"
+        },
+        {
+          "ora": "23:00",
+          "nome": "Afro con Dj Vavi e Alessio",
+          "luogo": "Sabbie Mobili, Chignolo d'Isola",
+          "sede": "Sabbie Mobili",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-afro-con-djs-vavi-alessio-sabbie-mobili-chignolo-disola/"
+        }
+      ],
+      "guida": "weekend-2026-09-25",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-09-26",
+      "etichetta": "Sabato 26 settembre",
+      "breve": "Sabato 26",
+      "nota": "Art2Night: programma completo e prenotazioni su app.art2night.it.",
+      "eventi": [
+        {
+          "ora": "16:30",
+          "nome": "Brusa Street Food",
+          "luogo": "Via Marche, Brusaporto",
+          "sede": "Via Marche",
+          "comune": "Brusaporto",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-25-27-settembre-nella-bergamasca/"
+        },
+        {
+          "ora": "17:00",
+          "nome": "Art2Night, notte bianca dell'arte",
+          "luogo": "Città Alta e Città Bassa, Bergamo",
+          "sede": "Città Alta e Città Bassa",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mostra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bergamonews.it/evento/art2night-bergamo-si-anima-con-la-notte-bianca-dellarte/"
+        },
+        {
+          "ora": "17:00",
+          "nome": "Ensemble Locatelli",
+          "luogo": "Teatro Sociale, Città Alta, Bergamo",
+          "sede": "Teatro Sociale, Città Alta",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8ensemble-locatelli-in-concerto-teatro-sociale-bergamo-citta-biglietti-https-tidd-ly-3qchprr/"
+        },
+        {
+          "ora": "17:00",
+          "nome": "San Michele in Festa",
+          "luogo": "Vie del centro, Almè",
+          "sede": "Vie del centro",
+          "comune": "Almè",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-25-27-settembre-nella-bergamasca/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Pooh, 60 anni: la nostra storia",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 49
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.ticketone.it/event/pooh-la-nostra-storia-choruslife-arena-20861375/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "I Luf in concerto",
+          "luogo": "Castello di Cavernago, Cavernago",
+          "sede": "Castello di Cavernago",
+          "comune": "Cavernago",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bergamonews.it/evento/al-castello-di-cavernago-concerto-de-i-luf/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Brivido, tributo Vasco",
+          "luogo": "Khalè Music, Curno",
+          "sede": "Khalè Music",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-vasco-rossi-brivido-khale-music-curno-5/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Cuccioli del Maggio, De André",
+          "luogo": "La Caroscéra, Casnigo",
+          "sede": "La Caroscéra",
+          "comune": "Casnigo",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-de-andre-cuccioli-del-maggio-la-caroscera-casnigo-app-bergamo-it-carosceracasnigo/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "La Malaleche e Lanto",
+          "luogo": "NXT, piazzale degli Alpini, Bergamo",
+          "sede": "NXT, piazzale degli Alpini",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-la-malaleche-in-concerto-nxt-piazzale-alpini-bergamo-citta/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Cisco Band, tributo 883",
+          "luogo": "Area feste, Scanzorosciate",
+          "sede": "Area feste",
+          "comune": "Scanzorosciate",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-883-cisco-band-area-feste-scanzorosciate/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Revolver, tributo Beatles",
+          "luogo": "Al Pascoletto, Mozzo",
+          "sede": "Al Pascoletto",
+          "comune": "Mozzo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-beatles-revolver-al-pascoletto-mozzo-2/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Radio 80 in concerto",
+          "luogo": "Torcio's, Villa di Serio",
+          "sede": "Torcio's",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-radio-80-in-concerto-torcios-villa-di-serio-app-bergamo-it-torcios-3/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Afro con Dj Sira, Valo e Vavi",
+          "luogo": "Laghetto Pertus, Costa Valle Imagna",
+          "sede": "Laghetto Pertus",
+          "comune": "Costa Valle Imagna",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-afro-con-djs-sira-valo-e-vavi-laghetto-pertus-costa-valle-imagna-2/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Arcade 80 e Ruff Stuff",
+          "luogo": "Kraken Factory, Alzano Lombardo",
+          "sede": "Kraken Factory",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-arcade-80-in-concerto-kraken-factory-alzano-lombardo-app-bergamo-it-krakenalzano/"
+        },
+        {
+          "ora": "23:00",
+          "nome": "Party Indie Power",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-party-indie-power-druso-ranica-app-bergamo-it-drusoranica/"
+        },
+        {
+          "ora": "23:30",
+          "nome": "Eczodia: Hidden Hell e Nemesys",
+          "luogo": "Bolgia, via Vaccarezza, Osio Sopra",
+          "sede": "Bolgia, via Vaccarezza",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 20
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bolgia.it/eczodia/"
+        }
+      ],
+      "guida": "weekend-2026-09-25",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-09-27",
+      "etichetta": "Domenica 27 settembre",
+      "breve": "Domenica 27",
+      "nota": "Bracca: degustazione al tartufo a 10 euro, alle 17 il tributo a Gianna Nannini.",
+      "eventi": [
+        {
+          "ora": "10:30",
+          "nome": "Festa del Tartufo Nero",
+          "luogo": "Area feste, Bracca",
+          "sede": "Area feste",
+          "comune": "Bracca",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-tartufo-nero-area-feste-bracca-2/"
+        },
+        {
+          "ora": "12:00",
+          "nome": "Festa di San Michele",
+          "luogo": "Cambianica, Tavernola Bergamasca",
+          "sede": "Cambianica",
+          "comune": "Tavernola Bergamasca",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-di-san-michele-cambianica-tavernola-bergamasca/"
+        },
+        {
+          "ora": "15:00",
+          "nome": "Liscio con Grazia Voice",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-grazia-voice-discoteca-decibel-chignolo-disola-7/"
+        },
+        {
+          "ora": "16:30",
+          "nome": "Le Filandere e Luciano Ravasio",
+          "luogo": "Auditorium San Zeno, Osio Sopra",
+          "sede": "Auditorium San Zeno",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-le-filandere-e-luciano-ravasio-in-concerto-auditorium-san-zeno-osio-sopra/"
+        },
+        {
+          "ora": "17:00",
+          "nome": "Chester e i Finalmente li conosco",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-chester-e-i-finalmente-li-conosco-in-concerto-druso-ranica-app-bergamo-it-drusoranica/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Party dj set Sue LN",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-party-dj-set-sue-ln-druso-ranica-app-bergamo-it-drusoranica/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Ligabue, la notte di Certe Notti",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 99
+          },
+          "rilevanza": 3,
+          "fonte": "https://arena.choruslife.com/it/events/ligabue/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Afro con Vavi, Valo, Sira e Lussy",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-afro-con-djs-vavi-valo-sira-lussy-ninfea-sorisole/"
+        }
+      ],
+      "guida": "weekend-2026-09-25",
+      "formato": "weekend"
     }
   ],
   "cinema": [
