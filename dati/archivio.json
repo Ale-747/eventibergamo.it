@@ -675,6 +675,97 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/Ddr2mRACH8r/"
+    },
+    {
+      "id": "settimana-2026-09-28",
+      "formato": "settimana",
+      "periodo": {
+        "da": "2026-09-28",
+        "a": "2026-10-01",
+        "etichetta": "28 set → 1 ott"
+      },
+      "titolo": "La Settimana",
+      "sottotitolo": "Morandi apre, BergamoScienza chiude:\nin mezzo Molte fedi e i Sapori d'ottobre a Lovere.",
+      "hook": "Dentro: 24 appuntamenti da lunedì a giovedì.\nNove sono gratis, e giovedì apre BergamoScienza.",
+      "sempre_aperte": [
+        {
+          "nome": "Amalia Del Ponte. Litofonie",
+          "luogo": "Ex Oratorio San Lupo, Bergamo",
+          "quando": "fino al 15 novembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Gianni Grimaldi",
+          "luogo": "Museo Bernareggi, Bergamo",
+          "quando": "dal 29/9 al 15 novembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Tabula Plena",
+          "luogo": "Palazzo della Ragione, Città Alta",
+          "quando": "fino al 18 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Isaac Julien. Museum Dreams",
+          "luogo": "gres art 671, Bergamo",
+          "quando": "fino al 10 gennaio",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Chiara Camoni. La Forza",
+          "luogo": "Accademia Carrara, Bergamo",
+          "quando": "fino al 31 dicembre",
+          "categoria": "mostra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "⚑"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "◆"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✱"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "✦"
+        },
+        {
+          "chiave": "cena",
+          "etichetta": "Cene e degustazioni",
+          "icona": "⬢"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -4228,6 +4319,385 @@
       ],
       "guida": "weekend-2026-09-25",
       "formato": "weekend"
+    },
+    {
+      "data": "2026-09-28",
+      "etichetta": "Lunedì 28 settembre",
+      "breve": "Lunedì 28",
+      "nota": "Bersani e Guerri al Conca Verde: ingresso gratuito ma riservato a chi ha la CARD di Molte fedi, su prenotazione.",
+      "eventi": [
+        {
+          "ora": "16:00",
+          "nome": "Moroni In&Out",
+          "luogo": "Museo Bernareggi, Bergamo",
+          "sede": "Museo Bernareggi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "visita",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 5
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.visitbergamo.net/oggetto/moroni-inout/"
+        },
+        {
+          "ora": "17:45",
+          "nome": "Aperilibro — Matti per la lettura",
+          "luogo": "Terrazza DaMimmo, Bergamo",
+          "sede": "Terrazza DaMimmo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "20:30",
+          "nome": "Festa del Santuario — animazione e ballo",
+          "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
+          "sede": "Oratorio San Giovanni Bosco",
+          "comune": "Castelli Calepio",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-8/"
+        },
+        {
+          "ora": "20:30",
+          "nome": "Serata GDR",
+          "luogo": "Biblioteca Caversazzi, Bergamo",
+          "sede": "Biblioteca Caversazzi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "20:45",
+          "nome": "La politica può ancora promettere?",
+          "luogo": "Cinema Conca Verde, Bergamo",
+          "sede": "Cinema Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://moltefedi.it/evento/la-politica-puo-ancora-promettere-con-pier-luigi-bersani-e-giordano-bruno-guerri/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Gianni Morandi — C'era un ragazzo",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 46
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-gianni-morandi-in-concerto-choruslife-bergamo-citta-biglietti-tidd-ly-3rgpzcq/"
+        }
+      ],
+      "guida": "settimana-2026-09-28",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-09-29",
+      "etichetta": "Martedì 29 settembre",
+      "breve": "Martedì 29",
+      "nota": "Palomba a Nembro è gratuita, prenotazione consigliata. Per l'apertura di Grimaldi al Bernareggi l'iscrizione su Eventbrite è obbligatoria.",
+      "eventi": [
+        {
+          "ora": "18:30",
+          "nome": "Gianni Grimaldi — apertura della mostra",
+          "luogo": "Museo Bernareggi, Bergamo",
+          "sede": "Museo Bernareggi",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mostra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.visitbergamo.net/oggetto/gianni-grimaldi/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "Frammenti di un discorso di classe",
+          "luogo": "Biblioteca Tullio Carrara, Nembro",
+          "sede": "Biblioteca Tullio Carrara",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://moltefedi.it/evento/frammenti-di-un-discorso-di-classe-racconto-di-vite-e-di-conti-che-non-tornano-con-giusi-palomba/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "Barocco in technicolor",
+          "luogo": "Chiesa Santa Teresa di Lisieux, Bergamo",
+          "sede": "Chiesa Santa Teresa di Lisieux",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.visitbergamo.net/oggetto/barocco-in-technicolor-un-viaggio-musicale-senza-tempo/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Festa del Santuario — Monocirco",
+          "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
+          "sede": "Oratorio San Giovanni Bosco",
+          "comune": "Castelli Calepio",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-9/"
+        }
+      ],
+      "guida": "settimana-2026-09-28",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-09-30",
+      "etichetta": "Mercoledì 30 settembre",
+      "breve": "Mercoledì 30",
+      "nota": "Star Wars al Donizetti è gratuito ma su prenotazione, come tutto BergamoScienza. La cena cantata a Seriate si prenota allo 035 291097.",
+      "eventi": [
+        {
+          "ora": "17:00",
+          "nome": "Libropiccino 19-36 mesi",
+          "luogo": "Biblioteca Betty Ambiveri, Bergamo",
+          "sede": "Biblioteca Betty Ambiveri",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://biblioteche.comune.bergamo.it/events"
+        },
+        {
+          "ora": "18:00",
+          "nome": "Educare e riparare",
+          "luogo": "Tempio Votivo di S. Lucia, Bergamo",
+          "sede": "Tempio Votivo di S. Lucia",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://moltefedi.it/evento/educare-e-riparare/"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Sapori d'ottobre",
+          "luogo": "Parcheggio Fanti d'Italia, Lovere",
+          "sede": "Parcheggio Fanti d'Italia",
+          "comune": "Lovere",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/evento/sapori-dottobre-a-lovere-festa-enogastronomica-e-cucina/"
+        },
+        {
+          "ora": "20:30",
+          "nome": "Concerto finale masterclass Castelló",
+          "luogo": "Auditorium Fellegara, Bergamo",
+          "sede": "Auditorium Fellegara",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.visitbergamo.net/oggetto/concerto-finale-masterclass-jose-vicente-castello/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Festa del Santuario — Majorettes",
+          "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
+          "sede": "Oratorio San Giovanni Bosco",
+          "comune": "Castelli Calepio",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-10/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Star Wars tra musica e scienza",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://primabergamo.it/cultura/undici-giorni-per-scoprire-dove-la-scienza-incontra-il-mondo/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Cena cantata con Laura Gambirasi",
+          "luogo": "Il Forno dell'Oste, Seriate",
+          "sede": "Il Forno dell'Oste",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-laura-gambirasi-e-giamby-girelli-in-concerto-il-forno-delloste-seriate-3/"
+        }
+      ],
+      "guida": "settimana-2026-09-28",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-10-01",
+      "etichetta": "Giovedì 1 ottobre",
+      "breve": "Giovedì 1",
+      "nota": "Creattiva in Fiera costa 10 euro online fino al giorno prima, 13 in cassa. L'Oktoberfest di Sotto il Monte è sotto un palatenda riscaldato.",
+      "eventi": [
+        {
+          "ora": "09:30",
+          "nome": "Creattiva, fiera delle arti manuali",
+          "luogo": "Fiera di Bergamo, Bergamo",
+          "sede": "Fiera di Bergamo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 10
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.fieracreattiva.it/bergamo-creattiva/date-orari-costi/"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Sapori d'ottobre",
+          "luogo": "Parcheggio Fanti d'Italia, Lovere",
+          "sede": "Parcheggio Fanti d'Italia",
+          "comune": "Lovere",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/evento/sapori-dottobre-a-lovere-festa-enogastronomica-e-cucina/"
+        },
+        {
+          "ora": "20:30",
+          "nome": "BergamoScienza, si parte",
+          "luogo": "Bergamo",
+          "sede": null,
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://primabergamo.it/cultura/undici-giorni-per-scoprire-dove-la-scienza-incontra-il-mondo/"
+        },
+        {
+          "ora": "20:45",
+          "nome": "La Promessa — Marianna Aprile",
+          "luogo": "Cinema Conca Verde, Bergamo",
+          "sede": "Cinema Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://moltefedi.it/evento/la-promessa-marianna-aprile/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Da pochi a Fofi",
+          "luogo": "Teatro Caverna, Bergamo",
+          "sede": "Teatro Caverna",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/evento/al-teatro-caverna-in-scena-da-pochi-a-fofi/"
+        },
+        {
+          "ora": "22:30",
+          "nome": "Galperine — Theory of Becoming",
+          "luogo": "Auditorium Piazza Libertà, Bergamo",
+          "sede": "Auditorium Piazza Libertà",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.visitbergamo.net/oggetto/evgeni-galperine-theory-of-becoming/"
+        },
+        {
+          "ora": null,
+          "nome": "Oktoberfest",
+          "luogo": "Palatenda, piazza Santa Maria, Sotto il Monte",
+          "sede": "Palatenda, piazza Santa Maria",
+          "comune": "Sotto il Monte",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.berghinfest.it/evento/3552/Oktoberfest"
+        }
+      ],
+      "guida": "settimana-2026-09-28",
+      "formato": "settimana"
     }
   ],
   "cinema": [
