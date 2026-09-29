@@ -10025,6 +10025,1566 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/Ddr2UoGiBR3/"
+    },
+    {
+      "id": "cinema-2026-10-01",
+      "formato": "cinema",
+      "periodo": {
+        "da": "2026-10-01",
+        "a": "2026-10-07",
+        "etichetta": "1 → 7 ottobre"
+      },
+      "titolo": "Tutti i film e dove li danno",
+      "sottotitolo": "Da giovedì a mercoledì: multisala, sale d'essai e sale della comunità.",
+      "hook": "22 film in 11 sale e 9 comuni, con orari e prezzi dove le sale li pubblicano.",
+      "film": [
+        {
+          "titolo": "Digger",
+          "regia": null,
+          "durata": null,
+          "genere": "azione",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "22:40"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "22:40"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven → dom, 21:00",
+              "prezzo": "8 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-02",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "dal gio 1",
+              "prezzo": null,
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Maigret, l'amore e la morte",
+          "regia": "Bonitzer",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "16:40"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Una storia",
+          "regia": "Anna Foglietta",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio → dom, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Palestina 36",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "evento"
+          ],
+          "nota": "Lunedì 5 la proiezione è con diretta streaming",
+          "rilevanza": 3,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "sab 3 e lun 5",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-03",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Naza",
+          "regia": null,
+          "durata": null,
+          "genere": "documentario",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "19:15"
+                }
+              ]
+            },
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven → dom, 20:45",
+              "prezzo": "5 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "15:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "19:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Odissea",
+          "regia": "Nolan",
+          "durata": null,
+          "genere": "azione",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:10"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-trescore",
+              "nome": "Cinema Teatro Nuovo",
+              "comune": "Trescore Balneario",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 3, 20:45",
+              "prezzo": "7 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Verity",
+          "regia": "Showalter",
+          "durata": null,
+          "genere": "thriller",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "22:45"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "22:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "21:10"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "dal gio 1",
+              "prezzo": null,
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Heart of the Beast",
+          "regia": null,
+          "durata": null,
+          "genere": "azione",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "20:40"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab → lun, 17:30",
+              "prezzo": "8 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il Cileno",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio 1, 16:30 e 20:45",
+              "prezzo": "5 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il grande dittatore",
+          "regia": "Chaplin",
+          "durata": null,
+          "genere": "commedia",
+          "versione": [
+            "evento"
+          ],
+          "nota": "Dalla rassegna Classici del Lottagono",
+          "rilevanza": 2,
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 6, 20:45",
+              "prezzo": "5 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-06",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Calle Malaga",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://gorle.18tickets.it/",
+          "sale": [
+            {
+              "id": "sorriso-gorle",
+              "nome": "Cineteatro Sorriso",
+              "comune": "Gorle",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven → dom, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Yellow Letters",
+          "regia": "Çatak",
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": "Apre il cineforum d'autunno del giovedì",
+          "rilevanza": 2,
+          "fonte": "https://mozzo.18tickets.it/",
+          "sale": [
+            {
+              "id": "agora-mozzo",
+              "nome": "Cine Teatro Agorà",
+              "comune": "Mozzo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio 1, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Lo straniero",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://bolgare.18tickets.it/",
+          "sale": [
+            {
+              "id": "don-bosco-bolgare",
+              "nome": "Cineteatro Don Bosco",
+              "comune": "Bolgare",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "ven 2 e dom 4, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Coyote vs Acme",
+          "regia": null,
+          "durata": null,
+          "genere": "animazione",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://nembro.18tickets.it/",
+          "sale": [
+            {
+              "id": "san-filippo-neri-nembro",
+              "nome": "CineTeatro San Filippo Neri",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven → dom",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-02",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "16:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "A cena con il dittatore",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://sas.18tickets.it/",
+          "sale": [
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 6 e mer 7",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-06",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "gio 1, 15:00 e 21:00",
+              "prezzo": "8 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Agent of Happiness",
+          "regia": null,
+          "durata": null,
+          "genere": "documentario",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sale": [
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mer 7, 20:45",
+              "prezzo": "5 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-07",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Napoli - New York",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://trescore.18tickets.it/",
+          "sale": [
+            {
+              "id": "nuovo-trescore",
+              "nome": "Cinema Teatro Nuovo",
+              "comune": "Trescore Balneario",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "mar 6, 21:00",
+              "prezzo": "6 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Separazioni",
+          "regia": null,
+          "durata": null,
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": "Serata di cineforum",
+          "rilevanza": 2,
+          "fonte": "https://gorle.18tickets.it/",
+          "sale": [
+            {
+              "id": "sorriso-gorle",
+              "nome": "Cineteatro Sorriso",
+              "comune": "Gorle",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mer 7, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-07",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "L'isola dei ricordi",
+          "regia": null,
+          "durata": null,
+          "genere": "animazione",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:20"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "dom 4, 15:30",
+              "prezzo": "8 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-04",
+                  "ora": "15:30"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "dal gio 1",
+              "prezzo": null,
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Avengers: Endgame Extra",
+          "regia": null,
+          "durata": null,
+          "genere": "azione",
+          "versione": [
+            "evento"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "20:50"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "20:50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Quasi vera",
+          "regia": null,
+          "durata": null,
+          "genere": "commedia",
+          "versione": [
+            "prima visione"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio → mer, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-10-01",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-10-01",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-10-02",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "15:10"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-10-03",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-10-04",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-10-05",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-10-06",
+                  "ora": "21:20"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-10-07",
+                  "ora": "19:20"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "dal gio 1",
+              "prezzo": null,
+              "spettacoli": []
+            }
+          ]
+        },
+        {
+          "titolo": "Minions & Monsters",
+          "regia": null,
+          "durata": null,
+          "genere": "animazione",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://trescore.18tickets.it/",
+          "sale": [
+            {
+              "id": "nuovo-trescore",
+              "nome": "Cinema Teatro Nuovo",
+              "comune": "Trescore Balneario",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "dom 4, 16:00",
+              "prezzo": "7 €",
+              "spettacoli": [
+                {
+                  "data": "2026-10-04",
+                  "ora": "16:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "speciali": [
+        {
+          "nome": "Digger in versione originale",
+          "quando": "ven 2 e lun 5, 21:00",
+          "genere": "azione",
+          "fonte": "https://sas.18tickets.it/",
+          "sala": "conca-verde",
+          "luogo": "Conca Verde, Bergamo"
+        },
+        {
+          "nome": "Il grande dittatore — Classici",
+          "quando": "mar 6, 20:45",
+          "genere": "commedia",
+          "fonte": "https://cineteatrolottagono.18tickets.it/",
+          "sala": "lottagono",
+          "luogo": "Cinema Teatro Lottagono, Bergamo"
+        },
+        {
+          "nome": "The Rocky Horror Picture Show",
+          "quando": "mer 7, 21:00 · VOS",
+          "genere": "musicale",
+          "fonte": "https://lab80.it/it/programmazione",
+          "sala": null,
+          "luogo": "Chiostro del Carmine, Città Alta"
+        },
+        {
+          "nome": "riVediamoli, i lunedì a 3 €",
+          "quando": "dal lun 5",
+          "genere": "drammatico",
+          "fonte": "https://www.spaziocinema.info/treviglio",
+          "sala": "anteo-treviglio",
+          "luogo": "Anteo spazioCinema, Treviglio"
+        },
+        {
+          "nome": "Cineforum d'autunno del giovedì",
+          "quando": "gio 1, 20:45",
+          "genere": "drammatico",
+          "fonte": "https://mozzo.18tickets.it/",
+          "sala": "agora-mozzo",
+          "luogo": "Cine Teatro Agorà, Mozzo"
+        }
+      ],
+      "generi": [
+        {
+          "chiave": "azione",
+          "etichetta": "Azione",
+          "icona": "▲"
+        },
+        {
+          "chiave": "drammatico",
+          "etichetta": "Drammatico",
+          "icona": "◆"
+        },
+        {
+          "chiave": "documentario",
+          "etichetta": "Documentario",
+          "icona": "▣"
+        },
+        {
+          "chiave": "thriller",
+          "etichetta": "Thriller",
+          "icona": "◑"
+        },
+        {
+          "chiave": "commedia",
+          "etichetta": "Commedia",
+          "icona": "●"
+        },
+        {
+          "chiave": "animazione",
+          "etichetta": "Animazione",
+          "icona": "✦"
+        }
+      ],
+      "sale": [
+        {
+          "id": "conca-verde",
+          "nome": "Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Guglielmo Mattioli 65",
+          "url": "https://www.sas.bg.it/cinema-conca-verde/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 4,
+          "note": "Programmazione aggiornata ogni martedì e valida fino al mercoledì successivo: è la fonte più affidabile per il giovedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "arcadia-stezzano",
+          "nome": "Arcadia Stezzano",
+          "comune": "Stezzano",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "Le Due Torri, Via Guzzanica 62/64",
+          "url": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "gestore": null,
+          "schermi": 7,
+          "note": "7 sale. Il sito ufficiale pubblica in anticipo: e' da qui che si scoprono i film-evento delle settimane dopo."
+        },
+        {
+          "id": "garden-clusone",
+          "nome": "Cinema Garden",
+          "comune": "Clusone",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via XXV Aprile 1",
+          "url": "https://www.mymovies.it/cinema/bergamo/clusone/5540/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Circuito ACEC/SAS. Il cinema dell'alta Valle Seriana."
+        },
+        {
+          "id": "anteo-treviglio",
+          "nome": "Anteo spazioCinema",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "tipo": "dessai",
+          "indirizzo": "Viale Montegrappa",
+          "url": "https://www.mymovies.it/cinema/bergamo/treviglio/6586/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Marchio Anteo: d'autore e versione originale fuori città. È la sala forte della Bassa."
+        },
+        {
+          "id": "del-borgo",
+          "nome": "Cinema Teatro del Borgo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Sant'Anna 51",
+          "url": "https://www.sas.bg.it/cinema-teatro-del-borgo/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 1,
+          "note": "Come Conca Verde: programma aggiornato il martedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "lottagono",
+          "nome": "Cinema Teatro Lottagono",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazzale San Paolo 35",
+          "url": "https://www.mymovies.it/cinema/bergamo/20734/",
+          "gestore": null,
+          "schermi": 2,
+          "note": "Quartiere Loreto."
+        },
+        {
+          "id": "nuovo-trescore",
+          "nome": "Cinema Teatro Nuovo",
+          "comune": "Trescore Balneario",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Antonio Locatelli 104",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": "Val Cavallina."
+        },
+        {
+          "id": "sorriso-gorle",
+          "nome": "Cineteatro Sorriso",
+          "comune": "Gorle",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Giovanni XXIII 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "agora-mozzo",
+          "nome": "Cine Teatro Agorà",
+          "comune": "Mozzo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via San Giovanni Battista 6",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "don-bosco-bolgare",
+          "nome": "Cineteatro Don Bosco",
+          "comune": "Bolgare",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Caduti di Nassirya 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "san-filippo-neri-nembro",
+          "nome": "CineTeatro San Filippo Neri",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Vittoria 12",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        }
+      ]
     }
   ]
 }
