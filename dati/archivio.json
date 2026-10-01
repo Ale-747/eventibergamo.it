@@ -767,6 +767,82 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/Dd1QaD7CP3k/"
+    },
+    {
+      "id": "weekend-2026-10-02",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-10-02",
+        "a": "2026-10-04",
+        "etichetta": "2 → 4 ottobre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "utōpia su due room all'Orobia, Frank Storm al Bolgia,\ne nove sagre d'autunno tra valli e Isola.",
+      "hook": "Dentro: 40 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "sempre_aperte": [
+        {
+          "nome": "Pizzoccheri & Sciatt",
+          "luogo": "Piazzale degli Alpini, Bergamo",
+          "quando": "ven → dom · chiude dom",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Sagra della polenta",
+          "luogo": "Oratorio di Valtrighe, Mapello",
+          "quando": "ven → dom · 19:00",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Oktoberfest Rovetta",
+          "luogo": "Parco comunale, Rovetta",
+          "quando": "ven → dom · 18:00",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Oktoberfest Sotto il Monte",
+          "luogo": "Palatenda, piazza Santa Maria",
+          "quando": "ven → dom · riscaldato",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festa della Madonna del Rosario",
+          "luogo": "Tensostruttura dell'oratorio, Solza",
+          "quando": "ven → dom · 19:00",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "◉"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "✿"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -4699,6 +4775,601 @@
       ],
       "guida": "settimana-2026-09-28",
       "formato": "settimana"
+    },
+    {
+      "data": "2026-10-02",
+      "etichetta": "Venerdì 2 ottobre",
+      "breve": "Venerdì 2",
+      "nota": "Ink ha riaperto: ingresso riservato ai soci Arci, la tessera si fa alla porta.",
+      "eventi": [
+        {
+          "ora": "18:30",
+          "nome": "Pegher Fest: dj Thundergame",
+          "luogo": "Campo sportivo di Bratto, Castione della Presolana",
+          "sede": "Campo sportivo di Bratto",
+          "comune": "Castione della Presolana",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "18:30",
+          "nome": "Festa delle castagne",
+          "luogo": "Campo di calcio di Casale, Albino",
+          "sede": "Campo di calcio di Casale",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Tutti in Borgo: Notti Magiche",
+          "luogo": "Via Vignola, Almenno San Bartolomeo",
+          "sede": "Via Vignola",
+          "comune": "Almenno San Bartolomeo",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Sapori d'Ottobre: dj Baro",
+          "luogo": "Parcheggio Fanti d'Italia, Lovere",
+          "sede": "Parcheggio Fanti d'Italia",
+          "comune": "Lovere",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festival della Valtellina: Bandaliga",
+          "luogo": "Piazza della Libertà, Ponte San Pietro",
+          "sede": "Piazza della Libertà",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:30",
+          "nome": "I Giorni del Melgotto",
+          "luogo": "Parco Zilioli, Gandino",
+          "sede": "Parco Zilioli",
+          "comune": "Gandino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-i-giorni-del-melgotto-parco-zilioli-gandino-16/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Beita in Festa",
+          "luogo": "Area feste Giuramento di Pontida, Palazzago",
+          "sede": "Area feste Giuramento di Pontida",
+          "comune": "Palazzago",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-beita-in-festa-area-feste-palazzago-12/"
+        },
+        {
+          "ora": "20:00",
+          "nome": "Sibode dj set",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 12
+          },
+          "rilevanza": 3,
+          "fonte": "https://nxtbergamo.it/sibode-dj/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Tingalink w/ Itrees Sound & Titan Boa",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/reel/Dd68o6Wx3iS/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Liscio con New Blue Dance",
+          "luogo": "Parco Senatore Silvestri, Sovere",
+          "sede": "Parco Senatore Silvestri",
+          "comune": "Sovere",
+          "zona": "Valli",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-new-blue-dance-oratorio-san-giovanni-bosco-sovere-10/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "MINT w/ Federico Salimei",
+          "luogo": "Mint Lounge Bar, Chiuduno",
+          "sede": "Mint Lounge Bar",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/Dd0p35rCg-9/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Oktoberfest: Afrodylan in tour + dj",
+          "luogo": "Centro Sportivo, Cividate al Piano",
+          "sede": "Centro Sportivo",
+          "comune": "Cividate al Piano",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Tributo Lucio Battisti - Due Mondi",
+          "luogo": "Keller Factory, Curno",
+          "sede": "Keller Factory",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-lucio-battisti-due-mondi-keller-factory-curno-app-bergamo-it-keller/"
+        },
+        {
+          "ora": null,
+          "nome": "Cheap Mondays - release show",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.drusobg.com/event-details-1/cheap-mondays-new-album-release-show"
+        },
+        {
+          "ora": null,
+          "nome": "Jolie",
+          "luogo": "CaPoGiRo Joy Club, Curno",
+          "sede": "CaPoGiRo Joy Club",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/Dd02hoyjOj-/"
+        },
+        {
+          "ora": null,
+          "nome": "Grande castagnata di Rosciate",
+          "luogo": "Rosciate, Scanzorosciate",
+          "sede": "Rosciate",
+          "comune": "Scanzorosciate",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        }
+      ],
+      "guida": "weekend-2026-10-02",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-10-03",
+      "etichetta": "Sabato 3 ottobre",
+      "breve": "Sabato 3",
+      "nota": "utōpia: ingresso gratuito ma serve registrarsi su DICE, e la capienza è limitata.",
+      "eventi": [
+        {
+          "ora": "18:30",
+          "nome": "Festival Valtellina: tributo Achille Lauro",
+          "luogo": "Piazza della Libertà, Ponte San Pietro",
+          "sede": "Piazza della Libertà",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Tutti in Borgo: 90 Special",
+          "luogo": "Via Vignola, Almenno San Bartolomeo",
+          "sede": "Via Vignola",
+          "comune": "Almenno San Bartolomeo",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Pegher Fest: Raf Benzoni Band",
+          "luogo": "Campo sportivo di Bratto, Castione della Presolana",
+          "sede": "Campo sportivo di Bratto",
+          "comune": "Castione della Presolana",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Festa delle castagne: Super Fog Band",
+          "luogo": "Campo di calcio di Casale, Albino",
+          "sede": "Campo di calcio di Casale",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Melgotto: FolksVaghen",
+          "luogo": "Parco Zilioli, Gandino",
+          "sede": "Parco Zilioli",
+          "comune": "Gandino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "21:00",
+          "nome": "utōpia w/ Giuli Santori e Discopasta",
+          "luogo": "Orobia Climbing, Curno",
+          "sede": "Orobia Climbing",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/p/DdjiDF4iC3x/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Dungeon w/ Kuzu Kenopsia",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/reel/Dd68o6Wx3iS/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Oktoberfest: Blascover + Maurizio Solieri",
+          "luogo": "Centro Sportivo, Cividate al Piano",
+          "sede": "Centro Sportivo",
+          "comune": "Cividate al Piano",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "New Time Jazz Quartet",
+          "luogo": "Auditorium delle scuole, Stezzano",
+          "sede": "Auditorium delle scuole",
+          "comune": "Stezzano",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-new-time-jazz-quartet-in-concerto-auditorium-scuole-stezzano/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Lipstick con Valls",
+          "luogo": "Mint Lounge Bar, Chiuduno",
+          "sede": "Mint Lounge Bar",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/Dd3SBhJDYU3/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Conejo Night - Bad Bunny all night",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/p/Ddt0OyysN2t/"
+        },
+        {
+          "ora": "23:00",
+          "nome": "MiCasa: Bad Habits",
+          "luogo": "Loft, via Stezzano, Azzano San Paolo",
+          "sede": "Loft, via Stezzano",
+          "comune": "Azzano San Paolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DdmOzRBiHpL/"
+        },
+        {
+          "ora": "23:30",
+          "nome": "Bolgia Summer Garden w/ Frank Storm",
+          "luogo": "Bolgia, via Vaccarezza, Osio Sopra",
+          "sede": "Bolgia, via Vaccarezza",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 20
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/reel/DdY3DiRivZX/"
+        },
+        {
+          "ora": null,
+          "nome": "Certe Notti Magiche - tributo Ligabue",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 12
+          },
+          "rilevanza": 3,
+          "fonte": "https://nxtbergamo.it/certe-notti-magiche-3-ottobre/"
+        },
+        {
+          "ora": null,
+          "nome": "Be Stupid Party",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.mailticket.it/evento/54936/be-stupid"
+        },
+        {
+          "ora": null,
+          "nome": "Chéri",
+          "luogo": "CaPoGiRo Joy Club, Curno",
+          "sede": "CaPoGiRo Joy Club",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/Dd02hoyjOj-/"
+        }
+      ],
+      "guida": "weekend-2026-10-02",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-10-04",
+      "etichetta": "Domenica 4 ottobre",
+      "breve": "Domenica 4",
+      "nota": "Ninfea: torneo riservato agli associati, 40 euro a squadra con due drink a testa.",
+      "eventi": [
+        {
+          "ora": "09:30",
+          "nome": "Sagra del Cinghiale 2.0",
+          "luogo": "In piazza, Peia",
+          "sede": "In piazza",
+          "comune": "Peia",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 3,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        },
+        {
+          "ora": "09:30",
+          "nome": "Sapori di Casa: teedèi e tradizioni",
+          "luogo": "Centro storico, Vertova",
+          "sede": "Centro storico",
+          "comune": "Vertova",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        },
+        {
+          "ora": "10:00",
+          "nome": "Tutti in Borgo: Blascover",
+          "luogo": "Via Vignola, Almenno San Bartolomeo",
+          "sede": "Via Vignola",
+          "comune": "Almenno San Bartolomeo",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "11:00",
+          "nome": "Torneo di calcio tennis e Trash Night",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 40
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/p/Dd4gVpPDKv2/"
+        },
+        {
+          "ora": "12:00",
+          "nome": "Festa delle castagne: ballo liscio",
+          "luogo": "Campo di calcio di Casale, Albino",
+          "sede": "Campo di calcio di Casale",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": "14:30",
+          "nome": "Castagnata in Borgo",
+          "luogo": "Borgo di Piazza Martina, Zogno",
+          "sede": "Borgo di Piazza Martina",
+          "comune": "Zogno",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        },
+        {
+          "ora": "20:30",
+          "nome": "Festival Valtellina: Tindergarten",
+          "luogo": "Piazza della Libertà, Ponte San Pietro",
+          "sede": "Piazza della Libertà",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 15
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
+        },
+        {
+          "ora": null,
+          "nome": "Fiera d'Autunno",
+          "luogo": "Centro del paese, Sorisole",
+          "sede": "Centro del paese",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
+        }
+      ],
+      "guida": "weekend-2026-10-02",
+      "formato": "weekend"
     }
   ],
   "cinema": [
