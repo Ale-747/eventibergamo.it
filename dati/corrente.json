@@ -498,7 +498,7 @@
       },
       "titolo": "Il Weekend",
       "sottotitolo": "utōpia su due room all'Orobia, Frank Storm al Bolgia,\ne nove sagre d'autunno tra valli e Isola.",
-      "hook": "Dentro: 37 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "hook": "Dentro: 38 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
       "giorni": [
         {
           "data": "2026-10-02",
@@ -737,8 +737,22 @@
           "data": "2026-10-03",
           "etichetta": "Sabato 3 ottobre",
           "breve": "Sabato 3",
-          "nota": "utōpia: ingresso gratuito ma serve registrarsi su DICE, e la capienza è limitata.",
+          "nota": "utōpia: gratis ma con registrazione su DICE. Ninfea: serve la tessera.",
           "eventi": [
+            {
+              "ora": "10:00",
+              "nome": "Sambambaia - giornata brasiliana",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "danza",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.instagram.com/p/DdrRfxvigMm/"
+            },
             {
               "ora": "18:30",
               "nome": "Valtellina: tributo Achille Lauro",
