@@ -504,7 +504,7 @@
           "data": "2026-10-02",
           "etichetta": "Venerdì 2 ottobre",
           "breve": "Venerdì 2",
-          "nota": "Ink ha riaperto: ingresso riservato ai soci Arci, la tessera si fa alla porta.",
+          "nota": "Ink e Ninfea sono circoli: serve la tessera, si fa alla porta.",
           "eventi": [
             {
               "ora": "18:30",
@@ -620,6 +620,20 @@
               "fonte": "https://nxtbergamo.it/sibode-dj/"
             },
             {
+              "ora": "20:00",
+              "nome": "Bucolic Party",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.instagram.com/p/DdoDfXTChGz/"
+            },
+            {
               "ora": "21:00",
               "nome": "Tingalink w/ Itrees Sound & Titan Boa",
               "luogo": "Ink Club, Bergamo",
@@ -716,20 +730,6 @@
               },
               "rilevanza": 2,
               "fonte": "https://www.instagram.com/p/Dd02hoyjOj-/"
-            },
-            {
-              "ora": null,
-              "nome": "Grande castagnata di Rosciate",
-              "luogo": "Rosciate, Scanzorosciate",
-              "sede": "Rosciate",
-              "comune": "Scanzorosciate",
-              "zona": "Centro",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
             }
           ]
         },
