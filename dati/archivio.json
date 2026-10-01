@@ -778,7 +778,7 @@
       },
       "titolo": "Il Weekend",
       "sottotitolo": "utōpia su due room all'Orobia, Frank Storm al Bolgia,\ne nove sagre d'autunno tra valli e Isola.",
-      "hook": "Dentro: 40 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "hook": "Dentro: 37 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
       "sempre_aperte": [
         {
           "nome": "Pizzoccheri & Sciatt",
@@ -5019,7 +5019,7 @@
       "eventi": [
         {
           "ora": "18:30",
-          "nome": "Festival Valtellina: tributo Achille Lauro",
+          "nome": "Valtellina: tributo Achille Lauro",
           "luogo": "Piazza della Libertà, Ponte San Pietro",
           "sede": "Piazza della Libertà",
           "comune": "Ponte San Pietro",
@@ -5060,34 +5060,6 @@
           "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
         },
         {
-          "ora": "19:00",
-          "nome": "Festa delle castagne: Super Fog Band",
-          "luogo": "Campo di calcio di Casale, Albino",
-          "sede": "Campo di calcio di Casale",
-          "comune": "Albino",
-          "zona": "Valli",
-          "categoria": "sagra",
-          "prezzo": {
-            "tipo": "nd"
-          },
-          "rilevanza": 1,
-          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-        },
-        {
-          "ora": "19:30",
-          "nome": "Melgotto: FolksVaghen",
-          "luogo": "Parco Zilioli, Gandino",
-          "sede": "Parco Zilioli",
-          "comune": "Gandino",
-          "zona": "Valli",
-          "categoria": "sagra",
-          "prezzo": {
-            "tipo": "nd"
-          },
-          "rilevanza": 1,
-          "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-        },
-        {
           "ora": "21:00",
           "nome": "utōpia w/ Giuli Santori e Discopasta",
           "luogo": "Orobia Climbing, Curno",
@@ -5117,7 +5089,7 @@
         },
         {
           "ora": "21:00",
-          "nome": "Oktoberfest: Blascover + Maurizio Solieri",
+          "nome": "Oktoberfest: Blascover + Solieri",
           "luogo": "Centro Sportivo, Cividate al Piano",
           "sede": "Centro Sportivo",
           "comune": "Cividate al Piano",
@@ -5217,20 +5189,6 @@
         },
         {
           "ora": null,
-          "nome": "Be Stupid Party",
-          "luogo": "Druso, Ranica",
-          "sede": "Druso",
-          "comune": "Ranica",
-          "zona": "Valli",
-          "categoria": "dj",
-          "prezzo": {
-            "tipo": "nd"
-          },
-          "rilevanza": 2,
-          "fonte": "https://www.mailticket.it/evento/54936/be-stupid"
-        },
-        {
-          "ora": null,
           "nome": "Chéri",
           "luogo": "CaPoGiRo Joy Club, Curno",
           "sede": "CaPoGiRo Joy Club",
@@ -5251,7 +5209,7 @@
       "data": "2026-10-04",
       "etichetta": "Domenica 4 ottobre",
       "breve": "Domenica 4",
-      "nota": "Ninfea: torneo riservato agli associati, 40 euro a squadra con due drink a testa.",
+      "nota": "Ninfea: torneo per associati, 40 euro a squadra.",
       "eventi": [
         {
           "ora": "09:30",
