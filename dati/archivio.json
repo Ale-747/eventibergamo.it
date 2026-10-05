@@ -844,6 +844,80 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/Dd9G6gnkdLx/"
+    },
+    {
+      "id": "settimana-2026-10-06",
+      "formato": "settimana",
+      "periodo": {
+        "da": "2026-10-06",
+        "a": "2026-10-08",
+        "etichetta": "6 → 8 ottobre"
+      },
+      "titolo": "La Settimana",
+      "sottotitolo": "BergamoScienza tiene banco fino a giovedì,\ne in mezzo c'è il Nobel per la Chimica 2025.",
+      "hook": "Dentro: 26 appuntamenti da martedì a giovedì.\nTredici sono gratis, e mercoledì parla un Nobel.",
+      "sempre_aperte": [
+        {
+          "nome": "Il paesaggio bergamasco",
+          "luogo": "Circolo Artistico, Bergamo",
+          "quando": "fino all'8 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Tabula Plena",
+          "luogo": "Palazzo della Ragione, Città Alta",
+          "quando": "fino al 18 ottobre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Amalia Del Ponte. Litofonie",
+          "luogo": "Ex Oratorio San Lupo, Bergamo",
+          "quando": "gio e ven 18-21",
+          "categoria": "mostra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "◆"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "▷"
+        },
+        {
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "♞"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "⚙"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -5343,6 +5417,403 @@
       ],
       "guida": "weekend-2026-10-02",
       "formato": "weekend"
+    },
+    {
+      "data": "2026-10-06",
+      "etichetta": "Martedì 6 ottobre",
+      "breve": "Martedì 6",
+      "nota": "Ninfea e Ink chiudono la serata con un torneo: iscrizione sul posto, ma serve la tessera (associati Ninfea, soci Arci all'Ink).",
+      "eventi": [
+        {
+          "ora": "19:00",
+          "nome": "Mangio, ergo sum?",
+          "luogo": "CULT! Sala dell'Orologio, Bergamo",
+          "sede": "CULT! Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Il ritorno del nucleare, in tasca",
+          "luogo": "Fondazione Dalmine, Dalmine",
+          "sede": "Fondazione Dalmine",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Organi su misura: gli xenotrapianti",
+          "luogo": "CULT! Auditorium, Bergamo",
+          "sede": "CULT! Auditorium",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Naza",
+          "luogo": "Lo Schermo Bianco, Bergamo",
+          "sede": "Lo Schermo Bianco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.lab80.it/programmazione/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Santiago - Un cammino per ricominciare",
+          "luogo": "CULT! Sala dell'Orologio, Bergamo",
+          "sede": "CULT! Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.lab80.it/programmazione/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Trainspotting (riedizione)",
+          "luogo": "CULT!, Bergamo",
+          "sede": "CULT!",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://lab80.18tickets.it/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Briscola Selvaggia",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DeCmKlKm_S5/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "8 Ball League — 2ª giornata",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DeEgMzwkTiI/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Il Cervellone",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/reel/Dd_1__lsNX8/"
+        }
+      ],
+      "guida": "settimana-2026-10-06",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-10-07",
+      "etichetta": "Mercoledì 7 ottobre",
+      "breve": "Mercoledì 7",
+      "nota": "I due laboratori hanno posti limitati e si prenotano prima: Kintsugi dal form di Daste, Colori Liberi dal link in bio di Ninfea.",
+      "eventi": [
+        {
+          "ora": "18:00",
+          "nome": "Cultura che cura",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.eventbrite.it/e/biglietti-cultura-che-cura-quando-la-cultura-genera-benessere-2000374861058"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Verità e finzione tra fotografia e AI",
+          "luogo": "CULT! Sala dell'Orologio, Bergamo",
+          "sede": "CULT! Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "19:00",
+          "nome": "The Brain Keepers",
+          "luogo": "CULT! Auditorium, Bergamo",
+          "sede": "CULT! Auditorium",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Colori Liberi — workshop di pittura",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 20
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/Dd6QfqxMCqK/"
+        },
+        {
+          "ora": "19:30",
+          "nome": "Daste Lab: Kintsugi",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 35
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/p/Dd6m1aLsFcf/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "La rivoluzione delle spugne molecolari",
+          "luogo": "Palascienza, Bergamo",
+          "sede": "Palascienza",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Naza",
+          "luogo": "CULT! Sala dell'Orologio, Bergamo",
+          "sede": "CULT! Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.lab80.it/programmazione/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "The Rocky Horror Picture Show",
+          "luogo": "Chiostro del Carmine, Bergamo",
+          "sede": "Chiostro del Carmine",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.lab80.it/programmazione/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "The Invite - Il piacere è tutto nostro",
+          "luogo": "Lo Schermo Bianco, Bergamo",
+          "sede": "Lo Schermo Bianco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.lab80.it/programmazione/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Calcetto boaro",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DeEXrjED3BV/"
+        }
+      ],
+      "guida": "settimana-2026-10-06",
+      "formato": "settimana"
+    },
+    {
+      "data": "2026-10-08",
+      "etichetta": "Giovedì 8 ottobre",
+      "breve": "Giovedì 8",
+      "nota": "BergamoScienza è gratis ma su prenotazione: 333 472 6482. All'Ink serve la tessera Arci.",
+      "eventi": [
+        {
+          "ora": "09:00",
+          "nome": "Scripta manent: le origini della scrittura",
+          "luogo": "Palascienza, Bergamo",
+          "sede": "Palascienza",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 1,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "11:00",
+          "nome": "La giustizia climatica non ha età",
+          "luogo": "Palascienza, Bergamo",
+          "sede": "Palascienza",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Odissea 2.0: navigare a zero emissioni",
+          "luogo": "CULT! Sala dell'Orologio, Bergamo",
+          "sede": "CULT! Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Social Night Run",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DeG8gShiYfY/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Complessità — Il Gioco della Vita",
+          "luogo": "CULT! Auditorium, Bergamo",
+          "sede": "CULT! Auditorium",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Istinto Primordiale — film screening",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "cinema",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "rilevanza": 2,
+          "fonte": "https://www.instagram.com/p/DeHKLYQDFDH/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Tela Libera Live",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "rilevanza": 3,
+          "fonte": "https://www.instagram.com/p/DeEvQ9XDesC/"
+        }
+      ],
+      "guida": "settimana-2026-10-06",
+      "formato": "settimana"
     }
   ],
   "cinema": [

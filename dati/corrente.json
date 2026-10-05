@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-10-01",
+  "aggiornato_il": "2026-10-05",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -24,200 +24,28 @@
   },
   "guide": [
     {
-      "id": "settimana-2026-09-28",
+      "id": "settimana-2026-10-06",
       "formato": "settimana",
       "periodo": {
-        "da": "2026-09-28",
-        "a": "2026-10-01",
-        "etichetta": "28 set → 1 ott"
+        "da": "2026-10-06",
+        "a": "2026-10-08",
+        "etichetta": "6 → 8 ottobre"
       },
       "titolo": "La Settimana",
-      "sottotitolo": "Morandi apre, BergamoScienza chiude:\nin mezzo Molte fedi e i Sapori d'ottobre a Lovere.",
-      "hook": "Dentro: 24 appuntamenti da lunedì a giovedì.\nNove sono gratis, e giovedì apre BergamoScienza.",
+      "sottotitolo": "BergamoScienza tiene banco fino a giovedì,\ne in mezzo c'è il Nobel per la Chimica 2025.",
+      "hook": "Dentro: 26 appuntamenti da martedì a giovedì.\nTredici sono gratis, e mercoledì parla un Nobel.",
       "giorni": [
         {
-          "data": "2026-09-28",
-          "etichetta": "Lunedì 28 settembre",
-          "breve": "Lunedì 28",
-          "nota": "Bersani e Guerri al Conca Verde: ingresso gratuito ma riservato a chi ha la CARD di Molte fedi, su prenotazione.",
+          "data": "2026-10-06",
+          "etichetta": "Martedì 6 ottobre",
+          "breve": "Martedì 6",
+          "nota": "Ninfea e Ink chiudono la serata con un torneo: iscrizione sul posto, ma serve la tessera (associati Ninfea, soci Arci all'Ink).",
           "eventi": [
             {
-              "ora": "16:00",
-              "nome": "Moroni In&Out",
-              "luogo": "Museo Bernareggi, Bergamo",
-              "sede": "Museo Bernareggi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 5
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.visitbergamo.net/oggetto/moroni-inout/"
-            },
-            {
-              "ora": "17:45",
-              "nome": "Aperilibro — Matti per la lettura",
-              "luogo": "Terrazza DaMimmo, Bergamo",
-              "sede": "Terrazza DaMimmo",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://biblioteche.comune.bergamo.it/events"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Festa del Santuario — animazione e ballo",
-              "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
-              "sede": "Oratorio San Giovanni Bosco",
-              "comune": "Castelli Calepio",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-8/"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Serata GDR",
-              "luogo": "Biblioteca Caversazzi, Bergamo",
-              "sede": "Biblioteca Caversazzi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://biblioteche.comune.bergamo.it/events"
-            },
-            {
-              "ora": "20:45",
-              "nome": "La politica può ancora promettere?",
-              "luogo": "Cinema Conca Verde, Bergamo",
-              "sede": "Cinema Conca Verde",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://moltefedi.it/evento/la-politica-puo-ancora-promettere-con-pier-luigi-bersani-e-giordano-bruno-guerri/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Gianni Morandi — C'era un ragazzo",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 46
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-gianni-morandi-in-concerto-choruslife-bergamo-citta-biglietti-tidd-ly-3rgpzcq/"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-29",
-          "etichetta": "Martedì 29 settembre",
-          "breve": "Martedì 29",
-          "nota": "Palomba a Nembro è gratuita, prenotazione consigliata. Per l'apertura di Grimaldi al Bernareggi l'iscrizione su Eventbrite è obbligatoria.",
-          "eventi": [
-            {
-              "ora": "18:30",
-              "nome": "Gianni Grimaldi — apertura della mostra",
-              "luogo": "Museo Bernareggi, Bergamo",
-              "sede": "Museo Bernareggi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.visitbergamo.net/oggetto/gianni-grimaldi/"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Frammenti di un discorso di classe",
-              "luogo": "Biblioteca Tullio Carrara, Nembro",
-              "sede": "Biblioteca Tullio Carrara",
-              "comune": "Nembro",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://moltefedi.it/evento/frammenti-di-un-discorso-di-classe-racconto-di-vite-e-di-conti-che-non-tornano-con-giusi-palomba/"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Barocco in technicolor",
-              "luogo": "Chiesa Santa Teresa di Lisieux, Bergamo",
-              "sede": "Chiesa Santa Teresa di Lisieux",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.visitbergamo.net/oggetto/barocco-in-technicolor-un-viaggio-musicale-senza-tempo/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Festa del Santuario — Monocirco",
-              "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
-              "sede": "Oratorio San Giovanni Bosco",
-              "comune": "Castelli Calepio",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-9/"
-            }
-          ]
-        },
-        {
-          "data": "2026-09-30",
-          "etichetta": "Mercoledì 30 settembre",
-          "breve": "Mercoledì 30",
-          "nota": "Star Wars al Donizetti è gratuito ma su prenotazione, come tutto BergamoScienza. La cena cantata a Seriate si prenota allo 035 291097.",
-          "eventi": [
-            {
-              "ora": "17:00",
-              "nome": "Libropiccino 19-36 mesi",
-              "luogo": "Biblioteca Betty Ambiveri, Bergamo",
-              "sede": "Biblioteca Betty Ambiveri",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://biblioteche.comune.bergamo.it/events"
-            },
-            {
-              "ora": "18:00",
-              "nome": "Educare e riparare",
-              "luogo": "Tempio Votivo di S. Lucia, Bergamo",
-              "sede": "Tempio Votivo di S. Lucia",
+              "ora": "19:00",
+              "nome": "Mangio, ergo sum?",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
@@ -225,120 +53,205 @@
                 "tipo": "gratis"
               },
               "rilevanza": 2,
-              "fonte": "https://moltefedi.it/evento/educare-e-riparare/"
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
             },
             {
               "ora": "19:00",
-              "nome": "Sapori d'ottobre",
-              "luogo": "Parcheggio Fanti d'Italia, Lovere",
-              "sede": "Parcheggio Fanti d'Italia",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "sagra",
+              "nome": "Il ritorno del nucleare, in tasca",
+              "luogo": "Fondazione Dalmine, Dalmine",
+              "sede": "Fondazione Dalmine",
+              "comune": "Dalmine",
+              "zona": "Bassa",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "gratis"
               },
               "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/evento/sapori-dottobre-a-lovere-festa-enogastronomica-e-cucina/"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Concerto finale masterclass Castelló",
-              "luogo": "Auditorium Fellegara, Bergamo",
-              "sede": "Auditorium Fellegara",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.visitbergamo.net/oggetto/concerto-finale-masterclass-jose-vicente-castello/"
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
             },
             {
               "ora": "21:00",
-              "nome": "Festa del Santuario — Majorettes",
-              "luogo": "Oratorio San Giovanni Bosco, Castelli Calepio",
-              "sede": "Oratorio San Giovanni Bosco",
-              "comune": "Castelli Calepio",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-del-santuario-cividino-quintano-castelli-calepio-10/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Star Wars tra musica e scienza",
-              "luogo": "Teatro Donizetti, Bergamo",
-              "sede": "Teatro Donizetti",
+              "nome": "Organi su misura: gli xenotrapianti",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "live",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "gratis"
               },
               "rilevanza": 3,
-              "fonte": "https://primabergamo.it/cultura/undici-giorni-per-scoprire-dove-la-scienza-incontra-il-mondo/"
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Naza",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.lab80.it/programmazione/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Santiago - Un cammino per ricominciare",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.lab80.it/programmazione/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Trainspotting (riedizione)",
+              "luogo": "CULT!, Bergamo",
+              "sede": "CULT!",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://lab80.18tickets.it/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Briscola Selvaggia",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/DeCmKlKm_S5/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "8 Ball League — 2ª giornata",
+              "luogo": "Ink Club, Bergamo",
+              "sede": "Ink Club",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/DeEgMzwkTiI/"
             },
             {
               "ora": "21:30",
-              "nome": "Cena cantata con Laura Gambirasi",
-              "luogo": "Il Forno dell'Oste, Seriate",
-              "sede": "Il Forno dell'Oste",
-              "comune": "Seriate",
+              "nome": "Il Cervellone",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
+              "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "cena",
+              "categoria": "torneo",
               "prezzo": {
-                "tipo": "nd"
+                "tipo": "gratis"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-laura-gambirasi-e-giamby-girelli-in-concerto-il-forno-delloste-seriate-3/"
+              "rilevanza": 3,
+              "fonte": "https://www.instagram.com/reel/Dd_1__lsNX8/"
             }
           ]
         },
         {
-          "data": "2026-10-01",
-          "etichetta": "Giovedì 1 ottobre",
-          "breve": "Giovedì 1",
-          "nota": "Creattiva in Fiera costa 10 euro online fino al giorno prima, 13 in cassa. L'Oktoberfest di Sotto il Monte è sotto un palatenda riscaldato.",
+          "data": "2026-10-07",
+          "etichetta": "Mercoledì 7 ottobre",
+          "breve": "Mercoledì 7",
+          "nota": "I due laboratori hanno posti limitati e si prenotano prima: Kintsugi dal form di Daste, Colori Liberi dal link in bio di Ninfea.",
           "eventi": [
             {
-              "ora": "09:30",
-              "nome": "Creattiva, fiera delle arti manuali",
-              "luogo": "Fiera di Bergamo, Bergamo",
-              "sede": "Fiera di Bergamo",
+              "ora": "18:00",
+              "nome": "Cultura che cura",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "mercatino",
+              "categoria": "incontro",
               "prezzo": {
-                "tipo": "da",
-                "valore": 10
+                "tipo": "nd"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.fieracreattiva.it/bergamo-creattiva/date-orari-costi/"
+              "rilevanza": 1,
+              "fonte": "https://www.eventbrite.it/e/biglietti-cultura-che-cura-quando-la-cultura-genera-benessere-2000374861058"
             },
             {
               "ora": "19:00",
-              "nome": "Sapori d'ottobre",
-              "luogo": "Parcheggio Fanti d'Italia, Lovere",
-              "sede": "Parcheggio Fanti d'Italia",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "sagra",
+              "nome": "Verità e finzione tra fotografia e AI",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "gratis"
               },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamonews.it/evento/sapori-dottobre-a-lovere-festa-enogastronomica-e-cucina/"
+              "rilevanza": 2,
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
             },
             {
-              "ora": "20:30",
-              "nome": "BergamoScienza, si parte",
-              "luogo": "Bergamo",
-              "sede": null,
+              "ora": "19:00",
+              "nome": "The Brain Keepers",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+            },
+            {
+              "ora": "19:00",
+              "nome": "Colori Liberi — workshop di pittura",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 20
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/Dd6QfqxMCqK/"
+            },
+            {
+              "ora": "19:30",
+              "nome": "Daste Lab: Kintsugi",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 35
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.instagram.com/p/Dd6m1aLsFcf/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "La rivoluzione delle spugne molecolari",
+              "luogo": "Palascienza, Bergamo",
+              "sede": "Palascienza",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
@@ -346,27 +259,91 @@
                 "tipo": "gratis"
               },
               "rilevanza": 3,
-              "fonte": "https://primabergamo.it/cultura/undici-giorni-per-scoprire-dove-la-scienza-incontra-il-mondo/"
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
             },
             {
-              "ora": "20:45",
-              "nome": "La Promessa — Marianna Aprile",
-              "luogo": "Cinema Conca Verde, Bergamo",
-              "sede": "Cinema Conca Verde",
+              "ora": "21:00",
+              "nome": "Naza",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "incontro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.lab80.it/programmazione/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "The Rocky Horror Picture Show",
+              "luogo": "Chiostro del Carmine, Bergamo",
+              "sede": "Chiostro del Carmine",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
               "rilevanza": 2,
-              "fonte": "https://moltefedi.it/evento/la-promessa-marianna-aprile/"
+              "fonte": "https://www.lab80.it/programmazione/"
             },
             {
               "ora": "21:00",
-              "nome": "Da pochi a Fofi",
-              "luogo": "Teatro Caverna, Bergamo",
-              "sede": "Teatro Caverna",
+              "nome": "The Invite - Il piacere è tutto nostro",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.lab80.it/programmazione/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Calcetto boaro",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/DeEXrjED3BV/"
+            }
+          ]
+        },
+        {
+          "data": "2026-10-08",
+          "etichetta": "Giovedì 8 ottobre",
+          "breve": "Giovedì 8",
+          "nota": "BergamoScienza è gratis ma su prenotazione: 333 472 6482. All'Ink serve la tessera Arci.",
+          "eventi": [
+            {
+              "ora": "09:00",
+              "nome": "Scripta manent: le origini della scrittura",
+              "luogo": "Palascienza, Bergamo",
+              "sede": "Palascienza",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 1,
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+            },
+            {
+              "ora": "11:00",
+              "nome": "La giustizia climatica non ha età",
+              "luogo": "Palascienza, Bergamo",
+              "sede": "Palascienza",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
@@ -374,50 +351,87 @@
                 "tipo": "gratis"
               },
               "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/evento/al-teatro-caverna-in-scena-da-pochi-a-fofi/"
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
             },
             {
-              "ora": "22:30",
-              "nome": "Galperine — Theory of Becoming",
-              "luogo": "Auditorium Piazza Libertà, Bergamo",
-              "sede": "Auditorium Piazza Libertà",
+              "ora": "19:00",
+              "nome": "Odissea 2.0: navigare a zero emissioni",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+            },
+            {
+              "ora": "19:00",
+              "nome": "Social Night Run",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 10
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/DeG8gShiYfY/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Complessità — Il Gioco della Vita",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "rilevanza": 3,
+              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Istinto Primordiale — film screening",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "rilevanza": 2,
+              "fonte": "https://www.instagram.com/p/DeHKLYQDFDH/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Tela Libera Live",
+              "luogo": "Ink Club, Bergamo",
+              "sede": "Ink Club",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "live",
               "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.visitbergamo.net/oggetto/evgeni-galperine-theory-of-becoming/"
-            },
-            {
-              "ora": null,
-              "nome": "Oktoberfest",
-              "luogo": "Palatenda, piazza Santa Maria, Sotto il Monte",
-              "sede": "Palatenda, piazza Santa Maria",
-              "comune": "Sotto il Monte",
-              "zona": "Isola",
-              "categoria": "sagra",
-              "prezzo": {
                 "tipo": "gratis"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.berghinfest.it/evento/3552/Oktoberfest"
+              "rilevanza": 3,
+              "fonte": "https://www.instagram.com/p/DeEvQ9XDesC/"
             }
           ]
         }
       ],
       "sempre_aperte": [
         {
-          "nome": "Amalia Del Ponte. Litofonie",
-          "luogo": "Ex Oratorio San Lupo, Bergamo",
-          "quando": "fino al 15 novembre",
-          "categoria": "mostra"
-        },
-        {
-          "nome": "Gianni Grimaldi",
-          "luogo": "Museo Bernareggi, Bergamo",
-          "quando": "dal 29/9 al 15 novembre",
+          "nome": "Il paesaggio bergamasco",
+          "luogo": "Circolo Artistico, Bergamo",
+          "quando": "fino all'8 ottobre",
           "categoria": "mostra"
         },
         {
@@ -427,38 +441,42 @@
           "categoria": "mostra"
         },
         {
-          "nome": "Isaac Julien. Museum Dreams",
-          "luogo": "gres art 671, Bergamo",
-          "quando": "fino al 10 gennaio",
-          "categoria": "mostra"
-        },
-        {
-          "nome": "Chiara Camoni. La Forza",
-          "luogo": "Accademia Carrara, Bergamo",
-          "quando": "fino al 31 dicembre",
+          "nome": "Amalia Del Ponte. Litofonie",
+          "luogo": "Ex Oratorio San Lupo, Bergamo",
+          "quando": "gio e ven 18-21",
           "categoria": "mostra"
         }
       ],
       "categorie": [
-        {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "⚑"
-        },
         {
           "chiave": "incontro",
           "etichetta": "Incontri e libri",
           "icona": "◆"
         },
         {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "▷"
         },
         {
-          "chiave": "altro",
-          "etichetta": "Altro",
-          "icona": "✱"
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "♞"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "⚙"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
         },
         {
           "chiave": "live",
@@ -469,664 +487,8 @@
           "chiave": "mostra",
           "etichetta": "Mostre e arte",
           "icona": "◧"
-        },
-        {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "✦"
-        },
-        {
-          "chiave": "cena",
-          "etichetta": "Cene e degustazioni",
-          "icona": "⬢"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
         }
-      ],
-      "permalink": "https://www.instagram.com/p/Dd1QaD7CP3k/"
-    },
-    {
-      "id": "weekend-2026-10-02",
-      "formato": "weekend",
-      "periodo": {
-        "da": "2026-10-02",
-        "a": "2026-10-04",
-        "etichetta": "2 → 4 ottobre"
-      },
-      "titolo": "Il Weekend",
-      "sottotitolo": "utōpia su due room all'Orobia, Frank Storm al Bolgia,\ne nove sagre d'autunno tra valli e Isola.",
-      "hook": "Dentro: 38 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
-      "giorni": [
-        {
-          "data": "2026-10-02",
-          "etichetta": "Venerdì 2 ottobre",
-          "breve": "Venerdì 2",
-          "nota": "Ink e Ninfea sono circoli: serve la tessera, si fa alla porta.",
-          "eventi": [
-            {
-              "ora": "18:30",
-              "nome": "Pegher Fest: dj Thundergame",
-              "luogo": "Campo sportivo di Bratto, Castione della Presolana",
-              "sede": "Campo sportivo di Bratto",
-              "comune": "Castione della Presolana",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Festa delle castagne",
-              "luogo": "Campo di calcio di Casale, Albino",
-              "sede": "Campo di calcio di Casale",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Tutti in Borgo: Notti Magiche",
-              "luogo": "Via Vignola, Almenno San Bartolomeo",
-              "sede": "Via Vignola",
-              "comune": "Almenno San Bartolomeo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Sapori d'Ottobre: dj Baro",
-              "luogo": "Parcheggio Fanti d'Italia, Lovere",
-              "sede": "Parcheggio Fanti d'Italia",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:30",
-              "nome": "Festival della Valtellina: Bandaliga",
-              "luogo": "Piazza della Libertà, Ponte San Pietro",
-              "sede": "Piazza della Libertà",
-              "comune": "Ponte San Pietro",
-              "zona": "Isola",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:30",
-              "nome": "I Giorni del Melgotto",
-              "luogo": "Parco Zilioli, Gandino",
-              "sede": "Parco Zilioli",
-              "comune": "Gandino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-i-giorni-del-melgotto-parco-zilioli-gandino-16/"
-            },
-            {
-              "ora": "19:30",
-              "nome": "Beita in Festa",
-              "luogo": "Area feste Giuramento di Pontida, Palazzago",
-              "sede": "Area feste Giuramento di Pontida",
-              "comune": "Palazzago",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-beita-in-festa-area-feste-palazzago-12/"
-            },
-            {
-              "ora": "20:00",
-              "nome": "Sibode dj set",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "rilevanza": 3,
-              "fonte": "https://nxtbergamo.it/sibode-dj/"
-            },
-            {
-              "ora": "20:00",
-              "nome": "Bucolic Party",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/DdoDfXTChGz/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Tingalink w/ Itrees Sound & Titan Boa",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/reel/Dd68o6Wx3iS/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Liscio con New Blue Dance",
-              "luogo": "Parco Senatore Silvestri, Sovere",
-              "sede": "Parco Senatore Silvestri",
-              "comune": "Sovere",
-              "zona": "Valli",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-new-blue-dance-oratorio-san-giovanni-bosco-sovere-10/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "MINT w/ Federico Salimei",
-              "luogo": "Mint Lounge Bar, Chiuduno",
-              "sede": "Mint Lounge Bar",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/Dd0p35rCg-9/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Oktoberfest: Afrodylan in tour + dj",
-              "luogo": "Centro Sportivo, Cividate al Piano",
-              "sede": "Centro Sportivo",
-              "comune": "Cividate al Piano",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "22:00",
-              "nome": "Tributo Lucio Battisti - Due Mondi",
-              "luogo": "Keller Factory, Curno",
-              "sede": "Keller Factory",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-lucio-battisti-due-mondi-keller-factory-curno-app-bergamo-it-keller/"
-            },
-            {
-              "ora": null,
-              "nome": "Cheap Mondays - release show",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.drusobg.com/event-details-1/cheap-mondays-new-album-release-show"
-            },
-            {
-              "ora": null,
-              "nome": "Jolie",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/Dd02hoyjOj-/"
-            }
-          ]
-        },
-        {
-          "data": "2026-10-03",
-          "etichetta": "Sabato 3 ottobre",
-          "breve": "Sabato 3",
-          "nota": "utōpia: gratis ma con registrazione su DICE. Ninfea: serve la tessera.",
-          "eventi": [
-            {
-              "ora": "10:00",
-              "nome": "Sambambaia - giornata brasiliana",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/DdrRfxvigMm/"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Valtellina: tributo Achille Lauro",
-              "luogo": "Piazza della Libertà, Ponte San Pietro",
-              "sede": "Piazza della Libertà",
-              "comune": "Ponte San Pietro",
-              "zona": "Isola",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Tutti in Borgo: 90 Special",
-              "luogo": "Via Vignola, Almenno San Bartolomeo",
-              "sede": "Via Vignola",
-              "comune": "Almenno San Bartolomeo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Pegher Fest: Raf Benzoni Band",
-              "luogo": "Campo sportivo di Bratto, Castione della Presolana",
-              "sede": "Campo sportivo di Bratto",
-              "comune": "Castione della Presolana",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "21:00",
-              "nome": "utōpia w/ Giuli Santori e Discopasta",
-              "luogo": "Orobia Climbing, Curno",
-              "sede": "Orobia Climbing",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/DdjiDF4iC3x/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Dungeon w/ Kuzu Kenopsia",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/reel/Dd68o6Wx3iS/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Oktoberfest: Blascover + Solieri",
-              "luogo": "Centro Sportivo, Cividate al Piano",
-              "sede": "Centro Sportivo",
-              "comune": "Cividate al Piano",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "New Time Jazz Quartet",
-              "luogo": "Auditorium delle scuole, Stezzano",
-              "sede": "Auditorium delle scuole",
-              "comune": "Stezzano",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-new-time-jazz-quartet-in-concerto-auditorium-scuole-stezzano/"
-            },
-            {
-              "ora": "21:30",
-              "nome": "Lipstick con Valls",
-              "luogo": "Mint Lounge Bar, Chiuduno",
-              "sede": "Mint Lounge Bar",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/Dd3SBhJDYU3/"
-            },
-            {
-              "ora": "22:00",
-              "nome": "Conejo Night - Bad Bunny all night",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/Ddt0OyysN2t/"
-            },
-            {
-              "ora": "23:00",
-              "nome": "MiCasa: Bad Habits",
-              "luogo": "Loft, via Stezzano, Azzano San Paolo",
-              "sede": "Loft, via Stezzano",
-              "comune": "Azzano San Paolo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DdmOzRBiHpL/"
-            },
-            {
-              "ora": "23:30",
-              "nome": "Bolgia Summer Garden w/ Frank Storm",
-              "luogo": "Bolgia, via Vaccarezza, Osio Sopra",
-              "sede": "Bolgia, via Vaccarezza",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 20
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/reel/DdY3DiRivZX/"
-            },
-            {
-              "ora": null,
-              "nome": "Certe Notti Magiche - tributo Ligabue",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "rilevanza": 3,
-              "fonte": "https://nxtbergamo.it/certe-notti-magiche-3-ottobre/"
-            },
-            {
-              "ora": null,
-              "nome": "Chéri",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/Dd02hoyjOj-/"
-            }
-          ]
-        },
-        {
-          "data": "2026-10-04",
-          "etichetta": "Domenica 4 ottobre",
-          "breve": "Domenica 4",
-          "nota": "Ninfea: torneo per associati, 40 euro a squadra.",
-          "eventi": [
-            {
-              "ora": "09:30",
-              "nome": "Sagra del Cinghiale 2.0",
-              "luogo": "In piazza, Peia",
-              "sede": "In piazza",
-              "comune": "Peia",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 3,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "09:30",
-              "nome": "Sapori di Casa: teedèi e tradizioni",
-              "luogo": "Centro storico, Vertova",
-              "sede": "Centro storico",
-              "comune": "Vertova",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Tutti in Borgo: Blascover",
-              "luogo": "Via Vignola, Almenno San Bartolomeo",
-              "sede": "Via Vignola",
-              "comune": "Almenno San Bartolomeo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "11:00",
-              "nome": "Torneo di calcio tennis e Trash Night",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 40
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/Dd4gVpPDKv2/"
-            },
-            {
-              "ora": "12:00",
-              "nome": "Festa delle castagne: ballo liscio",
-              "luogo": "Campo di calcio di Casale, Albino",
-              "sede": "Campo di calcio di Casale",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Castagnata in Borgo",
-              "luogo": "Borgo di Piazza Martina, Zogno",
-              "sede": "Borgo di Piazza Martina",
-              "comune": "Zogno",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Festival Valtellina: Tindergarten",
-              "luogo": "Piazza della Libertà, Ponte San Pietro",
-              "sede": "Piazza della Libertà",
-              "comune": "Ponte San Pietro",
-              "zona": "Isola",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 15
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197"
-            },
-            {
-              "ora": null,
-              "nome": "Fiera d'Autunno",
-              "luogo": "Centro del paese, Sorisole",
-              "sede": "Centro del paese",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-2-4-ottobre-nella-bergamasca/"
-            }
-          ]
-        }
-      ],
-      "sempre_aperte": [
-        {
-          "nome": "Pizzoccheri & Sciatt",
-          "luogo": "Piazzale degli Alpini, Bergamo",
-          "quando": "ven → dom · chiude dom",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Sagra della polenta",
-          "luogo": "Oratorio di Valtrighe, Mapello",
-          "quando": "ven → dom · 19:00",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Oktoberfest Rovetta",
-          "luogo": "Parco comunale, Rovetta",
-          "quando": "ven → dom · 18:00",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Oktoberfest Sotto il Monte",
-          "luogo": "Palatenda, piazza Santa Maria",
-          "quando": "ven → dom · riscaldato",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Festa della Madonna del Rosario",
-          "luogo": "Tensostruttura dell'oratorio, Solza",
-          "quando": "ven → dom · 19:00",
-          "categoria": "sagra"
-        }
-      ],
-      "categorie": [
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "◉"
-        },
-        {
-          "chiave": "danza",
-          "etichetta": "Danza",
-          "icona": "✿"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "△"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
-        }
-      ],
-      "permalink": "https://www.instagram.com/p/Dd9G6gnkdLx/"
+      ]
     }
   ],
   "cinema": [
