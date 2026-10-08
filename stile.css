@@ -183,6 +183,9 @@ h1 em { font-style: normal; color: var(--acc); display: block; }
   font-size: clamp(30px, 7vw, 44px); line-height: 1; letter-spacing: -.005em;
 }
 .giorno.oggi h2 { color: var(--acc); }
+.piu { margin-top: 18px; font-size: 16px; font-weight: 700; }
+.piu a { color: var(--acc); text-decoration: none; }
+.piu a:hover { text-decoration: underline; }
 .oggi-bollo {
   display: inline-block; margin-left: 12px; vertical-align: middle;
   background: var(--acc); color: var(--on-acc); padding: 4px 9px 2px;
@@ -228,6 +231,30 @@ ul.lista li.primo { border-top: 3px solid var(--hot); }
 .nota {
   margin-top: 20px; border-left: 5px solid var(--hot); padding: 5px 0 5px 18px;
   font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--mut);
+}
+
+/* ------------------------------------------------- secondo livello (giorni) */
+/* Sotto la guida, sulle sole pagine giorno, c'è tutto il resto di quella
+   giornata. Si vede che è un altro livello — titolo più piccolo, ora e zona
+   smorzate — perché la selezione è il prodotto: un elenco piatto di quaranta
+   righe se la mangerebbe. Nessun colore nuovo, solo i token che c'erano già. */
+.secondo { margin-top: 64px; border-top: 3px solid var(--line); padding-top: 28px; }
+.secondo h2 {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  text-transform: uppercase; letter-spacing: .03em;
+  font-size: clamp(23px, 5.4vw, 32px); line-height: 1.05;
+}
+.secondo .intro {
+  margin-top: 10px; max-width: 56ch;
+  font-size: 15px; font-weight: 600; line-height: 1.45; color: var(--mut);
+}
+.secondo ul.lista li.primo { border-top: none; }
+.secondo .ora { color: var(--mut); font-size: 24px; }
+.secondo .nome { font-size: 18px; font-weight: 600; }
+.secondo .nome i { color: var(--mut); }
+.secondo .zona {
+  background: none; color: var(--mut);
+  border: 2px solid var(--line); padding: 1px 7px 0;
 }
 
 /* ---------------------------------------------------------------- piede */

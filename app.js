@@ -39,6 +39,14 @@ function nomeGiorno(iso) {
   const [a, m, g] = iso.split("-").map(Number);
   return GIORNI_IT[new Date(Date.UTC(a, m - 1, g)).getUTCDay()];
 }
+/* Lo slug delle pagine giorno, uguale a GIORNI_SLUG di statico.py: se i due
+   divergono, il rimando al secondo livello punta a un 404. */
+const GIORNI_SLUG = ["domenica", "lunedi", "martedi", "mercoledi", "giovedi", "venerdi", "sabato"];
+function urlGiorno(iso) {
+  const [a, m, g] = iso.split("-").map(Number);
+  const s = GIORNI_SLUG[new Date(Date.UTC(a, m - 1, g)).getUTCDay()];
+  return `/${a}/${String(m).padStart(2, "0")}/${String(g).padStart(2, "0")}-${s}/`;
+}
 function etichettaPeriodo(p) {
   return p.etichetta ?? `${p.da} → ${p.a}`;
 }
@@ -169,6 +177,8 @@ function renderGuida() {
       <h2>${esc(g.etichetta)}${eOggi ? '<span class="oggi-bollo">oggi</span>' : ""}</h2>
       <ul class="lista">${righe}</ul>
       ${g.nota ? `<p class="nota">${esc(g.nota)}</p>` : ""}
+      ${g.altri?.length ? `<p class="piu"><a href="${urlGiorno(g.data)}#tutto-il-resto"
+        >e altri ${g.altri.length} eventi di ${esc(nomeGiorno(g.data))} →</a></p>` : ""}
     </section>`;
   }).join("");
 
