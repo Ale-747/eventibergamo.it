@@ -237,8 +237,8 @@ function renderGuida() {
       ${anticipo ? `<p class="anticipo">${esc(anticipo)}</p>` : ""}
       <p class="sommario">${nl(attiva.sottotitolo)}</p>
       <p class="gancio">${nl(attiva.hook)}</p>
-      <div class="chips">${chips}</div>
       ${interruttore(attiva)}
+      <div class="chips">${chips}</div>
     </header>
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}

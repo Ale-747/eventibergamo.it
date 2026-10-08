@@ -930,7 +930,7 @@
       },
       "titolo": "Il Weekend",
       "sottotitolo": "Il Lombardia parte da Bergamo, il Setai riapre,\ne utōpia fa l'ultimo open air della stagione.",
-      "hook": "Dentro: 35 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "hook": "Dentro: 36 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
       "sempre_aperte": [
         {
           "nome": "39ª Sagra del raviolo nostrano",
@@ -988,6 +988,11 @@
           "chiave": "dj",
           "etichetta": "Dj set / party",
           "icona": "◉"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
         },
         {
           "chiave": "sport",
@@ -6533,6 +6538,20 @@
       "nota": "Il Setai riapre, line-up non ancora pubblicata. Ninfea è un circolo: serve la tessera, si fa alla porta.",
       "eventi": [
         {
+          "ora": "10:00",
+          "nome": "Super Duper Market",
+          "luogo": "Spazio Fase, Alzano Lombardo",
+          "sede": "Spazio Fase",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
+          "rilevanza": 2
+        },
+        {
           "ora": "16:00",
           "nome": "The Techno Lazy Day: 8 ore di techno",
           "luogo": "Ninfea Social Club, Sorisole",
@@ -6806,19 +6825,6 @@
           "comune": "San Pellegrino Terme",
           "zona": "Valli",
           "categoria": "sagra",
-          "prezzo": {
-            "tipo": "nd"
-          },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-        },
-        {
-          "ora": "10:00",
-          "nome": "Super Duper Market",
-          "luogo": "Spazio Fase, Alzano Lombardo",
-          "sede": "Spazio Fase",
-          "comune": "Alzano Lombardo",
-          "zona": "Valli",
-          "categoria": "mercatino",
           "prezzo": {
             "tipo": "nd"
           },
@@ -7566,6 +7572,20 @@
           "rilevanza": 1
         },
         {
+          "ora": "10:00",
+          "nome": "Super Duper Market",
+          "luogo": "Spazio Fase, Alzano Lombardo",
+          "sede": "Spazio Fase",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
+          "rilevanza": 2
+        },
+        {
           "ora": "12:00",
           "nome": "utōpia stellata, 12 ore di dj set",
           "luogo": "Ninfea Social Club, Sorisole",
@@ -7578,20 +7598,6 @@
           },
           "fonte": "https://www.instagram.com/p/DeE7bk9KXxp/",
           "rilevanza": 3
-        },
-        {
-          "ora": "15:00",
-          "nome": "Castagnata a Cirano",
-          "luogo": "Oratorio Giovanni XXIII, Gandino",
-          "sede": "Oratorio Giovanni XXIII",
-          "comune": "Gandino",
-          "zona": "Valli",
-          "categoria": "sagra",
-          "prezzo": {
-            "tipo": "nd"
-          },
-          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/",
-          "rilevanza": 1
         },
         {
           "ora": "18:00",
@@ -7935,6 +7941,19 @@
             "tipo": "nd"
           },
           "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
+        },
+        {
+          "ora": "15:00",
+          "nome": "Castagnata a Cirano",
+          "luogo": "Oratorio Giovanni XXIII, Gandino",
+          "sede": "Oratorio Giovanni XXIII",
+          "comune": "Gandino",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
         },
         {
           "ora": "15:00",
