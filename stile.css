@@ -233,6 +233,30 @@ ul.lista li.primo { border-top: 3px solid var(--hot); }
   font-size: 16px; font-weight: 600; line-height: 1.4; color: var(--mut);
 }
 
+/* ------------------------------------------- switch "solo la guida / tutti" */
+/* In cima alla guida. Le righe del secondo livello stanno nella stessa lista,
+   in ordine di orario, ma smorzate: si vede quali sono state scelte senza
+   doverle separare in due elenchi. */
+.switch { display: inline-flex; margin-top: 22px; border: 2px solid var(--line); }
+.sw {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 15px; letter-spacing: .1em; text-transform: uppercase;
+  background: none; color: var(--mut); border: 0; cursor: pointer;
+  padding: 11px 15px 9px;
+}
+.sw em { font-style: normal; opacity: .65; }
+.sw.sel { background: var(--acc); color: var(--on-acc); }
+.sw.sel em { opacity: .8; }
+.sw:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+
+ul.lista li.extra .ora { color: var(--mut); font-size: 24px; }
+ul.lista li.extra .nome { font-size: 18px; font-weight: 600; }
+ul.lista li.extra .nome i { color: var(--mut); }
+ul.lista li.extra .zona {
+  background: none; color: var(--mut);
+  border: 2px solid var(--line); padding: 1px 7px 0;
+}
+
 /* ------------------------------------------------- secondo livello (giorni) */
 /* Sotto la guida, sulle sole pagine giorno, c'è tutto il resto di quella
    giornata. Si vede che è un altro livello — titolo più piccolo, ora e zona

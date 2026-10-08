@@ -139,6 +139,20 @@ function allineaDatiStrutturati(idAttiva) {
     .forEach((s) => { if (s.dataset.guida !== idAttiva) s.remove(); });
 }
 
+/* Lo switch in cima: la guida e' quello che si e' scelto, "tutti" quello che si
+   e' trovato. Parte da "solo la guida" perche' la selezione e' il prodotto, ma
+   l'altra meta' non deve stare dietro a un link d'archivio per vedersi. */
+function interruttore(g) {
+  const nGuida = g.giorni.reduce((n, d) => n + (d.eventi?.length ?? 0), 0);
+  const nTutti = nGuida + g.giorni.reduce((n, d) => n + (d.altri?.length ?? 0), 0);
+  if (nTutti === nGuida) return "";
+  const b = (tutti, testo, n) =>
+    `<button type="button" class="sw${STATO.tutti === tutti ? " sel" : ""}"
+      data-tutti="${tutti ? 1 : 0}" aria-pressed="${STATO.tutti === tutti}">${testo} <em>${n}</em></button>`;
+  return `<div class="switch" role="group" aria-label="Quanti eventi mostrare"
+    >${b(false, "Solo la guida", nGuida)}${b(true, "Tutti gli eventi", nTutti)}</div>`;
+}
+
 function renderGuida() {
   const { dati, attiva, inCorso, oggi } = STATO;
   document.documentElement.dataset.tema = attiva.formato;
@@ -152,18 +166,31 @@ function renderGuida() {
   const titolo = esc(attiva.titolo).split(" ");
   const primo = titolo.shift();
 
-  const chips = attiva.categorie.map((c) =>
-    `<button type="button" class="chip" data-cat="${esc(c.chiave)}" aria-pressed="false"
+  /* I chip coprono anche le categorie del solo secondo livello: in "solo la
+     guida" non accenderebbero niente, e applicaFiltri() li nasconde. */
+  const catsGuida = new Set(attiva.categorie.map((c) => c.chiave));
+  const tutteCat = attiva.categorie_tutte ?? attiva.categorie;
+  const chips = tutteCat.map((c) =>
+    `<button type="button" class="chip" data-cat="${esc(c.chiave)}" aria-pressed="false"${
+      catsGuida.has(c.chiave) ? "" : ' data-extra-cat="1"'}
       ><i>${esc(c.icona)}</i>${esc(c.etichetta)}</button>`).join("");
 
-  const icona = (chiave) => attiva.categorie.find((c) => c.chiave === chiave)?.icona ?? "✱";
+  const icona = (chiave) => tutteCat.find((c) => c.chiave === chiave)?.icona ?? "✱";
 
+  /* Guida e secondo livello si mescolano in ordine di orario: con lo switch su
+     "tutti" uno sta leggendo la serata, e una serata ha un orologio solo. Che
+     una riga venga dalla guida resta visibile lo stesso — le altre sono
+     smorzate — ma non si spezzano in due elenchi. */
   const giorni = attiva.giorni.map((g) => {
     const eOggi = g.data === oggi;
-    const righe = g.eventi.map((e) => {
+    const tutte = (g.eventi ?? []).map((e) => [e, false])
+      .concat((g.altri ?? []).map((e) => [e, true]))
+      .sort((a, b) => (a[0].ora ?? "99:99").localeCompare(b[0].ora ?? "99:99")
+                      || (a[0].nome ?? "").localeCompare(b[0].nome ?? ""));
+    const righe = tutte.map(([e, extra]) => {
       const p = badgePrezzo(e.prezzo);
       const zona = e.zona ? `<span class="zona">${esc(e.zona)}</span>` : "";
-      return `<li data-cat="${esc(e.categoria)}">
+      return `<li data-cat="${esc(e.categoria)}"${extra ? ' class="extra" data-extra="1"' : ""}>
         <div class="ora">${esc(e.ora ?? "—")}</div>
         <div class="corpo">
           <div class="nome"><i>${esc(icona(e.categoria))}</i>${esc(e.nome)}</div>
@@ -177,7 +204,7 @@ function renderGuida() {
       <h2>${esc(g.etichetta)}${eOggi ? '<span class="oggi-bollo">oggi</span>' : ""}</h2>
       <ul class="lista">${righe}</ul>
       ${g.nota ? `<p class="nota">${esc(g.nota)}</p>` : ""}
-      ${g.altri?.length ? `<p class="piu"><a href="${urlGiorno(g.data)}#tutto-il-resto"
+      ${g.altri?.length ? `<p class="piu" data-solo="1"><a href="${urlGiorno(g.data)}#tutto-il-resto"
         >e altri ${g.altri.length} eventi di ${esc(nomeGiorno(g.data))} →</a></p>` : ""}
     </section>`;
   }).join("");
@@ -211,6 +238,7 @@ function renderGuida() {
       <p class="sommario">${nl(attiva.sottotitolo)}</p>
       <p class="gancio">${nl(attiva.hook)}</p>
       <div class="chips">${chips}</div>
+      ${interruttore(attiva)}
     </header>
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
@@ -226,6 +254,16 @@ function renderGuida() {
     STATO.filtri = new Set();   // le categorie di un'altra guida non sono le stesse
     renderGuida();
     window.scrollTo({ top: 0 });
+  }));
+
+  document.querySelectorAll("button.sw").forEach((b) => b.addEventListener("click", () => {
+    const tutti = b.dataset.tutti === "1";
+    if (tutti === STATO.tutti) return;
+    STATO.tutti = tutti;
+    /* Un filtro acceso su una categoria che in "solo la guida" non esiste
+       lascerebbe la pagina vuota senza che si capisca perché: si spegne. */
+    if (!tutti) STATO.filtri = new Set([...STATO.filtri].filter((c) => catsGuida.has(c)));
+    applicaFiltri();
   }));
 
   document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
@@ -252,8 +290,21 @@ function renderGuida() {
 
 function applicaFiltri() {
   const f = STATO.filtri;
+  const tutti = STATO.tutti;
+
+  document.querySelectorAll("button.sw").forEach((b) => {
+    const on = (b.dataset.tutti === "1") === tutti;
+    b.classList.toggle("sel", on);
+    b.setAttribute("aria-pressed", on);
+  });
+  // Il rimando "e altri N eventi di venerdì" serve solo quando quegli N non sono
+  // già a schermo.
+  document.querySelectorAll("p.piu[data-solo]").forEach((p) => { p.hidden = tutti; });
 
   document.querySelectorAll(".chip").forEach((b) => {
+    // Un chip che in questa modalità non accende niente non si mostra.
+    if (b.dataset.extraCat && !tutti) { b.hidden = true; return; }
+    b.hidden = false;
     const acceso = f.has(b.dataset.cat);
     b.classList.toggle("sel", acceso);
     b.setAttribute("aria-pressed", acceso);
@@ -263,7 +314,7 @@ function applicaFiltri() {
   document.querySelectorAll(".giorno").forEach((sezione) => {
     let n = 0;
     sezione.querySelectorAll("li[data-cat]").forEach((li) => {
-      const mostra = f.size === 0 || f.has(li.dataset.cat);
+      const mostra = (tutti || !li.dataset.extra) && (f.size === 0 || f.has(li.dataset.cat));
       li.hidden = !mostra;
       if (mostra) n += 1;
       // Il filo rosso sopra la lista sta sulla prima riga *visibile*, non sulla prima.
@@ -333,7 +384,7 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
     const { valide, inCorso, attiva } = scegli(dati.guide ?? [], oggi);
     const cinema = scegliCinema(dati.cinema, oggi);
     if (!attiva) return renderRiposo(dati, cinema);
-    STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set() };
+    STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false };
     renderGuida();
   })
   /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida

@@ -1052,21 +1052,21 @@
           "data": "2026-10-10",
           "etichetta": "Sabato 10 ottobre",
           "breve": "Sabato 10",
-          "nota": "Il Setai riapre sabato: line-up e orario non ancora pubblicati.",
+          "nota": "Il Setai riapre, line-up non ancora pubblicata. Ninfea è un circolo: serve la tessera, si fa alla porta.",
           "eventi": [
             {
-              "ora": "15:30",
-              "nome": "Songavazzo Rockers Fest",
-              "luogo": "Centro sportivo, Songavazzo",
-              "sede": "Centro sportivo",
-              "comune": "Songavazzo",
-              "zona": "Valli",
-              "categoria": "sagra",
+              "ora": "16:00",
+              "nome": "The Techno Lazy Day: 8 ore di techno",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "dj",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
-              "rilevanza": 1
+              "fonte": "https://www.instagram.com/p/Dd3h23oCsQ7/",
+              "rilevanza": 3
             },
             {
               "ora": "20:30",
@@ -1125,20 +1125,6 @@
               },
               "fonte": "https://www.instagram.com/p/DeJOUTii-Sd/",
               "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Unione Filarmonica Stezzanese",
-              "luogo": "Auditorium scuole medie, Stezzano",
-              "sede": "Auditorium scuole medie",
-              "comune": "Stezzano",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/",
-              "rilevanza": 1
             },
             {
               "ora": "21:00",
@@ -1209,6 +1195,21 @@
               },
               "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
               "rilevanza": 2
+            },
+            {
+              "ora": "23:30",
+              "nome": "Fantasm + Dylan Ritmodromo Italiano",
+              "luogo": "Bolgia, Osio Sopra",
+              "sede": "Bolgia",
+              "comune": "Osio Sopra",
+              "zona": "Bassa",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 30
+              },
+              "fonte": "https://www.instagram.com/reel/DdoUCxrK5WV/",
+              "rilevanza": 3
             },
             {
               "ora": null,
@@ -1522,6 +1523,19 @@
               "comune": "Pontida",
               "zona": "Isola",
               "categoria": "visita",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
+            },
+            {
+              "ora": "15:30",
+              "nome": "Songavazzo Rockers Fest",
+              "luogo": "Centro sportivo, Songavazzo",
+              "sede": "Centro sportivo",
+              "comune": "Songavazzo",
+              "zona": "Valli",
+              "categoria": "sagra",
               "prezzo": {
                 "tipo": "nd"
               },
@@ -1955,6 +1969,19 @@
                 "tipo": "nd"
               },
               "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Unione Filarmonica Stezzanese",
+              "luogo": "Auditorium scuole medie, Stezzano",
+              "sede": "Auditorium scuole medie",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
             },
             {
               "ora": "22:00",
@@ -2676,6 +2703,93 @@
           "chiave": "sport",
           "etichetta": "Sport e outdoor",
           "icona": "△"
+        }
+      ],
+      "categorie_tutte": [
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "▷"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "◉"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        },
+        {
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "♞"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "⚙"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "◆"
+        },
+        {
+          "chiave": "cena",
+          "etichetta": "Cene e degustazioni",
+          "icona": "⬢"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "✦"
+        },
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "⚑"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✱"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "✿"
+        },
+        {
+          "chiave": "aperitivo",
+          "etichetta": "Aperitivi e serate",
+          "icona": "◐"
         }
       ]
     }
