@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-10-08",
+  "aggiornato_il": "2026-10-12",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -24,137 +24,138 @@
   },
   "guide": [
     {
-      "id": "settimana-2026-10-06",
+      "id": "settimana-2026-10-13",
       "formato": "settimana",
       "periodo": {
-        "da": "2026-10-06",
-        "a": "2026-10-08",
-        "etichetta": "6 → 8 ottobre"
+        "da": "2026-10-13",
+        "a": "2026-10-15",
+        "etichetta": "13 → 15 ottobre"
       },
       "titolo": "La Settimana",
-      "sottotitolo": "BergamoScienza tiene banco fino a giovedì,\ne in mezzo c'è il Nobel per la Chimica 2025.",
-      "hook": "Dentro: 26 appuntamenti da martedì a giovedì.\nTredici sono gratis, e mercoledì parla un Nobel.",
+      "sottotitolo": "Tre sere di mezzo ottobre, dal cineteatro di valle\nal Sentierone che si riempie di bancarelle.",
+      "hook": "Dentro: 30 appuntamenti da martedì a giovedì.\nOtto sono gratis, e mercoledì uno comincia alle 5 del mattino.",
       "giorni": [
         {
-          "data": "2026-10-06",
-          "etichetta": "Martedì 6 ottobre",
-          "breve": "Martedì 6",
-          "nota": "Ninfea e Ink chiudono la serata con un torneo: iscrizione sul posto, ma serve la tessera (associati Ninfea, soci Arci all'Ink).",
+          "data": "2026-10-13",
+          "etichetta": "Martedì 13 ottobre",
+          "breve": "Martedì 13",
+          "nota": "All'Ink serve la tessera Arci, si fa alla porta. A Covo i fuochi chiudono la Sagra del Raviolo: si parcheggia all'Area Ex Alimonti.",
           "eventi": [
             {
-              "ora": "19:00",
-              "nome": "Mangio, ergo sum?",
-              "luogo": "CULT! Sala dell'Orologio, Bergamo",
-              "sede": "CULT! Sala dell'Orologio",
+              "ora": "16:00",
+              "nome": "Castagnata al parco",
+              "luogo": "Parco Alessandri (PalAlpini), Albino",
+              "sede": "Parco Alessandri (PalAlpini)",
+              "comune": "Albino",
+              "zona": "Valli",
+              "categoria": "famiglia",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/albino/castagnata-al-parco_305922/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "18:00",
+              "nome": "In Caucaso. Tra Georgia e Armenia",
+              "luogo": "Libreria Incrocio Quarenghi, Bergamo",
+              "sede": "Libreria Incrocio Quarenghi",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
-                "tipo": "gratis"
+                "tipo": "nd"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/in-caucaso-un-viaggio-tra-georgia-e-armenia_305874/",
+              "rilevanza": 2
             },
             {
               "ora": "19:00",
-              "nome": "Il ritorno del nucleare, in tasca",
-              "luogo": "Fondazione Dalmine, Dalmine",
-              "sede": "Fondazione Dalmine",
-              "comune": "Dalmine",
+              "nome": "Food pairing con i formaggi",
+              "luogo": "Enoteca La Bidule, Treviglio",
+              "sede": "Enoteca La Bidule",
+              "comune": "Treviglio",
               "zona": "Bassa",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Organi su misura: gli xenotrapianti",
-              "luogo": "CULT! Auditorium, Bergamo",
-              "sede": "CULT! Auditorium",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Naza",
-              "luogo": "Lo Schermo Bianco, Bergamo",
-              "sede": "Lo Schermo Bianco",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
+              "categoria": "cena",
               "prezzo": {
                 "tipo": "nd"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.lab80.it/programmazione/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/treviglio/la-magia-del-food-pairing-con-i-formaggi_305434/",
+              "rilevanza": 2
             },
             {
-              "ora": "21:00",
-              "nome": "Santiago - Un cammino per ricominciare",
-              "luogo": "CULT! Sala dell'Orologio, Bergamo",
-              "sede": "CULT! Sala dell'Orologio",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.lab80.it/programmazione/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Trainspotting (riedizione)",
-              "luogo": "CULT!, Bergamo",
-              "sede": "CULT!",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://lab80.18tickets.it/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Briscola Selvaggia",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "torneo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DeCmKlKm_S5/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "8 Ball League — 2ª giornata",
+              "ora": "20:00",
+              "nome": "Bergamo Hardcore Mob",
               "luogo": "Ink Club, Bergamo",
               "sede": "Ink Club",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "torneo",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 5
+              },
+              "fonte": "https://www.instagram.com/p/DeWLf0lgSMW/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:30",
+              "nome": "Val Taleggio - La terra di mezzo",
+              "luogo": "Centro culturale R. Gritti, Ranica",
+              "sede": "Centro culturale R. Gritti",
+              "comune": "Ranica",
+              "zona": "Valli",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/ranica/val-taleggio-la-terra-di-mezzo_306218/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:45",
+              "nome": "Premio Costruttori di Ponti",
+              "luogo": "Chiesa di Longuelo, Bergamo",
+              "sede": "Chiesa di Longuelo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "gratis"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DeEgMzwkTiI/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/premio-costruttori-di-ponti-2026_303389/",
+              "rilevanza": 3
             },
             {
-              "ora": "21:30",
+              "ora": "21:00",
+              "nome": "Naza",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.lab80.it/programmazione/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
+              "nome": "Lady Nazca",
+              "luogo": "Nuovo Cine Teatro, Albino",
+              "sede": "Nuovo Cine Teatro",
+              "comune": "Albino",
+              "zona": "Valli",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/albino/film-di-qualita_306079/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
               "nome": "Il Cervellone",
               "luogo": "Daste, Bergamo",
               "sede": "Daste",
@@ -164,134 +165,119 @@
               "prezzo": {
                 "tipo": "gratis"
               },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/reel/Dd_1__lsNX8/"
+              "fonte": "https://www.instagram.com/reel/Dd_1__lsNX8/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "21:15",
+              "nome": "Fuochi d'artificio della Sagra del Raviolo",
+              "luogo": "Oratorio San Tarcisio, Covo",
+              "sede": "Oratorio San Tarcisio",
+              "comune": "Covo",
+              "zona": "Bassa",
+              "categoria": "sagra",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-fuochi-dartificio-spettacolo-pirotecnico-sagra-raviolo-covo-2/",
+              "rilevanza": 2
             }
-          ]
-        },
-        {
-          "data": "2026-10-07",
-          "etichetta": "Mercoledì 7 ottobre",
-          "breve": "Mercoledì 7",
-          "nota": "I due laboratori hanno posti limitati e si prenotano prima: Kintsugi dal form di Daste, Colori Liberi dal link in bio di Ninfea.",
-          "eventi": [
+          ],
+          "altri": [
+            {
+              "ora": "16:30",
+              "nome": "Piccoli Esploratori",
+              "luogo": "Filandone, Martinengo",
+              "sede": "Filandone",
+              "comune": "Martinengo",
+              "zona": "Bassa",
+              "categoria": "famiglia",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/martinengo/piccoli-esploratori_305451/"
+            },
+            {
+              "ora": "16:45",
+              "nome": "Ci incontriamo in un libro?",
+              "luogo": "Biblioteca Luigi Pelandi, Bergamo",
+              "sede": "Biblioteca Luigi Pelandi",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "famiglia",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://biblioteche.comune.bergamo.it/events"
+            },
+            {
+              "ora": "17:00",
+              "nome": "Decodifica dei segni musicali",
+              "luogo": "Biblioteca Tiraboschi, Bergamo",
+              "sede": "Biblioteca Tiraboschi",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/decodifica-dei-segni-musicali-1-solo-rigo_305754/"
+            },
+            {
+              "ora": "17:45",
+              "nome": "Rotta verso il futuro",
+              "luogo": "TNT - Teatro Nuovo, Treviglio",
+              "sede": "TNT - Teatro Nuovo",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/rotta-verso-il-futuro_306134/"
+            },
             {
               "ora": "18:00",
-              "nome": "Cultura che cura",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
+              "nome": "Libri a Tavola: Libri & Farina",
+              "luogo": "Dolce Pausa, Pedrengo",
+              "sede": "Dolce Pausa",
+              "comune": "Pedrengo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "rilevanza": 1,
-              "fonte": "https://www.eventbrite.it/e/biglietti-cultura-che-cura-quando-la-cultura-genera-benessere-2000374861058"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/pedrengo/libri-a-tavola-libri-farina_302465/"
             },
             {
-              "ora": "19:00",
-              "nome": "Verità e finzione tra fotografia e AI",
-              "luogo": "CULT! Sala dell'Orologio, Bergamo",
-              "sede": "CULT! Sala dell'Orologio",
-              "comune": "Bergamo",
+              "ora": "20:45",
+              "nome": "Lo Spirito in Cammino",
+              "luogo": "Sala Civica Mimmo Boninelli, Mozzo",
+              "sede": "Sala Civica Mimmo Boninelli",
+              "comune": "Mozzo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
-                "tipo": "gratis"
+                "tipo": "nd"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mozzo/lo-spirito-in-cammino-da-san-francesco-al-monte-athos-sui-cammini-dello-spirit_306282/"
             },
             {
-              "ora": "19:00",
-              "nome": "The Brain Keepers",
-              "luogo": "CULT! Auditorium, Bergamo",
-              "sede": "CULT! Auditorium",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Colori Liberi — workshop di pittura",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 20
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/Dd6QfqxMCqK/"
-            },
-            {
-              "ora": "19:30",
-              "nome": "Daste Lab: Kintsugi",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 35
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/Dd6m1aLsFcf/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "La rivoluzione delle spugne molecolari",
-              "luogo": "Palascienza, Bergamo",
-              "sede": "Palascienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
+              "ora": "20:45",
+              "nome": "Gruppo di lettura di Filosofia",
+              "luogo": "Biblioteca Centrale, Treviglio",
+              "sede": "Biblioteca Centrale",
+              "comune": "Treviglio",
+              "zona": "Bassa",
               "categoria": "incontro",
               "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Naza",
-              "luogo": "CULT! Sala dell'Orologio, Bergamo",
-              "sede": "CULT! Sala dell'Orologio",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
                 "tipo": "nd"
               },
-              "rilevanza": 1,
-              "fonte": "https://www.lab80.it/programmazione/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gruppi-di-lettura-di-filosofia_306130/"
             },
             {
               "ora": "21:00",
-              "nome": "The Rocky Horror Picture Show",
-              "luogo": "Chiostro del Carmine, Bergamo",
-              "sede": "Chiostro del Carmine",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.lab80.it/programmazione/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "The Invite - Il piacere è tutto nostro",
+              "nome": "Rider",
               "luogo": "Lo Schermo Bianco, Bergamo",
               "sede": "Lo Schermo Bianco",
               "comune": "Bergamo",
@@ -300,664 +286,564 @@
               "prezzo": {
                 "tipo": "nd"
               },
-              "rilevanza": 2,
               "fonte": "https://www.lab80.it/programmazione/"
             },
             {
               "ora": "21:00",
-              "nome": "Calcetto boaro",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "torneo",
+              "nome": "Donne in alta montagna",
+              "luogo": "Sede GAN, Nembro",
+              "sede": "Sede GAN",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DeEXrjED3BV/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/attivita-e-vite-di-donne-in-alta-montagna_306376/"
+            },
+            {
+              "ora": null,
+              "nome": "Gianni Grimaldi",
+              "luogo": "Museo Diocesano Bernareggi, Bergamo",
+              "sede": "Museo Diocesano Bernareggi",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mostra",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/gianni-grimaldi_305432/"
             }
           ]
         },
         {
-          "data": "2026-10-08",
-          "etichetta": "Giovedì 8 ottobre",
-          "breve": "Giovedì 8",
-          "nota": "BergamoScienza è gratis ma su prenotazione: 333 472 6482. All'Ink serve la tessera Arci.",
+          "data": "2026-10-14",
+          "etichetta": "Mercoledì 14 ottobre",
+          "breve": "Mercoledì 14",
+          "nota": "I due laboratori hanno posti contati e si prenotano prima: Ninfea chiede la tessera, Daste il modulo. Il trekking parte alle 5, col buio.",
           "eventi": [
             {
-              "ora": "09:00",
-              "nome": "Scripta manent: le origini della scrittura",
-              "luogo": "Palascienza, Bergamo",
-              "sede": "Palascienza",
+              "ora": "05:00",
+              "nome": "Urban trekking all'alba sui colli",
+              "luogo": "Colli di Bergamo, Bergamo",
+              "sede": "Colli di Bergamo",
               "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 1,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "11:00",
-              "nome": "La giustizia climatica non ha età",
-              "luogo": "Palascienza, Bergamo",
-              "sede": "Palascienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Odissea 2.0: navigare a zero emissioni",
-              "luogo": "CULT! Sala dell'Orologio, Bergamo",
-              "sede": "CULT! Sala dell'Orologio",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 2,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Social Night Run",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
               "zona": "Centro",
               "categoria": "sport",
               "prezzo": {
                 "tipo": "fisso",
-                "valore": 10
+                "valore": 20
               },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DeG8gShiYfY/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/outdoor/bergamo/urban-trekking-allalba-sui-colli-di-bergamo_305769/",
+              "rilevanza": 2
             },
             {
-              "ora": "21:00",
-              "nome": "Complessità — Il Gioco della Vita",
-              "luogo": "CULT! Auditorium, Bergamo",
-              "sede": "CULT! Auditorium",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.bergamoscienza.it/media/fkjax1nt/programma-bergamoscienza-2026-privati.pdf"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Istinto Primordiale — film screening",
+              "ora": "19:30",
+              "nome": "Zucche in fiore",
               "luogo": "Ninfea Social Club, Sorisole",
               "sede": "Ninfea Social Club",
               "comune": "Sorisole",
               "zona": "Centro",
-              "categoria": "cinema",
+              "categoria": "laboratorio",
               "prezzo": {
-                "tipo": "nd"
+                "tipo": "fisso",
+                "valore": 45
               },
-              "rilevanza": 2,
-              "fonte": "https://www.instagram.com/p/DeHKLYQDFDH/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Tela Libera Live",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "rilevanza": 3,
-              "fonte": "https://www.instagram.com/p/DeEvQ9XDesC/"
-            }
-          ]
-        }
-      ],
-      "sempre_aperte": [
-        {
-          "nome": "Il paesaggio bergamasco",
-          "luogo": "Circolo Artistico, Bergamo",
-          "quando": "fino all'8 ottobre",
-          "categoria": "mostra"
-        },
-        {
-          "nome": "Tabula Plena",
-          "luogo": "Palazzo della Ragione, Città Alta",
-          "quando": "fino al 18 ottobre",
-          "categoria": "mostra"
-        },
-        {
-          "nome": "Amalia Del Ponte. Litofonie",
-          "luogo": "Ex Oratorio San Lupo, Bergamo",
-          "quando": "gio e ven 18-21",
-          "categoria": "mostra"
-        }
-      ],
-      "categorie": [
-        {
-          "chiave": "incontro",
-          "etichetta": "Incontri e libri",
-          "icona": "◆"
-        },
-        {
-          "chiave": "cinema",
-          "etichetta": "Cinema e proiezioni",
-          "icona": "▷"
-        },
-        {
-          "chiave": "torneo",
-          "etichetta": "Giochi e tornei",
-          "icona": "♞"
-        },
-        {
-          "chiave": "laboratorio",
-          "etichetta": "Laboratori",
-          "icona": "⚙"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "△"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "▣"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "mostra",
-          "etichetta": "Mostre e arte",
-          "icona": "◧"
-        }
-      ],
-      "permalink": "https://www.instagram.com/p/DeHlUnaDbj3/"
-    },
-    {
-      "id": "weekend-2026-10-09",
-      "formato": "weekend",
-      "periodo": {
-        "da": "2026-10-09",
-        "a": "2026-10-11",
-        "etichetta": "9 → 11 ottobre"
-      },
-      "titolo": "Il Weekend",
-      "sottotitolo": "Il market del design allo Spazio Fase, l'Icks al Daste, e utōpia chiude la stagione all'aperto.",
-      "hook": "Dentro: 36 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
-      "giorni": [
-        {
-          "data": "2026-10-09",
-          "etichetta": "Venerdì 9 ottobre",
-          "breve": "Venerdì 9",
-          "nota": "Ink e Ninfea sono circoli: serve la tessera, si fa alla porta.",
-          "eventi": [
-            {
-              "ora": "19:00",
-              "nome": "Dio Salvi i Rockers Oktoberfest",
-              "luogo": "Palacolere, Colere",
-              "sede": "Palacolere",
-              "comune": "Colere",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/",
-              "rilevanza": 1
-            },
-            {
-              "ora": "20:00",
-              "nome": "Ottocento, tributo a De André",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09",
+              "fonte": "https://www.instagram.com/p/DeMIEWSKshU/",
               "rilevanza": 2
             },
             {
-              "ora": "21:00",
-              "nome": "Canta Italia! con i Cuccu Ruccu",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeHsgweAnMf/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Synth Cafè: Mountain Piercer live A/V",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/DeE1ZezCuiP/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Wholetrain + talk con Florian Gaag",
-              "luogo": "Sala dell'Orologio, Bergamo",
-              "sede": "Sala dell'Orologio",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/Dd1noosjrRW/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Notre Dame de Paris",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09",
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Mint w/ Cr3mas Brothers",
-              "luogo": "MINT Lounge Bar, Chiuduno",
-              "sede": "MINT Lounge Bar",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeL_71jC_BC/",
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Il suono della Volpe",
-              "luogo": "Cinema Iride, Costa Volpino",
-              "sede": "Cinema Iride",
-              "comune": "Costa Volpino",
-              "zona": "Valli",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09",
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:30",
-              "nome": "LigaStory, tributo a Ligabue",
-              "luogo": "Officina del Luppolo, Dalmine",
-              "sede": "Officina del Luppolo",
-              "comune": "Dalmine",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/",
-              "rilevanza": 1
-            },
-            {
-              "ora": "22:00",
-              "nome": "Canta indie, canta male",
+              "ora": "19:30",
+              "nome": "Gioielli in resina",
               "luogo": "Daste, Bergamo",
               "sede": "Daste",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "dj",
+              "categoria": "laboratorio",
               "prezzo": {
                 "tipo": "fisso",
-                "valore": 10
+                "valore": 40
               },
-              "fonte": "https://www.instagram.com/reel/DeHnD0PMSZ7/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "22:00",
-              "nome": "Maurizio Solieri",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09",
+              "fonte": "https://www.instagram.com/p/DeMoZLqDdB0/",
               "rilevanza": 2
             },
             {
-              "ora": "22:30",
-              "nome": "Afro con Dj Mauri",
-              "luogo": "Kraken Factory, Alzano Lombardo",
-              "sede": "Kraken Factory",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "dj",
+              "ora": "20:00",
+              "nome": "Tango",
+              "luogo": "NXT Station, Bergamo",
+              "sede": "NXT Station",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "danza",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/tango_305910/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:30",
+              "nome": "Aperitivo con Delitto: L'Origine del Mondo",
+              "luogo": "Enoteca numero 14, Pedrengo",
+              "sede": "Enoteca numero 14",
+              "comune": "Pedrengo",
+              "zona": "Centro",
+              "categoria": "cena",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 20
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/pedrengo/aperitivo-con-delitto-lorigine-del-mondo_306216/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:45",
+              "nome": "Narciso nero, e poi il dibattito",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 5.5
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/bergamo/proiezione-di-black-narcissus-narciso-nero_306138/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:45",
+              "nome": "Lavorare per gli altri",
+              "luogo": "Casa del Giovane, Bergamo",
+              "sede": "Casa del Giovane",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/lavorare-per-gli-altri-uneconomia-del-significato_303390/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:45",
+              "nome": "Dove va il mondo?",
+              "luogo": "Auditorium Papa Giovanni XXIII, Mapello",
+              "sede": "Auditorium Papa Giovanni XXIII",
+              "comune": "Mapello",
+              "zona": "Isola",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mapello/dove-va-il-mondo_305210/",
               "rilevanza": 1
             },
             {
-              "ora": "22:30",
-              "nome": "Gianluca de Palo in concerto",
-              "luogo": "Monangi Brew, Dalmine",
-              "sede": "Monangi Brew",
-              "comune": "Dalmine",
-              "zona": "Bassa",
+              "ora": "21:00",
+              "nome": "Yoko Yamada - Stellina Scintillina",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.instagram.com/p/DeOq28ADADZ/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "21:00",
+              "nome": "Bodini canta Guccini",
+              "luogo": "Circolo Arci Maite, Bergamo",
+              "sede": "Circolo Arci Maite",
+              "comune": "Bergamo",
+              "zona": "Centro",
               "categoria": "live",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/",
-              "rilevanza": 1
-            },
-            {
-              "ora": null,
-              "nome": "Cliché",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeFGnISDK_0/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/bodini-canta-guccini_306048/",
               "rilevanza": 2
             }
           ],
           "altri": [
             {
-              "ora": "09:30",
-              "nome": "Bartolomeo Colleoni: immagine e fortuna",
-              "luogo": "Luogo Pio della Pieta, Bergamo",
-              "sede": "Luogo Pio della Pieta",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Arte in Fiera!",
-              "luogo": "Area parcheggio, Albino",
-              "sede": "Area parcheggio",
-              "comune": "Albino",
+              "ora": "15:00",
+              "nome": "Un altro giro di giostra, di Terzani",
+              "luogo": "Auditorium San Giovanni, Nembro",
+              "sede": "Auditorium San Giovanni",
+              "comune": "Nembro",
               "zona": "Valli",
-              "categoria": "mercatino",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/un-altro-giro-di-giostra-di-tiziano-terzani_306378/"
             },
             {
-              "ora": "15:30",
-              "nome": "Tutti MATti per gli scacchi",
-              "luogo": "MAT Museo Arte Tempo, Clusone",
-              "sede": "MAT Museo Arte Tempo",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "torneo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "18:00",
-              "nome": "Zucca fiorita",
-              "luogo": "Sebastian Fiori, Treviglio",
-              "sede": "Sebastian Fiori",
+              "ora": "15:00",
+              "nome": "Gino Bartali, campione inimitabile",
+              "luogo": "Centro Salesiano don Bosco, Treviglio",
+              "sede": "Centro Salesiano don Bosco",
               "comune": "Treviglio",
               "zona": "Bassa",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Animali impossibili",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gino-bartali-campione-inimitabile-e-uomo-per-bene_305797/"
             },
             {
-              "ora": "18:30",
-              "nome": "Librai per un anno",
-              "luogo": "Varie sedi, Bergamo",
-              "sede": "Varie sedi",
+              "ora": "17:00",
+              "nome": "The Invite - Il piacere e tutto nostro",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "incontro",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.lab80.it/programmazione/"
+            },
+            {
+              "ora": "17:00",
+              "nome": "Baby Bookclub",
+              "luogo": "Biblioteca Bambini e Ragazzi, Treviglio",
+              "sede": "Biblioteca Bambini e Ragazzi",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "categoria": "famiglia",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/treviglio/baby-bookclub-il-gruppo-di-lettura-per-linfanzia_302513/"
             },
             {
               "ora": "18:30",
-              "nome": "Serena Dandini",
+              "nome": "Pratica di yoga",
               "luogo": "gres art 671, Bergamo",
               "sede": "gres art 671",
               "comune": "Bergamo",
               "zona": "Centro",
+              "categoria": "sport",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/bergamo/pratica-di-yoga-tutti-i-mercoledi_306151/"
+            },
+            {
+              "ora": "20:00",
+              "nome": "Crescere Consapevoli",
+              "luogo": "Sala della Comunita, Bottanuco",
+              "sede": "Sala della Comunita",
+              "comune": "Bottanuco",
+              "zona": "Isola",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bottanuco/crescere-consapevoli_306186/"
             },
             {
-              "ora": "20:00",
-              "nome": "Degustazione Olio Evo Sunnn",
-              "luogo": "Ol Cantini, Bonate Sotto",
-              "sede": "Ol Cantini",
-              "comune": "Bonate Sotto",
+              "ora": "20:30",
+              "nome": "Assistere in casa un familiare con demenza",
+              "luogo": "Sala Vitali, biblioteca, Capriate San Gervasio",
+              "sede": "Sala Vitali, biblioteca",
+              "comune": "Capriate San Gervasio",
               "zona": "Isola",
-              "categoria": "cena",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/capriate-san-gervasio/suggerimenti-pratici-nellassistere-a-domicilio-un-familiare-con-demenza_305857/"
             },
             {
-              "ora": "20:00",
-              "nome": "Omaggio ad Angelo Gallizioli",
-              "luogo": "Chiesa di San Michele, Leffe",
-              "sede": "Chiesa di San Michele",
-              "comune": "Leffe",
+              "ora": "20:30",
+              "nome": "Mystery Fight, la serata Battle",
+              "luogo": "Like it, Cenate Sotto",
+              "sede": "Like it",
+              "comune": "Cenate Sotto",
               "zona": "Valli",
               "categoria": "live",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/cenate-sotto/opening-act_306357/"
             },
             {
-              "ora": "20:30",
-              "nome": "Gh'era ona olta",
-              "luogo": "Museo Ruralia, Osio Sotto",
-              "sede": "Museo Ruralia",
-              "comune": "Osio Sotto",
-              "zona": "Bassa",
-              "categoria": "teatro",
+              "ora": "21:00",
+              "nome": "Naza",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.lab80.it/programmazione/"
             },
             {
-              "ora": "20:30",
-              "nome": "Lupus in fabula",
-              "luogo": "Piazza Vittorio Veneto, Telgate",
-              "sede": "Piazza Vittorio Veneto",
-              "comune": "Telgate",
-              "zona": "Bassa",
-              "categoria": "teatro",
+              "ora": "21:00",
+              "nome": "Cronaca degli anni di brace",
+              "luogo": "Biblioteca di Seriate, Seriate",
+              "sede": "Biblioteca di Seriate",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/seriate/rassegna-cinematografica-cronaca-degli-anni-di-brace_306044/"
+            }
+          ]
+        },
+        {
+          "data": "2026-10-15",
+          "etichetta": "Giovedì 15 ottobre",
+          "breve": "Giovedì 15",
+          "nota": "Sul Sentierone i Mercatanti restano fino a domenica; al Piazzale degli Alpini la cucina della sagra apre alle 19:30 e conviene prenotare.",
+          "eventi": [
+            {
+              "ora": "09:00",
+              "nome": "Mercatanti in Fiera",
+              "luogo": "Sentierone, Bergamo",
+              "sede": "Sentierone",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/bergamo/mercatanti-in-fiera_305277/",
+              "rilevanza": 3
             },
             {
-              "ora": "20:45",
-              "nome": "Buon Tempo Festival",
-              "luogo": "Varie sedi, Bergamo",
-              "sede": "Varie sedi",
+              "ora": "18:00",
+              "nome": "I meccanismi dell'editoria",
+              "luogo": "Biblioteca Tiraboschi, Bergamo",
+              "sede": "Biblioteca Tiraboschi",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/i-meccanismi-delleditoria_305824/",
+              "rilevanza": 2
             },
             {
-              "ora": "20:45",
-              "nome": "Intelligenza artificiale",
-              "luogo": "Oratorio San Giovanni Bosco, Trescore Balneario",
-              "sede": "Oratorio San Giovanni Bosco",
-              "comune": "Trescore Balneario",
-              "zona": "Valli",
-              "categoria": "incontro",
+              "ora": "19:30",
+              "nome": "Slow tour: birre artigianali e trota",
+              "luogo": "Totem Brewing Co., Scanzorosciate",
+              "sede": "Totem Brewing Co.",
+              "comune": "Scanzorosciate",
+              "zona": "Centro",
+              "categoria": "cena",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 25
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/scanzorosciate/slow-tour-2026-confronto-birre-artigianali-trota-salmonata-affumicata_305845/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "19:30",
+              "nome": "Sagra della polenta, zucca e porcini",
+              "luogo": "Piazzale degli Alpini, Bergamo",
+              "sede": "Piazzale degli Alpini",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "sagra",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-polenta-zucca-e-dei-porcini-piazzale-alpini-bergamo-citta-5/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:00",
+              "nome": "Sacrae Scenae - Ardesio Film Festival",
+              "luogo": "Cineteatro dell'oratorio, Ardesio",
+              "sede": "Cineteatro dell'oratorio",
+              "comune": "Ardesio",
+              "zona": "Valli",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/ardesio/sacrae-scenae-ardesio-film-festival_305063/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:00",
+              "nome": "Swap party: scambio di vestiti",
+              "luogo": "Ink Club, Bergamo",
+              "sede": "Ink Club",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.instagram.com/p/DeWgFF7jXPz/",
+              "rilevanza": 3
             },
             {
               "ora": "20:45",
-              "nome": "Al di qua del fiume",
-              "luogo": "Auditorium SAME, Treviglio",
-              "sede": "Auditorium SAME",
+              "nome": "Palestinesi sono i tuoi occhi",
+              "luogo": "Palazzo Silvestri, Sovere",
+              "sede": "Palazzo Silvestri",
+              "comune": "Sovere",
+              "zona": "Valli",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sovere/reading-teatrale-palestinesi-sono-i-tuoi-occhi_306182/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
+              "nome": "Il richiamo della foresta",
+              "luogo": "TNT - Teatro Nuovo, Treviglio",
+              "sede": "TNT - Teatro Nuovo",
               "comune": "Treviglio",
               "zona": "Bassa",
               "categoria": "teatro",
               "prezzo": {
-                "tipo": "nd"
+                "tipo": "gratis"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/treviglio/il-richiamo-della-foresta-treviglio_304713/",
+              "rilevanza": 2
             },
             {
               "ora": "21:00",
-              "nome": "Galileo, oltre le stelle",
-              "luogo": "Auditorium CULT!, Bergamo",
-              "sede": "Auditorium CULT!",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
+              "nome": "In Crociera sul Lago d'Iseo",
+              "luogo": "Cinema Iride, Costa Volpino",
+              "sede": "Cinema Iride",
+              "comune": "Costa Volpino",
+              "zona": "Valli",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/costa-volpino/concerto-in-crociera-sul-lago-diseo_306343/",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
+              "nome": "Amarga navidad",
+              "luogo": "Cinema Garden, Clusone",
+              "sede": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/clusone/rassegna-dautunno-3-appuntamento_305570/",
+              "rilevanza": 2
+            }
+          ],
+          "altri": [
             {
-              "ora": "21:00",
-              "nome": "NGF: quarant’anni dopo il Nobel",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Niklas Jahn in concerto",
-              "luogo": "Chiesa delle Grazie, Bergamo",
-              "sede": "Chiesa delle Grazie",
-              "comune": "Bergamo",
-              "zona": "Centro",
+              "ora": "15:30",
+              "nome": "Concerto del tenore Giorgio Gaioni",
+              "luogo": "Oratorio, Castro",
+              "sede": "Oratorio",
+              "comune": "Castro",
+              "zona": "Valli",
               "categoria": "live",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/castro/concerto-con-il-tenore-giorgio-gaioni_305567/"
             },
             {
-              "ora": "21:00",
-              "nome": "Rivista Inside: Gli Asini",
-              "luogo": "Spazio Caverna, Bergamo",
-              "sede": "Spazio Caverna",
+              "ora": "15:30",
+              "nome": "Lady Nazca",
+              "luogo": "Cineteatro San Filippo Neri, Nembro",
+              "sede": "Cineteatro San Filippo Neri",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/nembro/film-lady-nazca-la-signora-delle-linee_306380/"
+            },
+            {
+              "ora": "16:30",
+              "nome": "Il gioco del teatro",
+              "luogo": "Scuola Primaria, Clusone",
+              "sede": "Scuola Primaria",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/clusone/il-gioco-del-teatro_305844/"
+            },
+            {
+              "ora": "16:45",
+              "nome": "Ci incontriamo in un libro?",
+              "luogo": "Biblioteca Betty Ambiveri, Bergamo",
+              "sede": "Biblioteca Betty Ambiveri",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "famiglia",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://biblioteche.comune.bergamo.it/events"
+            },
+            {
+              "ora": "17:30",
+              "nome": "Presenze e memorie di Dante a Bergamo",
+              "luogo": "Centro Culturale delle Grazie, Bergamo",
+              "sede": "Centro Culturale delle Grazie",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/presenze-e-memorie-di-dante-a-bergamo_305692/"
             },
             {
-              "ora": "21:00",
-              "nome": "Ostinata con brio",
-              "luogo": "Centro Culturale Gritti, Ranica",
-              "sede": "Centro Culturale Gritti",
-              "comune": "Ranica",
+              "ora": "20:30",
+              "nome": "Giovani e beni comuni",
+              "luogo": "Biblioteca Tullio Capitanio, Nembro",
+              "sede": "Biblioteca Tullio Capitanio",
+              "comune": "Nembro",
               "zona": "Valli",
-              "categoria": "teatro",
+              "categoria": "incontro",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/giovani-e-beni-comuni-una-tavola-rotonda-sul-protagonismo-giovanile_306379/"
             },
             {
-              "ora": "21:00",
-              "nome": "Le Opere raccontano: il Restauro",
+              "ora": "20:45",
+              "nome": "Davide: la promessa tra luci e ombre",
+              "luogo": "Chiesa di San Fermo, Bergamo",
+              "sede": "Chiesa di San Fermo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/davide-la-promessa-tra-luci-e-ombre_303391/"
+            },
+            {
+              "ora": "20:45",
+              "nome": "Lezioni di Storia dell'Arte col prof. Fusari",
               "luogo": "Pinacoteca Gianni Bellini, Sarnico",
               "sede": "Pinacoteca Gianni Bellini",
               "comune": "Sarnico",
@@ -966,1809 +852,75 @@
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Sulle Ande con le scarpe bucate",
-              "luogo": "Oratorio Beato Alberto, Villa d'Ogna",
-              "sede": "Oratorio Beato Alberto",
-              "comune": "Villa d'Ogna",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/09"
-            },
-            {
-              "ora": "21:30",
-              "nome": "La Voce delle Donne in concerto",
-              "luogo": "Bar Al Centro, Brignano Gera d'Adda",
-              "sede": "Bar Al Centro",
-              "comune": "Brignano Gera d'Adda",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sarnico/lezioni-di-storia-dellarte-con-il-prof-fusari_301860/"
             },
             {
               "ora": null,
-              "nome": "39a Sagra del raviolo nostrano",
-              "luogo": "Centro paese, Covo",
-              "sede": "Centro paese",
-              "comune": "Covo",
-              "zona": "Bassa",
-              "categoria": "sagra",
+              "nome": "Amalia Del Ponte. Litofonie",
+              "luogo": "Ex Oratorio di San Lupo, Bergamo",
+              "sede": "Ex Oratorio di San Lupo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mostra",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197/"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/amalia-del-ponte-litofonie_305428/"
             },
             {
               "ora": null,
-              "nome": "63a Sagra della castagna",
-              "luogo": "Lido Porto Ponecla, Predore",
-              "sede": "Lido Porto Ponecla",
-              "comune": "Predore",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": null,
-              "nome": "Castagnata Alpina",
-              "luogo": "Baita degli Alpini, Treviolo",
-              "sede": "Baita degli Alpini",
-              "comune": "Treviolo",
-              "zona": "Centro",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197/"
-            },
-            {
-              "ora": null,
-              "nome": "Festival della Valtellina",
-              "luogo": "Via Don Andreoletti, Verdello",
-              "sede": "Via Don Andreoletti",
-              "comune": "Verdello",
-              "zona": "Bassa",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197/"
-            }
-          ]
-        },
-        {
-          "data": "2026-10-10",
-          "etichetta": "Sabato 10 ottobre",
-          "breve": "Sabato 10",
-          "nota": "Il Setai riapre, line-up non ancora pubblicata. Ninfea è un circolo: serve la tessera, si fa alla porta.",
-          "eventi": [
-            {
-              "ora": "10:00",
-              "nome": "Super Duper Market",
-              "luogo": "Spazio Fase, Alzano Lombardo",
-              "sede": "Spazio Fase",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
-              "rilevanza": 2
-            },
-            {
-              "ora": "16:00",
-              "nome": "The Techno Lazy Day: 8 ore di techno",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dd3h23oCsQ7/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "20:30",
-              "nome": "Giuseppe Giacobazzi, Osteria Giacobazzi",
-              "luogo": "PalaFacchetti, Treviglio",
-              "sede": "PalaFacchetti",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 50
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/",
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Notre Dame de Paris",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
+              "nome": "Essere forma",
+              "luogo": "Fantoni Hub, Bergamo",
+              "sede": "Fantoni Hub",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Oasis Columbia",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://nxtbergamo.it/",
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Mint w/ Giorgio Belotti",
-              "luogo": "MINT Lounge Bar, Chiuduno",
-              "sede": "MINT Lounge Bar",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeJOUTii-Sd/",
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Antigone. Un guscio di noce",
-              "luogo": "Sala della Comunità, Suisio",
-              "sede": "Sala della Comunità",
-              "comune": "Suisio",
-              "zona": "Isola",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:30",
-              "nome": "Afroraduno con Dj Mauri e Raba",
-              "luogo": "Parco La Caroscera, Casnigo",
-              "sede": "Parco La Caroscera",
-              "comune": "Casnigo",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/",
-              "rilevanza": 1
-            },
-            {
-              "ora": "22:00",
-              "nome": "Rap4Palestine + 4 Elements Crew",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeFDY2finO4/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "22:00",
-              "nome": "Icks, Dress to Impress",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
+              "categoria": "mostra",
               "prezzo": {
                 "tipo": "gratis"
               },
-              "fonte": "https://www.instagram.com/reel/DeMEr4Gsct3/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "22:30",
-              "nome": "Boomer Party",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10",
-              "rilevanza": 2
-            },
-            {
-              "ora": "23:30",
-              "nome": "Fantasm + Dylan Ritmodromo Italiano",
-              "luogo": "Bolgia, Osio Sopra",
-              "sede": "Bolgia",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 30
-              },
-              "fonte": "https://www.instagram.com/reel/DdoUCxrK5WV/",
-              "rilevanza": 3
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/essere-forma_305227/"
             },
             {
               "ora": null,
-              "nome": "Il Lombardia: la partenza da Bergamo",
-              "luogo": "In città, Bergamo",
-              "sede": "In città",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ilombardia.it/en/news/bergamo-and-il-lombardia-a-weekend-of-great-cycling/",
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "Setai Beyond: opening night",
-              "luogo": "Setai Club, Orio al Serio",
-              "sede": "Setai Club",
-              "comune": "Orio al Serio",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeHmT5ZCHaJ/",
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "Pleasure",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeFGnISDK_0/",
-              "rilevanza": 2
-            }
-          ],
-          "altri": [
-            {
-              "ora": "09:00",
-              "nome": "Cosa ci fa un dinosauro sulle Alpi?",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "09:00",
-              "nome": "No Hat Computer Security Conference",
-              "luogo": "Centro Congressi Giovanni XXIII, Bergamo",
-              "sede": "Centro Congressi Giovanni XXIII",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "09:00",
-              "nome": "A Tutta Scienza",
-              "luogo": "Varie sedi, Ponte San Pietro",
-              "sede": "Varie sedi",
-              "comune": "Ponte San Pietro",
-              "zona": "Isola",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "09:00",
-              "nome": "Un viaggio tra sogni e colori",
-              "luogo": "Sala Fallaci, Ponte San Pietro",
-              "sede": "Sala Fallaci",
-              "comune": "Ponte San Pietro",
-              "zona": "Isola",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "09:00",
-              "nome": "Mercatino sul lungolago",
-              "luogo": "Lungolago Garibaldi, Sarnico",
-              "sede": "Lungolago Garibaldi",
-              "comune": "Sarnico",
-              "zona": "Valli",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "09:30",
-              "nome": "Autunno a San Pellegrino",
-              "luogo": "Centro paese, San Pellegrino Terme",
-              "sede": "Centro paese",
-              "comune": "San Pellegrino Terme",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Isaac Julien: Museum Dreams",
-              "luogo": "gres art 671, Bergamo",
-              "sede": "gres art 671",
+              "nome": "Inmostra",
+              "luogo": "Lalimentari, Bergamo",
+              "sede": "Lalimentari",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "mostra",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://gresart671.org/calendario/"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Festa delle Mele",
-              "luogo": "Frutteto didattico, Colzate",
-              "sede": "Frutteto didattico",
-              "comune": "Colzate",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Corso base di ceramica",
-              "luogo": "Di terra di mani di fuoco, Torre de' Roveri",
-              "sede": "Di terra di mani di fuoco",
-              "comune": "Torre de' Roveri",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "10:30",
-              "nome": "Giardino a dondolo",
-              "luogo": "Teatro di Loreto, Bergamo",
-              "sede": "Teatro di Loreto",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "12:00",
-              "nome": "Picnic nell'Ortaglia di Palazzo Moroni",
-              "luogo": "Palazzo Moroni, Bergamo",
-              "sede": "Palazzo Moroni",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "12:15",
-              "nome": "Palazzo Moroni: visita ai giardini",
-              "luogo": "Palazzo Moroni, Bergamo",
-              "sede": "Palazzo Moroni",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "14:00",
-              "nome": "Memorial Claudio Spampatti",
-              "luogo": "Tennis Club Leffe, Leffe",
-              "sede": "Tennis Club Leffe",
-              "comune": "Leffe",
-              "zona": "Valli",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "14:00",
-              "nome": "Liberamente Bimbi",
-              "luogo": "Parco Avventura, Torre Boldone",
-              "sede": "Parco Avventura",
-              "comune": "Torre Boldone",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Visita al Mulino di Baresi",
-              "luogo": "Mulino di Baresi, Roncobello",
-              "sede": "Mulino di Baresi",
-              "comune": "Roncobello",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Chi lavora per l'intelligenza artificiale?",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:00",
-              "nome": "LovereArts",
-              "luogo": "Varie sedi, Lovere",
-              "sede": "Varie sedi",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:00",
-              "nome": "I signori del bosco",
-              "luogo": "Artestudio Morandi, Ponte Nossa",
-              "sede": "Artestudio Morandi",
-              "comune": "Ponte Nossa",
-              "zona": "Valli",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:30",
-              "nome": "Tutte in rosa",
-              "luogo": "Centro paese, Clusone",
-              "sede": "Centro paese",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:30",
-              "nome": "Il Monastero di Pontida",
-              "luogo": "Monastero di San Giacomo, Pontida",
-              "sede": "Monastero di San Giacomo",
-              "comune": "Pontida",
-              "zona": "Isola",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "15:30",
-              "nome": "Songavazzo Rockers Fest",
-              "luogo": "Centro sportivo, Songavazzo",
-              "sede": "Centro sportivo",
-              "comune": "Songavazzo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Apertura di Palazzo Pelliccioli",
-              "luogo": "Centro storico, Alzano Lombardo",
-              "sede": "Centro storico",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Visite guidate a Bianzano",
-              "luogo": "Centro storico, Bianzano",
-              "sede": "Centro storico",
-              "comune": "Bianzano",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Beerthday",
-              "luogo": "Birrificio Hop Skin, Curno",
-              "sede": "Birrificio Hop Skin",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:00",
-              "nome": "La vertigine della bellezza",
-              "luogo": "Atelier del Tadini, Lovere",
-              "sede": "Atelier del Tadini",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Da Villa Sottocasa alla Parrocchiale",
-              "luogo": "Piazza Europa Unita, Pedrengo",
-              "sede": "Piazza Europa Unita",
-              "comune": "Pedrengo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:30",
-              "nome": "Enea Salmeggia",
-              "luogo": "Chiesa di San Bartolomeo, Albino",
-              "sede": "Chiesa di San Bartolomeo",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:30",
-              "nome": "Ricordare pedalando",
-              "luogo": "MuMeSE, Selvino",
-              "sede": "MuMeSE",
-              "comune": "Selvino",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "16:30",
-              "nome": "Piccolini",
-              "luogo": "Castello di Urgnano, Urgnano",
-              "sede": "Castello di Urgnano",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:00",
-              "nome": "Area Contemporanea",
-              "luogo": "Galleria Triangoloarte, Bergamo",
-              "sede": "Galleria Triangoloarte",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:00",
-              "nome": "Missione Ariel",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:00",
-              "nome": "In un click!",
-              "luogo": "Fondazione Dalmine, Dalmine",
-              "sede": "Fondazione Dalmine",
-              "comune": "Dalmine",
-              "zona": "Bassa",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:00",
-              "nome": "Inaugurazione della Croce Sparavera",
-              "luogo": "Monte Sparavera, Gandino",
-              "sede": "Monte Sparavera",
-              "comune": "Gandino",
-              "zona": "Valli",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:30",
-              "nome": "La Terra e pronta a difendersi",
-              "luogo": "Torre del Sole, Brembate di Sopra",
-              "sede": "Torre del Sole",
-              "comune": "Brembate di Sopra",
-              "zona": "Isola",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "17:30",
-              "nome": "Covo da scoprire",
-              "luogo": "Centro paese, Covo",
-              "sede": "Centro paese",
-              "comune": "Covo",
-              "zona": "Bassa",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "18:30",
-              "nome": "Bach, Sax & Marimba",
-              "luogo": "Palazzo Terzi, Bergamo",
-              "sede": "Palazzo Terzi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "18:30",
-              "nome": "I libri",
-              "luogo": "Fondaco del Sale, Bergamo",
-              "sede": "Fondaco del Sale",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "19:00",
-              "nome": "Innesti",
-              "luogo": "Amoarte Sofi Gallery, Bergamo",
-              "sede": "Amoarte Sofi Gallery",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "19:00",
-              "nome": "L'Arkimia del Tempo",
-              "luogo": "Teatro Circolo Fratellanza, Casnigo",
-              "sede": "Teatro Circolo Fratellanza",
-              "comune": "Casnigo",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "19:00",
-              "nome": "CalamarPizza",
-              "luogo": "Oratorio di Premolo, Premolo",
-              "sede": "Oratorio di Premolo",
-              "comune": "Premolo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "20:00",
-              "nome": "Ghost Tour di Bergamo",
-              "luogo": "Ex chiesa di Sant'Agostino, Bergamo",
-              "sede": "Ex chiesa di Sant'Agostino",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Bergamo Proibita",
-              "luogo": "Piazza Vecchia, Bergamo",
-              "sede": "Piazza Vecchia",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Concerto finale masterclass di oboe",
-              "luogo": "Sala Fellegara, Bergamo",
-              "sede": "Sala Fellegara",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/musica/2026/10/10"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Musei che brillano",
-              "luogo": "Ecomuseo delle Miniere, Gorno",
-              "sede": "Ecomuseo delle Miniere",
-              "comune": "Gorno",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:30",
-              "nome": "Don Chisciotte - Il Musical",
-              "luogo": "Teatro Crystal, Lovere",
-              "sede": "Teatro Crystal",
-              "comune": "Lovere",
-              "zona": "Valli",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:45",
-              "nome": "I miracoi del Fra Sircot",
-              "luogo": "Sala Polifunzionale Signo, Bergamo",
-              "sede": "Sala Polifunzionale Signo",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Lettere bergamasche",
-              "luogo": "Teatro alle Grazie, Bergamo",
-              "sede": "Teatro alle Grazie",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Spider-Man: Brand New Day",
-              "luogo": "Auditorium San Zeno, Osio Sopra",
-              "sede": "Auditorium San Zeno",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Sogno di una notte di mezza estate",
-              "luogo": "TNT Teatro Nuovo, Treviglio",
-              "sede": "TNT Teatro Nuovo",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Renzo e Lucia, spusas o spusas mia",
-              "luogo": "Palestra scuole medie, Bariano",
-              "sede": "Palestra scuole medie",
-              "comune": "Bariano",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Kamikaze",
-              "luogo": "Teatro Colognola, Bergamo",
-              "sede": "Teatro Colognola",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "La scienza di Moby Dick",
-              "luogo": "Auditorium CULT!, Bergamo",
-              "sede": "Auditorium CULT!",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "La quasi banda dei quasi innocenti",
-              "luogo": "Centro Polivalente, Brusaporto",
-              "sede": "Centro Polivalente",
-              "comune": "Brusaporto",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Madame Bovary... senza fine",
-              "luogo": "Cinema Iride, Costa Volpino",
-              "sede": "Cinema Iride",
-              "comune": "Costa Volpino",
-              "zona": "Valli",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/10"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Unione Filarmonica Stezzanese",
-              "luogo": "Auditorium scuole medie, Stezzano",
-              "sede": "Auditorium scuole medie",
-              "comune": "Stezzano",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/concerti-bergamo/"
-            },
-            {
-              "ora": "22:00",
-              "nome": "Liscio con l'Orchestra Soleado",
-              "luogo": "Discoteca Decibel, Chignolo d'Isola",
-              "sede": "Discoteca Decibel",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": null,
-              "nome": "52a Sagra della castagna",
-              "luogo": "Redivivo, Averara",
-              "sede": "Redivivo",
-              "comune": "Averara",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": null,
-              "nome": "Sagra d'autunno",
-              "luogo": "Campo sportivo Ponte Giurino, Berbenno",
-              "sede": "Campo sportivo Ponte Giurino",
-              "comune": "Berbenno",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/2026/10/01/pizzoccheri-ravioli-taragna-castagne-e-birra-le-sagre-di-ottobre-in-bergamasca/923197/"
-            },
-            {
-              "ora": null,
-              "nome": "Tulipania Pumpkin Patch",
-              "luogo": "Tulipania, Bonate Sopra",
-              "sede": "Tulipania",
-              "comune": "Bonate Sopra",
-              "zona": "Isola",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 3
-              },
-              "fonte": "https://www.berghinfest.it/"
-            },
-            {
-              "ora": null,
-              "nome": "60a Festa delle castagne",
-              "luogo": "Centro paese, Bracca",
-              "sede": "Centro paese",
-              "comune": "Bracca",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            }
-          ]
-        },
-        {
-          "data": "2026-10-11",
-          "etichetta": "Domenica 11 ottobre",
-          "breve": "Domenica 11",
-          "nota": "Ninfea è un circolo: serve la tessera. L'open air di utōpia va da mezzogiorno a mezzanotte.",
-          "eventi": [
-            {
-              "ora": "07:30",
-              "nome": "Gran Fondo Il Lombardia F. Gimondi",
-              "luogo": "Partenza dalla città, Bergamo",
-              "sede": "Partenza dalla città",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ilombardia.it/en/news/bergamo-and-il-lombardia-a-weekend-of-great-cycling/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "07:30",
-              "nome": "Sulle orme di Papa Giovanni",
-              "luogo": "Oratorio, Sotto il Monte",
-              "sede": "Oratorio",
-              "comune": "Sotto il Monte",
-              "zona": "Isola",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
-              "rilevanza": 1
-            },
-            {
-              "ora": "10:00",
-              "nome": "Super Duper Market",
-              "luogo": "Spazio Fase, Alzano Lombardo",
-              "sede": "Spazio Fase",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
-              "rilevanza": 2
-            },
-            {
-              "ora": "12:00",
-              "nome": "utōpia stellata, 12 ore di dj set",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DeE7bk9KXxp/",
-              "rilevanza": 3
-            },
-            {
-              "ora": "18:00",
-              "nome": "Around the Beatles",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:00",
-              "nome": "Point Break VDJ",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Notre Dame de Paris",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11",
-              "rilevanza": 2
-            }
-          ],
-          "altri": [
-            {
-              "ora": "07:30",
-              "nome": "In vetta al monte Ferrante",
-              "luogo": "Centro paese, Colere",
-              "sede": "Centro paese",
-              "comune": "Colere",
-              "zona": "Valli",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "07:30",
-              "nome": "30a Camminata del volontariato",
-              "luogo": "Parco degli Alpini, Nembro",
-              "sede": "Parco degli Alpini",
-              "comune": "Nembro",
-              "zona": "Valli",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "09:00",
-              "nome": "Festa della Madonna della Gamba",
-              "luogo": "Desenzano, Albino",
-              "sede": "Desenzano",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "09:00",
-              "nome": "L'illusione del Se",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:00",
-              "nome": "Il Castello di Valverde",
-              "luogo": "Castello di Valverde, Bergamo",
-              "sede": "Castello di Valverde",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:00",
-              "nome": "A tavola d'argento",
-              "luogo": "Filandone, Martinengo",
-              "sede": "Filandone",
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:30",
-              "nome": "Visita al Convento dei Neveri",
-              "luogo": "Convento dei Neveri, Bariano",
-              "sede": "Convento dei Neveri",
-              "comune": "Bariano",
-              "zona": "Bassa",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:30",
-              "nome": "Visita all'ex monastero di Astino",
-              "luogo": "Monastero di Astino, Bergamo",
-              "sede": "Monastero di Astino",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:30",
-              "nome": "Cavellas experience",
-              "luogo": "Area archeologica di Cavellas, Casazza",
-              "sede": "Area archeologica di Cavellas",
-              "comune": "Casazza",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:30",
-              "nome": "I Grandi Classici",
-              "luogo": "Piazza dell'Orologio, Clusone",
-              "sede": "Piazza dell'Orologio",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "10:30",
-              "nome": "Visita guidata a Gromo",
-              "luogo": "Parcheggio Strada Provinciale, Gromo",
-              "sede": "Parcheggio Strada Provinciale",
-              "comune": "Gromo",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "11:00",
-              "nome": "Aritmica: laboratorio di percussioni",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/Dd_MssKM-44/"
-            },
-            {
-              "ora": "11:00",
-              "nome": "Moroni e dintorni",
-              "luogo": "Palazzo Moroni, Bergamo",
-              "sede": "Palazzo Moroni",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "11:00",
-              "nome": "Cianotipia Tricolore",
-              "luogo": "HYLA Creative Studio, Gorle",
-              "sede": "HYLA Creative Studio",
-              "comune": "Gorle",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "11:00",
-              "nome": "Villa Pagnoncelli Folcieri",
-              "luogo": "Villa Pagnoncelli Folcieri, Scanzorosciate",
-              "sede": "Villa Pagnoncelli Folcieri",
-              "comune": "Scanzorosciate",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Luogo Pio Colleoni e Cappella Colleoni",
-              "luogo": "Luogo Pio della Pieta, Bergamo",
-              "sede": "Luogo Pio della Pieta",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Visite al Santuario della SS. Trinita",
-              "luogo": "Santuario della SS. Trinita, Casnigo",
-              "sede": "Santuario della SS. Trinita",
-              "comune": "Casnigo",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Borolada",
-              "luogo": "Localita Bratte, Premolo",
-              "sede": "Localita Bratte",
-              "comune": "Premolo",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "14:30",
-              "nome": "Apertura del castello di Urgnano",
-              "luogo": "Castello di Urgnano, Urgnano",
-              "sede": "Castello di Urgnano",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "14:45",
-              "nome": "Alla scoperta di Oneta",
-              "luogo": "Vie del paese, Oneta",
-              "sede": "Vie del paese",
-              "comune": "Oneta",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Il respiro del bosco: Germogli",
-              "luogo": "Laghetto di Valcanale, Ardesio",
-              "sede": "Laghetto di Valcanale",
-              "comune": "Ardesio",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:00",
-              "nome": "L'energia del futuro",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Liscio con l'Orchestra Mirte",
-              "luogo": "Discoteca Decibel, Chignolo d'Isola",
-              "sede": "Discoteca Decibel",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/calendario/categoria/discoteche-e-locali-da-ballo-bergamo/"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Castagnata a Cirano",
-              "luogo": "Oratorio Giovanni XXIII, Gandino",
-              "sede": "Oratorio Giovanni XXIII",
-              "comune": "Gandino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://primabergamo.it/tempo-libero/sagre-e-feste/feste-e-sagre-gli-appuntamenti-del-weekend-9-11-ottobre-nella-bergamasca/"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Germogli: il respiro del bosco",
-              "luogo": "Laghetto Corrado, Gandino",
-              "sede": "Laghetto Corrado",
-              "comune": "Gandino",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:00",
-              "nome": "Conoscere le miniere di Gorno",
-              "luogo": "Museo minerario, Gorno",
-              "sede": "Museo minerario",
-              "comune": "Gorno",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:30",
-              "nome": "Radici e Orizzonti",
-              "luogo": "Casa dell'Orfano, Clusone",
-              "sede": "Casa dell'Orfano",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "15:30",
-              "nome": "Cane & Selvatico",
-              "luogo": "Passo Zambla, Ponte Nossa",
-              "sede": "Passo Zambla",
-              "comune": "Ponte Nossa",
-              "zona": "Valli",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "16:00",
-              "nome": "Castello Camozzi Vertova",
-              "luogo": "Castello Camozzi Vertova, Costa di Mezzate",
-              "sede": "Castello Camozzi Vertova",
-              "comune": "Costa di Mezzate",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "16:30",
-              "nome": "Peli. Storia dell'orso che non lo era",
-              "luogo": "Teatro degli Storti, Alzano Lombardo",
-              "sede": "Teatro degli Storti",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "16:30",
-              "nome": "La Bua",
-              "luogo": "Teatro di Loreto, Bergamo",
-              "sede": "Teatro di Loreto",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "17:00",
-              "nome": "C'e Spazio per tutti",
-              "luogo": "PalaScienza, Bergamo",
-              "sede": "PalaScienza",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "17:00",
-              "nome": "Hans e Gre",
-              "luogo": "Teatro Prova, Bergamo",
-              "sede": "Teatro Prova",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "17:00",
-              "nome": "Organista Andrea Malzahn",
-              "luogo": "Chiesa SS. Bartolomeo e Stefano, Bergamo",
-              "sede": "Chiesa SS. Bartolomeo e Stefano",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "18:00",
-              "nome": "Eternal Song: Bolcato e Geremia",
-              "luogo": "Palazzo Terzi, Bergamo",
-              "sede": "Palazzo Terzi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://allevents.in/bergamo/parties--this-weekend"
-            },
-            {
-              "ora": "18:00",
-              "nome": "Karaoke night",
-              "luogo": "Enoteca numero 14, Pedrengo",
-              "sede": "Enoteca numero 14",
-              "comune": "Pedrengo",
-              "zona": "Centro",
-              "categoria": "aperitivo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
-            },
-            {
-              "ora": "20:45",
-              "nome": "Gli Stati Uniti dopo le Midterm",
-              "luogo": "Cinema Conca Verde, Bergamo",
-              "sede": "Cinema Conca Verde",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://moltefedi.it/edizione-2026/"
-            },
-            {
-              "ora": "21:00",
-              "nome": "Metropolis",
-              "luogo": "Auditorium CULT!, Bergamo",
-              "sede": "Auditorium CULT!",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/data/2026/10/11"
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/inmostra_304980/"
             }
           ]
         }
       ],
       "sempre_aperte": [
         {
-          "nome": "39ª Sagra del raviolo nostrano",
-          "luogo": "Centro paese, Covo",
-          "quando": "ven → lun · medioevo",
-          "categoria": "sagra"
+          "nome": "Essere forma",
+          "luogo": "Fantoni Hub, Bergamo",
+          "quando": "fino al 15 ottobre",
+          "categoria": "mostra"
         },
         {
-          "nome": "Festival della Valtellina",
-          "luogo": "Via Don Andreoletti, Verdello",
-          "quando": "ven → dom · tris 15 €",
-          "categoria": "sagra"
+          "nome": "Gianni Grimaldi",
+          "luogo": "Museo Bernareggi, Bergamo",
+          "quando": "fino al 15 novembre",
+          "categoria": "mostra"
         },
         {
-          "nome": "63ª Sagra della castagna",
-          "luogo": "Lido Porto Ponecla, Predore",
-          "quando": "ven → dom · al coperto",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Castagnata Alpina",
-          "luogo": "Baita degli Alpini, Treviolo",
-          "quando": "ven → dom · su prenot.",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Sagra d'autunno",
-          "luogo": "Campo sportivo, Ponte Giurino",
-          "quando": "sab → dom · su prenot.",
-          "categoria": "sagra"
+          "nome": "Amalia Del Ponte. Litofonie",
+          "luogo": "Ex Oratorio San Lupo, Bergamo",
+          "quando": "gio e ven, 18-21",
+          "categoria": "mostra"
         }
       ],
       "categorie": [
         {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "cinema",
-          "etichetta": "Cinema e proiezioni",
-          "icona": "▷"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "▣"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "◉"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "△"
-        }
-      ],
-      "categorie_tutte": [
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "❖"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "♪"
-        },
-        {
-          "chiave": "cinema",
-          "etichetta": "Cinema e proiezioni",
-          "icona": "▷"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "▣"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "◉"
-        },
-        {
-          "chiave": "mostra",
-          "etichetta": "Mostre e arte",
-          "icona": "◧"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "◈"
-        },
-        {
-          "chiave": "torneo",
-          "etichetta": "Giochi e tornei",
-          "icona": "♞"
-        },
-        {
-          "chiave": "laboratorio",
-          "etichetta": "Laboratori",
-          "icona": "⚙"
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "✦"
         },
         {
           "chiave": "incontro",
@@ -2781,24 +933,34 @@
           "icona": "⬢"
         },
         {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "▷"
+        },
+        {
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "♞"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
           "chiave": "sport",
           "etichetta": "Sport e outdoor",
           "icona": "△"
         },
         {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "✦"
-        },
-        {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "⚑"
-        },
-        {
-          "chiave": "altro",
-          "etichetta": "Altro",
-          "icona": "✱"
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "⚙"
         },
         {
           "chiave": "danza",
@@ -2806,12 +968,88 @@
           "icona": "✿"
         },
         {
-          "chiave": "aperitivo",
-          "etichetta": "Aperitivi e serate",
-          "icona": "◐"
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
         }
       ],
-      "permalink": "https://www.instagram.com/p/DePBufeDgao/"
+      "categorie_tutte": [
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "✦"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "◆"
+        },
+        {
+          "chiave": "cena",
+          "etichetta": "Cene e degustazioni",
+          "icona": "⬢"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "♪"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "▷"
+        },
+        {
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "♞"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "❖"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "⚙"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "◧"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "△"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "✿"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "▣"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "◈"
+        }
+      ]
     }
   ],
   "cinema": [
