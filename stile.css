@@ -257,6 +257,55 @@ ul.lista li.extra .zona {
   border: 2px solid var(--line); padding: 1px 7px 0;
 }
 
+/* ---------------------------------------------------------------- profilo */
+/* Il bottone in alto a destra, l'invito sotto le tab e il pannello. Nessun
+   colore nuovo: il pannello eredita i token del tema della guida aperta. */
+.bott {
+  font: inherit; cursor: pointer; background: none; color: var(--fg);
+  border: 2px solid var(--line); padding: 8px 14px 6px;
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 15px; letter-spacing: .14em; text-transform: uppercase;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.bott:hover { border-color: var(--mut); }
+.bott.pieno { background: var(--acc); border-color: var(--acc); color: var(--on-acc); }
+.bott:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+.marchio .apri-profilo { margin-left: auto; font-size: 13px; padding: 6px 11px 4px; }
+
+.invito {
+  margin-top: 22px; border-left: 5px solid var(--acc); padding: 6px 0 6px 18px;
+}
+.invito p { font-size: 17px; line-height: 1.4; font-weight: 500; }
+.invito b { font-weight: 700; color: var(--acc); }
+.azioni { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+
+.nota-profilo {
+  margin-top: 16px; font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--mut);
+}
+
+dialog.profilo {
+  margin: auto; width: min(640px, calc(100% - 32px)); max-height: calc(100% - 32px);
+  overflow-y: auto; background: var(--bg); color: var(--fg);
+  border: 2px solid var(--line); padding: 24px 22px 22px;
+  font-family: 'Archivo', system-ui, -apple-system, sans-serif;
+}
+dialog.profilo::backdrop { background: rgba(0, 0, 0, .65); }
+dialog.profilo .occhiello { margin-top: 0; }
+dialog.profilo h2 {
+  margin-top: 22px; font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 22px; letter-spacing: .03em; text-transform: uppercase;
+}
+dialog.profilo .aiuto { margin-top: 6px; font-size: 15px; line-height: 1.4; color: var(--mut); }
+dialog.profilo .chips { margin-top: 14px; }
+dialog.profilo .switch { margin-top: 12px; }
+dialog.profilo .azioni { margin-top: 26px; }
+dialog.profilo .privacy { margin-top: 18px; font-size: 13px; line-height: 1.5; color: var(--mut); }
+.link {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.link:hover { color: var(--hot); }
+
 /* ------------------------------------------------- secondo livello (giorni) */
 /* Sotto la guida, sulle sole pagine giorno, c'è tutto il resto di quella
    giornata. Si vede che è un altro livello — titolo più piccolo, ora e zona

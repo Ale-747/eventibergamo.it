@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-10-12",
+  "aggiornato_il": "2026-10-14",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -22,6 +22,93 @@
     "base": "https://eventibergamo.it",
     "_nota": "Radice degli URL assoluti: canonical, og:url, sitemap.xml, robots.txt."
   },
+  "categorie": [
+    {
+      "chiave": "dj",
+      "etichetta": "Dj set / party",
+      "icona": "◉"
+    },
+    {
+      "chiave": "live",
+      "etichetta": "Concerti e live",
+      "icona": "♪"
+    },
+    {
+      "chiave": "sagra",
+      "etichetta": "Sagre e feste",
+      "icona": "❖"
+    },
+    {
+      "chiave": "mostra",
+      "etichetta": "Mostre e arte",
+      "icona": "◧"
+    },
+    {
+      "chiave": "cinema",
+      "etichetta": "Cinema e proiezioni",
+      "icona": "▷"
+    },
+    {
+      "chiave": "mercatino",
+      "etichetta": "Mercatini",
+      "icona": "◈"
+    },
+    {
+      "chiave": "famiglia",
+      "etichetta": "Con i bambini",
+      "icona": "✦"
+    },
+    {
+      "chiave": "aperitivo",
+      "etichetta": "Aperitivi e serate",
+      "icona": "◐"
+    },
+    {
+      "chiave": "sport",
+      "etichetta": "Sport e outdoor",
+      "icona": "△"
+    },
+    {
+      "chiave": "teatro",
+      "etichetta": "Teatro e spettacoli",
+      "icona": "▣"
+    },
+    {
+      "chiave": "laboratorio",
+      "etichetta": "Laboratori",
+      "icona": "⚙"
+    },
+    {
+      "chiave": "torneo",
+      "etichetta": "Giochi e tornei",
+      "icona": "♞"
+    },
+    {
+      "chiave": "danza",
+      "etichetta": "Danza",
+      "icona": "✿"
+    },
+    {
+      "chiave": "visita",
+      "etichetta": "Visite guidate",
+      "icona": "⚑"
+    },
+    {
+      "chiave": "incontro",
+      "etichetta": "Incontri e libri",
+      "icona": "◆"
+    },
+    {
+      "chiave": "altro",
+      "etichetta": "Altro",
+      "icona": "✱"
+    },
+    {
+      "chiave": "cena",
+      "etichetta": "Cene e degustazioni",
+      "icona": "⬢"
+    }
+  ],
   "guide": [
     {
       "id": "settimana-2026-10-13",

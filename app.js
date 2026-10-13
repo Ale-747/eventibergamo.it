@@ -104,6 +104,164 @@ function rimandoCinema(cin) {
       <span class="freccia">Vai alla programmazione &rarr;</span></a>`;
 }
 
+/* ------------------------------------------------------------------ profilo
+
+   Chi visita può dire una volta cosa gli interessa — le categorie, e se partire
+   da "solo la guida" o da "tutti gli eventi" — e ritrovarlo già impostato ogni
+   volta che torna. Nessun account e nessun server: sta tutto in un cookie su
+   questo dispositivo. GitHub Pages se lo vede arrivare con le richieste e lo
+   ignora, perché lì non c'è niente che lo legga.
+
+   È un cookie tecnico di funzionalità, chiesto da chi lo salva: per questo non
+   serve il banner del consenso. Proprio per restare tale si scrive solo a un
+   click ("Salva" o "No grazie"), mai all'arrivo. Chi cancella i cookie riparte
+   da zero, e va bene così.
+
+   Il profilo decide da dove si parte, non chiude niente: chip e switch restano
+   cliccabili, e quei click valgono per la visita, non toccano il profilo. */
+
+const COOKIE = "eb_profilo";
+const UN_ANNO = 60 * 60 * 24 * 365;
+
+function leggiProfilo() {
+  try {
+    const riga = document.cookie.split("; ").find((c) => c.startsWith(COOKIE + "="));
+    if (!riga) return null;
+    const p = JSON.parse(decodeURIComponent(riga.slice(COOKIE.length + 1)));
+    return { cat: Array.isArray(p.cat) ? p.cat.map(String) : [], tutti: !!p.tutti, no: !!p.no };
+  } catch {
+    return null;   // un cookie rotto vale come nessun profilo
+  }
+}
+
+function scriviProfilo(p) {
+  const sicuro = location.protocol === "https:" ? "; Secure" : "";
+  document.cookie = `${COOKIE}=${encodeURIComponent(JSON.stringify(p))}; Max-Age=${UN_ANNO}; Path=/; SameSite=Lax${sicuro}`;
+  STATO.profilo = leggiProfilo();
+}
+
+function cancellaProfilo() {
+  document.cookie = `${COOKIE}=; Max-Age=0; Path=/; SameSite=Lax`;
+  STATO.profilo = null;
+}
+
+/* Un profilo vero, cioè non il solo "No grazie" all'invito. */
+function profiloAttivo() {
+  return STATO.profilo && !STATO.profilo.no ? STATO.profilo : null;
+}
+
+/* Il punto di partenza di una guida: all'arrivo, al cambio di guida, dopo un
+   salvataggio. Le categorie del profilo che in questa guida non ci sono si
+   lasciano fuori dal filtro — altrimenti accenderebbero chip invisibili — e se
+   non ne resta nessuna si mostra tutto, dicendo perché: una pagina vuota con
+   scritto "nessun evento" sembrerebbe un sito rotto. */
+function ripartiDalProfilo(catsGuida, tutteCat) {
+  const p = profiloAttivo();
+  if (!p) { STATO.filtri = new Set(); return null; }
+  STATO.tutti = p.tutti;
+  const presenti = new Set(p.tutti ? tutteCat.map((c) => c.chiave) : catsGuida);
+  STATO.filtri = new Set(p.cat.filter((c) => presenti.has(c)));
+  if (!p.cat.length || STATO.filtri.size) return null;
+  const fuori = p.cat.some((c) => tutteCat.some((t) => t.chiave === c));
+  return fuori
+    ? "Le categorie del tuo profilo questa volta stanno fuori dalla guida: le trovi in «Tutti gli eventi»."
+    : "In questa guida non c'è niente delle categorie del tuo profilo: ti mostro tutto.";
+}
+
+/* Tutte le categorie del registro, anche quelle senza eventi in vetrina: una
+   preferenza vale per le prossime guide. Il registro lo scrive genera.py in
+   corrente.json; un file generato prima di quel campo ripiega sulle categorie
+   delle guide in vetrina. */
+function categorieProfilo() {
+  if (STATO.dati.categorie?.length) return STATO.dati.categorie;
+  const viste = new Map();
+  STATO.valide.forEach((g) => (g.categorie_tutte ?? g.categorie).forEach((c) => viste.set(c.chiave, c)));
+  return [...viste.values()];
+}
+
+/* Il pannello sta fuori da #app: un render della guida non lo cancella, e i
+   suoi chip e switch non si confondono con quelli dei filtri. */
+function apriProfilo() {
+  let dlg = $("dialog.profilo");
+  if (!dlg) {
+    dlg = document.createElement("dialog");
+    dlg.className = "profilo";
+    dlg.setAttribute("aria-labelledby", "profilo-titolo");
+    document.body.append(dlg);
+    // Il click sullo sfondo chiude, come Esc.
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  }
+  // Si parte dal profilo salvato; senza, da quello che si sta guardando adesso.
+  const p = profiloAttivo();
+  const scelte = new Set(p ? p.cat : STATO.filtri);
+  let tutti = p ? p.tutti : STATO.tutti;
+
+  const chips = categorieProfilo().map((c) =>
+    `<button type="button" class="chip${scelte.has(c.chiave) ? " sel" : ""}" data-cat="${esc(c.chiave)}"
+      aria-pressed="${scelte.has(c.chiave)}"><i>${esc(c.icona)}</i>${esc(c.etichetta)}</button>`).join("");
+  const sw = (v, testo) => `<button type="button" class="sw${tutti === v ? " sel" : ""}"
+      data-tutti="${v ? 1 : 0}" aria-pressed="${tutti === v}">${testo}</button>`;
+
+  dlg.innerHTML = `
+    <div class="occhiello"><span id="profilo-titolo">Il tuo profilo</span></div>
+    <h2>Cosa ti interessa?</h2>
+    <p class="aiuto">Scegline quante vuoi: quando entri trovi la guida già filtrata. Nessuna vuol dire tutto.</p>
+    <div class="chips">${chips}</div>
+    <h2>Quando entri, mostrami</h2>
+    <div class="switch" role="group" aria-label="Cosa mostrare all'arrivo">${sw(false, "Solo la guida")}${sw(true, "Tutti gli eventi")}</div>
+    <p class="aiuto">La guida è la nostra selezione. Tutti gli eventi sono anche quelli che abbiamo trovato e non scelto.</p>
+    <div class="azioni">
+      <button type="button" class="bott pieno" data-azione="salva">Salva</button>
+      <button type="button" class="bott" data-azione="chiudi">Annulla</button>
+    </div>
+    <p class="privacy">Le scelte restano in un cookie tecnico su questo dispositivo, per un anno.
+      Niente account, e non le legge nessuno: se cancelli i cookie si riparte da zero.
+      ${p ? '<button type="button" class="link" data-azione="cancella">Cancella il profilo</button>' : ""}</p>`;
+
+  dlg.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    const c = b.dataset.cat;
+    if (scelte.has(c)) scelte.delete(c); else scelte.add(c);
+    b.classList.toggle("sel", scelte.has(c));
+    b.setAttribute("aria-pressed", scelte.has(c));
+  }));
+  dlg.querySelectorAll(".sw").forEach((b) => b.addEventListener("click", () => {
+    tutti = b.dataset.tutti === "1";
+    dlg.querySelectorAll(".sw").forEach((x) => {
+      const on = (x.dataset.tutti === "1") === tutti;
+      x.classList.toggle("sel", on);
+      x.setAttribute("aria-pressed", on);
+    });
+  }));
+  dlg.querySelector('[data-azione="salva"]').addEventListener("click", () => {
+    scriviProfilo({ cat: [...scelte], tutti });
+    dlg.close();
+    STATO.riparti = true;
+    renderGuida();
+  });
+  dlg.querySelector('[data-azione="chiudi"]').addEventListener("click", () => dlg.close());
+  dlg.querySelector('[data-azione="cancella"]')?.addEventListener("click", () => {
+    cancellaProfilo();
+    dlg.close();
+    STATO.tutti = false;
+    STATO.riparti = true;
+    renderGuida();
+  });
+
+  dlg.showModal();
+}
+
+/* L'invito compare finché non c'è un cookie: né profilo né "No grazie". */
+function invito() {
+  if (STATO.profilo) return "";
+  return `<div class="invito">
+      <p><b>Fatti la tua guida.</b> Scegli cosa ti interessa e ogni volta che torni la trovi già filtrata.</p>
+      <div class="azioni">
+        <button type="button" class="bott pieno" data-azione="profilo">Crea il profilo</button>
+        <button type="button" class="bott" data-azione="no-profilo">No grazie</button>
+      </div>
+    </div>`;
+}
+
 /* ------------------------------------------------------------------ render */
 
 let STATO = null;
@@ -177,6 +335,12 @@ function renderGuida() {
 
   const icona = (chiave) => tutteCat.find((c) => c.chiave === chiave)?.icona ?? "✱";
 
+  let notaProfilo = null;
+  if (STATO.riparti) {
+    notaProfilo = ripartiDalProfilo(catsGuida, tutteCat);
+    STATO.riparti = false;
+  }
+
   /* Guida e secondo livello si mescolano in ordine di orario: con lo switch su
      "tutti" uno sta leggendo la serata, e una serata ha un orologio solo. Che
      una riga venga dalla guida resta visibile lo stesso — le altre sono
@@ -229,8 +393,11 @@ function renderGuida() {
 
   $("#app").innerHTML = `
     <header>
-      <div class="marchio"><span class="punto"></span><b>${esc(dati.brand.nome)}</b></div>
+      <div class="marchio"><span class="punto"></span><b>${esc(dati.brand.nome)}</b>
+        <button type="button" class="bott apri-profilo" data-azione="profilo"
+          >${profiloAttivo() ? "Il tuo profilo" : "Profilo"}</button></div>
       ${selettore()}
+      ${invito()}
       <div class="occhiello"><span>${attiva.formato === "weekend" ? "Guida del weekend" : "Guida della settimana"}</span></div>
       <h1>${primo}<em>${titolo.join(" ")}</em></h1>
       <div class="pillola">${esc(etichettaPeriodo(attiva.periodo))}</div>
@@ -239,6 +406,7 @@ function renderGuida() {
       <p class="gancio">${nl(attiva.hook)}</p>
       ${interruttore(attiva)}
       <div class="chips">${chips}</div>
+      ${notaProfilo ? `<p class="nota-profilo">${esc(notaProfilo)}</p>` : ""}
     </header>
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
@@ -251,12 +419,19 @@ function renderGuida() {
     const g = STATO.valide.find((x) => x.id === b.dataset.id);
     if (!g || g.id === STATO.attiva.id) return;
     STATO.attiva = g;
-    STATO.filtri = new Set();   // le categorie di un'altra guida non sono le stesse
+    STATO.riparti = true;   // le categorie di un'altra guida non sono le stesse
     renderGuida();
     window.scrollTo({ top: 0 });
   }));
 
-  document.querySelectorAll("button.sw").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll('#app [data-azione="profilo"]').forEach((b) =>
+    b.addEventListener("click", apriProfilo));
+  document.querySelector('#app [data-azione="no-profilo"]')?.addEventListener("click", () => {
+    scriviProfilo({ no: 1 });
+    document.querySelector("#app .invito")?.remove();
+  });
+
+  document.querySelectorAll("#app button.sw").forEach((b) => b.addEventListener("click", () => {
     const tutti = b.dataset.tutti === "1";
     if (tutti === STATO.tutti) return;
     STATO.tutti = tutti;
@@ -266,7 +441,7 @@ function renderGuida() {
     applicaFiltri();
   }));
 
-  document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("#app .chip").forEach((b) => b.addEventListener("click", () => {
     const c = b.dataset.cat;
     if (STATO.filtri.has(c)) STATO.filtri.delete(c); else STATO.filtri.add(c);
     applicaFiltri();
@@ -289,7 +464,7 @@ function applicaFiltri() {
   const f = STATO.filtri;
   const tutti = STATO.tutti;
 
-  document.querySelectorAll("button.sw").forEach((b) => {
+  document.querySelectorAll("#app button.sw").forEach((b) => {
     const on = (b.dataset.tutti === "1") === tutti;
     b.classList.toggle("sel", on);
     b.setAttribute("aria-pressed", on);
@@ -298,7 +473,7 @@ function applicaFiltri() {
   // già a schermo.
   document.querySelectorAll("p.piu[data-solo]").forEach((p) => { p.hidden = tutti; });
 
-  document.querySelectorAll(".chip").forEach((b) => {
+  document.querySelectorAll("#app .chip").forEach((b) => {
     // Un chip che in questa modalità non accende niente non si mostra.
     if (b.dataset.extraCat && !tutti) { b.hidden = true; return; }
     b.hidden = false;
@@ -308,7 +483,7 @@ function applicaFiltri() {
   });
 
   let visibili = 0;
-  document.querySelectorAll(".giorno").forEach((sezione) => {
+  document.querySelectorAll("#app .giorno").forEach((sezione) => {
     let n = 0;
     sezione.querySelectorAll("li[data-cat]").forEach((li) => {
       const mostra = (tutti || !li.dataset.extra) && (f.size === 0 || f.has(li.dataset.cat));
@@ -381,7 +556,8 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
     const { valide, inCorso, attiva } = scegli(dati.guide ?? [], oggi);
     const cinema = scegliCinema(dati.cinema, oggi);
     if (!attiva) return renderRiposo(dati, cinema);
-    STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false };
+    STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false,
+              profilo: leggiProfilo(), riparti: true };
     renderGuida();
   })
   /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida
