@@ -274,14 +274,11 @@ function renderGuida() {
 
   applicaFiltri();
 
-  // Solo sulla guida in corso ha senso saltare a oggi: su quella futura si parte dall'inizio.
-  const corrente = document.querySelector(".giorno.oggi");
-  if (corrente) corrente.scrollIntoView({ block: "start" });
   document.title = `${dati.brand.nome} — ${etichettaPeriodo(attiva.periodo)}`;
 }
 
 /* I filtri non rifanno il render: nascondono. Rifare il render rimanderebbe la
-   pagina in cima (o su "oggi") a ogni click, e chi sta leggendo il sabato sera
+   pagina in cima a ogni click, e chi sta leggendo il sabato sera
    perderebbe il segno. Qui si tocca solo l'attributo `hidden`.
 
    Nessun filtro attivo = tutti gli eventi. Un chip acceso ne lascia passare uno
