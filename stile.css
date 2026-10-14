@@ -328,6 +328,19 @@ dialog.profilo .privacy { margin-top: 18px; font-size: 13px; line-height: 1.5; c
 }
 .link:hover { color: var(--hot); }
 
+/* ---------------------------------------------------------- testo lungo */
+/* Le pagine di solo testo, come /privacy/: paragrafi leggibili, titoletti
+   condensati come il resto del sito. */
+.testo-lungo section { margin-top: 40px; max-width: 40em; }
+.testo-lungo h2 {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: clamp(23px, 5vw, 30px); text-transform: uppercase; letter-spacing: .03em; line-height: 1.05;
+}
+.testo-lungo section p, .elenco-privacy li { margin-top: 12px; font-size: 17px; line-height: 1.55; }
+.testo-lungo section a { color: inherit; text-underline-offset: 3px; }
+.elenco-privacy { padding-left: 20px; }
+.piede .minuto a { color: inherit; }
+
 /* ---------------------------------------------------------------- tour */
 /* Tre strati sopra la pagina: il velo trasparente che prende i click, la luce
    (una cornice con un'ombra enorme che scurisce tutto il resto) e il riquadro.

@@ -18,6 +18,11 @@
     "lead": "La guida di questa settimana è finita. Quella nuova esce il venerdì per il weekend e il lunedì per i giorni feriali.",
     "cta": "Nel frattempo siamo su Instagram: lì gli eventi li mettiamo ogni giorno."
   },
+  "privacy": {
+    "_nota": "Per l'informativa (art. 13 GDPR) servono nome e contatto di chi gestisce il sito. Finché sono vuoti, statico.py avvisa a ogni giro e la pagina /privacy/ rimanda al DM Instagram: va compilato prima di considerare il sito in regola.",
+    "titolare": "",
+    "email": ""
+  },
   "sito": {
     "base": "https://eventibergamo.it",
     "_nota": "Radice degli URL assoluti: canonical, og:url, sitemap.xml, robots.txt."

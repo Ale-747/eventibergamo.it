@@ -226,6 +226,7 @@ function apriProfilo() {
     </div>
     <p class="privacy">Le scelte restano in un cookie tecnico su questo dispositivo, per un anno.
       Niente account, e non le legge nessuno: se cancelli i cookie si riparte da zero.
+      <a href="/privacy/">Privacy e cookie</a>.
       ${p ? '<button type="button" class="link" data-azione="cancella">Cancella il profilo</button>' : ""}</p>`;
 
   dlg.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
@@ -584,12 +585,15 @@ function piede(dati, guida, avviso, opz = {}) {
   // Il tour vive solo sulla home con una guida: sulla pagina di riposo non ha
   // niente da mostrare.
   const tour = opz.minimale ? ""
-    : '<p class="minuto"><button type="button" class="link" data-azione="tour">Come funziona il sito</button></p>';
+    : '<button type="button" class="link" data-azione="tour">Come funziona il sito</button> · ';
+  // Il link all'informativa sta su tutte le pagine, anche quella di riposo:
+  // statico.py lo mette nel suo piede, e questo lo sostituisce sulla home.
+  const legale = `<p class="minuto">${tour}<a href="/privacy/">Privacy e cookie</a></p>`;
   return `<footer class="piede">
     <div class="occhiello"><span>Scrivici</span></div>
     <div class="contatti">${contatti}</div>
     ${minuto ? `<p class="minuto">${minuto}</p>` : ""}
-    ${tour}
+    ${legale}
   </footer>`;
 }
 
@@ -643,7 +647,7 @@ const TOUR = [
     titolo: "Il tuo profilo",
     testo: "Scegli le categorie che ti interessano: quando torni trovi la guida già filtrata. Resta su questo dispositivo, senza account." },
   { titolo: "Tutto qui",
-    testo: "Puoi rivedere questo giro quando vuoi da «Come funziona il sito», in fondo alla pagina." },
+    testo: "Puoi rivedere questo giro quando vuoi da «Come funziona il sito», in fondo alla pagina. Lì accanto c'è anche cosa facciamo, e non facciamo, con i tuoi dati." },
 ];
 
 const COOKIE_TOUR = "eb_tour";
