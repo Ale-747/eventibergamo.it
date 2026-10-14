@@ -261,7 +261,7 @@ ul.lista li.extra .zona {
 /* Due-quattro parole sotto il luogo che dicono com'è la serata. Piccole e
    smorzate: informano, non competono col nome. Sulla home sono bottoni (filtrano),
    sulle pagine statiche testo — stesso aspetto. */
-.kw { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.kw { display: inline-flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .kw span, .kw button {
   font: inherit; font-size: 13px; font-weight: 600; line-height: 1;
   color: var(--mut); background: none;
@@ -327,6 +327,37 @@ dialog.profilo .privacy { margin-top: 18px; font-size: 13px; line-height: 1.5; c
   text-decoration: underline; text-underline-offset: 3px;
 }
 .link:hover { color: var(--hot); }
+
+/* ---------------------------------------------------------------- tour */
+/* Tre strati sopra la pagina: il velo trasparente che prende i click, la luce
+   (una cornice con un'ombra enorme che scurisce tutto il resto) e il riquadro.
+   Colori solo dai token del tema, come il resto. */
+.tour-velo { position: fixed; inset: 0; z-index: 50; }
+.tour-luce {
+  position: fixed; z-index: 51; pointer-events: none;
+  border: 3px solid var(--acc);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, .68);
+  transition: top .25s ease, left .25s ease, width .25s ease, height .25s ease;
+}
+.tour-box {
+  position: fixed; z-index: 52;
+  background: var(--bg); color: var(--fg);
+  border: 2px solid var(--line); border-top: 5px solid var(--hot);
+  padding: 18px 20px 16px;
+}
+.tour-box .tour-conta {
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 14px; letter-spacing: .22em; color: var(--mut);
+}
+.tour-box h2 {
+  margin-top: 6px; font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 24px; line-height: 1.05; letter-spacing: .02em; text-transform: uppercase;
+}
+.tour-box p { margin-top: 8px; font-size: 16px; line-height: 1.45; }
+.tour-box .azioni { margin-top: 16px; align-items: center; }
+.tour-box .spinta { flex: 1; }
+.tour-box .link { font-size: 14px; color: var(--mut); }
+@media (prefers-reduced-motion: reduce) { .tour-luce { transition: none; } }
 
 /* ------------------------------------------------- secondo livello (giorni) */
 /* Sotto la guida, sulle sole pagine giorno, c'è tutto il resto di quella

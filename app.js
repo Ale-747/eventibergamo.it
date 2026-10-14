@@ -439,6 +439,7 @@ function renderGuida() {
     window.scrollTo({ top: 0 });
   }));
 
+  document.querySelector('#app [data-azione="tour"]')?.addEventListener("click", avviaTour);
   document.querySelectorAll('#app [data-azione="profilo"]').forEach((b) =>
     b.addEventListener("click", apriProfilo));
   document.querySelector('#app [data-azione="no-profilo"]')?.addEventListener("click", () => {
@@ -580,11 +581,195 @@ function piede(dati, guida, avviso, opz = {}) {
       Guida ${esc(guida.formato)} ${esc(guida.periodo.da)} → ${esc(guida.periodo.a)}.
       Dove c'è scritto <strong>n.d.</strong> il prezzo non è pubblicato dalle fonti: chiedi all'ingresso.
       Gli orari possono cambiare — verifica sempre sul canale dell'organizzatore.`;
+  // Il tour vive solo sulla home con una guida: sulla pagina di riposo non ha
+  // niente da mostrare.
+  const tour = opz.minimale ? ""
+    : '<p class="minuto"><button type="button" class="link" data-azione="tour">Come funziona il sito</button></p>';
   return `<footer class="piede">
     <div class="occhiello"><span>Scrivici</span></div>
     <div class="contatti">${contatti}</div>
     ${minuto ? `<p class="minuto">${minuto}</p>` : ""}
+    ${tour}
   </footer>`;
+}
+
+/* ------------------------------------------------------------------ tour
+
+   Chi entra per la prima volta vede un giro guidato: la pagina si scurisce, una
+   cornice illumina un pezzo alla volta e un riquadro spiega cosa fa. Si salta in
+   qualsiasi momento (bottone, Esc o click fuori), e si rivede da "Come funziona
+   il sito" nel piede.
+
+   Che sia già stato visto lo ricorda un cookie tecnico, `eb_tour`, come il
+   profilo: niente server, e si scrive solo quando lo si chiude — a "Fine" o a
+   "Salta" — mai all'arrivo. Chi cancella i cookie lo rivede, ed è giusto così.
+
+   !! TOUR va tenuto allineato al sito. Ogni modifica che aggiunge, toglie o
+   cambia una funzione della home — un filtro, un bottone, una sezione, il modo
+   in cui si legge una riga — aggiorna anche i passi qui sotto, nella stessa
+   modifica. Il controllo meccanico è `python3 tools/prova-tour.py`: apre la home
+   e fallisce se un passo non trova più il suo pezzo di pagina. Che un passo
+   *manchi* invece non lo vede nessun codice: quello resta un'abitudine, scritta
+   anche in CLAUDE.md.
+
+   Ogni passo: `cerca` è una lista di selettori in ordine di preferenza (vince il
+   primo con un elemento visibile); senza `cerca` il riquadro sta al centro.
+   `facoltativo` vuol dire che quel pezzo può legittimamente mancare — niente
+   cinema questa settimana, nessun evento fuori guida — e allora il passo si
+   salta invece di fallire. Testi corti: è un tour, non un manuale. */
+
+const TOUR = [
+  { titolo: "Benvenuto su Eventibergamo",
+    testo: "Ogni settimana scegliamo gli eventi di Bergamo e provincia. Ti mostriamo come usare il sito: ci vogliono trenta secondi." },
+  { cerca: [".tabs"], facoltativo: true,
+    titolo: "Le guide e il cinema",
+    testo: "Quando due guide si sovrappongono le trovi qui. «Al cinema» porta ai film in sala, con orari e prezzi sala per sala." },
+  { cerca: [".switch"], facoltativo: true,
+    titolo: "Solo la guida, o tutto",
+    testo: "La guida è la nostra selezione. «Tutti gli eventi» aggiunge anche quelli che abbiamo trovato e non scelto, più chiari." },
+  { cerca: [".chips"],
+    titolo: "Filtra per categoria",
+    testo: "Tocca una categoria per vedere solo quella. Se ne accendi più di una si sommano; ritocca per spegnerla." },
+  { cerca: [".giorno li[data-cat]"],
+    titolo: "Come si legge un evento",
+    testo: "Ora, nome, luogo e zona. A destra il prezzo: «n.d.» vuol dire che le fonti non lo pubblicano, chiedi all'ingresso." },
+  { cerca: [".giorno .kw"], facoltativo: true,
+    titolo: "Le parole chiave",
+    testo: "Dicono com'è la serata. Toccane una per vedere solo gli eventi che la condividono; in cima compare «togli»." },
+  { cerca: [".piu a"], facoltativo: true,
+    titolo: "Tutto il resto del giorno",
+    testo: "Ogni giorno ha la sua pagina, con anche gli eventi rimasti fuori dalla guida." },
+  { cerca: [".invito", ".apri-profilo"],
+    titolo: "Il tuo profilo",
+    testo: "Scegli le categorie che ti interessano: quando torni trovi la guida già filtrata. Resta su questo dispositivo, senza account." },
+  { titolo: "Tutto qui",
+    testo: "Puoi rivedere questo giro quando vuoi da «Come funziona il sito», in fondo alla pagina." },
+];
+
+const COOKIE_TOUR = "eb_tour";
+
+function tourVisto() {
+  return document.cookie.split("; ").some((c) => c.startsWith(COOKIE_TOUR + "="));
+}
+
+function segnaTourVisto() {
+  const sicuro = location.protocol === "https:" ? "; Secure" : "";
+  document.cookie = `${COOKIE_TOUR}=1; Max-Age=${UN_ANNO}; Path=/; SameSite=Lax${sicuro}`;
+}
+
+/* Il primo elemento *visibile* fra quelli che il passo accetta: una riga
+   nascosta da un filtro ha un rettangolo vuoto, e illuminerebbe il nulla. */
+function bersaglio(passo) {
+  for (const sel of passo.cerca ?? []) {
+    const el = [...document.querySelectorAll(`#app ${sel}`)].find((x) => x.getClientRects().length);
+    if (el) return el;
+  }
+  return null;
+}
+
+function avviaTour() {
+  if (!STATO || document.querySelector(".tour-velo")) return;
+  // I passi si decidono adesso, sulla pagina com'è: un pezzo che manca non si
+  // illumina a vuoto, si salta.
+  const passi = TOUR.filter((p) => !p.cerca || bersaglio(p));
+  let i = 0;
+
+  const velo = document.createElement("div");
+  velo.className = "tour-velo";
+  const luce = document.createElement("div");
+  luce.className = "tour-luce";
+  const box = document.createElement("div");
+  box.className = "tour-box";
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  box.setAttribute("aria-labelledby", "tour-titolo");
+  document.body.append(velo, luce, box);
+  const prima = document.activeElement;
+
+  // `behavior: "instant"` perché html ha scroll-behavior: smooth, e con lo
+  // scorrimento morbido il rettangolo misurato subito dopo sarebbe quello vecchio.
+  function centra(el) {
+    const r = el.getBoundingClientRect();
+    const y = scrollY + r.top - Math.max(16, (innerHeight - r.height) / 2 - 80);
+    scrollTo({ top: Math.max(0, y), behavior: "instant" });
+  }
+
+  function posiziona() {
+    const el = bersaglio(passi[i]);
+    const bw = Math.min(380, innerWidth - 32);
+    box.style.width = `${bw}px`;
+    if (!el) {
+      // Passo senza bersaglio: niente cornice, riquadro al centro.
+      luce.style.cssText = `top:${innerHeight / 2}px;left:${innerWidth / 2}px;width:0;height:0;border-width:0`;
+      box.style.left = `${(innerWidth - bw) / 2}px`;
+      box.style.top = `${Math.max(16, (innerHeight - box.offsetHeight) / 2)}px`;
+      return;
+    }
+    const r = el.getBoundingClientRect();
+    const m = 8;
+    luce.style.cssText = `top:${r.top - m}px;left:${r.left - m}px;width:${r.width + 2 * m}px;height:${r.height + 2 * m}px`;
+    const bh = box.offsetHeight;
+    const sotto = innerHeight - r.bottom - m - 14;
+    const top = sotto >= bh ? r.bottom + m + 14
+      : r.top - m - 14 >= bh ? r.top - m - 14 - bh
+      : innerHeight - bh - 16;                        // non ci sta da nessuna parte: in basso
+    box.style.top = `${Math.max(16, top)}px`;
+    box.style.left = `${Math.min(Math.max(16, r.left), innerWidth - bw - 16)}px`;
+  }
+
+  function mostra() {
+    const p = passi[i];
+    const ultimo = i === passi.length - 1;
+    box.innerHTML = `
+      <div class="tour-conta">${i + 1} / ${passi.length}</div>
+      <h2 id="tour-titolo">${esc(p.titolo)}</h2>
+      <p>${esc(p.testo)}</p>
+      <div class="azioni">
+        ${ultimo ? "" : '<button type="button" class="link" data-tour="salta">Salta il tour</button>'}
+        <span class="spinta"></span>
+        ${i > 0 ? '<button type="button" class="bott" data-tour="indietro">Indietro</button>' : ""}
+        <button type="button" class="bott pieno" data-tour="avanti">${ultimo ? "Fine" : i === 0 ? "Inizia" : "Avanti"}</button>
+      </div>`;
+    const el = bersaglio(p);
+    if (el) centra(el);
+    posiziona();
+    box.querySelector('[data-tour="avanti"]').focus();
+  }
+
+  function chiudi() {
+    segnaTourVisto();
+    velo.remove(); luce.remove(); box.remove();
+    removeEventListener("resize", posiziona);
+    removeEventListener("keydown", tasti);
+    // Si torna dove si era partiti, cioè in cima: è lì che si arriva sul sito.
+    scrollTo({ top: 0, behavior: "instant" });
+    prima?.focus?.();
+  }
+
+  function tasti(e) {
+    if (e.key === "Escape") chiudi();
+    else if (e.key === "ArrowRight") vai(1);
+    else if (e.key === "ArrowLeft") vai(-1);
+  }
+
+  function vai(d) {
+    if (i + d >= passi.length) return chiudi();
+    i = Math.max(0, i + d);
+    mostra();
+  }
+
+  box.addEventListener("click", (e) => {
+    const a = e.target.closest("[data-tour]")?.dataset.tour;
+    if (a === "salta") chiudi();
+    else if (a === "avanti") vai(1);
+    else if (a === "indietro") vai(-1);
+  });
+  // Il velo prende i click fuori dal riquadro: durante il tour la pagina non si
+  // tocca, e un click fuori vale come "salta".
+  velo.addEventListener("click", chiudi);
+  addEventListener("resize", posiziona);
+  addEventListener("keydown", tasti);
+  mostra();
 }
 
 /* ------------------------------------------------------------------ avvio */
@@ -599,6 +784,9 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
     STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false,
               profilo: leggiProfilo(), riparti: true, kw: null };
     renderGuida();
+    // Il tour parte a font caricati: con i font di ripiego le misure dei pezzi
+    // da illuminare sarebbero altre, e la cornice cadrebbe di traverso.
+    if (!tourVisto()) document.fonts.ready.then(() => requestAnimationFrame(avviaTour));
   })
   /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida
      scritta da statico.py, ed è comunque più utile di un cartello di scuse.
