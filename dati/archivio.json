@@ -8327,6 +8327,10 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/albino/castagnata-al-parco_305922/",
+          "keyword": [
+            "caldarroste",
+            "all'aperto"
+          ],
           "rilevanza": 2
         },
         {
@@ -8341,6 +8345,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/in-caucaso-un-viaggio-tra-georgia-e-armenia_305874/",
+          "keyword": [
+            "presentazione libro",
+            "viaggi"
+          ],
           "rilevanza": 2
         },
         {
@@ -8355,6 +8363,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/treviglio/la-magia-del-food-pairing-con-i-formaggi_305434/",
+          "keyword": [
+            "degustazione",
+            "formaggi",
+            "su prenotazione"
+          ],
           "rilevanza": 2
         },
         {
@@ -8370,6 +8383,11 @@
             "valore": 5
           },
           "fonte": "https://www.instagram.com/p/DeWLf0lgSMW/",
+          "keyword": [
+            "hardcore",
+            "metal",
+            "tessera arci"
+          ],
           "rilevanza": 3
         },
         {
@@ -8384,6 +8402,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/ranica/val-taleggio-la-terra-di-mezzo_306218/",
+          "keyword": [
+            "mostra fotografica",
+            "inaugurazione"
+          ],
           "rilevanza": 2
         },
         {
@@ -8398,6 +8420,11 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/premio-costruttori-di-ponti-2026_303389/",
+          "keyword": [
+            "premiazione",
+            "pace",
+            "migranti"
+          ],
           "rilevanza": 3
         },
         {
@@ -8412,6 +8439,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.lab80.it/programmazione/",
+          "keyword": [
+            "versione originale",
+            "prima visione",
+            "gaza"
+          ],
           "rilevanza": 2
         },
         {
@@ -8426,6 +8458,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/albino/film-di-qualita_306079/",
+          "keyword": [
+            "drammatico",
+            "avventura"
+          ],
           "rilevanza": 2
         },
         {
@@ -8440,6 +8476,10 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.instagram.com/reel/Dd_1__lsNX8/",
+          "keyword": [
+            "quiz",
+            "ogni martedì"
+          ],
           "rilevanza": 3
         },
         {
@@ -8454,6 +8494,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-fuochi-dartificio-spettacolo-pirotecnico-sagra-raviolo-covo-2/",
+          "keyword": [
+            "spettacolo pirotecnico",
+            "sagra del raviolo"
+          ],
           "rilevanza": 2
         }
       ],
@@ -8469,7 +8513,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/martinengo/piccoli-esploratori_305451/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/martinengo/piccoli-esploratori_305451/",
+          "keyword": [
+            "7-10 anni",
+            "visita guidata",
+            "su prenotazione"
+          ]
         },
         {
           "ora": "16:45",
@@ -8482,7 +8531,11 @@
           "prezzo": {
             "tipo": "gratis"
           },
-          "fonte": "https://biblioteche.comune.bergamo.it/events"
+          "fonte": "https://biblioteche.comune.bergamo.it/events",
+          "keyword": [
+            "letture",
+            "3-8 anni"
+          ]
         },
         {
           "ora": "17:00",
@@ -8495,7 +8548,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/decodifica-dei-segni-musicali-1-solo-rigo_305754/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/decodifica-dei-segni-musicali-1-solo-rigo_305754/",
+          "keyword": [
+            "teoria musicale",
+            "ciclo di incontri"
+          ]
         },
         {
           "ora": "17:45",
@@ -8508,7 +8565,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/rotta-verso-il-futuro_306134/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/rotta-verso-il-futuro_306134/",
+          "keyword": [
+            "orientamento scolastico",
+            "scuole medie"
+          ]
         },
         {
           "ora": "18:00",
@@ -8521,7 +8582,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/pedrengo/libri-a-tavola-libri-farina_302465/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/pedrengo/libri-a-tavola-libri-farina_302465/",
+          "keyword": [
+            "lettura",
+            "con aperitivo",
+            "su prenotazione"
+          ]
         },
         {
           "ora": "20:45",
@@ -8534,7 +8600,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mozzo/lo-spirito-in-cammino-da-san-francesco-al-monte-athos-sui-cammini-dello-spirit_306282/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mozzo/lo-spirito-in-cammino-da-san-francesco-al-monte-athos-sui-cammini-dello-spirit_306282/",
+          "keyword": [
+            "cammini",
+            "viaggio lento",
+            "spiritualità"
+          ]
         },
         {
           "ora": "20:45",
@@ -8547,7 +8618,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gruppi-di-lettura-di-filosofia_306130/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gruppi-di-lettura-di-filosofia_306130/",
+          "keyword": [
+            "gruppo di lettura",
+            "filosofia"
+          ]
         },
         {
           "ora": "21:00",
@@ -8560,7 +8635,10 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.lab80.it/programmazione/"
+          "fonte": "https://www.lab80.it/programmazione/",
+          "keyword": [
+            "film italiano"
+          ]
         },
         {
           "ora": "21:00",
@@ -8573,7 +8651,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/attivita-e-vite-di-donne-in-alta-montagna_306376/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/attivita-e-vite-di-donne-in-alta-montagna_306376/",
+          "keyword": [
+            "alta montagna",
+            "testimonianze"
+          ]
         },
         {
           "ora": null,
@@ -8586,7 +8668,11 @@
           "prezzo": {
             "tipo": "gratis"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/gianni-grimaldi_305432/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/gianni-grimaldi_305432/",
+          "keyword": [
+            "scultura",
+            "arte sacra"
+          ]
         }
       ],
       "guida": "settimana-2026-10-13",
@@ -8611,6 +8697,11 @@
             "valore": 20
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/outdoor/bergamo/urban-trekking-allalba-sui-colli-di-bergamo_305769/",
+          "keyword": [
+            "colazione inclusa",
+            "8 km",
+            "su prenotazione"
+          ],
           "rilevanza": 2
         },
         {
@@ -8626,6 +8717,12 @@
             "valore": 45
           },
           "fonte": "https://www.instagram.com/p/DeMIEWSKshU/",
+          "keyword": [
+            "composizione floreale",
+            "aperitivo incluso",
+            "su prenotazione",
+            "solo tesserati"
+          ],
           "rilevanza": 2
         },
         {
@@ -8641,6 +8738,12 @@
             "valore": 40
           },
           "fonte": "https://www.instagram.com/p/DeMoZLqDdB0/",
+          "keyword": [
+            "resina uv",
+            "aperitivo incluso",
+            "su prenotazione",
+            "per principianti"
+          ],
           "rilevanza": 2
         },
         {
@@ -8655,6 +8758,10 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/tango_305910/",
+          "keyword": [
+            "serata danzante",
+            "food e drink"
+          ],
           "rilevanza": 3
         },
         {
@@ -8670,6 +8777,11 @@
             "valore": 20
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/pedrengo/aperitivo-con-delitto-lorigine-del-mondo_306216/",
+          "keyword": [
+            "giallo",
+            "gioco investigativo",
+            "su prenotazione"
+          ],
           "rilevanza": 2
         },
         {
@@ -8685,6 +8797,10 @@
             "valore": 5.5
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/bergamo/proiezione-di-black-narcissus-narciso-nero_306138/",
+          "keyword": [
+            "versione originale",
+            "cinema classico"
+          ],
           "rilevanza": 3
         },
         {
@@ -8699,6 +8815,11 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/lavorare-per-gli-altri-uneconomia-del-significato_303390/",
+          "keyword": [
+            "presentazione libro",
+            "economia",
+            "lavoro"
+          ],
           "rilevanza": 2
         },
         {
@@ -8713,6 +8834,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mapello/dove-va-il-mondo_305210/",
+          "keyword": [
+            "attualità",
+            "giornalismo"
+          ],
           "rilevanza": 1
         },
         {
@@ -8727,6 +8852,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.instagram.com/p/DeOq28ADADZ/",
+          "keyword": [
+            "stand-up comedy",
+            "satira"
+          ],
           "rilevanza": 3
         },
         {
@@ -8741,6 +8870,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/bodini-canta-guccini_306048/",
+          "keyword": [
+            "cantautori",
+            "tributo",
+            "tessera arci"
+          ],
           "rilevanza": 2
         }
       ],
@@ -8756,7 +8890,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/un-altro-giro-di-giostra-di-tiziano-terzani_306378/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/un-altro-giro-di-giostra-di-tiziano-terzani_306378/",
+          "keyword": [
+            "non violenza",
+            "su prenotazione"
+          ]
         },
         {
           "ora": "15:00",
@@ -8769,7 +8907,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gino-bartali-campione-inimitabile-e-uomo-per-bene_305797/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gino-bartali-campione-inimitabile-e-uomo-per-bene_305797/",
+          "keyword": [
+            "ciclismo",
+            "seconda guerra mondiale"
+          ]
         },
         {
           "ora": "17:00",
@@ -8782,7 +8924,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.lab80.it/programmazione/"
+          "fonte": "https://www.lab80.it/programmazione/",
+          "keyword": [
+            "commedia",
+            "prima visione"
+          ]
         },
         {
           "ora": "17:00",
@@ -8795,7 +8941,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/treviglio/baby-bookclub-il-gruppo-di-lettura-per-linfanzia_302513/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/treviglio/baby-bookclub-il-gruppo-di-lettura-per-linfanzia_302513/",
+          "keyword": [
+            "gruppo di lettura",
+            "infanzia"
+          ]
         },
         {
           "ora": "18:30",
@@ -8808,7 +8958,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/bergamo/pratica-di-yoga-tutti-i-mercoledi_306151/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/bergamo/pratica-di-yoga-tutti-i-mercoledi_306151/",
+          "keyword": [
+            "vinyasa",
+            "per principianti"
+          ]
         },
         {
           "ora": "20:00",
@@ -8821,7 +8975,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bottanuco/crescere-consapevoli_306186/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bottanuco/crescere-consapevoli_306186/",
+          "keyword": [
+            "sessualità",
+            "consenso",
+            "genitori e insegnanti"
+          ]
         },
         {
           "ora": "20:30",
@@ -8834,7 +8993,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/capriate-san-gervasio/suggerimenti-pratici-nellassistere-a-domicilio-un-familiare-con-demenza_305857/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/capriate-san-gervasio/suggerimenti-pratici-nellassistere-a-domicilio-un-familiare-con-demenza_305857/",
+          "keyword": [
+            "cure palliative",
+            "assistenza domiciliare"
+          ]
         },
         {
           "ora": "20:30",
@@ -8847,7 +9010,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/cenate-sotto/opening-act_306357/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/cenate-sotto/opening-act_306357/",
+          "keyword": [
+            "concorso canoro",
+            "cantanti emergenti",
+            "televoto"
+          ]
         },
         {
           "ora": "21:00",
@@ -8860,7 +9028,12 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.lab80.it/programmazione/"
+          "fonte": "https://www.lab80.it/programmazione/",
+          "keyword": [
+            "versione originale",
+            "prima visione",
+            "gaza"
+          ]
         },
         {
           "ora": "21:00",
@@ -8873,7 +9046,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/seriate/rassegna-cinematografica-cronaca-degli-anni-di-brace_306044/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/seriate/rassegna-cinematografica-cronaca-degli-anni-di-brace_306044/",
+          "keyword": [
+            "versione originale",
+            "cinema d'autore"
+          ]
         }
       ],
       "guida": "settimana-2026-10-13",
@@ -8897,6 +9074,11 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/bergamo/mercatanti-in-fiera_305277/",
+          "keyword": [
+            "street food",
+            "artigianato",
+            "prodotti tipici"
+          ],
           "rilevanza": 3
         },
         {
@@ -8911,6 +9093,10 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/bergamo/i-meccanismi-delleditoria_305824/",
+          "keyword": [
+            "editoria",
+            "ciclo di incontri"
+          ],
           "rilevanza": 2
         },
         {
@@ -8926,6 +9112,11 @@
             "valore": 25
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/scanzorosciate/slow-tour-2026-confronto-birre-artigianali-trota-salmonata-affumicata_305845/",
+          "keyword": [
+            "birre artigianali",
+            "slow food",
+            "degustazione"
+          ],
           "rilevanza": 2
         },
         {
@@ -8940,6 +9131,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-polenta-zucca-e-dei-porcini-piazzale-alpini-bergamo-citta-5/",
+          "keyword": [
+            "polenta taragna",
+            "porcini",
+            "su prenotazione"
+          ],
           "rilevanza": 3
         },
         {
@@ -8954,6 +9150,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/ardesio/sacrae-scenae-ardesio-film-festival_305063/",
+          "keyword": [
+            "film festival",
+            "cortometraggi",
+            "concorso"
+          ],
           "rilevanza": 3
         },
         {
@@ -8968,6 +9169,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.instagram.com/p/DeWgFF7jXPz/",
+          "keyword": [
+            "seconda mano",
+            "sostenibilità",
+            "tessera arci"
+          ],
           "rilevanza": 3
         },
         {
@@ -8982,6 +9188,11 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sovere/reading-teatrale-palestinesi-sono-i-tuoi-occhi_306182/",
+          "keyword": [
+            "reading",
+            "musica dal vivo",
+            "palestina"
+          ],
           "rilevanza": 2
         },
         {
@@ -8996,6 +9207,10 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/letteratura/treviglio/il-richiamo-della-foresta-treviglio_304713/",
+          "keyword": [
+            "teatrolettura",
+            "chitarra dal vivo"
+          ],
           "rilevanza": 2
         },
         {
@@ -9010,6 +9225,10 @@
             "tipo": "gratis"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/costa-volpino/concerto-in-crociera-sul-lago-diseo_306343/",
+          "keyword": [
+            "arie d'opera",
+            "operetta"
+          ],
           "rilevanza": 2
         },
         {
@@ -9024,6 +9243,9 @@
             "tipo": "nd"
           },
           "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/clusone/rassegna-dautunno-3-appuntamento_305570/",
+          "keyword": [
+            "introduzione in sala"
+          ],
           "rilevanza": 2
         }
       ],
@@ -9039,7 +9261,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/castro/concerto-con-il-tenore-giorgio-gaioni_305567/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/castro/concerto-con-il-tenore-giorgio-gaioni_305567/",
+          "keyword": [
+            "lirica",
+            "rinfresco finale"
+          ]
         },
         {
           "ora": "15:30",
@@ -9065,7 +9291,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/clusone/il-gioco-del-teatro_305844/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/clusone/il-gioco-del-teatro_305844/",
+          "keyword": [
+            "elementari e medie",
+            "ogni giovedì"
+          ]
         },
         {
           "ora": "16:45",
@@ -9078,7 +9308,11 @@
           "prezzo": {
             "tipo": "gratis"
           },
-          "fonte": "https://biblioteche.comune.bergamo.it/events"
+          "fonte": "https://biblioteche.comune.bergamo.it/events",
+          "keyword": [
+            "letture",
+            "3-8 anni"
+          ]
         },
         {
           "ora": "17:30",
@@ -9091,7 +9325,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/presenze-e-memorie-di-dante-a-bergamo_305692/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/presenze-e-memorie-di-dante-a-bergamo_305692/",
+          "keyword": [
+            "divina commedia",
+            "ciclo di incontri"
+          ]
         },
         {
           "ora": "20:30",
@@ -9104,7 +9342,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/giovani-e-beni-comuni-una-tavola-rotonda-sul-protagonismo-giovanile_306379/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/giovani-e-beni-comuni-una-tavola-rotonda-sul-protagonismo-giovanile_306379/",
+          "keyword": [
+            "tavola rotonda",
+            "volontariato"
+          ]
         },
         {
           "ora": "20:45",
@@ -9117,7 +9359,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/davide-la-promessa-tra-luci-e-ombre_303391/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/davide-la-promessa-tra-luci-e-ombre_303391/",
+          "keyword": [
+            "bibbia",
+            "teologia"
+          ]
         },
         {
           "ora": "20:45",
@@ -9130,7 +9376,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sarnico/lezioni-di-storia-dellarte-con-il-prof-fusari_301860/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sarnico/lezioni-di-storia-dellarte-con-il-prof-fusari_301860/",
+          "keyword": [
+            "storia dell'arte",
+            "ciclo di incontri"
+          ]
         },
         {
           "ora": null,
@@ -9143,7 +9393,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/amalia-del-ponte-litofonie_305428/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/amalia-del-ponte-litofonie_305428/",
+          "keyword": [
+            "arte contemporanea",
+            "sculture sonore"
+          ]
         },
         {
           "ora": null,
@@ -9156,7 +9410,12 @@
           "prezzo": {
             "tipo": "gratis"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/essere-forma_305227/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/essere-forma_305227/",
+          "keyword": [
+            "design",
+            "fotografia",
+            "lavori degli studenti"
+          ]
         },
         {
           "ora": null,
@@ -9169,7 +9428,11 @@
           "prezzo": {
             "tipo": "nd"
           },
-          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/inmostra_304980/"
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/inmostra_304980/",
+          "keyword": [
+            "pittura",
+            "città alta"
+          ]
         }
       ],
       "guida": "settimana-2026-10-13",

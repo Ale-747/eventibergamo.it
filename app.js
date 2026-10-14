@@ -104,6 +104,16 @@ function rimandoCinema(cin) {
       <span class="freccia">Vai alla programmazione &rarr;</span></a>`;
 }
 
+/* Le keyword di un evento, sotto il luogo. Sono bottoni: un click mostra solo
+   gli eventi con quella parola, un secondo click la toglie. Stessa classe di
+   parole() in statico.py, dove invece sono testo — lì il filtro non c'è. */
+function parole(e) {
+  const kw = e.keyword ?? [];
+  if (!kw.length) return "";
+  return `<div class="kw">${kw.map((k) =>
+    `<button type="button" data-kw="${esc(k)}" aria-pressed="false">${esc(k)}</button>`).join("")}</div>`;
+}
+
 /* ------------------------------------------------------------------ profilo
 
    Chi visita può dire una volta cosa gli interessa — le categorie, e se partire
@@ -337,6 +347,7 @@ function renderGuida() {
 
   let notaProfilo = null;
   if (STATO.riparti) {
+    STATO.kw = null;
     notaProfilo = ripartiDalProfilo(catsGuida, tutteCat);
     STATO.riparti = false;
   }
@@ -354,11 +365,13 @@ function renderGuida() {
     const righe = tutte.map(([e, extra]) => {
       const p = badgePrezzo(e.prezzo);
       const zona = e.zona ? `<span class="zona">${esc(e.zona)}</span>` : "";
-      return `<li data-cat="${esc(e.categoria)}"${extra ? ' class="extra" data-extra="1"' : ""}>
+      // Le keyword stanno anche sulla riga, separate da "|": il filtro legge quelle.
+      const kw = e.keyword?.length ? ` data-kw="${esc(e.keyword.join("|"))}"` : "";
+      return `<li data-cat="${esc(e.categoria)}"${kw}${extra ? ' class="extra" data-extra="1"' : ""}>
         <div class="ora">${esc(e.ora ?? "—")}</div>
         <div class="corpo">
           <div class="nome"><i>${esc(icona(e.categoria))}</i>${esc(e.nome)}</div>
-          <div class="dove">${esc(e.luogo ?? "")} ${zona}</div>
+          <div class="dove">${esc(e.luogo ?? "")} ${zona}</div>${parole(e)}
         </div>
         <div class="${p.cls}">${esc(p.testo)}</div>
       </li>`;
@@ -407,6 +420,8 @@ function renderGuida() {
       ${interruttore(attiva)}
       <div class="chips">${chips}</div>
       ${notaProfilo ? `<p class="nota-profilo">${esc(notaProfilo)}</p>` : ""}
+      <p class="filtro-kw" id="filtro-kw" hidden>Solo gli eventi con «<b></b>»
+        <button type="button" class="link" data-azione="togli-kw">togli</button></p>
     </header>
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
@@ -441,6 +456,17 @@ function renderGuida() {
     applicaFiltri();
   }));
 
+  document.querySelectorAll("#app .kw button").forEach((b) => b.addEventListener("click", () => {
+    STATO.kw = STATO.kw === b.dataset.kw ? null : b.dataset.kw;
+    applicaFiltri();
+    // Il filtro si spiega in cima: chi ha cliccato in fondo alla pagina ci torna.
+    if (STATO.kw) $("#filtro-kw").scrollIntoView({ block: "center" });
+  }));
+  document.querySelector('#app [data-azione="togli-kw"]')?.addEventListener("click", () => {
+    STATO.kw = null;
+    applicaFiltri();
+  });
+
   document.querySelectorAll("#app .chip").forEach((b) => b.addEventListener("click", () => {
     const c = b.dataset.cat;
     if (STATO.filtri.has(c)) STATO.filtri.delete(c); else STATO.filtri.add(c);
@@ -463,6 +489,19 @@ function renderGuida() {
 function applicaFiltri() {
   const f = STATO.filtri;
   const tutti = STATO.tutti;
+  const kw = STATO.kw;
+
+  // La keyword si somma ai chip: categoria E parola, non o.
+  const barra = $("#filtro-kw");
+  if (barra) {
+    barra.hidden = !kw;
+    barra.querySelector("b").textContent = kw ?? "";
+  }
+  document.querySelectorAll("#app .kw button").forEach((b) => {
+    const on = b.dataset.kw === kw;
+    b.classList.toggle("sel", on);
+    b.setAttribute("aria-pressed", on);
+  });
 
   document.querySelectorAll("#app button.sw").forEach((b) => {
     const on = (b.dataset.tutti === "1") === tutti;
@@ -486,7 +525,8 @@ function applicaFiltri() {
   document.querySelectorAll("#app .giorno").forEach((sezione) => {
     let n = 0;
     sezione.querySelectorAll("li[data-cat]").forEach((li) => {
-      const mostra = (tutti || !li.dataset.extra) && (f.size === 0 || f.has(li.dataset.cat));
+      const mostra = (tutti || !li.dataset.extra) && (f.size === 0 || f.has(li.dataset.cat))
+        && (!kw || (li.dataset.kw ?? "").split("|").includes(kw));
       li.hidden = !mostra;
       if (mostra) n += 1;
       // Il filo rosso sopra la lista sta sulla prima riga *visibile*, non sulla prima.
@@ -557,7 +597,7 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
     const cinema = scegliCinema(dati.cinema, oggi);
     if (!attiva) return renderRiposo(dati, cinema);
     STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false,
-              profilo: leggiProfilo(), riparti: true };
+              profilo: leggiProfilo(), riparti: true, kw: null };
     renderGuida();
   })
   /* Se il JSON non arriva non si cancella niente: in pagina c'è già la guida

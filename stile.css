@@ -257,6 +257,28 @@ ul.lista li.extra .zona {
   border: 2px solid var(--line); padding: 1px 7px 0;
 }
 
+/* ---------------------------------------------------------------- keyword */
+/* Due-quattro parole sotto il luogo che dicono com'è la serata. Piccole e
+   smorzate: informano, non competono col nome. Sulla home sono bottoni (filtrano),
+   sulle pagine statiche testo — stesso aspetto. */
+.kw { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.kw span, .kw button {
+  font: inherit; font-size: 13px; font-weight: 600; line-height: 1;
+  color: var(--mut); background: none;
+  border: 1px solid var(--line); padding: 4px 8px 3px;
+}
+.kw button { cursor: pointer; transition: color .15s, border-color .15s, background .15s; }
+.kw button:hover { color: var(--fg); border-color: var(--mut); }
+.kw button.sel { background: var(--acc); border-color: var(--acc); color: var(--on-acc); }
+.kw button:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+ul.lista li.extra .kw { opacity: .85; }
+
+.filtro-kw {
+  margin-top: 16px; border-left: 5px solid var(--acc); padding: 5px 0 5px 18px;
+  font-size: 17px; font-weight: 600; line-height: 1.4;
+}
+.filtro-kw b { color: var(--acc); }
+
 /* ---------------------------------------------------------------- profilo */
 /* Il bottone in alto a destra, l'invito sotto le tab e il pannello. Nessun
    colore nuovo: il pannello eredita i token del tema della guida aperta. */
