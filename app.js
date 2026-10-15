@@ -346,6 +346,33 @@ function renderGuida() {
 
   const icona = (chiave) => tutteCat.find((c) => c.chiave === chiave)?.icona ?? "✱";
 
+  /* Il secondo filtro: le parole chiave della guida, dalla più frequente. Come
+     per i chip, quelle che esistono solo nel secondo livello si marcano e in
+     "solo la guida" applicaFiltri() le nasconde. Oltre le prime KW_APERTE
+     restano dietro a "tutte le parole": sono decine, e un muro di bottoni
+     sopra la guida la spingerebbe sotto lo schermo. */
+  const conta = (eventi) => {
+    const m = new Map();
+    eventi.forEach((e) => (e.keyword ?? []).forEach((k) => m.set(k, (m.get(k) ?? 0) + 1)));
+    return m;
+  };
+  const evGuida = attiva.giorni.flatMap((g) => g.eventi ?? []);
+  const kwGuida = conta(evGuida);
+  const kwTutti = conta(evGuida.concat(attiva.giorni.flatMap((g) => g.altri ?? [])));
+  const paroleFiltro = [...kwTutti.keys()]
+    .sort((a, b) => (kwGuida.get(b) ?? 0) - (kwGuida.get(a) ?? 0)
+                    || kwTutti.get(b) - kwTutti.get(a) || a.localeCompare(b, "it"))
+    .map((k) => `<button type="button" data-kw="${esc(k)}" aria-pressed="false"${
+      kwGuida.has(k) ? "" : ' data-extra-kw="1"'}>${esc(k)}</button>`).join("");
+  const filtroParole = paroleFiltro ? `<div class="filtro" id="filtro-parole">
+        <p class="filtro-tit"><b>Filtro 2 · Parola chiave</b>
+          <span>Com'è la serata: genere, pubblico, formato. Una parola alla volta.</span></p>
+        <div class="kw kw-filtro">${paroleFiltro}</div>
+        <button type="button" class="link altre-kw" data-azione="altre-kw" hidden></button>
+        <p class="filtro-kw" id="filtro-kw" hidden>Solo gli eventi con «<b></b>»
+          <button type="button" class="link" data-azione="togli-kw">togli</button></p>
+      </div>` : "";
+
   let notaProfilo = null;
   if (STATO.riparti) {
     STATO.kw = null;
@@ -419,10 +446,17 @@ function renderGuida() {
       <p class="sommario">${nl(attiva.sottotitolo)}</p>
       <p class="gancio">${nl(attiva.hook)}</p>
       ${interruttore(attiva)}
-      <div class="chips">${chips}</div>
-      ${notaProfilo ? `<p class="nota-profilo">${esc(notaProfilo)}</p>` : ""}
-      <p class="filtro-kw" id="filtro-kw" hidden>Solo gli eventi con «<b></b>»
-        <button type="button" class="link" data-azione="togli-kw">togli</button></p>
+      <div class="filtri">
+        <div class="filtro" id="filtro-cat">
+          <p class="filtro-tit"><b>Filtro 1 · Categoria</b>
+            <span>Che tipo di evento è: concerti, sagre, teatro… Accendine quante vuoi.</span></p>
+          <div class="chips">${chips}</div>
+          ${notaProfilo ? `<p class="nota-profilo">${esc(notaProfilo)}</p>` : ""}
+        </div>
+        ${filtroParole}
+        ${filtroParole ? `<p class="filtri-nota">Sono due filtri separati e si sommano: con una categoria
+          e una parola accese restano solo gli eventi che hanno tutte e due.</p>` : ""}
+      </div>
     </header>
     <p class="vuoto" id="vuoto" hidden>Nessun evento con questi filtri. Togline uno.</p>
     ${giorni}
@@ -454,7 +488,10 @@ function renderGuida() {
     STATO.tutti = tutti;
     /* Un filtro acceso su una categoria che in "solo la guida" non esiste
        lascerebbe la pagina vuota senza che si capisca perché: si spegne. */
-    if (!tutti) STATO.filtri = new Set([...STATO.filtri].filter((c) => catsGuida.has(c)));
+    if (!tutti) {
+      STATO.filtri = new Set([...STATO.filtri].filter((c) => catsGuida.has(c)));
+      if (STATO.kw && !kwGuida.has(STATO.kw)) STATO.kw = null;
+    }
     applicaFiltri();
   }));
 
@@ -462,8 +499,12 @@ function renderGuida() {
     STATO.kw = STATO.kw === b.dataset.kw ? null : b.dataset.kw;
     applicaFiltri();
     // Il filtro si spiega in cima: chi ha cliccato in fondo alla pagina ci torna.
-    if (STATO.kw) $("#filtro-kw").scrollIntoView({ block: "center" });
+    if (STATO.kw && !b.closest(".filtri")) $("#filtro-kw").scrollIntoView({ block: "center" });
   }));
+  document.querySelector('#app [data-azione="altre-kw"]')?.addEventListener("click", () => {
+    STATO.kwAperte = !STATO.kwAperte;
+    applicaFiltri();
+  });
   document.querySelector('#app [data-azione="togli-kw"]')?.addEventListener("click", () => {
     STATO.kw = null;
     applicaFiltri();
@@ -488,6 +529,8 @@ function renderGuida() {
    solo, due chip due: si somma, non si restringe. Le sezioni che restano senza
    eventi spariscono, altrimenti resterebbe un titolo di giorno con sotto il nulla. */
 
+const KW_APERTE = 14;
+
 function applicaFiltri() {
   const f = STATO.filtri;
   const tutti = STATO.tutti;
@@ -504,6 +547,21 @@ function applicaFiltri() {
     b.classList.toggle("sel", on);
     b.setAttribute("aria-pressed", on);
   });
+
+  /* Le parole del filtro 2: fuori quelle che in questa modalità non accendono
+     niente, e oltre le prime KW_APERTE solo se si è chiesto di vederle tutte.
+     Quella accesa resta sempre a vista, sennò non si saprebbe come spegnerla. */
+  const visibiliKw = [...document.querySelectorAll("#app .kw-filtro button")]
+    .filter((b) => tutti || !b.dataset.extraKw);
+  document.querySelectorAll("#app .kw-filtro button").forEach((b) => { b.hidden = true; });
+  visibiliKw.forEach((b, i) => {
+    b.hidden = !(STATO.kwAperte || i < KW_APERTE || b.dataset.kw === kw);
+  });
+  const altre = $("#app .altre-kw");
+  if (altre) {
+    altre.hidden = visibiliKw.length <= KW_APERTE;
+    altre.textContent = STATO.kwAperte ? "Meno parole" : `Tutte le parole (${visibiliKw.length})`;
+  }
 
   document.querySelectorAll("#app button.sw").forEach((b) => {
     const on = (b.dataset.tutti === "1") === tutti;
@@ -631,15 +689,18 @@ const TOUR = [
   { cerca: [".switch"], facoltativo: true,
     titolo: "Solo la guida, o tutto",
     testo: "La guida è la nostra selezione. «Tutti gli eventi» aggiunge anche quelli che abbiamo trovato e non scelto, più chiari." },
-  { cerca: [".chips"],
-    titolo: "Filtra per categoria",
-    testo: "Tocca una categoria per vedere solo quella. Se ne accendi più di una si sommano; ritocca per spegnerla." },
+  { cerca: ["#filtro-cat"],
+    titolo: "Filtro 1: la categoria",
+    testo: "Che tipo di evento è: concerti, sagre, teatro… Tocca una categoria per vedere solo quella; se ne accendi più di una si sommano, ritocca per spegnerla." },
+  { cerca: ["#filtro-parole"], facoltativo: true,
+    titolo: "Filtro 2: la parola chiave",
+    testo: "Com'è la serata: genere, pubblico, formato. Una parola alla volta. È un filtro separato: se usi tutti e due restano gli eventi che hanno sia la categoria sia la parola." },
   { cerca: [".giorno li[data-cat]"],
     titolo: "Come si legge un evento",
     testo: "Ora, nome, luogo e zona. A destra il prezzo: «n.d.» vuol dire che le fonti non lo pubblicano, chiedi all'ingresso." },
   { cerca: [".giorno .kw"], facoltativo: true,
-    titolo: "Le parole chiave",
-    testo: "Dicono com'è la serata. Toccane una per vedere solo gli eventi che la condividono; in cima compare «togli»." },
+    titolo: "Le parole sotto ogni evento",
+    testo: "Sono le stesse del filtro 2: toccane una e il filtro si accende su quella parola. In cima compare «togli» per spegnerlo." },
   { cerca: [".piu a"], facoltativo: true,
     titolo: "Tutto il resto del giorno",
     testo: "Ogni giorno ha la sua pagina, con anche gli eventi rimasti fuori dalla guida." },
@@ -786,7 +847,7 @@ fetch("/dati/corrente.json", { cache: "no-cache" })
     const cinema = scegliCinema(dati.cinema, oggi);
     if (!attiva) return renderRiposo(dati, cinema);
     STATO = { dati, oggi, valide, inCorso, attiva, cinema, filtri: new Set(), tutti: false,
-              profilo: leggiProfilo(), riparti: true, kw: null };
+              profilo: leggiProfilo(), riparti: true, kw: null, kwAperte: false };
     renderGuida();
     // Il tour parte a font caricati: con i font di ripiego le misure dei pezzi
     // da illuminare sarebbero altre, e la cornice cadrebbe di traverso.

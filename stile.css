@@ -279,6 +279,23 @@ ul.lista li.extra .kw { opacity: .85; }
 }
 .filtro-kw b { color: var(--acc); }
 
+/* ---------------------------------------------------------------- i due filtri */
+/* Categoria e parola chiave sono due filtri diversi e si sommano: ognuno sta in
+   un blocco suo, col nome e una riga che dice a cosa si riferisce. */
+.filtri { margin-top: 26px; display: grid; gap: 22px; }
+.filtro { border-top: 2px solid var(--line); padding-top: 14px; }
+.filtro .chips { margin-top: 12px; }
+.filtro-tit { font-size: 16px; line-height: 1.4; color: var(--mut); }
+.filtro-tit b {
+  display: block; color: var(--fg);
+  font-family: 'Barlow Condensed', sans-serif; font-weight: 800;
+  font-size: 17px; letter-spacing: .14em; text-transform: uppercase;
+}
+.kw-filtro { display: flex; margin-top: 12px; }
+.kw-filtro button { font-size: 14px; padding: 6px 10px 5px; }
+.altre-kw { margin-top: 10px; font-size: 15px; }
+.filtri-nota { font-size: 15px; line-height: 1.45; color: var(--mut); }
+
 /* ---------------------------------------------------------------- profilo */
 /* Il bottone in alto a destra, l'invito sotto le tab e il pannello. Nessun
    colore nuovo: il pannello eredita i token del tema della guida aperta. */
