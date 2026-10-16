@@ -371,6 +371,7 @@ function renderGuida() {
         <button type="button" class="link altre-kw" data-azione="altre-kw" hidden></button>
         <p class="filtro-kw" id="filtro-kw" hidden>Solo gli eventi con «<b></b>»
           <button type="button" class="link" data-azione="togli-kw">togli</button></p>
+        <p class="filtro-kw" id="kw-tolta" hidden>«<b></b>» non c'è nelle categorie scelte: filtro tolto.</p>
       </div>` : "";
 
   let notaProfilo = null;
@@ -490,7 +491,6 @@ function renderGuida() {
        lascerebbe la pagina vuota senza che si capisca perché: si spegne. */
     if (!tutti) {
       STATO.filtri = new Set([...STATO.filtri].filter((c) => catsGuida.has(c)));
-      if (STATO.kw && !kwGuida.has(STATO.kw)) STATO.kw = null;
     }
     applicaFiltri();
   }));
@@ -534,6 +534,25 @@ const KW_APERTE = 14;
 function applicaFiltri() {
   const f = STATO.filtri;
   const tutti = STATO.tutti;
+
+  /* Il filtro 2 segue il filtro 1: offre solo le parole degli eventi che la
+     modalità e le categorie accese lasciano passare. Se la parola accesa non
+     c'è più, si spegne e lo si dice — tenerla accesa darebbe una pagina vuota
+     senza motivo apparente. */
+  const kwDisponibili = new Set();
+  document.querySelectorAll("#app .giorno li[data-kw]").forEach((li) => {
+    if ((tutti || !li.dataset.extra) && (f.size === 0 || f.has(li.dataset.cat)))
+      li.dataset.kw.split("|").forEach((k) => kwDisponibili.add(k));
+  });
+  const tolta = $("#kw-tolta");
+  if (tolta) tolta.hidden = true;
+  if (STATO.kw && !kwDisponibili.has(STATO.kw)) {
+    if (tolta) {
+      tolta.querySelector("b").textContent = STATO.kw;
+      tolta.hidden = false;
+    }
+    STATO.kw = null;
+  }
   const kw = STATO.kw;
 
   // La keyword si somma ai chip: categoria E parola, non o.
@@ -548,11 +567,11 @@ function applicaFiltri() {
     b.setAttribute("aria-pressed", on);
   });
 
-  /* Le parole del filtro 2: fuori quelle che in questa modalità non accendono
-     niente, e oltre le prime KW_APERTE solo se si è chiesto di vederle tutte.
-     Quella accesa resta sempre a vista, sennò non si saprebbe come spegnerla. */
+  /* Le parole del filtro 2: solo quelle degli eventi che modalità e categorie
+     lasciano passare, e oltre le prime KW_APERTE solo se si è chiesto di vederle
+     tutte. Quella accesa resta sempre a vista, sennò non si saprebbe come spegnerla. */
   const visibiliKw = [...document.querySelectorAll("#app .kw-filtro button")]
-    .filter((b) => tutti || !b.dataset.extraKw);
+    .filter((b) => kwDisponibili.has(b.dataset.kw));
   document.querySelectorAll("#app .kw-filtro button").forEach((b) => { b.hidden = true; });
   visibiliKw.forEach((b, i) => {
     b.hidden = !(STATO.kwAperte || i < KW_APERTE || b.dataset.kw === kw);
@@ -694,7 +713,7 @@ const TOUR = [
     testo: "Che tipo di evento è: concerti, sagre, teatro… Tocca una categoria per vedere solo quella; se ne accendi più di una si sommano, ritocca per spegnerla." },
   { cerca: ["#filtro-parole"], facoltativo: true,
     titolo: "Filtro 2: la parola chiave",
-    testo: "Com'è la serata: genere, pubblico, formato. Una parola alla volta. È un filtro separato: se usi tutti e due restano gli eventi che hanno sia la categoria sia la parola." },
+    testo: "Com'è la serata: genere, pubblico, formato. Una parola alla volta. Mostra solo le parole delle categorie che hai acceso. È un filtro separato: se usi tutti e due restano gli eventi che hanno sia la categoria sia la parola." },
   { cerca: [".giorno li[data-cat]"],
     titolo: "Come si legge un evento",
     testo: "Ora, nome, luogo e zona. A destra il prezzo: «n.d.» vuol dire che le fonti non lo pubblicano, chiedi all'ingresso." },
