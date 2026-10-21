@@ -163,6 +163,18 @@ h1 em { font-style: normal; color: var(--acc); display: block; }
   transition: color .15s, border-color .15s, background .15s;
 }
 .chip i { font-style: normal; color: var(--hot); font-size: 17px; }
+/* Icone di categoria e di genere: emoji native del telefono (CLAUDE.md, regola 5).
+   Larghezza e interlinea fisse: un'emoji larga non sposta il testo che segue, e un
+   chip con 🎧 resta alto come uno con 🎉, così le righe dei filtri non sfasano. */
+.chip i, .nome i {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  display: inline-block; width: 1.35em; height: 1.35em; line-height: 1.35em; text-align: center;
+  letter-spacing: 0; font-size: 16px; vertical-align: -3px;
+  /* Sui fondi scuri un disco chiaro, come sulle slide: la 🎧 è grigio scuro e sparirebbe. */
+  border-radius: 50%; background: #EFE9DE;
+}
+[data-tema="settimana"] .chip i, [data-tema="settimana"] .nome i { background: none; }
+.nome i { margin-right: 7px; }
 .chip:hover { border-color: var(--mut); }
 .chip.sel { background: var(--acc); border-color: var(--acc); color: var(--on-acc); }
 .chip.sel i { color: var(--on-acc); }

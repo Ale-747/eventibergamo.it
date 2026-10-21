@@ -344,7 +344,7 @@ function renderGuida() {
       catsGuida.has(c.chiave) ? "" : ' data-extra-cat="1"'}
       ><i>${esc(c.icona)}</i>${esc(c.etichetta)}</button>`).join("");
 
-  const icona = (chiave) => tutteCat.find((c) => c.chiave === chiave)?.icona ?? "✱";
+  const icona = (chiave) => tutteCat.find((c) => c.chiave === chiave)?.icona ?? "✨";
 
   /* Il secondo filtro: le parole chiave della guida, dalla più frequente. Come
      per i chip, quelle che esistono solo nel secondo livello si marcano e in
