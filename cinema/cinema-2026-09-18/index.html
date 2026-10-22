@@ -36,160 +36,161 @@
       <h1>Al cinema<em>18 → 24 settembre</em></h1>
       <div class="pillola">19 film · 8 sale · 4 comuni</div>
       <p class="sommario">19 film in 8 sale e 4 comuni. Da lunedì 21 c'è Cinema in Festa: 3,50 € nelle sale aderenti.</p>
+      <div class="filtri filtri-cinema" id="filtri-cinema" hidden><div class="filtro" id="filtro-titolo"><label class="filtro-tit" for="cerca-titolo"><b>Cerca un titolo</b></label><input type="search" id="cerca-titolo" class="campo" placeholder="Scrivi una parola del titolo" autocomplete="off" enterkeyhint="search"></div><div class="filtro" id="filtro-genere"><p class="filtro-tit"><b>Genere</b> <span>Accendine quanti vuoi: si sommano.</span></p><div class="chips"><button type="button" class="chip" data-gen="drammatico" aria-pressed="false"><i>🥀</i>Drammatico</button><button type="button" class="chip" data-gen="commedia" aria-pressed="false"><i>😂</i>Commedia</button><button type="button" class="chip" data-gen="azione" aria-pressed="false"><i>💥</i>Azione</button><button type="button" class="chip" data-gen="documentario" aria-pressed="false"><i>🎥</i>Documentario</button><button type="button" class="chip" data-gen="biografico" aria-pressed="false"><i>👤</i>Biografico</button><button type="button" class="chip" data-gen="famiglia" aria-pressed="false"><i>🧒</i>Per famiglie</button><button type="button" class="chip" data-gen="horror" aria-pressed="false"><i>👻</i>Horror</button><button type="button" class="chip" data-gen="musicale" aria-pressed="false"><i>🎵</i>Musicale</button></div></div><div class="filtro" id="filtro-giorno"><p class="filtro-tit"><b>Giorno</b> <span>Uno alla volta.</span></p><div class="kw kw-filtro"><button type="button" data-giorno="2026-09-18" aria-pressed="false">ven 18</button><button type="button" data-giorno="2026-09-19" aria-pressed="false">sab 19</button><button type="button" data-giorno="2026-09-20" aria-pressed="false">dom 20</button><button type="button" data-giorno="2026-09-21" aria-pressed="false">lun 21</button><button type="button" data-giorno="2026-09-22" aria-pressed="false">mar 22</button><button type="button" data-giorno="2026-09-23" aria-pressed="false">mer 23</button></div></div><div class="filtro" id="filtro-fascia"><p class="filtro-tit"><b>Fascia oraria</b> <span>Conta l'ora d'inizio.</span></p><div class="kw kw-filtro"><button type="button" data-fascia="pomeriggio" aria-pressed="false">Pomeriggio <small>12–18</small></button><button type="button" data-fascia="sera" aria-pressed="false">Sera <small>dalle 18</small></button></div></div><div class="filtro" id="filtro-sala"><label class="filtro-tit" for="scegli-sala"><b>Sala</b> <span>In ordine di comune.</span></label><select id="scegli-sala" class="campo"><option value="">Tutte le sale (8)</option><option value="auditorium-liberta">Auditorium di Piazza Libertà · Bergamo</option><option value="del-borgo">Cinema Teatro del Borgo · Bergamo</option><option value="conca-verde">Conca Verde · Bergamo</option><option value="schermo-bianco">Lo Schermo Bianco · Bergamo</option><option value="sala-orologio">Sala dell'Orologio · Bergamo</option><option value="notorious-curno">Notorious Cinemas Curno · Curno</option><option value="arcadia-stezzano">Arcadia Stezzano · Stezzano</option><option value="anteo-treviglio">Anteo spazioCinema · Treviglio</option></select></div><div class="filtro" id="filtro-versione"><p class="filtro-tit"><b>Proiezione</b> <span>Come la segnala la sala. Una alla volta.</span></p><div class="kw kw-filtro"><button type="button" data-ver="VO" aria-pressed="false">VO</button><button type="button" data-ver="prima visione" aria-pressed="false">prima visione</button><button type="button" data-ver="anteprima" aria-pressed="false">anteprima</button><button type="button" data-ver="evento" aria-pressed="false">evento</button><button type="button" data-ver="ultimi giorni" aria-pressed="false">ultimi giorni</button></div></div><p class="filtro-kw" id="filtri-attivi" hidden><span></span> <button type="button" class="link" data-azione="togli-tutto">togli i filtri</button></p></div>
     </header>
     <p class="vuoto">Questa settimana è passata: la programmazione di adesso è in <a href="/cinema/">cinema</a>.</p>
-    <section class="giorno" id="film"><h2>I film in sala</h2><ul class="lista cinema"><li class="film">
+    <p class="vuoto" id="vuoto" hidden>Nessun film con questi filtri. Togline uno.</p><section class="giorno" id="film"><h2>I film in sala</h2><ul class="lista cinema"><li class="film" data-gen="commedia" data-ver="prima visione">
         <div class="corpo">
           <div class="nome"><i>😂</i>The Invite</div>
           <div class="dove">Commedia · Olivia Wilde · 107' <span class="zona">prima visione</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>ven-sab e mar-mer, 21:00</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 19:50</b><span class="prezzo pay">10 €</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 21, 20:10</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="schermo-bianco" data-sp="2026-09-18T21:00|2026-09-19T18:30|2026-09-19T21:00|2026-09-20T18:00|2026-09-20T20:30|2026-09-22T21:00|2026-09-23T21:00"><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>ven-sab e mar-mer, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-18T20:20|2026-09-18T22:15|2026-09-19T17:50|2026-09-19T20:20|2026-09-19T22:30|2026-09-20T16:20|2026-09-20T18:45|2026-09-20T21:15|2026-09-21T21:20|2026-09-22T21:20|2026-09-23T19:00"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-18T17:15|2026-09-18T19:50|2026-09-18T22:15|2026-09-19T14:50|2026-09-19T17:15|2026-09-19T19:50|2026-09-19T22:15|2026-09-20T14:50|2026-09-20T17:15|2026-09-20T19:50|2026-09-20T22:15|2026-09-21T17:15|2026-09-21T22:15|2026-09-22T17:15|2026-09-22T19:50|2026-09-22T22:15|2026-09-23T17:15|2026-09-23T19:50|2026-09-23T22:15"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 19:50</b><span class="prezzo pay">10 €</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-18T17:50|2026-09-18T20:10|2026-09-18T22:30|2026-09-19T17:50|2026-09-19T20:10|2026-09-19T22:30|2026-09-20T15:30|2026-09-20T17:50|2026-09-20T20:10|2026-09-20T22:30|2026-09-21T17:50|2026-09-21T20:10|2026-09-21T22:30|2026-09-22T17:30|2026-09-22T20:00|2026-09-22T22:10"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 21, 20:10</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Mar 22 e mer 23 allo Schermo Bianco in originale.</p>
         </div>
-        <div class="conta"><b>4</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="4"><b>4</b><span>sale</span></div>
+      </li><li class="film" data-gen="drammatico">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Palestina 36</div>
           <div class="dove">Drammatico · Annemarie Jacir · 117' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-mer, più orari</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-18T21:00|2026-09-19T18:00|2026-09-19T21:00|2026-09-20T15:30|2026-09-20T18:00|2026-09-20T20:30|2026-09-21T21:00|2026-09-22T21:00|2026-09-23T18:00"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-mer, più orari</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Domenica 20 alle 20:30 in originale sottotitolato.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Ritorno a Buenos Aires</div>
           <div class="dove">Drammatico · Marco Bechis · 104' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>ven 18-lun 21</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="del-borgo" data-sp="2026-09-18T20:45|2026-09-19T18:30|2026-09-19T20:45|2026-09-20T15:30|2026-09-20T17:45|2026-09-20T20:15|2026-09-21T20:45"><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>ven 18-lun 21</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="prima visione">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Serpenti</div>
           <div class="dove">Drammatico · Roberto De Paolis · 88' <span class="zona">prima visione</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/sala-orologio/">Sala dell'Orologio</a> <span class="comune">Bergamo</span></span><b>sab 19 · dom 20 · mer 23</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="sala-orologio" data-sp="2026-09-19T21:00|2026-09-20T16:30|2026-09-20T18:30|2026-09-20T20:30|2026-09-23T21:00"><span class="sala"><a href="/cinema/sala/sala-orologio/">Sala dell'Orologio</a> <span class="comune">Bergamo</span></span><b>sab 19 · dom 20 · mer 23</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="commedia" data-ver="anteprima|evento">
         <div class="corpo">
           <div class="nome"><i>😂</i>Una giornata maledettamente buona</div>
           <div class="dove">Commedia · Andrea Castoldi · 86' <span class="zona">anteprima</span><span class="zona">evento</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>mer 23, 21:15</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="anteo-treviglio" data-sp="2026-09-23T21:15"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>mer 23, 21:15</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Il regista e i protagonisti introducono in diretta streaming.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="azione" data-ver="anteprima">
         <div class="corpo">
           <div class="nome"><i>💥</i>Heart of the Beast</div>
           <div class="dove">Azione · David Ayer · 101' <span class="zona">anteprima</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>sab 19 · dom 20, 19:45</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>sab 19 · dom 20</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>sab 19 · dom 20</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="notorious-curno" data-sp="2026-09-19T19:45|2026-09-20T19:45"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>sab 19 · dom 20, 19:45</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-19T22:15|2026-09-20T17:20"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>sab 19 · dom 20</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-19T20:00|2026-09-20T17:50"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>sab 19 · dom 20</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Anteprima, solo sabato e domenica.</p>
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="azione">
         <div class="corpo">
           <div class="nome"><i>💥</i>Odissea</div>
           <div class="dove">Azione · Christopher Nolan · 172' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>mar 16:00 · mer 21:00</b><span class="prezzo pay">3,50 €</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 21:40</b><span class="prezzo pay">10 €</span></li></ul>
+          <ul class="sale"><li data-sala="del-borgo" data-sp="2026-09-22T16:00|2026-09-23T21:00"><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>mar 16:00 · mer 21:00</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-18T17:00|2026-09-18T20:50|2026-09-19T17:30|2026-09-19T21:00|2026-09-20T17:30|2026-09-20T21:00|2026-09-21T17:00|2026-09-21T20:50|2026-09-22T17:00|2026-09-22T20:50|2026-09-23T17:00|2026-09-23T20:50"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-18T18:10|2026-09-18T21:40|2026-09-19T18:10|2026-09-19T21:40|2026-09-20T18:10|2026-09-20T21:40|2026-09-21T18:10|2026-09-21T21:40|2026-09-22T18:10|2026-09-22T21:40|2026-09-23T18:10|2026-09-23T21:40"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 21:40</b><span class="prezzo pay">10 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="musicale" data-ver="evento">
         <div class="corpo">
           <div class="nome"><i>🎵</i>Ultimo — Live a Tor Vergata</div>
           <div class="dove">Musicale · 165' <span class="zona">evento</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="notorious-curno" data-sp="2026-09-22T20:00|2026-09-23T18:00|2026-09-23T21:30"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-22T20:00|2026-09-23T17:20|2026-09-23T20:40"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-22T20:00|2026-09-23T20:30"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>mar 22 · mer 23</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Il concerto-film, solo martedì e mercoledì.</p>
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="documentario" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>🎥</i>Auber 89</div>
           <div class="dove">Documentario · Giuseppe Schillaci <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mar 22, 20:30</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-22T20:30"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mar 22, 20:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">In francese sottotitolato.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Calle Malaga</div>
           <div class="dove">Drammatico · Maryam Touzani · 116' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-lun e mer 23</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-18T20:30|2026-09-19T15:30|2026-09-19T20:30|2026-09-20T17:15|2026-09-20T21:00|2026-09-21T20:30|2026-09-23T21:00"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-lun e mer 23</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Ven 18 e lun 21 in originale sottotitolato.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="prima visione">
         <div class="corpo">
           <div class="nome"><i>🥀</i>I figli della scimmia</div>
           <div class="dove">Drammatico · Tommaso Landucci · 110' <span class="zona">prima visione</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>ven-mer, 20:10</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="anteo-treviglio" data-sp="2026-09-18T17:50|2026-09-18T20:10|2026-09-18T22:30|2026-09-19T15:30|2026-09-19T17:50|2026-09-19T20:10|2026-09-19T22:30|2026-09-20T17:50|2026-09-20T20:10|2026-09-20T22:30|2026-09-21T17:50|2026-09-21T20:10|2026-09-21T22:30|2026-09-22T17:50|2026-09-22T20:10|2026-09-22T22:30|2026-09-23T17:50|2026-09-23T20:10"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>ven-mer, 20:10</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Silent Friend</div>
           <div class="dove">Drammatico · Ildikó Enyedi <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>lun 21, 21:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="schermo-bianco" data-sp="2026-09-21T21:00"><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>lun 21, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">In originale sottotitolato, una sera sola.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="commedia">
         <div class="corpo">
           <div class="nome"><i>😂</i>Spezie e bugie</div>
           <div class="dove">Commedia · Amine Adjina · 114' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>ven-dom e mar 22</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="auditorium-liberta" data-sp="2026-09-18T21:00|2026-09-19T21:00|2026-09-20T18:15|2026-09-20T20:30|2026-09-22T21:00"><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>ven-dom e mar 22</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Martedì 22 in originale sottotitolato.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico">
         <div class="corpo">
           <div class="nome"><i>🥀</i>The Echo Chamber</div>
           <div class="dove">Drammatico · Andrea Pallaoro · 120' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>ven-mer, 20:10</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="anteo-treviglio" data-sp="2026-09-18T17:50|2026-09-18T20:10|2026-09-18T22:30|2026-09-19T15:30|2026-09-19T17:50|2026-09-19T20:10|2026-09-19T22:30|2026-09-20T15:30|2026-09-20T17:50|2026-09-20T20:10|2026-09-20T22:30|2026-09-21T17:50|2026-09-21T20:10|2026-09-21T22:30|2026-09-22T17:50|2026-09-22T20:10|2026-09-22T22:30|2026-09-23T17:50|2026-09-23T20:10|2026-09-23T22:30"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>ven-mer, 20:10</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="documentario" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>🎥</i>Un giorno senza donne</div>
           <div class="dove">Documentario · Pamela Hogan · 70' <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-dom e mer 23</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-18T19:00|2026-09-19T16:00|2026-09-20T19:30|2026-09-23T19:00"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven-dom e mer 23</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="famiglia">
         <div class="corpo">
           <div class="nome"><i>🧒</i>Cars — Motori ruggenti, 20 anni</div>
           <div class="dove">Per famiglie · John Lasseter · 117' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 17:25</b><span class="prezzo pay">8,50 €</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 17:40</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="notorious-curno" data-sp="2026-09-18T17:25|2026-09-18T20:00|2026-09-18T22:05|2026-09-19T14:50|2026-09-19T17:25|2026-09-19T20:00|2026-09-19T22:05|2026-09-20T14:50|2026-09-20T17:25|2026-09-20T20:00|2026-09-20T22:05|2026-09-21T17:25|2026-09-21T20:00|2026-09-21T22:05|2026-09-22T17:25|2026-09-22T20:00|2026-09-22T22:05|2026-09-23T17:25|2026-09-23T20:00|2026-09-23T22:05"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 17:25</b><span class="prezzo pay">8,50 €</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-18T17:30|2026-09-18T19:50|2026-09-19T15:00|2026-09-19T17:40|2026-09-19T19:50|2026-09-20T15:00|2026-09-20T17:40|2026-09-21T17:30|2026-09-21T20:30|2026-09-22T17:30|2026-09-22T19:00|2026-09-23T17:30|2026-09-23T20:30"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-18T17:40|2026-09-19T15:30|2026-09-19T17:40|2026-09-20T15:30|2026-09-20T17:50|2026-09-21T17:40|2026-09-22T17:40|2026-09-23T17:40"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 17:40</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="commedia">
         <div class="corpo">
           <div class="nome"><i>😂</i>Dov'è la Fiesta?</div>
           <div class="dove">Commedia · Niccolò Gentili · 100' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven-mer, 19:30</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 22:30</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="notorious-curno" data-sp="2026-09-18T19:30|2026-09-19T15:50|2026-09-19T16:40|2026-09-19T19:30|2026-09-20T15:50|2026-09-20T16:40|2026-09-20T19:30|2026-09-21T19:30|2026-09-22T19:30|2026-09-23T19:30"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven-mer, 19:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-18T20:10|2026-09-18T22:30|2026-09-19T14:50|2026-09-19T20:10|2026-09-20T14:00|2026-09-20T20:45|2026-09-21T19:15|2026-09-22T19:15|2026-09-23T19:15"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-21T20:10|2026-09-21T22:30|2026-09-22T20:10|2026-09-22T22:30|2026-09-23T22:30"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 22:30</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="horror">
         <div class="corpo">
           <div class="nome"><i>👻</i>Resident Evil</div>
           <div class="dove">Horror · Zach Cregger · 89' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 20:10</b><span class="prezzo pay">10 €</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 22:10</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="notorious-curno" data-sp="2026-09-18T18:00|2026-09-18T20:10|2026-09-18T22:20|2026-09-19T15:30|2026-09-19T18:00|2026-09-19T20:10|2026-09-19T22:20|2026-09-20T15:30|2026-09-20T18:00|2026-09-20T20:10|2026-09-20T22:20|2026-09-21T18:00|2026-09-21T20:10|2026-09-21T22:20|2026-09-22T18:00|2026-09-22T20:10|2026-09-22T22:20|2026-09-23T18:00|2026-09-23T20:10|2026-09-23T22:20"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>ven 18, 20:10</b><span class="prezzo pay">10 €</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-18T17:40|2026-09-18T20:30|2026-09-18T22:40|2026-09-19T15:20|2026-09-19T18:00|2026-09-19T20:30|2026-09-19T22:40|2026-09-20T15:20|2026-09-20T18:00|2026-09-20T21:10|2026-09-21T18:00|2026-09-21T21:10|2026-09-22T18:00|2026-09-22T21:10|2026-09-23T18:00|2026-09-23T21:10"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>ven-mer, più orari</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-18T20:00|2026-09-18T22:10|2026-09-19T20:00|2026-09-19T22:10|2026-09-20T20:00|2026-09-20T22:10|2026-09-21T22:10|2026-09-22T22:10|2026-09-23T22:10"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun-mer, 22:10</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Vietato ai minori di 14 anni.</p>
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="biografico" data-ver="ultimi giorni">
         <div class="corpo">
           <div class="nome"><i>👤</i>Tony — Diario di un giovane cuoco</div>
           <div class="dove">Biografico · Matt Johnson <span class="zona">ultimi giorni</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven 18 · sab 19 · dom 20</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-18T18:30|2026-09-19T17:45|2026-09-20T15:00"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>ven 18 · sab 19 · dom 20</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
       </li></ul></section><section class="giorno" id="rassegne"><h2>Rassegne e serate</h2><ul class="lista"><li><div class="corpo"><div class="nome"><i>😂</i>Una giornata maledettamente buona</div>
             <div class="dove">Anteo spazioCinema, Treviglio</div></div>
             <div class="ora">mer 23, 21:15</div></li><li><div class="corpo"><div class="nome"><i>✨</i>M, di Fritz Lang, in originale</div>
@@ -204,7 +205,7 @@
     <footer class="piede">
     <div class="occhiello"><span>Scrivici</span></div>
     <div class="contatti"><a href="https://instagram.com/eventibergamo" rel="noopener">@eventibergamo</a></div>
-    <div class="trame"><a href="/cinema/">Cinema</a><a href="/zona/centro/">Centro</a><a href="/zona/valli/">Valli</a><a href="/zona/bassa/">Bassa</a><a href="/zona/isola/">Isola</a><a href="/categoria/live/">Concerti e live</a><a href="/categoria/sagra/">Sagre e feste</a><a href="/categoria/incontro/">Incontri e libri</a><a href="/categoria/dj/">Dj set / party</a><a href="/categoria/visita/">Visite guidate</a><a href="/categoria/cinema/">Cinema e proiezioni</a><a href="/categoria/teatro/">Teatro e spettacoli</a><a href="/categoria/famiglia/">Con i bambini</a><a href="/categoria/sport/">Sport e outdoor</a><a href="/categoria/mostra/">Mostre e arte</a><a href="/categoria/danza/">Danza</a><a href="/categoria/mercatino/">Mercatini</a><a href="/categoria/altro/">Altro</a><a href="/categoria/laboratorio/">Laboratori</a><a href="/categoria/cena/">Cene e degustazioni</a><a href="/categoria/torneo/">Giochi e tornei</a><a href="/archivio/">Archivio</a></div>
+    <div class="trame"><a href="/cinema/">Cinema</a><a href="/zona/centro/">Centro</a><a href="/zona/valli/">Valli</a><a href="/zona/bassa/">Bassa</a><a href="/zona/isola/">Isola</a><a href="/categoria/live/">Concerti e live</a><a href="/categoria/sagra/">Sagre e feste</a><a href="/categoria/dj/">Dj set / party</a><a href="/categoria/incontro/">Incontri e libri</a><a href="/categoria/visita/">Visite guidate</a><a href="/categoria/cinema/">Cinema e proiezioni</a><a href="/categoria/teatro/">Teatro e spettacoli</a><a href="/categoria/famiglia/">Con i bambini</a><a href="/categoria/sport/">Sport e outdoor</a><a href="/categoria/danza/">Danza</a><a href="/categoria/mostra/">Mostre e arte</a><a href="/categoria/laboratorio/">Laboratori</a><a href="/categoria/mercatino/">Mercatini</a><a href="/categoria/altro/">Altro</a><a href="/categoria/cena/">Cene e degustazioni</a><a href="/categoria/torneo/">Giochi e tornei</a><a href="/archivio/">Archivio</a></div>
     <p class="minuto">Guida cinema, 2026-09-18 → 2026-09-24.<br>
       Dove c'è scritto <strong>n.d.</strong> il prezzo non è pubblicato dalle fonti: chiedi all'ingresso.
       Gli orari possono cambiare — verifica sempre sul canale dell'organizzatore.<br>
@@ -213,6 +214,6 @@
   </main>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Eventibergamo","item":"https://eventibergamo.it/"},{"@type":"ListItem","position":2,"name":"Cinema","item":"https://eventibergamo.it/cinema/"},{"@type":"ListItem","position":3,"name":"18 → 24 settembre","item":"https://eventibergamo.it/cinema/cinema-2026-09-18/"}]}</script>
-
+<script src="/cinema.js"></script>
 </body>
 </html>

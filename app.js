@@ -704,7 +704,7 @@ const TOUR = [
     testo: "Ogni settimana scegliamo gli eventi di Bergamo e provincia. Ti mostriamo come usare il sito: ci vogliono trenta secondi." },
   { cerca: [".tabs"], facoltativo: true,
     titolo: "Le guide e il cinema",
-    testo: "Quando due guide si sovrappongono le trovi qui. «Al cinema» porta ai film in sala, con orari e prezzi sala per sala." },
+    testo: "Quando due guide si sovrappongono le trovi qui. «Al cinema» porta ai film in sala, con orari e prezzi sala per sala, e filtri per genere, giorno, orario e sala." },
   { cerca: [".switch"], facoltativo: true,
     titolo: "Solo la guida, o tutto",
     testo: "La guida è la nostra selezione. «Tutti gli eventi» aggiunge anche quelli che abbiamo trovato e non scelto, più chiari." },

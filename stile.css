@@ -563,3 +563,34 @@ ul.lista.orari .ora { width: 132px; font-size: 20px; line-height: 1.25; }
   ul.sale .sala { flex: 1 0 100%; }
   .conta { width: 52px; }
 }
+
+/* ---------------------------------------------------------------- filtri cinema
+   Gli stessi blocchi `.filtro` della home; in più un campo di ricerca e un menu
+   per la sala (sono venti e passa: in chip sarebbero un muro). Su desktop i
+   filtri corti stanno a due per riga, sul telefono uno sotto l'altro. */
+.filtri-cinema { grid-template-columns: 1fr 1fr; gap: 18px 28px; }
+.filtri-cinema #filtro-titolo, .filtri-cinema #filtro-genere,
+.filtri-cinema .filtri-nota, .filtri-cinema .filtro-kw { grid-column: 1 / -1; }
+.filtri-cinema .filtro-kw { margin-top: 0; }
+.filtri-cinema label.filtro-tit { display: block; }
+.campo {
+  display: block; width: 100%; margin-top: 12px;
+  font: inherit; font-size: 17px; font-weight: 600; color: var(--fg);
+  background: none; border: 2px solid var(--line); border-radius: 0;
+  padding: 10px 12px;
+}
+.campo:hover { border-color: var(--mut); }
+.campo:focus-visible { outline: 3px solid var(--hot); outline-offset: 2px; }
+.campo::placeholder { color: var(--mut); opacity: 1; }
+select.campo option { background: var(--bg); color: var(--fg); }
+.kw-filtro button small { font-size: 12px; font-weight: 500; opacity: .8; }
+ul.sale li { flex-wrap: wrap; }
+ul.sale .orari {
+  flex: 1 0 100%; font-size: 14px; font-weight: 700; color: var(--acc);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 560px) {
+  .filtri-cinema { grid-template-columns: 1fr; gap: 16px; }
+  .campo { font-size: 16px; }   /* sotto i 16px iOS fa lo zoom sul campo */
+}

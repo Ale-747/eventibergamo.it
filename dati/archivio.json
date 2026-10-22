@@ -1591,6 +1591,123 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DepraOwDiIj/"
+    },
+    {
+      "id": "weekend-2026-10-23",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-10-23",
+        "a": "2026-10-25",
+        "etichetta": "23 → 25 ottobre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "Staycalmo al Daste, Jazzy tutta notte al Bolgia, Nino Frassica al ChorusLife e quattro feste aperte.",
+      "hook": "Dentro: 36 serate tra città e provincia, sera per sera.\nCon orari, zone e prezzi dove le fonti li pubblicano.",
+      "sempre_aperte": [
+        {
+          "nome": "Sagra della Polenta Taragna",
+          "luogo": "PalaSpirà, Spirano",
+          "quando": "ven → dom · live 21:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festival della Valtellina",
+          "luogo": "Area Feste, Osio Sopra",
+          "quando": "ven → dom · gratis",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Lanorium Beer Fest",
+          "luogo": "Parcheggio della Parrocchiale, Onore",
+          "quando": "ven → dom · dalle 18",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Casoncelli vs Ossobuco",
+          "luogo": "NXT Station, Bergamo",
+          "quando": "ven → dom · gratis",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "🎭"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "🎧"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "💃"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "🛠️"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "🎉"
+        }
+      ],
+      "categorie_tutte": [
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "🎭"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "🎧"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "💃"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "🛍️"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "🎉"
+        },
+        {
+          "chiave": "aperitivo",
+          "etichetta": "Aperitivi e serate",
+          "icona": "🍹"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✨"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "🛠️"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -13510,6 +13627,1064 @@
       ],
       "guida": "settimana-2026-10-19",
       "formato": "settimana"
+    },
+    {
+      "data": "2026-10-23",
+      "etichetta": "Venerdì 23 ottobre",
+      "breve": "Venerdì 23",
+      "nota": "Daste ingresso libero dalle 22. Al Festival della Valtellina di Osio Sopra si entra gratis, cucina fino alle 23.",
+      "eventi": [
+        {
+          "ora": "20:30",
+          "nome": "Orchestra Vibes",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 5
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/tornago-agata_306385/",
+          "keyword": [
+            "orchestra"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "20:45",
+          "nome": "I Tri Amise",
+          "luogo": "Cinema Teatro Loverini, Gandino",
+          "sede": "Cinema Teatro Loverini",
+          "comune": "Gandino",
+          "zona": "Valli",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/gandino/i-tri-amise-fra-palco-e-sipario_305616/",
+          "keyword": [
+            "dialetto",
+            "commedia"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:30",
+          "nome": "Pooh Classic, tributo ai Pooh",
+          "luogo": "Area Feste, Osio Sopra",
+          "sede": "Area Feste",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-pooh-classic-festival-valtellina-osio-sopra/",
+          "keyword": [
+            "tributo"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Blascover, tributo a Vasco",
+          "luogo": "Lanorium Beer Fest, Onore",
+          "sede": "Lanorium Beer Fest",
+          "comune": "Onore",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-vasco-rossi-blascover-festa-lanorium-onore/",
+          "keyword": [
+            "tributo"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Cuori Infranti",
+          "luogo": "PalaSpirà, Spirano",
+          "sede": "PalaSpirà",
+          "comune": "Spirano",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-cuori-infranti-in-concerto-sagra-taragna-spirano/",
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:30",
+          "nome": "La Voce delle Donne",
+          "luogo": "Torcio's, Villa di Serio",
+          "sede": "Torcio's",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-la-voce-delle-donne-in-concerto-torcios-villa-di-serio-5/",
+          "rilevanza": 1
+        },
+        {
+          "ora": "22:00",
+          "nome": "Staycalmo: Together as One",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Dejzy7CMQni/",
+          "rilevanza": 3
+        },
+        {
+          "ora": "22:30",
+          "nome": "Afro con Dj Mauri",
+          "luogo": "Kraken Factory, Alzano Lombardo",
+          "sede": "Kraken Factory",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%baafro-con-dj-mauri-kraken-factory-alzano-lombardo-app-bergamo-it-krakenalzano-4/",
+          "keyword": [
+            "afro"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "22:30",
+          "nome": "Venerdì alla Cascina con Tiziano Amoroso",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DejVGYzRu9h/",
+          "rilevanza": 1
+        },
+        {
+          "ora": "23:00",
+          "nome": "Afro Vibes",
+          "luogo": "Sabbie Mobili, Chignolo d'Isola",
+          "sede": "Sabbie Mobili",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/DelorJ9tuf2/",
+          "keyword": [
+            "afro",
+            "world music"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:00",
+          "nome": "Dj Leito",
+          "luogo": "Like It, Cenate Sotto",
+          "sede": "Like It",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-musica-con-dj-leito-like-it-cenate-sotto-app-bergamo-it-likeitcenatesotto-2/",
+          "rilevanza": 1
+        }
+      ],
+      "altri": [
+        {
+          "ora": "10:00",
+          "nome": "Motelamiio: ceramiche dal Portogallo",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Dej2IE4DNUh/",
+          "keyword": [
+            "artigianato"
+          ]
+        },
+        {
+          "ora": "18:00",
+          "nome": "Lanorium Beer Fest",
+          "luogo": "Parcheggio della Parrocchiale, Onore",
+          "sede": "Parcheggio della Parrocchiale",
+          "comune": "Onore",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/onore/lanorium-beer-fest_302696/",
+          "keyword": [
+            "birra",
+            "musica live"
+          ]
+        },
+        {
+          "ora": "19:00",
+          "nome": "Sagra della Polenta Taragna",
+          "luogo": "PalaSpirà, Spirano",
+          "sede": "PalaSpirà",
+          "comune": "Spirano",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/spirano/sagra-della-polenta-taragna_306391/",
+          "keyword": [
+            "polenta taragna",
+            "musica live"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Casoncelli vs Ossobuco",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-casoncelli-ossobuco-piazzale-alpini-bergamo-citta-2/",
+          "keyword": [
+            "cucina tradizionale"
+          ]
+        },
+        {
+          "ora": "20:45",
+          "nome": "Pinocchio, la favola che prende vita",
+          "luogo": "Area feste, Ghisalba",
+          "sede": "Area feste",
+          "comune": "Ghisalba",
+          "zona": "Bassa",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/ghisalba/pinocchio-la-favola-che-prende-vita_306055/"
+        }
+      ],
+      "guida": "weekend-2026-10-23",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-10-24",
+      "etichetta": "Sabato 24 ottobre",
+      "breve": "Sabato 24",
+      "nota": "Bolgia: lista 25 € con drink, navetta dalla stazione Verdello-Dalmine. Zero Club è un circolo: serve la tessera.",
+      "eventi": [
+        {
+          "ora": "19:00",
+          "nome": "Pritty Party, Country Edition",
+          "luogo": "Circolo Fratellanza, Casnigo",
+          "sede": "Circolo Fratellanza",
+          "comune": "Casnigo",
+          "zona": "Valli",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/casnigo/pretty-party-country-edition_306057/",
+          "keyword": [
+            "country"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "20:00",
+          "nome": "Vinyl set: Mauri & Le_jeu_de_lor",
+          "luogo": "Totem Brewing, Scanzorosciate",
+          "sede": "Totem Brewing",
+          "comune": "Scanzorosciate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DeeolwDogoq/",
+          "keyword": [
+            "afro",
+            "vinile"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:00",
+          "nome": "Nino Frassica & Los Plaggers Band",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 34.5
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/nino-frassica-los-plaggers-band_303200/",
+          "keyword": [
+            "cabaret"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "Trovesi & Remondini",
+          "luogo": "Pinacoteca Gianni Bellini, Sarnico",
+          "sede": "Pinacoteca Gianni Bellini",
+          "comune": "Sarnico",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/sarnico/trovesi-remondini_304113/",
+          "keyword": [
+            "jazz"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Vascombriccola, tributo a Vasco",
+          "luogo": "Area Feste, Osio Sopra",
+          "sede": "Area Feste",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-vasco-rossi-vascombriccola-festival-valtellina-osio-sopra/",
+          "keyword": [
+            "tributo"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Yuppi Band, tributo a Celentano",
+          "luogo": "Torcio's, Villa di Serio",
+          "sede": "Torcio's",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dee2sRam28J/",
+          "keyword": [
+            "tributo",
+            "cena"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:30",
+          "nome": "Cisco Band, tributo agli 883",
+          "luogo": "Bar On Off, Calusco d'Adda",
+          "sede": "Bar On Off",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-883-cisco-band-bar-on-off-calusco-dadda-4/",
+          "keyword": [
+            "tributo",
+            "anni '90"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:30",
+          "nome": "Rhandom Rock Band",
+          "luogo": "PalaSpirà, Spirano",
+          "sede": "PalaSpirà",
+          "comune": "Spirano",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-rhandom-rock-band-in-concerto-sagra-taragna-spirano/",
+          "keyword": [
+            "rock"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "22:00",
+          "nome": "We Love 2000",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/we-love-2000_306675/",
+          "keyword": [
+            "anni 2000"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "22:00",
+          "nome": "Orchestra Mary Maffeis",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-mary-maffeis-discoteca-decibel-chignolo-disola-4/",
+          "keyword": [
+            "liscio"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "23:30",
+          "nome": "Jazzy all night long",
+          "luogo": "Bolgia, Osio Sopra",
+          "sede": "Bolgia",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 25
+          },
+          "fonte": "https://www.instagram.com/reel/DeHNyIWimnR/",
+          "rilevanza": 3
+        },
+        {
+          "ora": "23:30",
+          "nome": "Evolution of Hardcore",
+          "luogo": "Bolgia Lab Room, Osio Sopra",
+          "sede": "Bolgia Lab Room",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 25
+          },
+          "fonte": "https://www.instagram.com/p/DeOaiWsi9Wy/",
+          "keyword": [
+            "hardcore"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": null,
+          "nome": "NØID Familia: Edor",
+          "luogo": "Zero Club, Bergamo",
+          "sede": "Zero Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DeY-gSKjL-1/",
+          "keyword": [
+            "house"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": null,
+          "nome": "Blascover, tributo a Vasco",
+          "luogo": "Posto Fisso, Palosco",
+          "sede": "Posto Fisso",
+          "comune": "Palosco",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DejjxrxIWv6/",
+          "keyword": [
+            "tributo"
+          ],
+          "rilevanza": 1
+        }
+      ],
+      "altri": [
+        {
+          "ora": "14:00",
+          "nome": "Castagnata in Rosso",
+          "luogo": "Giardini pubblici, Torre Boldone",
+          "sede": "Giardini pubblici",
+          "comune": "Torre Boldone",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-delle-castagne-in-rosso-giardini-pubblici-torre-boldone/",
+          "keyword": [
+            "castagne",
+            "vin brulé"
+          ]
+        },
+        {
+          "ora": "14:30",
+          "nome": "Festa delle castagne degli Alpini",
+          "luogo": "Sede Alpini, Almè",
+          "sede": "Sede Alpini",
+          "comune": "Almè",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-delle-castagne-sede-alpini-alme-2/",
+          "keyword": [
+            "castagne"
+          ]
+        },
+        {
+          "ora": "16:00",
+          "nome": "Orobic street food",
+          "luogo": "BoPo Coffee, Ponteranica",
+          "sede": "BoPo Coffee",
+          "comune": "Ponteranica",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/ponteranica/orobic-street-food_306593/",
+          "keyword": [
+            "street food",
+            "musica dal vivo"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Candlelight: leggende del rock",
+          "luogo": "Centro Congressi Giovanni XXIII, Bergamo",
+          "sede": "Centro Congressi Giovanni XXIII",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 23
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/candlelight-lunga-vita-alle-leggende-del-rock_302263/",
+          "keyword": [
+            "rock"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Karaoke con cena cantata",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/karaoke_306674/",
+          "keyword": [
+            "karaoke",
+            "cena cantata"
+          ]
+        },
+        {
+          "ora": "20:30",
+          "nome": "Luna e Saturno in congiunzione",
+          "luogo": "La Torre del Sole, Brembate di Sopra",
+          "sede": "La Torre del Sole",
+          "comune": "Brembate di Sopra",
+          "zona": "Isola",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/scienza/brembate-di-sopra/luna-e-saturno-in-congiunzione_306210/",
+          "keyword": [
+            "telescopio"
+          ]
+        },
+        {
+          "ora": "20:45",
+          "nome": "Elementes, Soundblast Orchestra",
+          "luogo": "Cineteatro San Giovanni Bosco, Bergamo",
+          "sede": "Cineteatro San Giovanni Bosco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/elements_305620/",
+          "keyword": [
+            "orchestra",
+            "solidale"
+          ]
+        },
+        {
+          "ora": "20:45",
+          "nome": "La morte del cor penitente",
+          "luogo": "Chiesa del Paradiso, Clusone",
+          "sede": "Chiesa del Paradiso",
+          "comune": "Clusone",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/clusone/musica-mirabilis-la-morte-del-cor-penitente_303479/",
+          "keyword": [
+            "barocco"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "1+1 fa sempre 3",
+          "luogo": "Fondaco del Sale, Bergamo",
+          "sede": "Fondaco del Sale",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/11-fa-sempre-3_306189/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Cus'è l'ha des la Gineta",
+          "luogo": "Teatro Filodrammatici, Treviglio",
+          "sede": "Teatro Filodrammatici",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/treviglio/cuse-lha-des-la-gineta_306525/",
+          "keyword": [
+            "dialetto"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Sabato alla Cascina con Alex Pinna",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DejbkFKCUrD/"
+        },
+        {
+          "ora": "23:00",
+          "nome": "Dj Steve Smile",
+          "luogo": "Like It, Cenate Sotto",
+          "sede": "Like It",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-musica-con-dj-steve-smile-like-it-cenate-sotto-app-bergamo-it-likeitcenatesotto-4/"
+        }
+      ],
+      "guida": "weekend-2026-10-23",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-10-25",
+      "etichetta": "Domenica 25 ottobre",
+      "breve": "Domenica 25",
+      "nota": "Ninfea: laboratorio zucche solo per associati, su prenotazione. Druso: porte alle 17.",
+      "eventi": [
+        {
+          "ora": "10:00",
+          "nome": "Il Prato delle Zucche",
+          "luogo": "Località Vasso, Tavernola Bergamasca",
+          "sede": "Località Vasso",
+          "comune": "Tavernola Bergamasca",
+          "zona": "Valli",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 10
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/tavernola-bergamasca/il-prato-delle-zucche_305568/",
+          "keyword": [
+            "zucca",
+            "famiglie"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "14:00",
+          "nome": "Festa delle castagne",
+          "luogo": "Oratorio, Fiorano al Serio",
+          "sede": "Oratorio",
+          "comune": "Fiorano al Serio",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-delle-castagne-oratorio-fiorano-al-serio/",
+          "keyword": [
+            "castagne"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "14:30",
+          "nome": "Zucche di Halloween al Ninfea",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 14
+          },
+          "fonte": "https://www.instagram.com/p/DejRLyuDLAE/",
+          "keyword": [
+            "zucca",
+            "famiglie"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "15:00",
+          "nome": "Orchestra Jennifer Group",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-jennifer-group-discoteca-decibel-chignolo-disola-4/",
+          "keyword": [
+            "liscio",
+            "pomeriggio"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "15:00",
+          "nome": "Castagnata a Fonteno",
+          "luogo": "Piazzetta del vecchio asilo, Fonteno",
+          "sede": "Piazzetta del vecchio asilo",
+          "comune": "Fonteno",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/fonteno/castagnata-a-fonteno_306333/",
+          "keyword": [
+            "castagne",
+            "vin brulé"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "17:00",
+          "nome": "Pablo Trincia: L'uomo sbagliato",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 32
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/pablo-trincia_304237/",
+          "keyword": [
+            "cronaca nera"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "18:00",
+          "nome": "La Regina dei Rospi e Riki Cellini",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/ranica/la-regina-dei-rospi-e-riki-cellini-doppio-show-al-druso_305932/",
+          "keyword": [
+            "cantautore"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "18:30",
+          "nome": "Dan e i suoi fratelli",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/dan-e-i-suoi-fratelli_306667/",
+          "keyword": [
+            "rock",
+            "anni '60"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "19:30",
+          "nome": "Karaoke e Latin Night",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dej2y1iNv4X/",
+          "keyword": [
+            "karaoke",
+            "latino",
+            "apericena"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "20:00",
+          "nome": "Bepi & The Prismas",
+          "luogo": "Revel, Treviglio",
+          "sede": "Revel",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-bepi-the-prismas-in-concerto-revel-treviglio/",
+          "keyword": [
+            "rock"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "21:30",
+          "nome": "Mary Grace e Giancarlo Rossi",
+          "luogo": "PalaSpirà, Spirano",
+          "sede": "PalaSpirà",
+          "comune": "Spirano",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-mary-grace-e-giancarlo-rossi-in-concerto-sagra-taragna-spirano/",
+          "rilevanza": 1
+        }
+      ],
+      "altri": [
+        {
+          "ora": "08:00",
+          "nome": "Mercatino del vintage e della creatività",
+          "luogo": "Lovere",
+          "sede": null,
+          "comune": "Lovere",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/lovere/mercatino-del-vintage-e-della-creativita_301337/",
+          "keyword": [
+            "vintage"
+          ]
+        },
+        {
+          "ora": "09:00",
+          "nome": "Mercatino dell'antiquariato",
+          "luogo": "Viale Papa Giovanni XXIII, San Pellegrino Terme",
+          "sede": "Viale Papa Giovanni XXIII",
+          "comune": "San Pellegrino Terme",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/san-pellegrino-terme/mercatino-dellantiquariato-e-dellingegno-italiano_294932/",
+          "keyword": [
+            "antiquariato"
+          ]
+        },
+        {
+          "ora": "12:30",
+          "nome": "Festa delle famiglie, Festival Valtellina",
+          "luogo": "Area Feste, Osio Sopra",
+          "sede": "Area Feste",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festival-della-valtellina-area-feste-osio-sopra-5/",
+          "keyword": [
+            "famiglie"
+          ]
+        },
+        {
+          "ora": "13:30",
+          "nome": "La pigiatura per i bambini",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dej08kYtYVZ/",
+          "keyword": [
+            "famiglie"
+          ]
+        },
+        {
+          "ora": "14:30",
+          "nome": "Festa delle castagne al Baccanello",
+          "luogo": "Convento del Baccanello, Calusco d'Adda",
+          "sede": "Convento del Baccanello",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-delle-castagne-convento-baccanello-calusco-dadda/",
+          "keyword": [
+            "castagne"
+          ]
+        },
+        {
+          "ora": "15:00",
+          "nome": "Festa delle castagne in oratorio",
+          "luogo": "Oratorio San Giuseppe, Dalmine",
+          "sede": "Oratorio San Giuseppe",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-delle-castagne-oratorio-san-giuseppe-dalmine-2/",
+          "keyword": [
+            "castagne"
+          ]
+        },
+        {
+          "ora": "16:30",
+          "nome": "Lanterne di Halloween",
+          "luogo": "L'Oasi di Terno, Terno d'Isola",
+          "sede": "L'Oasi di Terno",
+          "comune": "Terno d'Isola",
+          "zona": "Isola",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DeSCV38tYS9/",
+          "keyword": [
+            "famiglie"
+          ]
+        },
+        {
+          "ora": "16:45",
+          "nome": "Pinocchio, la favola che prende vita",
+          "luogo": "Area feste, Ghisalba",
+          "sede": "Area feste",
+          "comune": "Ghisalba",
+          "zona": "Bassa",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/ghisalba/pinocchio-la-favola-che-prende-vita_306053/"
+        },
+        {
+          "ora": null,
+          "nome": "Festa d'autunno in fattoria",
+          "luogo": "Agriturismo Sadira, Calusco d'Adda",
+          "sede": "Agriturismo Sadira",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DegsmxGDEt7/",
+          "keyword": [
+            "zucca",
+            "famiglie"
+          ]
+        }
+      ],
+      "guida": "weekend-2026-10-23",
+      "formato": "weekend"
     }
   ],
   "cinema": [

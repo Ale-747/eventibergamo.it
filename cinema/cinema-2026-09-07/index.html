@@ -36,152 +36,153 @@
       <h1>Al cinema<em>7 → 13 settembre</em></h1>
       <div class="pillola">18 film · 16 sale · 10 comuni</div>
       <p class="sommario">18 film in 16 sale e 10 comuni. Dal Conca Verde all'arena di Cologno, da Seriate a Clusone.</p>
+      <div class="filtri filtri-cinema" id="filtri-cinema" hidden><div class="filtro" id="filtro-titolo"><label class="filtro-tit" for="cerca-titolo"><b>Cerca un titolo</b></label><input type="search" id="cerca-titolo" class="campo" placeholder="Scrivi una parola del titolo" autocomplete="off" enterkeyhint="search"></div><div class="filtro" id="filtro-genere"><p class="filtro-tit"><b>Genere</b> <span>Accendine quanti vuoi: si sommano.</span></p><div class="chips"><button type="button" class="chip" data-gen="drammatico" aria-pressed="false"><i>🥀</i>Drammatico</button><button type="button" class="chip" data-gen="commedia" aria-pressed="false"><i>😂</i>Commedia</button><button type="button" class="chip" data-gen="animazione" aria-pressed="false"><i>🎨</i>Animazione</button><button type="button" class="chip" data-gen="azione" aria-pressed="false"><i>💥</i>Azione</button><button type="button" class="chip" data-gen="documentario" aria-pressed="false"><i>🎥</i>Documentario</button><button type="button" class="chip" data-gen="thriller" aria-pressed="false"><i>🔪</i>Thriller</button><button type="button" class="chip" data-gen="biografico" aria-pressed="false"><i>👤</i>Biografico</button><button type="button" class="chip" data-gen="famiglia" aria-pressed="false"><i>🧒</i>Per famiglie</button><button type="button" class="chip" data-gen="fantascienza" aria-pressed="false"><i>🚀</i>Fantascienza</button></div></div><div class="filtro" id="filtro-giorno"><p class="filtro-tit"><b>Giorno</b> <span>Uno alla volta.</span></p><div class="kw kw-filtro"><button type="button" data-giorno="2026-09-07" aria-pressed="false">lun 7</button><button type="button" data-giorno="2026-09-08" aria-pressed="false">mar 8</button><button type="button" data-giorno="2026-09-09" aria-pressed="false">mer 9</button><button type="button" data-giorno="2026-09-10" aria-pressed="false">gio 10</button><button type="button" data-giorno="2026-09-11" aria-pressed="false">ven 11</button><button type="button" data-giorno="2026-09-13" aria-pressed="false">dom 13</button></div></div><div class="filtro" id="filtro-fascia"><p class="filtro-tit"><b>Fascia oraria</b> <span>Conta l'ora d'inizio.</span></p><div class="kw kw-filtro"><button type="button" data-fascia="pomeriggio" aria-pressed="false">Pomeriggio <small>12–18</small></button><button type="button" data-fascia="sera" aria-pressed="false">Sera <small>dalle 18</small></button></div></div><div class="filtro" id="filtro-sala"><label class="filtro-tit" for="scegli-sala"><b>Sala</b> <span>In ordine di comune.</span></label><select id="scegli-sala" class="campo"><option value="">Tutte le sale (15)</option><option value="nuovo-albino">Nuovo Cineteatro Albino · Albino</option><option value="uci-orio">UCI Cinemas Orio · Azzano San Paolo</option><option value="auditorium-liberta">Auditorium di Piazza Libertà · Bergamo</option><option value="capitol">Capitol Multisala · Bergamo</option><option value="del-borgo">Cinema Teatro del Borgo · Bergamo</option><option value="lottagono">Cinema Teatro Lottagono · Bergamo</option><option value="conca-verde">Conca Verde · Bergamo</option><option value="schermo-bianco">Lo Schermo Bianco · Bergamo</option><option value="garden-clusone">Cinema Garden · Clusone</option><option value="arena-cologno">Arena Estiva Oratorio · Cologno al Serio</option><option value="notorious-curno">Notorious Cinemas Curno · Curno</option><option value="starplex-romano">Starplex Romano · Romano di Lombardia</option><option value="gavazzeni-seriate">Cineteatro Gavazzeni · Seriate</option><option value="arcadia-stezzano">Arcadia Stezzano · Stezzano</option><option value="anteo-treviglio">Anteo spazioCinema · Treviglio</option></select></div><div class="filtro" id="filtro-versione"><p class="filtro-tit"><b>Proiezione</b> <span>Come la segnala la sala. Una alla volta.</span></p><div class="kw kw-filtro"><button type="button" data-ver="VO" aria-pressed="false">VO</button><button type="button" data-ver="d'essai" aria-pressed="false">d'essai</button><button type="button" data-ver="evento" aria-pressed="false">evento</button><button type="button" data-ver="prima visione" aria-pressed="false">prima visione</button></div></div><p class="filtri-nota">7 sale non pubblicano giorno e ora esatti: con un giorno o una fascia accesi non compaiono.</p><p class="filtro-kw" id="filtri-attivi" hidden><span></span> <button type="button" class="link" data-azione="togli-tutto">togli i filtri</button></p></div>
     </header>
     <p class="vuoto">Questa settimana è passata: la programmazione di adesso è in <a href="/cinema/">cinema</a>.</p>
-    <section class="giorno" id="film"><h2>I film in sala</h2><ul class="lista cinema"><li class="film">
+    <p class="vuoto" id="vuoto" hidden>Nessun film con questi filtri. Togline uno.</p><section class="giorno" id="film"><h2>I film in sala</h2><ul class="lista cinema"><li class="film" data-gen="commedia" data-ver="evento">
         <div class="corpo">
           <div class="nome"><i>😂</i>Arrapaho</div>
           <div class="dove">Commedia · Ciro Ippolito <span class="zona">evento</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>dom 13, 21:30</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="schermo-bianco" data-sp="2026-09-13T21:30"><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>dom 13, 21:30</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Rassegna Cinemarcord, con il cast in sala.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="documentario" data-ver="evento|VO">
         <div class="corpo">
           <div class="nome"><i>🎥</i>Oasis — Don't Look Back in Anger</div>
           <div class="dove">Documentario · Lovelace, Southern <span class="zona">evento</span><span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>gio 10, 21:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="arcadia-stezzano" data-sp="2026-09-10T21:00"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>gio 10, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Esce giovedì 10.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="prima visione">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Serpenti</div>
           <div class="dove">Drammatico · Roberto De Paolis <span class="zona">prima visione</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>dom 13, 20:30</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="auditorium-liberta" data-sp="2026-09-13T20:30"><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>dom 13, 20:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Una sera sola: domenica 13.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="documentario" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>🎥</i>Un giorno senza donne</div>
           <div class="dove">Documentario · Pamela Hogan · 70' <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>gio 10 · ven 11</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-10T21:00|2026-09-11T19:00"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>gio 10 · ven 11</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Inglese sottotitolato.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="azione">
         <div class="corpo">
           <div class="nome"><i>💥</i>Odissea</div>
           <div class="dove">Azione · Christopher Nolan </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/capitol/">Capitol Multisala</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:30</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:40</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 21:45</b><span class="prezzo pay">8,50–10 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 21:30</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 18:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="capitol" data-sp="2026-09-07T17:30|2026-09-07T20:30"><span class="sala"><a href="/cinema/sala/capitol/">Capitol Multisala</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-07T20:40|2026-09-08T20:40|2026-09-09T20:40"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:40</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T16:30|2026-09-07T18:20|2026-09-07T21:45"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 21:45</b><span class="prezzo pay">8,50–10 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 21:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="starplex-romano" data-sp="2026-09-07T18:00"><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 18:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Mar 8 ad Arcadia in originale.</p>
         </div>
-        <div class="conta"><b>5</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="5"><b>5</b><span>sale</span></div>
+      </li><li class="film" data-gen="thriller">
         <div class="corpo">
           <div class="nome"><i>🔪</i>The Dog Stars</div>
           <div class="dove">Thriller · Ridley Scott · 118' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/garden-clusone/">Cinema Garden</a> <span class="comune">Clusone</span></span><b>lun 7, 21:00</b><span class="prezzo pay">8,00 €</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:50</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:40</b><span class="prezzo pay">8,50–10 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 19:50</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 22:30</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="garden-clusone" data-sp="2026-09-07T21:00"><span class="sala"><a href="/cinema/sala/garden-clusone/">Cinema Garden</a> <span class="comune">Clusone</span></span><b>lun 7, 21:00</b><span class="prezzo pay">8,00 €</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-07T20:50|2026-09-08T20:50|2026-09-09T20:50"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:50</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T17:00|2026-09-07T22:40"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:40</b><span class="prezzo pay">8,50–10 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 19:50</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-07T22:30"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 22:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>5</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="5"><b>5</b><span>sale</span></div>
+      </li><li class="film" data-gen="biografico">
         <div class="corpo">
           <div class="nome"><i>👤</i>Tony — Diario di un giovane cuoco</div>
           <div class="dove">Biografico · Matt Johnson </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>lun 7 · mer 9, 21:00</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 19:50</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="schermo-bianco" data-sp="2026-09-07T21:00|2026-09-09T21:00"><span class="sala"><a href="/cinema/sala/schermo-bianco/">Lo Schermo Bianco</a> <span class="comune">Bergamo</span></span><b>lun 7 · mer 9, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-07T17:30|2026-09-07T19:50"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 19:50</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Lun 7 allo Schermo Bianco in originale.</p>
         </div>
-        <div class="conta"><b>2</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="2"><b>2</b><span>sale</span></div>
+      </li><li class="film" data-gen="fantascienza">
         <div class="corpo">
           <div class="nome"><i>🚀</i>Disclosure Day</div>
           <div class="dove">Fantascienza </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/arena-cologno/">Arena Estiva Oratorio</a> <span class="comune">Cologno al Serio</span></span><b>lun 7, 21:15</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="arena-cologno" data-sp="2026-09-07T21:15"><span class="sala"><a href="/cinema/sala/arena-cologno/">Arena Estiva Oratorio</a> <span class="comune">Cologno al Serio</span></span><b>lun 7, 21:15</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Una delle ultime sere dell'arena.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="animazione">
         <div class="corpo">
           <div class="nome"><i>🎨</i>Hen — Storia di una gallina</div>
           <div class="dove">Animazione · 96' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/gavazzeni-seriate/">Cineteatro Gavazzeni</a> <span class="comune">Seriate</span></span><b>17:00 e 21:00</b><span class="prezzo pay">5,00 €</span></li></ul>
+          <ul class="sale"><li data-sala="gavazzeni-seriate"><span class="sala"><a href="/cinema/sala/gavazzeni-seriate/">Cineteatro Gavazzeni</a> <span class="comune">Seriate</span></span><b>17:00 e 21:00</b><span class="prezzo pay">5,00 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Seriate è tornata a programmare.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="thriller" data-ver="d'essai">
         <div class="corpo">
           <div class="nome"><i>🔪</i>Il caso 137</div>
           <div class="dove">Thriller · Dominik Moll <span class="zona">d'essai</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>mar 16:00 · mer 21:00</b><span class="prezzo pay">3,50–4 €</span></li></ul>
+          <ul class="sale"><li data-sala="del-borgo" data-sp="2026-09-08T16:00|2026-09-09T21:00"><span class="sala"><a href="/cinema/sala/del-borgo/">Cinema Teatro del Borgo</a> <span class="comune">Bergamo</span></span><b>mar 16:00 · mer 21:00</b><span class="prezzo pay">3,50–4 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Dalla rassegna Pomeriggio al cinema.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Nobody Knows</div>
           <div class="dove">Drammatico · Hirokazu Kore-eda </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mer 9, 20:30</b><span class="prezzo pay">6,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-09T20:30"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mer 9, 20:30</b><span class="prezzo pay">6,50 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Retrospettiva Kore-eda.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Silent Friend</div>
           <div class="dove">Drammatico · Ildikó Enyedi <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>mar 8 · mer 9, 21:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="auditorium-liberta" data-sp="2026-09-08T21:00|2026-09-09T21:00"><span class="sala"><a href="/cinema/sala/auditorium-liberta/">Auditorium di Piazza Libertà</a> <span class="comune">Bergamo</span></span><b>mar 8 · mer 9, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">Mar 8 e mer 9, in originale.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="commedia" data-ver="VO">
         <div class="corpo">
           <div class="nome"><i>😂</i>Terapia di famiglia</div>
           <div class="dove">Commedia <span class="zona">VO</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/lottagono/">Cinema Teatro Lottagono</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:45</b><span class="prezzo pay">5,00 €</span></li></ul>
+          <ul class="sale"><li data-sala="lottagono" data-sp="2026-09-07T20:45"><span class="sala"><a href="/cinema/sala/lottagono/">Cinema Teatro Lottagono</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:45</b><span class="prezzo pay">5,00 €</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">In versione originale.</p>
         </div>
-        <div class="conta"><b>1</b>sala</div>
-      </li><li class="film">
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
+      </li><li class="film" data-gen="commedia">
         <div class="corpo">
           <div class="nome"><i>😂</i>Il malloppo</div>
           <div class="dove">Commedia </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/capitol/">Capitol Multisala</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:45</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:20</b><span class="prezzo pay">3,50 €</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:15</b><span class="prezzo pay">3,50 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, sera</b><span class="prezzo pay">3,50 €</span></li><li><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 21:20</b><span class="prezzo pay">3,50 €</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:10</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="capitol" data-sp="2026-09-07T20:45"><span class="sala"><a href="/cinema/sala/capitol/">Capitol Multisala</a> <span class="comune">Bergamo</span></span><b>lun 7, 20:45</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-07T20:20|2026-09-08T20:20|2026-09-09T20:20"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:20</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T17:20|2026-09-07T19:50|2026-09-07T22:15"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:15</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, sera</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li><li data-sala="starplex-romano" data-sp="2026-09-07T18:50|2026-09-07T21:20"><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 21:20</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-07T17:50|2026-09-07T20:10"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:10</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>6</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="6"><b>6</b><span>sale</span></div>
+      </li><li class="film" data-gen="famiglia">
         <div class="corpo">
           <div class="nome"><i>🧒</i>Oceania</div>
           <div class="dove">Per famiglie · Thomas Kail · 115' </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/nuovo-albino/">Nuovo Cineteatro Albino</a> <span class="comune">Albino</span></span><b>lun 7, 21:00</b><span class="prezzo pay">8,00 €</span></li><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:10</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:00</b><span class="prezzo pay">8,50–10 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 21:15</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 20:45</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="nuovo-albino" data-sp="2026-09-07T21:00"><span class="sala"><a href="/cinema/sala/nuovo-albino/">Nuovo Cineteatro Albino</a> <span class="comune">Albino</span></span><b>lun 7, 21:00</b><span class="prezzo pay">8,00 €</span><span class="orari" hidden></span></li><li data-sala="arcadia-stezzano" data-sp="2026-09-07T20:10|2026-09-08T20:10|2026-09-09T20:10"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:10</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T16:50|2026-09-07T19:40|2026-09-07T22:00"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:00</b><span class="prezzo pay">8,50–10 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 21:15</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="starplex-romano" data-sp="2026-09-07T18:15|2026-09-07T20:45"><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 20:45</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-07T17:30|2026-09-07T20:00"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>6</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="6"><b>6</b><span>sale</span></div>
+      </li><li class="film" data-gen="animazione">
         <div class="corpo">
           <div class="nome"><i>🎨</i>Coyote vs. Acme</div>
           <div class="dove">Animazione </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:30</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 21:50</b><span class="prezzo pay">8,50–10 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>VO sott., 14:00</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 20:30</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="arcadia-stezzano" data-sp="2026-09-07T20:30|2026-09-08T20:30|2026-09-09T20:30"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 20:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T16:10|2026-09-07T19:30|2026-09-07T21:50"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 21:50</b><span class="prezzo pay">8,50–10 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>VO sott., 14:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="starplex-romano" data-sp="2026-09-07T18:25|2026-09-07T20:30"><span class="sala"><a href="/cinema/sala/starplex-romano/">Starplex Romano</a> <span class="comune">Romano di Lombardia</span></span><b>lun 7, 20:30</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="anteo-treviglio" data-sp="2026-09-07T20:00"><span class="sala"><a href="/cinema/sala/anteo-treviglio/">Anteo spazioCinema</a> <span class="comune">Treviglio</span></span><b>lun 7, 20:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           <p class="fnota">All'UCI Orio anche in versione originale sottotitolata.</p>
         </div>
-        <div class="conta"><b>5</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="5"><b>5</b><span>sale</span></div>
+      </li><li class="film" data-gen="azione">
         <div class="corpo">
           <div class="nome"><i>💥</i>Spider-Man: Brand New Day</div>
           <div class="dove">Azione </div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 21:00</b><span class="prezzo nd">n.d.</span></li><li><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:15</b><span class="prezzo pay">8,50–10 €</span></li><li><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 22:00</b><span class="prezzo nd">n.d.</span></li></ul>
+          <ul class="sale"><li data-sala="arcadia-stezzano" data-sp="2026-09-07T21:00|2026-09-08T21:00|2026-09-09T21:00"><span class="sala"><a href="/cinema/sala/arcadia-stezzano/">Arcadia Stezzano</a> <span class="comune">Stezzano</span></span><b>lun-mer, 21:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li><li data-sala="notorious-curno" data-sp="2026-09-07T16:40|2026-09-07T19:40|2026-09-07T22:15"><span class="sala"><a href="/cinema/sala/notorious-curno/">Notorious Cinemas Curno</a> <span class="comune">Curno</span></span><b>lun 7, 22:15</b><span class="prezzo pay">8,50–10 €</span><span class="orari" hidden></span></li><li data-sala="uci-orio"><span class="sala"><a href="/cinema/sala/uci-orio/">UCI Cinemas Orio</a> <span class="comune">Azzano San Paolo</span></span><b>lun 7, 22:00</b><span class="prezzo nd">n.d.</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>3</b>sale</div>
-      </li><li class="film">
+        <div class="conta" data-n="3"><b>3</b><span>sale</span></div>
+      </li><li class="film" data-gen="drammatico" data-ver="d'essai">
         <div class="corpo">
           <div class="nome"><i>🥀</i>Il Cileno</div>
           <div class="dove">Drammatico · Castro San Martín <span class="zona">d'essai</span></div>
-          <ul class="sale"><li><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mar 8, 20:30</b><span class="prezzo pay">3,50 €</span></li></ul>
+          <ul class="sale"><li data-sala="conca-verde" data-sp="2026-09-08T20:30"><span class="sala"><a href="/cinema/sala/conca-verde/">Conca Verde</a> <span class="comune">Bergamo</span></span><b>mar 8, 20:30</b><span class="prezzo pay">3,50 €</span><span class="orari" hidden></span></li></ul>
           
         </div>
-        <div class="conta"><b>1</b>sala</div>
+        <div class="conta" data-n="1"><b>1</b><span>sala</span></div>
       </li></ul></section><section class="giorno" id="rassegne"><h2>Rassegne e serate</h2><ul class="lista"><li><div class="corpo"><div class="nome"><i>😂</i>Cinemarcord: Arrapaho, cast in sala</div>
             <div class="dove">Lo Schermo Bianco, Bergamo</div></div>
             <div class="ora">dom 13, 21:30</div></li><li><div class="corpo"><div class="nome"><i>🎥</i>A Practice of Freedom</div>
@@ -196,7 +197,7 @@
     <footer class="piede">
     <div class="occhiello"><span>Scrivici</span></div>
     <div class="contatti"><a href="https://instagram.com/eventibergamo" rel="noopener">@eventibergamo</a></div>
-    <div class="trame"><a href="/cinema/">Cinema</a><a href="/zona/centro/">Centro</a><a href="/zona/valli/">Valli</a><a href="/zona/bassa/">Bassa</a><a href="/zona/isola/">Isola</a><a href="/categoria/live/">Concerti e live</a><a href="/categoria/sagra/">Sagre e feste</a><a href="/categoria/incontro/">Incontri e libri</a><a href="/categoria/dj/">Dj set / party</a><a href="/categoria/visita/">Visite guidate</a><a href="/categoria/cinema/">Cinema e proiezioni</a><a href="/categoria/teatro/">Teatro e spettacoli</a><a href="/categoria/famiglia/">Con i bambini</a><a href="/categoria/sport/">Sport e outdoor</a><a href="/categoria/mostra/">Mostre e arte</a><a href="/categoria/danza/">Danza</a><a href="/categoria/mercatino/">Mercatini</a><a href="/categoria/altro/">Altro</a><a href="/categoria/laboratorio/">Laboratori</a><a href="/categoria/cena/">Cene e degustazioni</a><a href="/categoria/torneo/">Giochi e tornei</a><a href="/archivio/">Archivio</a></div>
+    <div class="trame"><a href="/cinema/">Cinema</a><a href="/zona/centro/">Centro</a><a href="/zona/valli/">Valli</a><a href="/zona/bassa/">Bassa</a><a href="/zona/isola/">Isola</a><a href="/categoria/live/">Concerti e live</a><a href="/categoria/sagra/">Sagre e feste</a><a href="/categoria/dj/">Dj set / party</a><a href="/categoria/incontro/">Incontri e libri</a><a href="/categoria/visita/">Visite guidate</a><a href="/categoria/cinema/">Cinema e proiezioni</a><a href="/categoria/teatro/">Teatro e spettacoli</a><a href="/categoria/famiglia/">Con i bambini</a><a href="/categoria/sport/">Sport e outdoor</a><a href="/categoria/danza/">Danza</a><a href="/categoria/mostra/">Mostre e arte</a><a href="/categoria/laboratorio/">Laboratori</a><a href="/categoria/mercatino/">Mercatini</a><a href="/categoria/altro/">Altro</a><a href="/categoria/cena/">Cene e degustazioni</a><a href="/categoria/torneo/">Giochi e tornei</a><a href="/archivio/">Archivio</a></div>
     <p class="minuto">Guida cinema, 2026-09-07 → 2026-09-13.<br>
       Dove c'è scritto <strong>n.d.</strong> il prezzo non è pubblicato dalle fonti: chiedi all'ingresso.
       Gli orari possono cambiare — verifica sempre sul canale dell'organizzatore.<br>
@@ -205,6 +206,6 @@
   </main>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Eventibergamo","item":"https://eventibergamo.it/"},{"@type":"ListItem","position":2,"name":"Cinema","item":"https://eventibergamo.it/cinema/"},{"@type":"ListItem","position":3,"name":"7 → 13 settembre","item":"https://eventibergamo.it/cinema/cinema-2026-09-07/"}]}</script>
-
+<script src="/cinema.js"></script>
 </body>
 </html>
