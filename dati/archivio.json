@@ -43808,6 +43808,4112 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DfUTzF6CI2W/"
+    },
+    {
+      "id": "cinema-2026-11-12",
+      "formato": "cinema",
+      "periodo": {
+        "da": "2026-11-12",
+        "a": "2026-11-19",
+        "etichetta": "12 → 19 nov"
+      },
+      "titolo": "14 film e dove li danno",
+      "sottotitolo": "Da giovedì 12 a giovedì 19 novembre: multisala, sale d'essai e sale della comunità.",
+      "hook": "14 film in 25 sale e 18 comuni, da Clusone a Treviglio, con gli orari sala per sala.",
+      "film": [
+        {
+          "titolo": "Se domani non torno",
+          "regia": "Paola Randi",
+          "durata": "106'",
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-orio-bergamo/programming/2026-11-12",
+          "sale": [
+            {
+              "id": "agora-petosino",
+              "nome": "Cinema Agorà Petosino",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 17 · gio 19",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-17",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:50"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "20:40"
+                }
+              ]
+            },
+            {
+              "id": "capitol",
+              "nome": "Capitol Multisala",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "monosala",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "16:30"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 14 → lun 16",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven 13 → lun 16",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:35"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:41"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:50"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-albino",
+              "nome": "Nuovo Cineteatro Albino",
+              "comune": "Albino",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven 13 → lun 16",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "nuovo-chiuduno",
+              "nome": "Cineteatro Nuovo",
+              "comune": "Chiuduno",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "sab 14 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:30"
+                }
+              ]
+            },
+            {
+              "id": "san-filippo-neri-nembro",
+              "nome": "CineTeatro San Filippo Neri",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven 13 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:30"
+                }
+              ]
+            },
+            {
+              "id": "sorriso-gorle",
+              "nome": "Cineteatro Sorriso",
+              "comune": "Gorle",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "ven 13 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:25"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:35"
+                }
+              ]
+            },
+            {
+              "id": "trieste-zogno",
+              "nome": "Cinema Trieste",
+              "comune": "Zogno",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 14 → lun 16",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "16:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "11:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:50"
+                }
+              ]
+            },
+            {
+              "id": "gavazzeni-seriate",
+              "nome": "Cineteatro Gavazzeni",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "sab 14 · lun 16 · mar 17",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Dio ride",
+          "regia": "Giovanni Veronesi",
+          "durata": "113'",
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 3,
+          "fonte": "https://borgopalazzo.sas.bg.it/film/212927",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven 13 → mar 17",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:20"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:00"
+                }
+              ]
+            },
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio 12 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:30"
+                }
+              ]
+            },
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio 12 → mar 17",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "don-bosco-bolgare",
+              "nome": "Cineteatro Don Bosco",
+              "comune": "Bolgare",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "ven 13 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "forzenigo-villa-dogna",
+              "nome": "Cineteatro Forzenigo",
+              "comune": "Villa d'Ogna",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 14 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:50"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:50"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:50"
+                }
+              ]
+            },
+            {
+              "id": "sala-comunita-casazza",
+              "nome": "Sala della Comunità",
+              "comune": "Casazza",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 14 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:15"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:45"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:05"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:05"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:05"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:05"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Hunger Games, l'alba sulla mietitura",
+          "regia": "Francis Lawrence",
+          "durata": "158'",
+          "genere": "azione",
+          "versione": [],
+          "nota": "In sala dal giovedì 19",
+          "rilevanza": 3,
+          "fonte": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-orio-bergamo/programming/2026-11-19",
+          "sale": [
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 19, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-19",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 19, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-19",
+                  "ora": "18:05"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "21:10"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 19, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-19",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "17:40"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "18:30"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "19:10"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "22:30"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 19, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-19",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "21:30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il rumore delle cose nuove",
+          "regia": "Paolo Genovese",
+          "durata": "115'",
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-orio-bergamo/programming/2026-11-12",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:30"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:10"
+                }
+              ]
+            },
+            {
+              "id": "capitol",
+              "nome": "Capitol Multisala",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "monosala",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "16:15"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:20"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "16:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "11:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "14:50"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "16:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Un weekend artificiale",
+          "regia": "Leonardo Pieraccioni",
+          "durata": "100'",
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-orio-bergamo/programming/2026-11-12",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:15"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "20:20"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "ven 13 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:25"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:50"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "20:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:25"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:25"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:25"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il gatto col cappello",
+          "regia": "A. Carloni, E. Rivinoja",
+          "durata": "105'",
+          "genere": "animazione",
+          "versione": [
+            "per famiglie"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://backend.ucicinemas.it/api/theatres/uci-cinemas-orio-bergamo/programming/2026-11-12",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "sab 14 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:10"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:10"
+                }
+              ]
+            },
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "sab 14 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:25"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:25"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:05"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:05"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "18:35"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:35"
+                }
+              ]
+            },
+            {
+              "id": "trieste-zogno",
+              "nome": "Cinema Trieste",
+              "comune": "Zogno",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "dom 15, 16:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:00"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "11:40"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:35"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Wild Horse Nine",
+          "regia": "Martin McDonagh",
+          "durata": "120'",
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://concaverde.sas.bg.it/film/208670",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:50"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "20:15"
+                }
+              ]
+            },
+            {
+              "id": "arcadia-stezzano",
+              "nome": "Arcadia Stezzano",
+              "comune": "Stezzano",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "ven 13 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:00"
+                }
+              ]
+            },
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "6 giorni, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "notorious-curno",
+              "nome": "Notorious Cinemas Curno",
+              "comune": "Curno",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "6 giorni, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "16:50"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:50"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:30"
+                }
+              ]
+            },
+            {
+              "id": "starplex-romano",
+              "nome": "Starplex Romano",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "multiplex",
+              "quando": "gio 12 → dom 15",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:10"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "12:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Look Back",
+          "regia": "Hirokazu Kore'eda",
+          "durata": "101'",
+          "genere": "drammatico",
+          "versione": [
+            "VO"
+          ],
+          "nota": "In originale sottotitolato: Anteo Treviglio e Conca Verde",
+          "rilevanza": 2,
+          "fonte": "https://concaverde.sas.bg.it/film/212828",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:30"
+                }
+              ]
+            },
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "20:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "16:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "20:15"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:30"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "19:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "10:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "13:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:20"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "19:20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Il canto della foresta",
+          "regia": "Vincent Munier",
+          "durata": "91'",
+          "genere": "documentario",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://auditorium.lab80.18tickets.it/film/170292",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "ven 13 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "17:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:45"
+                }
+              ]
+            },
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio 12 · dom 15 · mar 17",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:30"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "rivellini-romano",
+              "nome": "Cinema Teatro Rivellini",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "mer 18, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "sala-orologio",
+              "nome": "Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "sab 14 · mer 18, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "uci-orio",
+              "nome": "UCI Cinemas Orio",
+              "comune": "Azzano San Paolo",
+              "zona": "Centro",
+              "tipo": "multiplex",
+              "quando": "ven 13 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "14:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "14:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:45"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "16:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "L'essere amato",
+          "regia": "Rodrigo Sorogoyen",
+          "durata": "127'",
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://www.spaziocinema.info/treviglio/film/lessere-amato-el-ser-querido",
+          "sale": [
+            {
+              "id": "anteo-treviglio",
+              "nome": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "tipo": "dessai",
+              "quando": "gio 12 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:20"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "22:10"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "19:40"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "22:10"
+                }
+              ]
+            },
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven 13, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "sala-orologio",
+              "nome": "Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "gio 12, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "schermo-bianco",
+              "nome": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "4 giorni, più orari",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "15:30"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:15"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "15:15"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "I figli della scimmia",
+          "regia": "Tommaso Landucci",
+          "durata": "110'",
+          "genere": "drammatico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 2,
+          "fonte": "https://borgopalazzo.sas.bg.it/film/212829",
+          "sale": [
+            {
+              "id": "cagnola-urgnano",
+              "nome": "Cineteatro Cagnola",
+              "comune": "Urgnano",
+              "zona": "Bassa",
+              "tipo": "comunita",
+              "quando": "ven 13, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "del-borgo",
+              "nome": "Cinema Teatro del Borgo",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mar 17 → mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-17",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "mer 18 → gio 19",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-18",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "16:00"
+                },
+                {
+                  "data": "2026-11-19",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Santiago, un cammino per ricominciare",
+          "regia": "Yann Samuell",
+          "durata": "109'",
+          "genere": "commedia",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://clusone.cinemaclusone.it/film/180889",
+          "sale": [
+            {
+              "id": "garden-clusone",
+              "nome": "Cinema Garden",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "tipo": "comunita",
+              "quando": "gio 12, 21:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "21:00"
+                }
+              ]
+            },
+            {
+              "id": "lottagono",
+              "nome": "Cinema Teatro Lottagono",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "comunita",
+              "quando": "gio 12, 20:45",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-12",
+                  "ora": "20:45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "La Gradiva",
+          "regia": "Marine Atlan",
+          "durata": "145'",
+          "genere": "drammatico",
+          "versione": [
+            "d'essai"
+          ],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://auditorium.lab80.18tickets.it/film/213061",
+          "sale": [
+            {
+              "id": "auditorium-liberta",
+              "nome": "Auditorium di Piazza Libertà",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "dom 15 → lun 16",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-15",
+                  "ora": "17:30"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:45"
+                },
+                {
+                  "data": "2026-11-16",
+                  "ora": "20:45"
+                }
+              ]
+            },
+            {
+              "id": "sala-orologio",
+              "nome": "Sala dell'Orologio",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "sab 14 · mer 18",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-14",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "17:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titolo": "Je so' pazzo",
+          "regia": "Nicola Prosatore",
+          "durata": "93'",
+          "genere": "biografico",
+          "versione": [],
+          "nota": null,
+          "rilevanza": 1,
+          "fonte": "https://concaverde.sas.bg.it/film/212960",
+          "sale": [
+            {
+              "id": "conca-verde",
+              "nome": "Conca Verde",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "tipo": "dessai",
+              "quando": "ven 13 · mer 18, 18:00",
+              "prezzo": null,
+              "spettacoli": [
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-13",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:00"
+                },
+                {
+                  "data": "2026-11-18",
+                  "ora": "18:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "speciali": [],
+      "generi": [
+        {
+          "chiave": "drammatico",
+          "etichetta": "Drammatico",
+          "icona": "🥀"
+        },
+        {
+          "chiave": "commedia",
+          "etichetta": "Commedia",
+          "icona": "😂"
+        },
+        {
+          "chiave": "azione",
+          "etichetta": "Azione",
+          "icona": "💥"
+        },
+        {
+          "chiave": "animazione",
+          "etichetta": "Animazione",
+          "icona": "🎨"
+        },
+        {
+          "chiave": "documentario",
+          "etichetta": "Documentario",
+          "icona": "🎥"
+        },
+        {
+          "chiave": "biografico",
+          "etichetta": "Biografico",
+          "icona": "👤"
+        }
+      ],
+      "sale": [
+        {
+          "id": "agora-petosino",
+          "nome": "Cinema Agorà Petosino",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via Martiri della Libertà 91",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "anteo-treviglio",
+          "nome": "Anteo spazioCinema",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "tipo": "dessai",
+          "indirizzo": "Viale Montegrappa",
+          "url": "https://www.mymovies.it/cinema/bergamo/treviglio/6586/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Marchio Anteo: d'autore e versione originale fuori città. È la sala forte della Bassa."
+        },
+        {
+          "id": "arcadia-stezzano",
+          "nome": "Arcadia Stezzano",
+          "comune": "Stezzano",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "Le Due Torri, Via Guzzanica 62/64",
+          "url": "https://www.arcadiacinema.com/stezzano/prog.php",
+          "gestore": null,
+          "schermi": 7,
+          "note": "7 sale. Il sito ufficiale pubblica in anticipo: e' da qui che si scoprono i film-evento delle settimane dopo."
+        },
+        {
+          "id": "capitol",
+          "nome": "Capitol Multisala",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "monosala",
+          "indirizzo": "Via Tasso 41",
+          "url": "https://cinemabergamo.it/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Le fonti si contraddicono sul numero di sale (3 o 4): schermi lasciato a null finché non lo verifico sul posto. Prima visione in centro città."
+        },
+        {
+          "id": "garden-clusone",
+          "nome": "Cinema Garden",
+          "comune": "Clusone",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via XXV Aprile 1",
+          "url": "https://www.mymovies.it/cinema/bergamo/clusone/5540/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Circuito ACEC/SAS. Il cinema dell'alta Valle Seriana."
+        },
+        {
+          "id": "lottagono",
+          "nome": "Cinema Teatro Lottagono",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazzale San Paolo 35",
+          "url": "https://www.mymovies.it/cinema/bergamo/20734/",
+          "gestore": null,
+          "schermi": 2,
+          "note": "Quartiere Loreto."
+        },
+        {
+          "id": "notorious-curno",
+          "nome": "Notorious Cinemas Curno",
+          "comune": "Curno",
+          "zona": "Centro",
+          "tipo": "multiplex",
+          "indirizzo": "Via Lega Lombarda 39",
+          "url": "https://www.mymovies.it/cinema/bergamo/curno/5525/",
+          "gestore": null,
+          "schermi": null,
+          "note": null
+        },
+        {
+          "id": "nuovo-albino",
+          "nome": "Nuovo Cineteatro Albino",
+          "comune": "Albino",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Piazza San Giuliano 36",
+          "url": "https://www.mymovies.it/cinema/bergamo/albino/6008/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "La sala di riferimento della media Valle Seriana."
+        },
+        {
+          "id": "nuovo-chiuduno",
+          "nome": "Cineteatro Nuovo",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": null,
+          "url": "https://chiuduno.18tickets.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "san-filippo-neri-nembro",
+          "nome": "CineTeatro San Filippo Neri",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Vittoria 12",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "sorriso-gorle",
+          "nome": "Cineteatro Sorriso",
+          "comune": "Gorle",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Giovanni XXIII 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "starplex-romano",
+          "nome": "Starplex Romano",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "tipo": "multiplex",
+          "indirizzo": "SS Soncinese 498",
+          "url": "https://www.romanodilombardia.starplex.it/romanodilombardia/programmazione",
+          "gestore": null,
+          "schermi": null,
+          "note": "Il multiplex della Bassa: per chi sta a sud, è più vicino di Orio."
+        },
+        {
+          "id": "trieste-zogno",
+          "nome": "Cinema Trieste",
+          "comune": "Zogno",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via XI Febbraio 11",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": "Il cinema della Valle Brembana."
+        },
+        {
+          "id": "uci-orio",
+          "nome": "UCI Cinemas Orio",
+          "comune": "Azzano San Paolo",
+          "zona": "Centro",
+          "tipo": "multiplex",
+          "indirizzo": "Via Toscana 2, Oriocenter",
+          "url": "https://www.ucicinemas.it/",
+          "gestore": null,
+          "schermi": null,
+          "note": "Il multiplex più grande della provincia, dentro Oriocenter. Ha quasi sempre tutto: citarlo per ogni film lo rende inutile, si cita quando è l'unico o quando ha VO/IMAX."
+        },
+        {
+          "id": "gavazzeni-seriate",
+          "nome": "Cineteatro Gavazzeni",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Via Marconi 40",
+          "url": "https://cinemabergamo.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Orari su cinemabergamo.it (app JS condivisa col Capitol): gavazzeni.18tickets.it non esiste."
+        },
+        {
+          "id": "conca-verde",
+          "nome": "Conca Verde",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Guglielmo Mattioli 65",
+          "url": "https://www.sas.bg.it/cinema-conca-verde/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 4,
+          "note": "Programmazione aggiornata ogni martedì e valida fino al mercoledì successivo: è la fonte più affidabile per il giovedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "del-borgo",
+          "nome": "Cinema Teatro del Borgo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Sant'Anna 51",
+          "url": "https://www.sas.bg.it/cinema-teatro-del-borgo/programmazione-e-news",
+          "gestore": "SAS Bergamo",
+          "schermi": 1,
+          "note": "Come Conca Verde: programma aggiornato il martedì. Il 2026-09-04 l'URL SAS rispondeva 404 da qui: vedi fonti_morte, ripiegare su MYmovies."
+        },
+        {
+          "id": "don-bosco-bolgare",
+          "nome": "Cineteatro Don Bosco",
+          "comune": "Bolgare",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": "Piazza Caduti di Nassirya 1",
+          "url": null,
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "forzenigo-villa-dogna",
+          "nome": "Cineteatro Forzenigo",
+          "comune": "Villa d'Ogna",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Via Beato Alberto 150",
+          "url": "https://villadogna.18tickets.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "sala-comunita-casazza",
+          "nome": "Sala della Comunità",
+          "comune": "Casazza",
+          "zona": "Valli",
+          "tipo": "comunita",
+          "indirizzo": "Piazza San Lorenzo 1",
+          "url": "https://casazza.18tickets.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Val Cavallina."
+        },
+        {
+          "id": "auditorium-liberta",
+          "nome": "Auditorium di Piazza Libertà",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Norberto Duzioni 2",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "248 posti. Programma da settembre a giugno; d'estate Lab 80 si sposta all'arena Esterno Notte. È la sala d'autore della città."
+        },
+        {
+          "id": "rivellini-romano",
+          "nome": "Cinema Teatro Rivellini",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": "Via XXV Aprile 1",
+          "url": "https://romanodilombardia.18tickets.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        },
+        {
+          "id": "sala-orologio",
+          "nome": "Sala dell'Orologio",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Palazzo Libertà, Piazza Libertà",
+          "url": "https://lab80.it/it/programmazione",
+          "gestore": "Lab 80 film",
+          "schermi": 1,
+          "note": "Terza sala aperta dentro Palazzo Libertà nel 2024. Verificare se ha programmazione autonoma o solo eventi."
+        },
+        {
+          "id": "schermo-bianco",
+          "nome": "Lo Schermo Bianco",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "tipo": "dessai",
+          "indirizzo": "Via Daste e Spalenga 15",
+          "url": "https://www.mymovies.it/cinema/bergamo/24147/",
+          "gestore": null,
+          "schermi": 1,
+          "note": "Dentro l'ex centrale Daste. Sala piccola, programmazione a rassegne: da controllare a mano, non compare sempre sui portali."
+        },
+        {
+          "id": "cagnola-urgnano",
+          "nome": "Cineteatro Cagnola",
+          "comune": "Urgnano",
+          "zona": "Bassa",
+          "tipo": "comunita",
+          "indirizzo": "Via Roma 82",
+          "url": "https://urgnano.18tickets.it/",
+          "gestore": null,
+          "schermi": 1,
+          "note": null
+        }
+      ]
     }
   ]
 }
