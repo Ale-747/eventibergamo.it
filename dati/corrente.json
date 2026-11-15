@@ -1,6 +1,6 @@
 {
   "_generato_da": "sito/genera.py — non modificare a mano",
-  "aggiornato_il": "2026-11-12",
+  "aggiornato_il": "2026-11-16",
   "brand": {
     "nome": "Eventibergamo",
     "handle": "@eventibergamo",
@@ -116,61 +116,43 @@
   ],
   "guide": [
     {
-      "id": "settimana-2026-11-09",
+      "id": "settimana-2026-11-16",
       "formato": "settimana",
       "periodo": {
-        "da": "2026-11-09",
-        "a": "2026-11-12",
-        "etichetta": "9 → 12 novembre"
+        "da": "2026-11-16",
+        "a": "2026-11-19",
+        "etichetta": "16 → 19 novembre"
       },
       "titolo": "La Settimana",
-      "sottotitolo": "Quattro giorni di novembre, dal Teatro Sociale\nall'Accademia Carrara, fino ad ArtDate.",
-      "hook": "Dentro: 41 appuntamenti da lunedì a giovedì.\n8 sono gratis, e giovedì lo Zeri Day all'Accademia Carrara non costa niente.",
+      "sottotitolo": "Federico Buffa alla ChorusLife, il Gala Gavazzeni al Donizetti, D'Avenia da gres art 671.",
+      "hook": "Dentro: 41 appuntamenti da lunedì a giovedì.\n11 sono gratis, e giovedì Giorgio Canali all'NXT non costa niente.",
       "giorni": [
         {
-          "data": "2026-11-09",
-          "etichetta": "Lunedì 9 novembre",
-          "breve": "Lunedì 9",
+          "data": "2026-11-16",
+          "etichetta": "Lunedì 16 novembre",
+          "breve": "Lunedì 16",
           "nota": "Luna Park di Alzano aperto ogni giorno dalle 14:30, fino al 22 novembre.",
           "eventi": [
             {
-              "ora": "14:30",
-              "nome": "Il salotto della lingua",
-              "luogo": "Biblioteca Tiraboschi, Bergamo",
-              "sede": "Biblioteca Tiraboschi",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
+              "ora": "15:00",
+              "nome": "Visita guidata Museo del Tessile",
+              "luogo": "Museo del Tessile, Leffe",
+              "sede": "Museo del Tessile",
+              "comune": "Leffe",
+              "zona": "Valli",
+              "categoria": "visita",
               "prezzo": {
-                "tipo": "gratis"
+                "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/il-salotto-della-lingua_304216/",
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%93%b7-visita-guidata-museo-del-tessile-leffe-66/",
               "keyword": [
-                "conversazione"
+                "ogni lunedì"
               ],
               "rilevanza": 1
             },
             {
-              "ora": "14:30",
-              "nome": "Luna Park di San Martino",
-              "luogo": "Piazza Papa Giovanni Paolo II, Alzano Lombardo",
-              "sede": "Piazza Papa Giovanni Paolo II",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-luna-park-di-san-martino-piazza-papa-giovanni-paolo-ii-alzano-lombardo-17/",
-              "keyword": [
-                "giostre",
-                "fino al 22 novembre"
-              ],
-              "rilevanza": 2
-            },
-            {
               "ora": "20:00",
-              "nome": "L'Estranea",
+              "nome": "Digger",
               "luogo": "Anteo spazioCinema, Treviglio",
               "sede": "Anteo spazioCinema",
               "comune": "Treviglio",
@@ -180,257 +162,33 @@
                 "tipo": "fisso",
                 "valore": 3
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/treviglio/lestranea_305807/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/treviglio/digger_305806/",
               "keyword": [
-                "thriller psicologico",
-                "venezia"
+                "commedia nera"
               ],
               "rilevanza": 2
             },
             {
               "ora": "20:45",
-              "nome": "Corso di orticoltura gratuito",
-              "luogo": "Sala Consiliare, Bagnatica",
-              "sede": "Sala Consiliare",
-              "comune": "Bagnatica",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/bagnatica/corso-di-orticoltura-gratuito-a-bagnatica_305455/",
-              "keyword": [
-                "orto",
-                "corso"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:00",
-              "nome": "Minnie and Moskowitz",
-              "luogo": "Lo Schermo Bianco, Bergamo",
-              "sede": "Lo Schermo Bianco",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.lab80.it/it/programmazione",
-              "keyword": [
-                "cassavetes",
-                "versione originale"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Mondi alieni: gli esopianeti",
-              "luogo": "Parco Astronomico Torre del Sole, Brembate di Sopra",
-              "sede": "Parco Astronomico Torre del Sole",
-              "comune": "Brembate di Sopra",
-              "zona": "Isola",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 19
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/corsi/brembate-di-sopra/incontro-2-del-ciclo-mondi-alieni-gli-esopianeti_307085/",
-              "keyword": [
-                "astronomia",
-                "ciclo di incontri"
-              ],
-              "rilevanza": 3
-            }
-          ],
-          "altri": []
-        },
-        {
-          "data": "2026-11-10",
-          "etichetta": "Martedì 10 novembre",
-          "breve": "Martedì 10",
-          "nota": "Ninfea (burraco) e Ink (Smash Bros) sono per soci: serve la tessera. Oh... Theo!: prenotazione obbligatoria.",
-          "eventi": [
-            {
-              "ora": "19:00",
-              "nome": "Le grandi espressioni del Nebbiolo",
-              "luogo": "Enoteca La Bidule, Treviglio",
-              "sede": "Enoteca La Bidule",
+              "nome": "Solo per la maglia",
+              "luogo": "TNT - Teatro Nuovo Treviglio, Treviglio",
+              "sede": "TNT - Teatro Nuovo Treviglio",
               "comune": "Treviglio",
               "zona": "Bassa",
-              "categoria": "cena",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 40
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/treviglio/le-grandi-espressioni-del-nebbiolo_306349/",
-              "keyword": [
-                "degustazione",
-                "nebbiolo"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:45",
-              "nome": "Oh... Theo!",
-              "luogo": "Sala Arhat Teatro, Pontirolo Nuovo",
-              "sede": "Sala Arhat Teatro",
-              "comune": "Pontirolo Nuovo",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 15
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/pontirolo-nuovo/oh-theo_306726/",
-              "keyword": [
-                "lettere di van gogh"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Burraco ruspante",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "torneo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfZ29vVo3A2/",
-              "keyword": [
-                "burraco",
-                "formagella in palio"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Il paese dove non si muore mai",
-              "luogo": "Cineteatro Qoelet, Bergamo",
-              "sede": "Cineteatro Qoelet",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/il-paese-dove-non-si-muore-mai_306931/",
-              "keyword": [
-                "fiabe di calvino",
-                "afro-italiano"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Le città di pianura",
-              "luogo": "Nuovo CineTeatro Albino, Albino",
-              "sede": "Nuovo CineTeatro Albino",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 5
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/albino/il-figlio-del-deserto_306087/",
-              "keyword": [
-                "film di qualità"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:00",
-              "nome": "Nel silenzio delle stanze",
-              "luogo": "Lo Schermo Bianco, Bergamo",
-              "sede": "Lo Schermo Bianco",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.lab80.it/it/programmazione",
-              "keyword": [
-                "prima visione"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "Torneo Smash Bros Ultimate",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "torneo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfUxu-BN2S6/",
-              "keyword": [
-                "videogiochi",
-                "soci arci"
-              ],
-              "rilevanza": 2
-            }
-          ],
-          "altri": [
-            {
-              "ora": "09:30",
-              "nome": "Visita guidata al Casinò",
-              "luogo": "Casinò Municipale, San Pellegrino Terme",
-              "sede": "Casinò Municipale",
-              "comune": "San Pellegrino Terme",
-              "zona": "Valli",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%93%b7-visita-guidata-casino-san-pellegrino-terme-70/",
-              "keyword": [
-                "edificio liberty",
-                "martedì e giovedì"
-              ]
-            },
-            {
-              "ora": "20:45",
-              "nome": "Matteo Angioletti in concerto",
-              "luogo": "Chiesa Parrocchiale, Carvico",
-              "sede": "Chiesa Parrocchiale",
-              "comune": "Carvico",
-              "zona": "Isola",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-matteo-angioletti-in-concerto-chiesa-parrocchiale-carvico/",
-              "keyword": [
-                "concerto in chiesa"
-              ]
-            },
-            {
-              "ora": "20:45",
-              "nome": "La vita appesa allo spit",
-              "luogo": "Sala Civica Mimmo Boninelli, Mozzo",
-              "sede": "Sala Civica Mimmo Boninelli",
-              "comune": "Mozzo",
-              "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
                 "tipo": "gratis"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/mozzo/la-vita-appesa-allo-spit_307234/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/treviglio/gianfelice-facchetti-presenta-il-libro-solo-per-la-maglia-talk-libri_307231/",
               "keyword": [
-                "alpinismo"
-              ]
+                "libro",
+                "talk libri"
+              ],
+              "rilevanza": 2
             },
             {
-              "ora": "21:00",
-              "nome": "La guerra dei prezzi",
+              "ora": "20:45",
+              "nome": "La Gradiva",
               "luogo": "CULT! Auditorium, Bergamo",
               "sede": "CULT! Auditorium",
               "comune": "Bergamo",
@@ -441,75 +199,218 @@
               },
               "fonte": "https://www.lab80.it/it/programmazione",
               "keyword": [
-                "prima visione"
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-11-11",
-          "etichetta": "Mercoledì 11 novembre",
-          "breve": "Mercoledì 11",
-          "nota": "Alahor in Granata: anteprima per under 30, prenotazione obbligatoria. Ninfea: tessera per il calcetto.",
-          "eventi": [
-            {
-              "ora": "08:00",
-              "nome": "Fiera di San Martino",
-              "luogo": "Centro paese, Alzano Lombardo",
-              "sede": "Centro paese",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%88-fiera-di-san-martino-centro-paese-alzano-lombardo-4/",
-              "keyword": [
-                "banchi tradizionali",
-                "fiera"
+                "versione originale"
               ],
-              "rilevanza": 3
+              "rilevanza": 2
             },
             {
-              "ora": "10:00",
-              "nome": "MADE Film Festival",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
+              "ora": "21:00",
+              "nome": "L'impero dei sensi",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/bergamo/made_307169/",
+              "fonte": "https://www.lab80.it/it/programmazione",
               "keyword": [
-                "cinema e lavoro",
-                "festival"
+                "versione originale"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": null,
+              "nome": "Villaggio di Natale",
+              "luogo": "Piazzale degli Alpini, Bergamo",
+              "sede": "Piazzale degli Alpini",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mercatino",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/bergamo/villaggio-di-natale_307600/",
+              "keyword": [
+                "casette di legno",
+                "artigianato"
+              ],
+              "rilevanza": 3
+            }
+          ],
+          "altri": [
+            {
+              "ora": null,
+              "nome": "1945-1948: Bergamo nella ricostruzione",
+              "luogo": "Biblioteca Civica Angelo Mai, Bergamo",
+              "sede": "Biblioteca Civica Angelo Mai",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "mostra",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/impronta-e-segno-i-sigilli-da-materia-a-documento_307118/",
+              "keyword": [
+                "storia"
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-11-17",
+          "etichetta": "Martedì 17 novembre",
+          "breve": "Martedì 17",
+          "nota": "Ninfea: serve la tessera. Patagonian Chimeras da Orobia: prenotazione, due turni (20:15 e 21:30).",
+          "eventi": [
+            {
+              "ora": "18:00",
+              "nome": "IA: accelerare o frenare?",
+              "luogo": "Auditorium Gramsci, Bergamo",
+              "sede": "Auditorium Gramsci",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/festival-margherita_307176/",
+              "keyword": [
+                "intelligenza artificiale",
+                "festival margherita"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": "18:00",
+              "nome": "Odissea Terra: Abitare il futuro",
+              "luogo": "Gres art 671, Bergamo",
+              "sede": "Gres art 671",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/odissea-terra_307551/",
+              "keyword": [
+                "alessandro d'avenia",
+                "territori"
               ],
               "rilevanza": 3
             },
             {
-              "ora": "17:00",
-              "nome": "Alahor in Granata",
-              "luogo": "Teatro Sociale, Bergamo",
-              "sede": "Teatro Sociale",
-              "comune": "Bergamo",
+              "ora": "20:15",
+              "nome": "Patagonian Chimeras",
+              "luogo": "Orobia Climbing, Curno",
+              "sede": "Orobia Climbing",
+              "comune": "Curno",
               "zona": "Centro",
-              "categoria": "teatro",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "fisso",
                 "valore": 10
               },
-              "fonte": "https://www.visitbergamo.net/oggetto/alahor-in-granata-4/",
+              "fonte": "https://www.instagram.com/p/Dfh0V7sDOGO/",
               "keyword": [
-                "donizetti",
-                "anteprima under 30"
+                "proiezione",
+                "alpinismo"
               ],
-              "rilevanza": 3
+              "rilevanza": 2
             },
             {
+              "ora": "21:00",
+              "nome": "Il cileno",
+              "luogo": "Nuovo CineTeatro Albino, Albino",
+              "sede": "Nuovo CineTeatro Albino",
+              "comune": "Albino",
+              "zona": "Valli",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 5
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/albino/le-citta-di-pianura_306088/",
+              "keyword": [
+                "film di qualità"
+              ],
+              "rilevanza": 1
+            },
+            {
+              "ora": "21:00",
+              "nome": "L'essere amato",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.lab80.it/it/programmazione",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
+              "nome": "Ninfea Comedy Club",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.instagram.com/p/Dfj7E-5o5fJ/",
+              "keyword": [
+                "stand-up",
+                "comicità"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:00",
+              "nome": "Mega tornei: Just Dance e Mario Kart",
+              "luogo": "Ink Club, Bergamo",
+              "sede": "Ink Club",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.instagram.com/p/DfmpUoDjnXq/",
+              "keyword": [
+                "videogiochi",
+                "just dance",
+                "mario kart"
+              ],
+              "rilevanza": 2
+            }
+          ],
+          "altri": [
+            {
               "ora": "17:00",
-              "nome": "Fatherland",
+              "nome": "Sicuri in Sala",
+              "luogo": "Orobia Climbing, Curno",
+              "sede": "Orobia Climbing",
+              "comune": "Curno",
+              "zona": "Centro",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.instagram.com/p/Dfh0V7sDOGO/",
+              "keyword": [
+                "sicurezza",
+                "arrampicata",
+                "petzl"
+              ]
+            },
+            {
+              "ora": "21:00",
+              "nome": "How to Have Sex",
               "luogo": "CULT! Sala dell'Orologio, Bergamo",
               "sede": "CULT! Sala dell'Orologio",
               "comune": "Bergamo",
@@ -520,13 +421,86 @@
               },
               "fonte": "https://www.lab80.it/it/programmazione",
               "keyword": [
-                "pomeriggio al cinema"
+                "versione originale"
+              ]
+            },
+            {
+              "ora": "21:00",
+              "nome": "Il canto della foresta",
+              "luogo": "CULT! Auditorium, Bergamo",
+              "sede": "CULT! Auditorium",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.lab80.it/it/programmazione"
+            },
+            {
+              "ora": null,
+              "nome": "Latino Americano",
+              "luogo": "OpenSpace Discoteque, Curno",
+              "sede": "OpenSpace Discoteque",
+              "comune": "Curno",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.discotechebergamo.it/evento/martedi-sera-discoteca-openspace-curno",
+              "keyword": [
+                "latino",
+                "ogni martedì"
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-11-18",
+          "etichetta": "Mercoledì 18 novembre",
+          "breve": "Mercoledì 18",
+          "nota": "Ninfea (Colori Liberi): serve la tessera. Daste: il gin lab è su iscrizione, lo stand up su prenotazione.",
+          "eventi": [
+            {
+              "ora": "15:00",
+              "nome": "Il quaderno di Tommaso",
+              "luogo": "Cinema San Marco, Bergamo",
+              "sede": "Cinema San Marco",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/bergamo/il-peso-delle-scelte-la-storia-del-quaderno-di-tommaso_307405/",
+              "keyword": [
+                "cinema docet",
+                "dibattito"
               ],
-              "rilevanza": 1
+              "rilevanza": 2
+            },
+            {
+              "ora": "19:00",
+              "nome": "Colori Liberi",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "laboratorio",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.instagram.com/p/DfmgoaxKUV8/",
+              "keyword": [
+                "collage",
+                "pittura"
+              ],
+              "rilevanza": 2
             },
             {
               "ora": "19:30",
-              "nome": "Ceramiche, Daste Lab",
+              "nome": "Daste Lab: crea il tuo gin",
               "luogo": "Daste, Bergamo",
               "sede": "Daste",
               "comune": "Bergamo",
@@ -534,125 +508,136 @@
               "categoria": "laboratorio",
               "prezzo": {
                 "tipo": "fisso",
-                "valore": 35
+                "valore": 40
               },
-              "fonte": "https://www.instagram.com/p/DfU3d2Ls-8R/",
+              "fonte": "https://www.instagram.com/p/DfmZfyHsmFo/",
               "keyword": [
-                "ceramica",
-                "aperitivo incluso"
+                "gin",
+                "aperitivo"
               ],
               "rilevanza": 3
             },
             {
-              "ora": "19:30",
-              "nome": "Emozioni in fiore, centrotavola",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "laboratorio",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 45
-              },
-              "fonte": "https://www.instagram.com/p/DfUIpLMIEG9/",
-              "keyword": [
-                "centrotavola autunnale"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "19:30",
-              "nome": "Aperitivi con la Storia, Sanbitter",
-              "luogo": "Sala Polifunzionale, Almenno San Bartolomeo",
-              "sede": "Sala Polifunzionale",
+              "ora": "20:00",
+              "nome": "Almenno Divino",
+              "luogo": "Sala delle Associazioni, Almenno San Bartolomeo",
+              "sede": "Sala delle Associazioni",
               "comune": "Almenno San Bartolomeo",
               "zona": "Valli",
-              "categoria": "incontro",
+              "categoria": "cena",
               "prezzo": {
-                "tipo": "nd"
+                "tipo": "da",
+                "valore": 30
               },
-              "fonte": "https://www.bergamonews.it/evento/aperitivi-con-la-storia-il-tempo-del-boom-sanbitter-1961/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/almenno-san-bartolomeo/almenno-divino_306356/",
               "keyword": [
-                "storia",
-                "aperitivo"
+                "degustazione vini",
+                "formaggi"
               ],
               "rilevanza": 1
             },
             {
-              "ora": "20:30",
-              "nome": "Cena con delitto, Girolamo Tiraboschi",
-              "luogo": "Enoteca numero 14, Pedrengo",
-              "sede": "Enoteca numero 14",
-              "comune": "Pedrengo",
+              "ora": "20:45",
+              "nome": "Il fattore disumano",
+              "luogo": "Sala Civica Sant'Agata, Bergamo",
+              "sede": "Sala Civica Sant'Agata",
+              "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "cena",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/il-fattore-disumano_307344/",
+              "keyword": [
+                "limes",
+                "intelligenza artificiale"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:45",
+              "nome": "Buon viaggio, Marie",
+              "luogo": "Cinema Teatro Loverini, Gandino",
+              "sede": "Cinema Teatro Loverini",
+              "comune": "Gandino",
+              "zona": "Valli",
+              "categoria": "cinema",
               "prezzo": {
                 "tipo": "fisso",
-                "valore": 20
+                "valore": 6
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/pedrengo/girolamo-tiraboschi-e-il-tesoro-nel-monastero-cena-con-delitto_307401/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/gandino/buon-viaggio-marie-cineforum-della-val-gandino_306080/",
               "keyword": [
-                "cena con delitto",
-                "caccia all'oro"
+                "cineforum"
               ],
-              "rilevanza": 2
+              "rilevanza": 1
             },
             {
               "ora": "21:00",
-              "nome": "Calcetto boaro",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
+              "nome": "Stand up comedy con Giò Fattoruso",
+              "luogo": "Daste, Bergamo",
+              "sede": "Daste",
+              "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "torneo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfPRghMofC7/",
-              "keyword": [
-                "calcetto",
-                "formagella in palio"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Sinfonia fantastica",
-              "luogo": "TNT Teatro Nuovo, Treviglio",
-              "sede": "TNT Teatro Nuovo",
-              "comune": "Treviglio",
-              "zona": "Bassa",
               "categoria": "teatro",
               "prezzo": {
-                "tipo": "nd"
+                "tipo": "gratis"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/treviglio/sinfonia-fantastica-le-eta-della-vita_304918/",
+              "fonte": "https://www.instagram.com/p/Dfm3qqrDG1t/",
               "keyword": [
-                "lucilla giagnoni"
+                "stand-up",
+                "comicità"
               ],
               "rilevanza": 3
             },
             {
               "ora": "21:00",
-              "nome": "Video Nasty",
-              "luogo": "Biblioteca di Seriate, Seriate",
-              "sede": "Biblioteca di Seriate",
+              "nome": "Ruggero De I Timidi in concerto",
+              "luogo": "Cineteatro Gavazzeni, Seriate",
+              "sede": "Cineteatro Gavazzeni",
               "comune": "Seriate",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-ruggero-de-i-timidi-in-concerto-teatro-gavazzeni-seriate-biglietti/",
+              "rilevanza": 3
+            },
+            {
+              "ora": "21:00",
+              "nome": "L'essere amato",
+              "luogo": "Lo Schermo Bianco, Bergamo",
+              "sede": "Lo Schermo Bianco",
+              "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "cinema",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/seriate/video-nasty-rassegna-di-proiezioni-in-lingua-originale_306935/",
+              "fonte": "https://www.lab80.it/it/programmazione",
+              "rilevanza": 2
+            },
+            {
+              "ora": "21:30",
+              "nome": "Queen Latin Night",
+              "luogo": "Queen Club, Seriate",
+              "sede": "Queen Club",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.instagram.com/p/DfpTMRCNTwW/",
               "keyword": [
-                "lingua originale",
-                "sottotitoli"
+                "latino",
+                "bachata"
               ],
               "rilevanza": 1
             },
             {
-              "ora": null,
+              "ora": "23:00",
               "nome": "Face2Face Party",
               "luogo": "Setai Club, Orio al Serio",
               "sede": "Setai Club",
@@ -671,6 +656,24 @@
               "rilevanza": 2
             },
             {
+              "ora": "23:30",
+              "nome": "Tiky Klub",
+              "luogo": "Tiky Klub, Seriate",
+              "sede": "Tiky Klub",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.discotechebergamo.it/evento/tiky-klub-mercoledi-sera",
+              "keyword": [
+                "house",
+                "mercoledì"
+              ],
+              "rilevanza": 1
+            },
+            {
               "ora": null,
               "nome": "Please Night",
               "luogo": "Zero Club, Bergamo",
@@ -686,87 +689,115 @@
                 "single party",
                 "mercoledì"
               ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "Queen Latin Night",
-              "luogo": "Queen Club, Seriate",
-              "sede": "Queen Club",
-              "comune": "Seriate",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/DfYFVeENV7r/",
-              "keyword": [
-                "latino",
-                "stage di bachata"
-              ],
               "rilevanza": 1
             }
           ],
-          "altri": []
-        },
-        {
-          "data": "2026-11-12",
-          "etichetta": "Giovedì 12 novembre",
-          "breve": "Giovedì 12",
-          "nota": "Zeri Day: ingresso gratuito, prenotazione obbligatoria. ArtDate continua fino a domenica 15.",
-          "eventi": [
+          "altri": [
             {
-              "ora": "10:00",
-              "nome": "Studio visit, Yuliya Vladkovska",
-              "luogo": "VYNST Institute, Bergamo",
-              "sede": "VYNST Institute",
+              "ora": "20:45",
+              "nome": "Non morirò di fame",
+              "luogo": "Anteo spazioCinema, Treviglio",
+              "sede": "Anteo spazioCinema",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 3
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/treviglio/non-moriro-di-fame_307260/"
+            },
+            {
+              "ora": "21:00",
+              "nome": "Il canto della foresta",
+              "luogo": "CULT! Sala dell'Orologio, Bergamo",
+              "sede": "CULT! Sala dell'Orologio",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "mostra",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.lab80.it/it/programmazione"
+            },
+            {
+              "ora": "22:00",
+              "nome": "Buena Vibra",
+              "luogo": "Garota de Ipanema, Curno",
+              "sede": "Garota de Ipanema",
+              "comune": "Curno",
+              "zona": "Centro",
+              "categoria": "dj",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.discotechebergamo.it/evento/mercoledi-sera-garota-de-ipanema-curno",
+              "keyword": [
+                "mercoledì latino"
+              ]
+            }
+          ]
+        },
+        {
+          "data": "2026-11-19",
+          "etichetta": "Giovedì 19 novembre",
+          "breve": "Giovedì 19",
+          "nota": "Canali all'NXT: gratis ma con prenotazione obbligatoria. Ninfea (scacchi): serve la tessera. Bocconi Club e Meleto: prenotazione.",
+          "eventi": [
+            {
+              "ora": "18:00",
+              "nome": "Sagra dei risotti",
+              "luogo": "NXT Station, Bergamo",
+              "sede": "NXT Station",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "sagra",
               "prezzo": {
                 "tipo": "gratis"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/studio-visit-yuliya-vladkovska_306556/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/bergamo/sagra-dei-risotti_307526/",
               "keyword": [
-                "pittura",
-                "apertura studio"
+                "risotti",
+                "polenta"
               ],
               "rilevanza": 2
             },
             {
-              "ora": "14:30",
-              "nome": "Zeri Day",
-              "luogo": "Accademia Carrara, Bergamo",
-              "sede": "Accademia Carrara",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/arte/bergamo/zeri-day_307277/",
-              "keyword": [
-                "federico zeri",
-                "giornata di studi"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "17:30",
-              "nome": "I grandi anniversari: Grazia Deledda",
-              "luogo": "Centro Culturale delle Grazie, Bergamo",
-              "sede": "Centro Culturale delle Grazie",
+              "ora": "18:30",
+              "nome": "Luigino Bruni: L'Italia tra le righe",
+              "luogo": "Auditorium CULT!, Bergamo",
+              "sede": "Auditorium CULT!",
               "comune": "Bergamo",
               "zona": "Centro",
               "categoria": "incontro",
               "prezzo": {
-                "tipo": "gratis"
+                "tipo": "nd"
               },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/grandi-anniversari_306449/",
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/luigino-bruni_306148/",
               "keyword": [
-                "centenario del nobel"
+                "libri",
+                "economia"
               ],
               "rilevanza": 2
+            },
+            {
+              "ora": "19:00",
+              "nome": "Il lato buono dell'autunno",
+              "luogo": "Al Bistrot, Curno",
+              "sede": "Al Bistrot",
+              "comune": "Curno",
+              "zona": "Centro",
+              "categoria": "cena",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 55
+              },
+              "fonte": "https://www.instagram.com/p/DfSa3ebjdb2/",
+              "keyword": [
+                "menù degustazione",
+                "vini"
+              ],
+              "rilevanza": 1
             },
             {
               "ora": "19:30",
@@ -779,70 +810,178 @@
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-alpina-novembrina-ex-bocciofila-lallio-3/",
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-alpina-novembrina-ex-bocciofila-lallio-7/",
               "keyword": [
                 "alpini",
-                "spazio riscaldato"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:45",
-              "nome": "Una donna piena di cielo",
-              "luogo": "Auditorium Roberto Gritti, Ranica",
-              "sede": "Auditorium Roberto Gritti",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/ranica/festival-margherita_307177/",
-              "keyword": [
-                "margherita hack",
-                "festival margherita"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:45",
-              "nome": "Lezioni di Storia dell'Arte",
-              "luogo": "Pinacoteca Gianni Bellini, Sarnico",
-              "sede": "Pinacoteca Gianni Bellini",
-              "comune": "Sarnico",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sarnico/lezioni-di-storia-dellarte-con-il-prof-fusari_301856/",
-              "keyword": [
-                "storia dell'arte"
+                "sala riscaldata"
               ],
               "rilevanza": 1
             },
             {
-              "ora": "21:00",
-              "nome": "Il canto della foresta",
-              "luogo": "CULT! Auditorium, Bergamo",
-              "sede": "CULT! Auditorium",
+              "ora": "19:30",
+              "nome": "Degustazione Castello di Meleto",
+              "luogo": "Zen Lounge Bar, Romano di Lombardia",
+              "sede": "Zen Lounge Bar",
+              "comune": "Romano di Lombardia",
+              "zona": "Bassa",
+              "categoria": "cena",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 60
+              },
+              "fonte": "https://www.instagram.com/p/DffH-w4DQxJ/",
+              "keyword": [
+                "degustazione",
+                "vini toscani"
+              ],
+              "rilevanza": 1
+            },
+            {
+              "ora": "20:00",
+              "nome": "Giorgio Canali: Rossosolo Live",
+              "luogo": "NXT Station, Bergamo",
+              "sede": "NXT Station",
               "comune": "Bergamo",
               "zona": "Centro",
-              "categoria": "cinema",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/giorgio-canali_307096/",
+              "keyword": [
+                "rock",
+                "solista"
+              ],
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:00",
+              "nome": "Bocconi Club",
+              "luogo": "Sorsi & Bocconi, Albino",
+              "sede": "Sorsi & Bocconi",
+              "comune": "Albino",
+              "zona": "Valli",
+              "categoria": "cena",
+              "prezzo": {
+                "tipo": "fisso",
+                "valore": 60
+              },
+              "fonte": "https://www.instagram.com/p/DfpEpnNCGcl/",
+              "keyword": [
+                "vini thaler"
+              ],
+              "rilevanza": 1
+            },
+            {
+              "ora": "20:30",
+              "nome": "Gala Gianandrea Gavazzeni",
+              "luogo": "Teatro Donizetti, Bergamo",
+              "sede": "Teatro Donizetti",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "live",
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.lab80.it/it/programmazione",
+              "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
               "keyword": [
-                "vincent munier",
-                "incontro in sala"
+                "gala",
+                "opera lirica"
+              ],
+              "rilevanza": 3
+            },
+            {
+              "ora": "20:30",
+              "nome": "Uno contro tutti: simultanea di scacchi",
+              "luogo": "Ninfea Social Club, Sorisole",
+              "sede": "Ninfea Social Club",
+              "comune": "Sorisole",
+              "zona": "Centro",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.instagram.com/p/DfpjMTvqi0b/",
+              "keyword": [
+                "scacchi",
+                "gran maestro"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:30",
+              "nome": "Filosofare dalla Ripa: Acchè i confini?",
+              "luogo": "Convento della Ripa, Albino",
+              "sede": "Convento della Ripa",
+              "comune": "Albino",
+              "zona": "Valli",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/albino/filosofare-dalla-ripa-acche-i-confini_307172/",
+              "keyword": [
+                "filosofia"
+              ],
+              "rilevanza": 1
+            },
+            {
+              "ora": "20:45",
+              "nome": "Gianantonio Stella",
+              "luogo": "Auditorium Modernissimo, Nembro",
+              "sede": "Auditorium Modernissimo",
+              "comune": "Nembro",
+              "zona": "Valli",
+              "categoria": "incontro",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/nembro/presente-prossimo-incontro-con-gianantonio-stella_307477/",
+              "keyword": [
+                "giornalismo",
+                "presente prossimo"
+              ],
+              "rilevanza": 2
+            },
+            {
+              "ora": "20:45",
+              "nome": "Gianni Amelio: la regia",
+              "luogo": "TNT - Teatro Nuovo Treviglio, Treviglio",
+              "sede": "TNT - Teatro Nuovo Treviglio",
+              "comune": "Treviglio",
+              "zona": "Bassa",
+              "categoria": "cinema",
+              "prezzo": {
+                "tipo": "gratis"
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/treviglio/i-mestieri-del-cinema-la-regia-con-gianni-amelio_305545/",
+              "keyword": [
+                "incontro col regista"
               ],
               "rilevanza": 2
             },
             {
               "ora": "21:00",
-              "nome": "Tributo a Guccini, Eskimo",
+              "nome": "Federico Buffa: Number 23",
+              "luogo": "ChorusLife Arena, Bergamo",
+              "sede": "ChorusLife Arena",
+              "comune": "Bergamo",
+              "zona": "Centro",
+              "categoria": "teatro",
+              "prezzo": {
+                "tipo": "da",
+                "valore": 28
+              },
+              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/federico-buffa-number-23-vita-e-splendori-di-micheal-jordan_301733/",
+              "keyword": [
+                "michael jordan",
+                "chicago bulls"
+              ],
+              "rilevanza": 3
+            },
+            {
+              "ora": "21:00",
+              "nome": "Le Belle Epoque in concerto",
               "luogo": "Revel, Treviglio",
               "sede": "Revel",
               "comune": "Treviglio",
@@ -851,110 +990,14 @@
               "prezzo": {
                 "tipo": "nd"
               },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-francesco-guccini-eskimo-revel-treviglio-2/",
-              "keyword": [
-                "tributo",
-                "guccini"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Santiago, un cammino per ricominciare",
-              "luogo": "Cinema Garden, Clusone",
-              "sede": "Cinema Garden",
-              "comune": "Clusone",
-              "zona": "Valli",
-              "categoria": "cinema",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 6
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/cinema/clusone/rassegna-dautunno-7-appuntamento_305574/",
-              "keyword": [
-                "rassegna d'autunno"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:00",
-              "nome": "Oltre l'orizzonte, Hervé Barmasse",
-              "luogo": "Cineteatro Forzenigo, Villa d'Ogna",
-              "sede": "Cineteatro Forzenigo",
-              "comune": "Villa d'Ogna",
-              "zona": "Valli",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/villa-dogna/oltre-lorizzonte_305816/",
-              "keyword": [
-                "alpinismo",
-                "montagne in villa"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "ArtDate, inaugurazione Sun and Shadow",
-              "luogo": "Palazzo della Ragione, Bergamo",
-              "sede": "Palazzo della Ragione",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mostra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/evento/festival-artdate-a-bergamo-larte-contemporanea-esplora-la-magia/",
-              "keyword": [
-                "alex da corte",
-                "arte contemporanea"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "Fermenti Sonori, African Market",
-              "luogo": "Totem Brewing, Scanzorosciate",
-              "sede": "Totem Brewing",
-              "comune": "Scanzorosciate",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfcmhlBIamn/",
-              "keyword": [
-                "jazz",
-                "musica e arte dal vivo"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "Cena degustazione piemontese",
-              "luogo": "Retrobottega, Curno",
-              "sede": "Retrobottega",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "cena",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 60
-              },
-              "fonte": "https://www.instagram.com/p/DfFQrE6jMPF/",
-              "keyword": [
-                "6 portate",
-                "vini piemontesi"
-              ],
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-le-belle-epoque-in-concerto-revel-treviglio/",
               "rilevanza": 1
             },
             {
               "ora": null,
-              "nome": "We Dance! Batik",
-              "luogo": "Batik, Orio al Serio",
-              "sede": "Batik",
+              "nome": "We Dance! Batik Orio by Juice!",
+              "luogo": "Batik / Food.Drink.Musik, Orio al Serio",
+              "sede": "Batik / Food.Drink.Musik",
               "comune": "Orio al Serio",
               "zona": "Centro",
               "categoria": "dj",
@@ -963,22 +1006,50 @@
               },
               "fonte": "https://www.discotechebergamo.it/evento/giovedi-luxury-batik-orio",
               "keyword": [
-                "crew juice",
+                "urban club",
                 "giovedì"
               ],
               "rilevanza": 1
             }
           ],
-          "altri": []
+          "altri": [
+            {
+              "ora": "21:00",
+              "nome": "Quiz Il Cervellone",
+              "luogo": "Non Solo Burger, Clusone",
+              "sede": "Non Solo Burger",
+              "comune": "Clusone",
+              "zona": "Valli",
+              "categoria": "torneo",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-quiz-il-cervellone-non-solo-burger-clusone-7/",
+              "keyword": [
+                "quiz"
+              ]
+            },
+            {
+              "ora": null,
+              "nome": "Back To The 80s",
+              "luogo": "Teatro Gavazzeni, Seriate",
+              "sede": "Teatro Gavazzeni",
+              "comune": "Seriate",
+              "zona": "Centro",
+              "categoria": "live",
+              "prezzo": {
+                "tipo": "nd"
+              },
+              "fonte": "https://www.bergamonews.it/evento/back-to-the-80s-al-gavazzeni-concerto-racconto-fra-musica-e-divertimento/",
+              "keyword": [
+                "concerto-racconto",
+                "anni '80"
+              ]
+            }
+          ]
         }
       ],
       "sempre_aperte": [
-        {
-          "nome": "Xenophanes",
-          "luogo": "Fantoni Hub, Bergamo",
-          "quando": "dal 4 al 17 novembre",
-          "categoria": "mostra"
-        },
         {
           "nome": "Francesco Jodice. Luoghi comuni",
           "luogo": "Monastero di Astino, Bergamo",
@@ -986,28 +1057,35 @@
           "categoria": "mostra"
         },
         {
-          "nome": "Amalia Del Ponte. Litofonie",
-          "luogo": "Ex Oratorio di San Lupo, Bergamo",
-          "quando": "fino al 15 novembre",
-          "categoria": "mostra"
-        },
-        {
           "nome": "Through Her Lens",
           "luogo": "U-ART-P, Bergamo",
-          "quando": "fino al 28 febbraio",
+          "quando": "fino al 28 febbraio 2027",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Museum Dreams. Isaac Julien",
+          "luogo": "Gres art 671, Bergamo",
+          "quando": "fino al 10 gennaio 2027",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Camera magica",
+          "luogo": "Archivio Gianfranco Ferroni, Bergamo",
+          "quando": "fino al 22 novembre",
+          "categoria": "mostra"
+        },
+        {
+          "nome": "Thesaurus. Archivi di memoria",
+          "luogo": "Palazzo della Libertà, Bergamo",
+          "quando": "fino al 5 dicembre",
           "categoria": "mostra"
         }
       ],
       "categorie": [
         {
-          "chiave": "incontro",
-          "etichetta": "Incontri e libri",
-          "icona": "📚"
-        },
-        {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "🧸"
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "🏛️"
         },
         {
           "chiave": "cinema",
@@ -1015,14 +1093,14 @@
           "icona": "🎬"
         },
         {
-          "chiave": "laboratorio",
-          "etichetta": "Laboratori",
-          "icona": "🛠️"
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "📚"
         },
         {
-          "chiave": "cena",
-          "etichetta": "Cene e degustazioni",
-          "icona": "🍷"
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "🛍️"
         },
         {
           "chiave": "teatro",
@@ -1035,48 +1113,6 @@
           "icona": "🎲"
         },
         {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "🛍️"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "🎧"
-        },
-        {
-          "chiave": "mostra",
-          "etichetta": "Mostre e arte",
-          "icona": "🖼️"
-        },
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "🎉"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "🎸"
-        }
-      ],
-      "categorie_tutte": [
-        {
-          "chiave": "incontro",
-          "etichetta": "Incontri e libri",
-          "icona": "📚"
-        },
-        {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "🧸"
-        },
-        {
-          "chiave": "cinema",
-          "etichetta": "Cinema e proiezioni",
-          "icona": "🎬"
-        },
-        {
           "chiave": "laboratorio",
           "etichetta": "Laboratori",
           "icona": "🛠️"
@@ -1085,6 +1121,53 @@
           "chiave": "cena",
           "etichetta": "Cene e degustazioni",
           "icona": "🍷"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
+        },
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "🎧"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "🎉"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "🖼️"
+        }
+      ],
+      "categorie_tutte": [
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "🏛️"
+        },
+        {
+          "chiave": "cinema",
+          "etichetta": "Cinema e proiezioni",
+          "icona": "🎬"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "📚"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "🛍️"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "🖼️"
         },
         {
           "chiave": "teatro",
@@ -1097,1686 +1180,14 @@
           "icona": "🎲"
         },
         {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "🏛️"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "🎸"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "🛍️"
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "🛠️"
         },
         {
           "chiave": "dj",
           "etichetta": "Dj set / party",
           "icona": "🎧"
-        },
-        {
-          "chiave": "mostra",
-          "etichetta": "Mostre e arte",
-          "icona": "🖼️"
-        },
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "🎉"
-        }
-      ],
-      "permalink": "https://www.instagram.com/p/DfeFjVICIAR/"
-    },
-    {
-      "id": "weekend-2026-11-13",
-      "formato": "weekend",
-      "periodo": {
-        "da": "2026-11-13",
-        "a": "2026-11-15",
-        "etichetta": "13 → 15 novembre"
-      },
-      "titolo": "Il Weekend",
-      "sottotitolo": "Papa Roach alla ChorusLife, l'Esule di Roma al Donizetti, utōpia a gres art 671. Ink e Ninfea con la tessera.",
-      "hook": "Dentro: 46 serate da venerdì a domenica, tra città e provincia.\nOrari, zone e prezzi dove le fonti li pubblicano.",
-      "giorni": [
-        {
-          "data": "2026-11-13",
-          "etichetta": "Venerdì 13 novembre",
-          "breve": "Venerdì 13",
-          "nota": "Ink e Ninfea sono circoli: serve la tessera (Arci / associati).",
-          "eventi": [
-            {
-              "ora": "18:30",
-              "nome": "Open All: inaugurazione di gres+",
-              "luogo": "Gres art 671, Bergamo",
-              "sede": "Gres art 671",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/bergamo/open-all_307012/",
-              "keyword": [
-                "inaugurazione",
-                "arte e musica"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:00",
-              "nome": "The Hazzard Country Dance",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/the-hazzard-country-dance_307509/",
-              "keyword": [
-                "country",
-                "balli in linea"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:00",
-              "nome": "Donizetti Opera: L'Esule di Roma",
-              "luogo": "Teatro Donizetti, Bergamo",
-              "sede": "Teatro Donizetti",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/evento/al-donizetti-in-scena-lesule-di-roma-le-date/",
-              "keyword": [
-                "opera",
-                "melodramma"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "20:30",
-              "nome": "Festival di chitarra e liuteria",
-              "luogo": "Filandone, Martinengo",
-              "sede": "Filandone",
-              "comune": "Martinengo",
-              "zona": "Bassa",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/martinengo/festival-internazionale-di-chitarra-e-liuteria_307217/",
-              "keyword": [
-                "chitarra"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:00",
-              "nome": "Cantata popolare con La.Pis",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfWvIKvop4n/",
-              "keyword": [
-                "cantata popolare",
-                "senza amplificazione"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Festa Radio Ink: live e aftershow",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfhK84xxtbq/",
-              "keyword": [
-                "musica live",
-                "radio"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Dj set Salimei",
-              "luogo": "Mint Lounge, Chiuduno",
-              "sede": "Mint Lounge",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfg-ijnHJj3/",
-              "keyword": [
-                "dj set"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Marianna Lanteri e orchestra",
-              "luogo": "Amadeus Dancing, Urgnano",
-              "sede": "Amadeus Dancing",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.instagram.com/p/DfhHfodABL4/",
-              "keyword": [
-                "liscio"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "La Rocca del Mistero",
-              "luogo": "Rocca Albani, Urgnano",
-              "sede": "Rocca Albani",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/urgnano/la-rocca-del-mistero_306782/",
-              "keyword": [
-                "thriller",
-                "il nome della rosa"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:30",
-              "nome": "Utōpia crew x Open All",
-              "luogo": "Gres art 671, Bergamo",
-              "sede": "Gres art 671",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/utopia-crew_307061/",
-              "keyword": [
-                "house",
-                "indie dance",
-                "techno"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:30",
-              "nome": "Santamarea in concerto",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-santamarea-in-concerto-druso-ranica/",
-              "keyword": [
-                "musica live"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "22:00",
-              "nome": "Rockoteca: serata rock",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfhMelGM7tR/",
-              "keyword": [
-                "rock",
-                "dj set"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "22:00",
-              "nome": "Latin night con Dj Christian",
-              "luogo": "Decibel Club, Chignolo d'Isola",
-              "sede": "Decibel Club",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 13
-              },
-              "fonte": "https://www.instagram.com/p/DfiZZT1DZKY/",
-              "keyword": [
-                "latino"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "22:00",
-              "nome": "Tributo a Renato Zero con Amalo",
-              "luogo": "Keller Factory, Curno",
-              "sede": "Keller Factory",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-renato-zero-amalo-keller-factory-curno-5/",
-              "keyword": [
-                "tributo"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": null,
-              "nome": "Hiddenhell techno",
-              "luogo": "Zero Club, Bergamo",
-              "sede": "Zero Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfmjvORiJe3/",
-              "keyword": [
-                "techno"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "Spicy con 4US, Feffo e Cucky",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffPnKdDEsW/",
-              "keyword": [
-                "club voice"
-              ],
-              "rilevanza": 3
-            }
-          ],
-          "altri": [
-            {
-              "ora": "14:30",
-              "nome": "Luna Park di San Martino",
-              "luogo": "Piazza Papa Giovanni Paolo II, Alzano Lombardo",
-              "sede": "Piazza Papa Giovanni Paolo II",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-luna-park-di-san-martino-piazza-papa-giovanni-paolo-ii-alzano-lombardo-21/",
-              "keyword": [
-                "giostre"
-              ]
-            },
-            {
-              "ora": "18:30",
-              "nome": "Marco Aime",
-              "luogo": "Auditorium CULT!, Bergamo",
-              "sede": "Auditorium CULT!",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "incontro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/bergamo/marco-aime_306133/",
-              "keyword": [
-                "antropologia"
-              ]
-            },
-            {
-              "ora": "21:00",
-              "nome": "Lettere dall'Aldilà (Up to You Festival)",
-              "luogo": "Teatro di Rosciate, Scanzorosciate",
-              "sede": "Teatro di Rosciate",
-              "comune": "Scanzorosciate",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 10
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/up-to-you-festival_307530/",
-              "keyword": [
-                "slam poetry"
-              ]
-            },
-            {
-              "ora": "21:00",
-              "nome": "L'Oasi in swing",
-              "luogo": "L'Oasi, Terno d'Isola",
-              "sede": "L'Oasi",
-              "comune": "Terno d'Isola",
-              "zona": "Isola",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfh047St0ey/",
-              "keyword": [
-                "swing"
-              ]
-            },
-            {
-              "ora": "21:30",
-              "nome": "Tributo ABBA con AbbaClub",
-              "luogo": "Like It, Cenate Sotto",
-              "sede": "Like It",
-              "comune": "Cenate Sotto",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-abba-abbaclub-like-it-cenate-sotto-2/",
-              "keyword": [
-                "tributo"
-              ]
-            },
-            {
-              "ora": "21:30",
-              "nome": "Maggese: tributo a Cremonini",
-              "luogo": "Torcio's Live, Villa di Serio",
-              "sede": "Torcio's Live",
-              "comune": "Villa di Serio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffSEqmFVZ1/",
-              "keyword": [
-                "tribute band",
-                "cremonini"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Wakanda: Afro Vibes",
-              "luogo": "Majorelle Lounge, Bergamo",
-              "sede": "Majorelle Lounge",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/Dfk6ojnMx3U/",
-              "keyword": [
-                "afro",
-                "amapiano"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Tech House con Andryx",
-              "luogo": "Tiky Klub, Seriate",
-              "sede": "Tiky Klub",
-              "comune": "Seriate",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffSZAVkYFJ/",
-              "keyword": [
-                "tech house"
-              ]
-            },
-            {
-              "ora": "23:30",
-              "nome": "Afro Vibes",
-              "luogo": "Sabbie Mobili, Chignolo d'Isola",
-              "sede": "Sabbie Mobili",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/DfdhwjiqLAM/",
-              "keyword": [
-                "afro",
-                "world music"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Pizzoccherata e karaoke con Kararoby",
-              "luogo": "Le Pupe Bistrò, Ambivere",
-              "sede": "Le Pupe Bistrò",
-              "comune": "Ambivere",
-              "zona": "Isola",
-              "categoria": "cena",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 20
-              },
-              "fonte": "https://www.instagram.com/p/DfhEWbYNMEw/",
-              "keyword": [
-                "pizzoccheri",
-                "karaoke"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Sax and Beats con Numax",
-              "luogo": "Batik, Orio al Serio",
-              "sede": "Batik",
-              "comune": "Orio al Serio",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfjm6VQozlT/",
-              "keyword": [
-                "sax",
-                "house"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Naïf Party: another unusual aperitivo",
-              "luogo": "Officina Panarari, Treviglio",
-              "sede": "Officina Panarari",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "aperitivo",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfhyd9OI1DN/",
-              "keyword": [
-                "party"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Weekend Plan con Takeoff e Choose Me",
-              "luogo": "Charleston, Treviglio",
-              "sede": "Charleston",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfkSX4ExICe/",
-              "keyword": [
-                "trap",
-                "reggaeton"
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-11-14",
-          "etichetta": "Sabato 14 novembre",
-          "breve": "Sabato 14",
-          "nota": "Ink e Ninfea: serve la tessera. Hype Club: ticket nelle storie.",
-          "eventi": [
-            {
-              "ora": "17:00",
-              "nome": "Tra terra e cielo",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfjmac4CHXW/",
-              "keyword": [
-                "vini naturali",
-                "dj set"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "17:00",
-              "nome": "West Bergamo Wine & Friends",
-              "luogo": "Museo del Falegname, Almenno San Bartolomeo",
-              "sede": "Museo del Falegname",
-              "comune": "Almenno San Bartolomeo",
-              "zona": "Valli",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 5
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/almenno-san-bartolomeo/west-bergamo-wine-friends_306370/",
-              "keyword": [
-                "vino",
-                "degustazione"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "20:00",
-              "nome": "Donizetti Opera: Alahor in Granata",
-              "luogo": "Teatro Sociale, Bergamo",
-              "sede": "Teatro Sociale",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 65
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alahor-in-granata_305877/",
-              "keyword": [
-                "opera",
-                "melodramma"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "20:00",
-              "nome": "Le Cannibale: set elettronici a gres+",
-              "luogo": "Gres art 671, Bergamo",
-              "sede": "Gres art 671",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/le-cannibale_307222/",
-              "keyword": [
-                "elettronica",
-                "performance"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Papa Roach: Rise Of The Roach",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 53
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/papa-roach-rise-of-the-roach_306222/",
-              "keyword": [
-                "nu metal",
-                "alternative rock"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Festa Radio Ink: Caravan Orkestar",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfhK84xxtbq/",
-              "keyword": [
-                "brass band",
-                "musica live"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "21:00",
-              "nome": "Mai dire 90",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/mai-dire-90_307510/",
-              "keyword": [
-                "anni '90",
-                "dj set"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Lipstick con Valery",
-              "luogo": "Mint Lounge, Chiuduno",
-              "sede": "Mint Lounge",
-              "comune": "Chiuduno",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/Dfj_fQsiAyl/",
-              "keyword": [
-                "dj set"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "22:00",
-              "nome": "Ritmo Latino Colours Night",
-              "luogo": "Amadeus Dancing, Urgnano",
-              "sede": "Amadeus Dancing",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 13
-              },
-              "fonte": "https://www.instagram.com/p/Dfj1IERAD8D/",
-              "keyword": [
-                "latino"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "22:30",
-              "nome": "Chewing Gum: Flower Power",
-              "luogo": "Queen, Seriate",
-              "sede": "Queen",
-              "comune": "Seriate",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 13
-              },
-              "fonte": "https://www.instagram.com/reel/DfgKhfTI7T8/",
-              "keyword": [
-                "anni '90",
-                "anni 2000"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "23:30",
-              "nome": "noidfamilia con Germano Ventura",
-              "luogo": "Zero Club, Bergamo",
-              "sede": "Zero Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfcoGpwMX4g/",
-              "keyword": [
-                "dj set"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "23:30",
-              "nome": "Groove Factory: Ilario Alicante",
-              "luogo": "Bolgia, Osio Sopra",
-              "sede": "Bolgia",
-              "comune": "Osio Sopra",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 25
-              },
-              "fonte": "https://www.instagram.com/reel/DfPcg0IiEQA/",
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "Tocame con Gio Bona e Cucky",
-              "luogo": "CaPoGiRo Joy Club, Curno",
-              "sede": "CaPoGiRo Joy Club",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffPnKdDEsW/",
-              "keyword": [
-                "club voice"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": null,
-              "nome": "PUMP vol.2: 1vs1 mixstyle battle",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "danza",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfhvrCuMoVa/",
-              "keyword": [
-                "battle",
-                "street dance"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "La Casita di Bad Bunny",
-              "luogo": "Hype Club, Cortenuova",
-              "sede": "Hype Club",
-              "comune": "Cortenuova",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfiCkFuonPP/",
-              "keyword": [
-                "reggaeton",
-                "urban"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": null,
-              "nome": "Open All: utōpia x gres art 671",
-              "luogo": "gres art 671, Bergamo",
-              "sede": "gres art 671",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfSQwRBiFtA/",
-              "keyword": [
-                "apertura spazi",
-                "arte",
-                "musica",
-                "performance"
-              ],
-              "rilevanza": 2
-            }
-          ],
-          "altri": [
-            {
-              "ora": "09:00",
-              "nome": "Mercatino dell'antiquariato",
-              "luogo": "Piazzale Bersagliere, Torre Boldone",
-              "sede": "Piazzale Bersagliere",
-              "comune": "Torre Boldone",
-              "zona": "Centro",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-dellantiquariato-piazzale-bersagliere-torre-boldone-2/",
-              "keyword": [
-                "antiquariato"
-              ]
-            },
-            {
-              "ora": "14:30",
-              "nome": "Luna Park di San Martino",
-              "luogo": "Piazza Papa Giovanni Paolo II, Alzano Lombardo",
-              "sede": "Piazza Papa Giovanni Paolo II",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-luna-park-di-san-martino-piazza-papa-giovanni-paolo-ii-alzano-lombardo-21/",
-              "keyword": [
-                "giostre"
-              ]
-            },
-            {
-              "ora": "19:00",
-              "nome": "Pulled & Grilled",
-              "luogo": "Spazio Terzo Mondo, Seriate",
-              "sede": "Spazio Terzo Mondo",
-              "comune": "Seriate",
-              "zona": "Centro",
-              "categoria": "cena",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 22
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/food/seriate/piatto-aperto-pulled-grilled_307227/",
-              "keyword": [
-                "piatto aperto"
-              ]
-            },
-            {
-              "ora": "20:30",
-              "nome": "Lynx Lynx / Scented Panther",
-              "luogo": "Performatorio, Bergamo",
-              "sede": "Performatorio",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 10
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/lynx-lynx-scented-panther_306982/",
-              "keyword": [
-                "performance"
-              ]
-            },
-            {
-              "ora": "21:00",
-              "nome": "Cercando Carla (Up to You Festival)",
-              "luogo": "Biblioteca comunale, Brusaporto",
-              "sede": "Biblioteca comunale",
-              "comune": "Brusaporto",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 10
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/up-to-you-festival_307530/",
-              "keyword": [
-                "rassegna"
-              ]
-            },
-            {
-              "ora": "21:00",
-              "nome": "Dialettale: Tutti frutti",
-              "luogo": "Teatro Filodrammatici, Treviglio",
-              "sede": "Teatro Filodrammatici",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 10
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-dialettale-tutti-frutti-teatro-filodrammatici-treviglio/",
-              "keyword": [
-                "dialetto",
-                "commedia"
-              ]
-            },
-            {
-              "ora": "21:00",
-              "nome": "La Rocca del Mistero",
-              "luogo": "Rocca Albani, Urgnano",
-              "sede": "Rocca Albani",
-              "comune": "Urgnano",
-              "zona": "Bassa",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/urgnano/la-rocca-del-mistero_306782/",
-              "keyword": [
-                "thriller",
-                "il nome della rosa"
-              ]
-            },
-            {
-              "ora": "21:30",
-              "nome": "Radio 80 in concerto",
-              "luogo": "Like It, Cenate Sotto",
-              "sede": "Like It",
-              "comune": "Cenate Sotto",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-radio-80-in-concerto-like-it-cenate-sotto-2/",
-              "keyword": [
-                "anni '80",
-                "musica live"
-              ]
-            },
-            {
-              "ora": "21:30",
-              "nome": "Le Cattive Idee live",
-              "luogo": "Torcio's Live, Villa di Serio",
-              "sede": "Torcio's Live",
-              "comune": "Villa di Serio",
-              "zona": "Valli",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffSb74FaPJ/",
-              "keyword": [
-                "swing",
-                "cantare"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Night of Eagles: serata albanese",
-              "luogo": "Majorelle Lounge, Bergamo",
-              "sede": "Majorelle Lounge",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfkNI22MOvu/",
-              "keyword": [
-                "albanese"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Latin night con Dj Steve Romei",
-              "luogo": "Decibel Club, Chignolo d'Isola",
-              "sede": "Decibel Club",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 13
-              },
-              "fonte": "https://www.instagram.com/p/DfiZA9XAATb/",
-              "keyword": [
-                "latino",
-                "liscio"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Tributo ad Achille Lauro con Ragazzi Madre",
-              "luogo": "Keller Factory, Curno",
-              "sede": "Keller Factory",
-              "comune": "Curno",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-achille-lauro-ragazzi-madre-keller-factory-curno/",
-              "keyword": [
-                "tributo"
-              ]
-            },
-            {
-              "ora": "22:00",
-              "nome": "Dj set con DJ Lex",
-              "luogo": "Batik, Orio al Serio",
-              "sede": "Batik",
-              "comune": "Orio al Serio",
-              "zona": "Centro",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfpPWWHo1h6/"
-            },
-            {
-              "ora": "23:30",
-              "nome": "Afro Grooves: one night two vibes",
-              "luogo": "Sabbie Mobili, Chignolo d'Isola",
-              "sede": "Sabbie Mobili",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://www.instagram.com/p/Dfdj7qDKfr_/",
-              "keyword": [
-                "afro",
-                "world music"
-              ]
-            },
-            {
-              "ora": "23:30",
-              "nome": "Open Bar Night",
-              "luogo": "Oronero Love & Music, Nembro",
-              "sede": "Oronero Love & Music",
-              "comune": "Nembro",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 15
-              },
-              "fonte": "https://www.instagram.com/p/DfjaU3-g0bD/",
-              "keyword": [
-                "open bar",
-                "18+"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Serata karaoke con Massimo Aletti",
-              "luogo": "Le Pupe Bistrò, Ambivere",
-              "sede": "Le Pupe Bistrò",
-              "comune": "Ambivere",
-              "zona": "Isola",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 20
-              },
-              "fonte": "https://www.instagram.com/p/DfiXHQXtb7Q/",
-              "keyword": [
-                "karaoke",
-                "cena"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Villaggio di Natale agli Alpini",
-              "luogo": "Piazzale degli Alpini, Bergamo",
-              "sede": "Piazzale degli Alpini",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/evento/villaggio-di-natale-al-piazzale-degli-alpini-3/",
-              "keyword": [
-                "mercatini di natale",
-                "food"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Remember: Santo Bevitore",
-              "luogo": "Druso, Ranica",
-              "sede": "Druso",
-              "comune": "Ranica",
-              "zona": "Valli",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfkoNOpAjig/",
-              "keyword": [
-                "afro",
-                "t-shirt in omaggio"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Arya Saturday Night",
-              "luogo": "Arya Lounge, Romano di Lombardia",
-              "sede": "Arya Lounge",
-              "comune": "Romano di Lombardia",
-              "zona": "Bassa",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/Dfka7c6JHto/",
-              "keyword": [
-                "reggaeton",
-                "commerciale"
-              ]
-            }
-          ]
-        },
-        {
-          "data": "2026-11-15",
-          "etichetta": "Domenica 15 novembre",
-          "breve": "Domenica 15",
-          "nota": "Ninfea e Ink: serve la tessera. Feel your frequency: prenotazione obbligatoria. Olly Vibes alle Pupe: quasi sold out.",
-          "eventi": [
-            {
-              "ora": "10:00",
-              "nome": "La Crespi d'Adda di Emilia",
-              "luogo": "Villaggio operaio, Capriate San Gervasio",
-              "sede": "Villaggio operaio",
-              "comune": "Capriate San Gervasio",
-              "zona": "Isola",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 12
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/visite_guidate/capriate-san-gervasio/tour-guidato-la-crespi-dadda-di-emilia-a-crespi-dadda_306580/",
-              "keyword": [
-                "unesco",
-                "storia"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "11:00",
-              "nome": "La centrale dei dischi",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfpCHSoMKIx/",
-              "keyword": [
-                "fiera del vinile",
-                "dischi e cd"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "14:30",
-              "nome": "Visita al Monastero di Astino",
-              "luogo": "Monastero di Astino, Bergamo",
-              "sede": "Monastero di Astino",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 17
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/visite_guidate/bergamo/visita-guidata-al-monastero-di-astino-a-bergamo_307241/",
-              "keyword": [
-                "storia"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "14:45",
-              "nome": "Federico Zeri, un diario personale",
-              "luogo": "Accademia Carrara, Bergamo",
-              "sede": "Accademia Carrara",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "visita",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 21
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/visite_guidate/bergamo/federico-zeri-un-diario-personale_307404/",
-              "keyword": [
-                "arte"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "15:30",
-              "nome": "Donizetti: Le convenienze teatrali",
-              "luogo": "Teatro Donizetti, Bergamo",
-              "sede": "Teatro Donizetti",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 38
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/le-convenienze-ed-inconvenienze-teatrali_305900/",
-              "keyword": [
-                "opera",
-                "dramma giocoso"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "16:30",
-              "nome": "Feel your frequency: yoga e dj set",
-              "luogo": "Ninfea Social Club, Sorisole",
-              "sede": "Ninfea Social Club",
-              "comune": "Sorisole",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 20
-              },
-              "fonte": "https://www.instagram.com/p/DfnK7IlmyxZ/",
-              "keyword": [
-                "yoga",
-                "dj set"
-              ],
-              "rilevanza": 3
-            },
-            {
-              "ora": "18:30",
-              "nome": "Stalking Blues: Love is a Liar",
-              "luogo": "NXT Station, Bergamo",
-              "sede": "NXT Station",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "gratis"
-              },
-              "fonte": "https://nxtbergamo.it/eventi/",
-              "keyword": [
-                "reading",
-                "musica dal vivo"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "19:30",
-              "nome": "Aperitivo con lab di bombe da bagno",
-              "luogo": "Daste, Bergamo",
-              "sede": "Daste",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "altro",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DffIw4UMIeX/",
-              "keyword": [
-                "su prenotazione",
-                "aperitivo"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "19:30",
-              "nome": "Apericena latino con DJ Steve Romei",
-              "luogo": "Batik, Orio al Serio",
-              "sede": "Batik",
-              "comune": "Orio al Serio",
-              "zona": "Centro",
-              "categoria": "aperitivo",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 18
-              },
-              "fonte": "https://www.instagram.com/p/DfkD27LIot7/",
-              "keyword": [
-                "latino",
-                "apericena"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "20:00",
-              "nome": "Volley: Bergamo - Imoco Conegliano",
-              "luogo": "ChorusLife Arena, Bergamo",
-              "sede": "ChorusLife Arena",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "sport",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/p/DfmY6Siktyk/",
-              "keyword": [
-                "pallavolo"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "20:30",
-              "nome": "Olly Vibes: apericena con tributo",
-              "luogo": "Le Pupe Bistrò, Ambivere",
-              "sede": "Le Pupe Bistrò",
-              "comune": "Ambivere",
-              "zona": "Isola",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 25
-              },
-              "fonte": "https://www.instagram.com/p/DfkPh8qt4cd/",
-              "keyword": [
-                "tributo",
-                "apericena"
-              ],
-              "rilevanza": 2
-            },
-            {
-              "ora": "21:00",
-              "nome": "Dad or Alive (Up to You Festival)",
-              "luogo": "Sala Eden, Stezzano",
-              "sede": "Sala Eden",
-              "comune": "Stezzano",
-              "zona": "Bassa",
-              "categoria": "teatro",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 10
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-dad-or-alive-spettacolo-sala-eden-stezzano/",
-              "keyword": [
-                "rassegna"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": "21:30",
-              "nome": "Latino 360 e bachata sensual",
-              "luogo": "Decibel Club, Chignolo d'Isola",
-              "sede": "Decibel Club",
-              "comune": "Chignolo d'Isola",
-              "zona": "Isola",
-              "categoria": "dj",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 10
-              },
-              "fonte": "https://www.instagram.com/p/DfiXvfAktg6/",
-              "keyword": [
-                "latino",
-                "bachata"
-              ],
-              "rilevanza": 1
-            },
-            {
-              "ora": null,
-              "nome": "Wine Note: live e aperitivo",
-              "luogo": "Ink Club, Bergamo",
-              "sede": "Ink Club",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "live",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.instagram.com/reel/DfmzU92RY8W/",
-              "keyword": [
-                "musica live"
-              ],
-              "rilevanza": 2
-            }
-          ],
-          "altri": [
-            {
-              "ora": "08:30",
-              "nome": "Mercatino Antico in Via",
-              "luogo": "Centro storico, Treviglio",
-              "sede": "Centro storico",
-              "comune": "Treviglio",
-              "zona": "Bassa",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-antico-in-via-centro-storico-treviglio-20/",
-              "keyword": [
-                "antiquariato"
-              ]
-            },
-            {
-              "ora": "14:30",
-              "nome": "Castagnata in Piazzale dei Caduti",
-              "luogo": "Piazzale dei Caduti, Albino",
-              "sede": "Piazzale dei Caduti",
-              "comune": "Albino",
-              "zona": "Valli",
-              "categoria": "sagra",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/albino/castagnata-piazzale-dei-caduti_307514/",
-              "keyword": [
-                "castagne"
-              ]
-            },
-            {
-              "ora": "14:30",
-              "nome": "Luna Park di San Martino",
-              "luogo": "Piazza Papa Giovanni Paolo II, Alzano Lombardo",
-              "sede": "Piazza Papa Giovanni Paolo II",
-              "comune": "Alzano Lombardo",
-              "zona": "Valli",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-luna-park-di-san-martino-piazza-papa-giovanni-paolo-ii-alzano-lombardo-21/",
-              "keyword": [
-                "giostre"
-              ]
-            },
-            {
-              "ora": "15:45",
-              "nome": "Nel regno delle stelle al Planetario",
-              "luogo": "Parco Astronomico Torre del Sole, Brembate di Sopra",
-              "sede": "Parco Astronomico Torre del Sole",
-              "comune": "Brembate di Sopra",
-              "zona": "Isola",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 10
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/brembate-di-sopra/nel-regno-delle-stelle-al-planetario_307076/",
-              "keyword": [
-                "planetario"
-              ]
-            },
-            {
-              "ora": "16:30",
-              "nome": "Il brutto anatroccolo",
-              "luogo": "Teatro Prova, Bergamo",
-              "sede": "Teatro Prova",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "famiglia",
-              "prezzo": {
-                "tipo": "fisso",
-                "valore": 7
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/bergamo/t-rex-gli-amici-non-si-mangiano_306296/",
-              "keyword": [
-                "teatro ragazzi"
-              ]
-            },
-            {
-              "ora": "17:00",
-              "nome": "West Bergamo Wine & Friends",
-              "luogo": "Museo del Falegname, Almenno San Bartolomeo",
-              "sede": "Museo del Falegname",
-              "comune": "Almenno San Bartolomeo",
-              "zona": "Valli",
-              "categoria": "aperitivo",
-              "prezzo": {
-                "tipo": "da",
-                "valore": 5
-              },
-              "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/almenno-san-bartolomeo/west-bergamo-wine-friends_306370/",
-              "keyword": [
-                "vino",
-                "degustazione"
-              ]
-            },
-            {
-              "ora": null,
-              "nome": "Villaggio di Natale agli Alpini",
-              "luogo": "Piazzale degli Alpini, Bergamo",
-              "sede": "Piazzale degli Alpini",
-              "comune": "Bergamo",
-              "zona": "Centro",
-              "categoria": "mercatino",
-              "prezzo": {
-                "tipo": "nd"
-              },
-              "fonte": "https://www.bergamonews.it/evento/villaggio-di-natale-al-piazzale-degli-alpini-3/",
-              "keyword": [
-                "mercatini di natale",
-                "food"
-              ]
-            }
-          ]
-        }
-      ],
-      "sempre_aperte": [
-        {
-          "nome": "Sagra dei risotti",
-          "luogo": "NXT Station, Bergamo",
-          "quando": "ven → dom · gratis",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Noèmberfest",
-          "luogo": "Piazzale del Mercato, Serina",
-          "quando": "ven → dom · dalle 19:30",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Sagra della polenta taragna",
-          "luogo": "PalaSpirà, Spirano",
-          "quando": "ven → dom · in serata",
-          "categoria": "sagra"
-        },
-        {
-          "nome": "Festa del cioccolato",
-          "luogo": "Piazza Cittadella, Bergamo",
-          "quando": "ven → dom · dalle 9",
-          "categoria": "mercatino"
-        },
-        {
-          "nome": "Fiera d'autunno sul Sentierone",
-          "luogo": "Sentierone, Bergamo",
-          "quando": "ven → dom · 9-20",
-          "categoria": "mercatino"
-        }
-      ],
-      "categorie": [
-        {
-          "chiave": "altro",
-          "etichetta": "Altro",
-          "icona": "✨"
-        },
-        {
-          "chiave": "danza",
-          "etichetta": "Danza",
-          "icona": "💃"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "🎭"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "🎸"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "🎧"
-        },
-        {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "🏛️"
-        },
-        {
-          "chiave": "aperitivo",
-          "etichetta": "Aperitivi e serate",
-          "icona": "🍹"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "🥾"
-        },
-        {
-          "chiave": "sagra",
-          "etichetta": "Sagre e feste",
-          "icona": "🎉"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "🛍️"
-        }
-      ],
-      "categorie_tutte": [
-        {
-          "chiave": "altro",
-          "etichetta": "Altro",
-          "icona": "✨"
-        },
-        {
-          "chiave": "danza",
-          "etichetta": "Danza",
-          "icona": "💃"
-        },
-        {
-          "chiave": "teatro",
-          "etichetta": "Teatro e spettacoli",
-          "icona": "🎭"
-        },
-        {
-          "chiave": "live",
-          "etichetta": "Concerti e live",
-          "icona": "🎸"
-        },
-        {
-          "chiave": "dj",
-          "etichetta": "Dj set / party",
-          "icona": "🎧"
-        },
-        {
-          "chiave": "visita",
-          "etichetta": "Visite guidate",
-          "icona": "🏛️"
-        },
-        {
-          "chiave": "famiglia",
-          "etichetta": "Con i bambini",
-          "icona": "🧸"
-        },
-        {
-          "chiave": "incontro",
-          "etichetta": "Incontri e libri",
-          "icona": "📚"
         },
         {
           "chiave": "cena",
@@ -2784,27 +1195,16 @@
           "icona": "🍷"
         },
         {
-          "chiave": "aperitivo",
-          "etichetta": "Aperitivi e serate",
-          "icona": "🍹"
-        },
-        {
-          "chiave": "mercatino",
-          "etichetta": "Mercatini",
-          "icona": "🛍️"
-        },
-        {
-          "chiave": "sport",
-          "etichetta": "Sport e outdoor",
-          "icona": "🥾"
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
         },
         {
           "chiave": "sagra",
           "etichetta": "Sagre e feste",
           "icona": "🎉"
         }
-      ],
-      "permalink": "https://www.instagram.com/p/DfpqEYziNc-/"
+      ]
     }
   ],
   "cinema": [
