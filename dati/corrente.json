@@ -20,8 +20,8 @@
   },
   "privacy": {
     "_nota": "Per l'informativa (art. 13 GDPR) servono nome e contatto di chi gestisce il sito. Finché sono vuoti, statico.py avvisa a ogni giro e la pagina /privacy/ rimanda al DM Instagram: va compilato prima di considerare il sito in regola.",
-    "titolare": "",
-    "email": ""
+    "titolare": "Alessandro Benini",
+    "email": "beninialessandro8@gmail.com"
   },
   "sito": {
     "base": "https://eventibergamo.it",
