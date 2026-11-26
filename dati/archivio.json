@@ -3197,6 +3197,194 @@
         }
       ],
       "permalink": "https://www.instagram.com/p/DgGhKG3jgWg/"
+    },
+    {
+      "id": "weekend-2026-11-27",
+      "formato": "weekend",
+      "periodo": {
+        "da": "2026-11-27",
+        "a": "2026-11-29",
+        "etichetta": "27 → 29 novembre"
+      },
+      "titolo": "Il Weekend",
+      "sottotitolo": "Alahor in Granata al Sociale, Savana Funk al Druso, Malpaga Winter Night gratis. Ink e Ninfea con la tessera.",
+      "hook": "Dentro: 46 serate da venerdì a domenica, tra città e provincia.\nOrari, zone e prezzi dove le fonti li pubblicano.",
+      "sempre_aperte": [
+        {
+          "nome": "Bergamo On Ice & Star Garden",
+          "luogo": "NXT Station, Bergamo",
+          "quando": "ven → dom",
+          "categoria": "altro"
+        },
+        {
+          "nome": "Mercatino Villaggio di Natale",
+          "luogo": "Piazzale Alpini, Bergamo",
+          "quando": "ven → dom · dalle 9:30",
+          "categoria": "mercatino"
+        },
+        {
+          "nome": "Zola, Taleggio, Bollito",
+          "luogo": "NXT, Bergamo",
+          "quando": "ven → dom · dalle 20:00",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Festa di Sant'Andrea",
+          "luogo": "Sede Alpini, Gorlago",
+          "quando": "ven → dom · dalle 19:30",
+          "categoria": "sagra"
+        },
+        {
+          "nome": "Val del Riso Fest",
+          "luogo": "Area Feste, Gorno",
+          "quando": "ven → sab · dalle 17:00",
+          "categoria": "sagra"
+        }
+      ],
+      "categorie": [
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "🎧"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "📚"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "🎭"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "🖼️"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "🛍️"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "🥾"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "🧸"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✨"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "💃"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "🛠️"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "🎉"
+        }
+      ],
+      "categorie_tutte": [
+        {
+          "chiave": "dj",
+          "etichetta": "Dj set / party",
+          "icona": "🎧"
+        },
+        {
+          "chiave": "incontro",
+          "etichetta": "Incontri e libri",
+          "icona": "📚"
+        },
+        {
+          "chiave": "teatro",
+          "etichetta": "Teatro e spettacoli",
+          "icona": "🎭"
+        },
+        {
+          "chiave": "live",
+          "etichetta": "Concerti e live",
+          "icona": "🎸"
+        },
+        {
+          "chiave": "mercatino",
+          "etichetta": "Mercatini",
+          "icona": "🛍️"
+        },
+        {
+          "chiave": "altro",
+          "etichetta": "Altro",
+          "icona": "✨"
+        },
+        {
+          "chiave": "sagra",
+          "etichetta": "Sagre e feste",
+          "icona": "🎉"
+        },
+        {
+          "chiave": "cena",
+          "etichetta": "Cene e degustazioni",
+          "icona": "🍷"
+        },
+        {
+          "chiave": "aperitivo",
+          "etichetta": "Aperitivi e serate",
+          "icona": "🍹"
+        },
+        {
+          "chiave": "danza",
+          "etichetta": "Danza",
+          "icona": "💃"
+        },
+        {
+          "chiave": "sport",
+          "etichetta": "Sport e outdoor",
+          "icona": "🥾"
+        },
+        {
+          "chiave": "mostra",
+          "etichetta": "Mostre e arte",
+          "icona": "🖼️"
+        },
+        {
+          "chiave": "famiglia",
+          "etichetta": "Con i bambini",
+          "icona": "🧸"
+        },
+        {
+          "chiave": "torneo",
+          "etichetta": "Giochi e tornei",
+          "icona": "🎲"
+        },
+        {
+          "chiave": "laboratorio",
+          "etichetta": "Laboratori",
+          "icona": "🛠️"
+        },
+        {
+          "chiave": "visita",
+          "etichetta": "Visite guidate",
+          "icona": "🏛️"
+        }
+      ]
     }
   ],
   "giorni": [
@@ -28594,6 +28782,3571 @@
       ],
       "guida": "settimana-2026-11-24",
       "formato": "settimana"
+    },
+    {
+      "data": "2026-11-27",
+      "etichetta": "Venerdì 27 novembre",
+      "breve": "Venerdì 27",
+      "nota": "Ink Club ed Elektro Jam: serve la tessera. Torcio's: cena dalle 19.",
+      "eventi": [
+        {
+          "ora": "00:00",
+          "nome": "Crystal Castles Night",
+          "luogo": "Zero Club, Bergamo",
+          "sede": "Zero Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "house"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "18:30",
+          "nome": "Il libro salvato: i 33 finalisti",
+          "luogo": "Gres Art 671, Bergamo",
+          "sede": "Gres Art 671",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dfmwwgpl-WH/",
+          "keyword": [
+            "alessandro bergonzoni",
+            "libri"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "20:00",
+          "nome": "Alahor in Granata",
+          "luogo": "Teatro Sociale, Bergamo",
+          "sede": "Teatro Sociale",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 65
+          },
+          "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
+          "keyword": [
+            "opera lirica",
+            "donizetti opera"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "Safiye + Corinna",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Df4_gCcl2Wi/",
+          "keyword": [
+            "cantautorato",
+            "elettronica",
+            "release party"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "Elektro Jam - live set",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Df-FgJqm9Hq/",
+          "keyword": [
+            "elettronica",
+            "live set"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:00",
+          "nome": "Filagosto Band Battle",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgDms8ZAOxY/",
+          "keyword": [
+            "band emergenti",
+            "concorso"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Maison Groove x Fluid",
+          "luogo": "Fluid, Orio al Serio",
+          "sede": "Fluid",
+          "comune": "Orio al Serio",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DfkY46Rouz6/",
+          "keyword": [
+            "house",
+            "dinner show",
+            "live"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:30",
+          "nome": "IBR Jam, Zonca Legramandi",
+          "luogo": "NXT Bergamo, Bergamo",
+          "sede": "NXT Bergamo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgF5YpVC1VS/",
+          "keyword": [
+            "blues",
+            "jam session"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Blascover, tributo a Vasco Rossi",
+          "luogo": "Torcio's Live, Villa di Serio",
+          "sede": "Torcio's Live",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/Dfudp8wh_96/",
+          "keyword": [
+            "tribute band",
+            "vasco rossi"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "22:00",
+          "nome": "Conejo Night",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/Df4eqXwsxDJ/",
+          "keyword": [
+            "reggaeton",
+            "latin trap"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "22:00",
+          "nome": "Druso Vampires + Brilliperi",
+          "luogo": "UFO Rock Pub, Mozzo",
+          "sede": "UFO Rock Pub",
+          "comune": "Mozzo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfaGJ-HovIl/",
+          "keyword": [
+            "rock"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "22:30",
+          "nome": "Disco Dance History",
+          "luogo": "Discoteca Queen, Seriate",
+          "sede": "Discoteca Queen",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.instagram.com/p/DgDCtNlN38W/",
+          "keyword": [
+            "disco dance",
+            "anni 80"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "4TG for the Groovers",
+          "luogo": "Tiky Klub, Seriate",
+          "sede": "Tiky Klub",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDVhKcggGd/",
+          "keyword": [
+            "tech house"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "Vanity - The Divas Night",
+          "luogo": "CaPoGiRo Joy Club, Curno",
+          "sede": "CaPoGiRo Joy Club",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDPRidDM6R/",
+          "keyword": [
+            "divas night",
+            "house"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "Afro Vibes",
+          "luogo": "Sabbie Mobili, Chignolo d'Isola",
+          "sede": "Sabbie Mobili",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/DgDf3i9KQjU/",
+          "keyword": [
+            "afro",
+            "world music"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "Underground - Hardcore",
+          "luogo": "Oronero, Nembro",
+          "sede": "Oronero",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 12
+          },
+          "fonte": "https://www.instagram.com/p/DfzSAoCgDxs/",
+          "keyword": [
+            "hardcore",
+            "underground"
+          ],
+          "rilevanza": 2
+        }
+      ],
+      "altri": [
+        {
+          "ora": "00:00",
+          "nome": "Crazy Party",
+          "luogo": "Vibe Club, Treviolo",
+          "sede": "Vibe Club",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "09:30",
+          "nome": "Mercatino Villaggio di Natale",
+          "luogo": "Piazzale degli Alpini, Bergamo",
+          "sede": "Piazzale degli Alpini",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-villaggio-di-natale-piazzale-alpini-bergamo-citta-14/",
+          "keyword": [
+            "natale",
+            "artigianato"
+          ]
+        },
+        {
+          "ora": "13:00",
+          "nome": "Bergamo On Ice & Star Garden",
+          "luogo": "NXT Station, Bergamo",
+          "sede": "NXT Station",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-pista-pattinaggio-su-ghiaccio-nxt-piazzale-alpini-bergamo-citta-8/",
+          "keyword": [
+            "pattinaggio",
+            "natale"
+          ]
+        },
+        {
+          "ora": "17:00",
+          "nome": "Val del Riso Fest",
+          "luogo": "Area Feste, Gorno",
+          "sede": "Area Feste",
+          "comune": "Gorno",
+          "zona": "Valli",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/gorno/val-del-riso-fest_307844/",
+          "keyword": [
+            "cucina locale",
+            "musica"
+          ]
+        },
+        {
+          "ora": "18:00",
+          "nome": "Karaoke anni '90 con Kararoby",
+          "luogo": "Le Pupe Bistrò, Ambivere",
+          "sede": "Le Pupe Bistrò",
+          "comune": "Ambivere",
+          "zona": "Isola",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgD9nW-tG23/",
+          "keyword": [
+            "karaoke",
+            "anni 90"
+          ]
+        },
+        {
+          "ora": "19:00",
+          "nome": "Tributo Band & Dj Set",
+          "luogo": "Like It, Cenate Sotto",
+          "sede": "Like It",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "blues",
+            "tributo",
+            "dj set"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa di Sant'Andrea",
+          "luogo": "Sede Alpini, Gorlago",
+          "sede": "Sede Alpini",
+          "comune": "Gorlago",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-di-santandrea-sede-alpini-gorlago-4/",
+          "keyword": [
+            "alpini",
+            "tradizione"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Zola, Taleggio, Bollito",
+          "luogo": "Nxt, Bergamo",
+          "sede": "Nxt",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "20:00",
+          "nome": "Serata con il produttore: tartufo bianco",
+          "luogo": "Bolle Restaurant, Lallio",
+          "sede": "Bolle Restaurant",
+          "comune": "Lallio",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 150
+          },
+          "fonte": "https://www.instagram.com/p/DfreTidG8MG/",
+          "keyword": [
+            "tartufo bianco",
+            "degustazione vini"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "L'Aperitivo Musicale",
+          "luogo": "Cantina Magri Sereno, Scanzorosciate",
+          "sede": "Cantina Magri Sereno",
+          "comune": "Scanzorosciate",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 35
+          },
+          "fonte": "https://www.instagram.com/p/Dfj8crtux-T/",
+          "keyword": [
+            "anni 80",
+            "music teller",
+            "vini"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Karaoke Dinner Show",
+          "luogo": "Into the Woods, Torre Boldone",
+          "sede": "Into the Woods",
+          "comune": "Torre Boldone",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Universitime",
+          "luogo": "Charleston, Treviglio",
+          "sede": "Charleston",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgIEAWWRSc_/",
+          "keyword": [
+            "universitari",
+            "cena"
+          ]
+        },
+        {
+          "ora": "20:30",
+          "nome": "Stonechild Circle",
+          "luogo": "Khalè Music Bistrot, Curno",
+          "sede": "Khalè Music Bistrot",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-stonechild-circle-in-concerto-khale-music-curno/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Live Dinner Show",
+          "luogo": "Casa Costez, Bergamo",
+          "sede": "Casa Costez",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "dj set",
+            "musica dal vivo"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Rudy Smaila",
+          "luogo": "Bro', Bergamo",
+          "sede": "Bro'",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Vittoria & Assa",
+          "luogo": "Dieci10, Bergamo",
+          "sede": "Dieci10",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "blues"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Karaoke night",
+          "luogo": "Eleven 11, Bonate Sotto",
+          "sede": "Eleven 11",
+          "comune": "Bonate Sotto",
+          "zona": "Isola",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Unusual Cocktail Bar",
+          "luogo": "Mint Lounge, Chiuduno",
+          "sede": "Mint Lounge",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFpY0jAtyB/",
+          "keyword": [
+            "cocktail",
+            "drink list"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Una Corsa Per L'emancipazione",
+          "luogo": "Auditorium Bolchini, Fara Gera d'Adda",
+          "sede": "Auditorium Bolchini",
+          "comune": "Fara Gera d'Adda",
+          "zona": "Bassa",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Divina",
+          "luogo": "Divina, Grassobbio",
+          "sede": "Divina",
+          "comune": "Grassobbio",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Guccini",
+          "luogo": "Misma Brewery, Nembro",
+          "sede": "Misma Brewery",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Flex It - Friday Night Mode",
+          "luogo": "Arya Lounge, Romano di Lombardia",
+          "sede": "Arya Lounge",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DgF5DIhKR_R/",
+          "keyword": [
+            "trap",
+            "hip hop"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Il Bollito, commedia tenera",
+          "luogo": "Teatro Filodrammatici, Treviglio",
+          "sede": "Teatro Filodrammatici",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-il-bollito-una-commedia-tenera-spettacolo-teatro-filodrammatici-treviglio/",
+          "keyword": [
+            "commedia"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Karma Lounge",
+          "luogo": "Karma Lounge, Treviolo",
+          "sede": "Karma Lounge",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Rossella Ferrari e i Casanova",
+          "luogo": "Amadeus Dancing, Urgnano",
+          "sede": "Amadeus Dancing",
+          "comune": "Urgnano",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgFZFGbAxuz/",
+          "keyword": [
+            "orchestra",
+            "musica dal vivo",
+            "ballo"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Hi-Fi Fever",
+          "luogo": "Sprint, Bergamo",
+          "sede": "Sprint",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Housed",
+          "luogo": "Balzer, Bergamo",
+          "sede": "Balzer",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Tributo 883, Cisco Band",
+          "luogo": "Wiener Haus, Curno",
+          "sede": "Wiener Haus",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-883-cisco-band-wiener-haus-curno-2/",
+          "keyword": [
+            "tributo",
+            "883"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Dream Up",
+          "luogo": "Dream Cafe, Seriate",
+          "sede": "Dream Cafe",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Matalo",
+          "luogo": "Officina Panarari, Treviglio",
+          "sede": "Officina Panarari",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "latino",
+            "house",
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Flag",
+          "luogo": "Barry's, Bergamo",
+          "sede": "Barry's",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Side A",
+          "luogo": "In Croissanteria Lab, Carobbio degli Angeli",
+          "sede": "In Croissanteria Lab",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Latin Night",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.instagram.com/p/DgGjZLbEqkK/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Back To The Future",
+          "luogo": "Keller Factory, Curno",
+          "sede": "Keller Factory",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "anni '80"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Numax",
+          "luogo": "Batik, Orio al Serio",
+          "sede": "Batik",
+          "comune": "Orio al Serio",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "house"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Nova",
+          "luogo": "Zen Lounge Bar, Romano di Lombardia",
+          "sede": "Zen Lounge Bar",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DgLT34wtDKY/",
+          "keyword": [
+            "dj set",
+            "pasticcini"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Bar San Marco",
+          "luogo": "Bar San Marco, Sarnico",
+          "sede": "Bar San Marco",
+          "comune": "Sarnico",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "22:30",
+          "nome": "BAIA - DJ set",
+          "luogo": "Baia, Brignano Gera d'Adda",
+          "sede": "Baia",
+          "comune": "Brignano Gera d'Adda",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgF4zOCjLge/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Special performance DJ Charlie",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfnHlL2xNpx/",
+          "keyword": [
+            "cena",
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Take Over",
+          "luogo": "Nikita, Grumello del Monte",
+          "sede": "Nikita",
+          "comune": "Grumello del Monte",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "22:30",
+          "nome": "DJ set di Robbie Dox",
+          "luogo": "Jam Live Studio, Nembro",
+          "sede": "Jam Live Studio",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfHR80kiHf4/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Noche Latina",
+          "luogo": "Thanka, Seriate",
+          "sede": "Thanka",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Euphoria",
+          "luogo": "Iama, Bergamo",
+          "sede": "Iama",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": "23:00",
+          "nome": "Groove Code",
+          "luogo": "Movida The Club, Chiuduno",
+          "sede": "Movida The Club",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "house"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Friday Latin Party",
+          "luogo": "Ritrovo Brasil, Ponte San Pietro",
+          "sede": "Ritrovo Brasil",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "23:30",
+          "nome": "Novan Time",
+          "luogo": "Sabbie Mobili, Chignolo d'Isola",
+          "sede": "Sabbie Mobili",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDf3i9KQjU/",
+          "keyword": [
+            "anni 90",
+            "anni 2000",
+            "dance"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Traviesa",
+          "luogo": "Garota de Ipanema, Curno",
+          "sede": "Garota de Ipanema",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Cena Con Angy",
+          "luogo": "Officina del Luppolo, Dalmine",
+          "sede": "Officina del Luppolo",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": null,
+          "nome": "Vinyasa Yoga",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFQPCRlu2q/",
+          "keyword": [
+            "yoga"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Active",
+          "luogo": "Vibe Club, Treviolo",
+          "sede": "Vibe Club",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDT_qojmfr/",
+          "keyword": [
+            "club"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Hello weekend",
+          "luogo": "Cafeteria, Treviolo",
+          "sede": "Cafeteria",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/"
+        },
+        {
+          "ora": null,
+          "nome": "Karaoke",
+          "luogo": "Oasi Fiorita, Villongo",
+          "sede": "Oasi Fiorita",
+          "comune": "Villongo",
+          "zona": "Valli",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhM3biGT_/",
+          "keyword": [
+            "karaoke"
+          ]
+        }
+      ],
+      "guida": "weekend-2026-11-27",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-11-28",
+      "etichetta": "Sabato 28 novembre",
+      "breve": "Sabato 28",
+      "nota": "Ink Club e Ninfea: serve la tessera. Savana Funk: porte 20:30.",
+      "eventi": [
+        {
+          "ora": "00:30",
+          "nome": "Bar Florio con BSK Sound",
+          "luogo": "Zero Club, Bergamo",
+          "sede": "Zero Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 18
+          },
+          "fonte": "https://www.instagram.com/reel/Df2kLG_Rfmx/",
+          "keyword": [
+            "club room",
+            "dj set"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "11:00",
+          "nome": "Oriente Day",
+          "luogo": "Spazio Fase, Alzano Lombardo",
+          "sede": "Spazio Fase",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "mostra",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 7
+          },
+          "fonte": "https://www.instagram.com/p/Dfmk-0GlaUg/",
+          "keyword": [
+            "artigianato",
+            "benessere",
+            "street food"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "14:00",
+          "nome": "Mercatino vintage di Baroneostu",
+          "luogo": "Daste Bergamo, Bergamo",
+          "sede": "Daste Bergamo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Df9wejRM57R/",
+          "keyword": [
+            "vintage",
+            "second hand"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "15:00",
+          "nome": "Top Events, ginnastica ritmica",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.bergamonews.it/evento/le-stelle-della-ritmica-italiana-incantano-la-choruslife-arena/",
+          "keyword": [
+            "ginnastica ritmica",
+            "serie a"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "15:00",
+          "nome": "Tornado Agata",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 5
+          },
+          "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
+          "keyword": [
+            "bambini",
+            "opera family"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "20:00",
+          "nome": "Le convenienze ed inconvenienze teatrali",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 38
+          },
+          "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
+          "keyword": [
+            "opera lirica",
+            "donizetti opera"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "20:30",
+          "nome": "Vipers e New Pop Orchestra, tributo Queen",
+          "luogo": "Teatro Vescovile, Bergamo",
+          "sede": "Teatro Vescovile",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-queen-vipers-e-new-pop-orchestra-seminario-vescovile-bergamo-citta/",
+          "keyword": [
+            "tributo",
+            "queen",
+            "orchestra"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "Skinhead Fest",
+          "luogo": "Ink Club, Bergamo",
+          "sede": "Ink Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DgKMWA3xHt-/",
+          "keyword": [
+            "punk",
+            "oi"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "What's My Age Again? 2000 Party",
+          "luogo": "NXT Bergamo, Bergamo",
+          "sede": "NXT Bergamo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfpN2UxG9wi/",
+          "keyword": [
+            "anni 2000",
+            "party"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "21:00",
+          "nome": "Duo Bucolico: Champagne Tour",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Dfkja3NjzoH/",
+          "keyword": [
+            "cantautorato",
+            "folk",
+            "cabaret"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "2 Mondi, la musica di Lucio Battisti",
+          "luogo": "Torcio's Live, Villa di Serio",
+          "sede": "Torcio's Live",
+          "comune": "Villa di Serio",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/Dfudp8wh_96/",
+          "keyword": [
+            "lucio battisti"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "22:00",
+          "nome": "Savana Funk",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/reel/Df71ERpAVju/",
+          "keyword": [
+            "funk",
+            "jazz"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "23:30",
+          "nome": "Marie Vaunt special guest",
+          "luogo": "Bolgia, Osio Sopra",
+          "sede": "Bolgia",
+          "comune": "Osio Sopra",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 20
+          },
+          "fonte": "https://www.instagram.com/reel/DfmlzJmIigC/",
+          "rilevanza": 3
+        },
+        {
+          "ora": "23:30",
+          "nome": "Chéri",
+          "luogo": "CaPoGiRo Joy Club, Curno",
+          "sede": "CaPoGiRo Joy Club",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDPRidDM6R/",
+          "keyword": [
+            "house"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "Fluo Party",
+          "luogo": "Sabbie Mobili, Chignolo d'Isola",
+          "sede": "Sabbie Mobili",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/p/DgDpB_Hq2m4/",
+          "keyword": [
+            "afro",
+            "world music",
+            "fluo"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "23:30",
+          "nome": "La notte delle classi, coscritti",
+          "luogo": "Life Club, Rovetta",
+          "sede": "Life Club",
+          "comune": "Rovetta",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 18
+          },
+          "fonte": "https://www.instagram.com/reel/DgDK8MwxPQ_/",
+          "keyword": [
+            "coscritti",
+            "anni 70 80 90"
+          ],
+          "rilevanza": 2
+        }
+      ],
+      "altri": [
+        {
+          "ora": "00:00",
+          "nome": "LOVA",
+          "luogo": "Hype Club, Cortenuova",
+          "sede": "Hype Club",
+          "comune": "Cortenuova",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgGCMsGIyPY/",
+          "keyword": [
+            "latino",
+            "commerciale"
+          ]
+        },
+        {
+          "ora": "00:00",
+          "nome": "Nikita",
+          "luogo": "Nikita, Grumello del Monte",
+          "sede": "Nikita",
+          "comune": "Grumello del Monte",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "trap"
+          ]
+        },
+        {
+          "ora": "00:00",
+          "nome": "Momento Lab",
+          "luogo": "Vibe Club, Treviolo",
+          "sede": "Vibe Club",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDT_qojmfr/",
+          "keyword": [
+            "club"
+          ]
+        },
+        {
+          "ora": "08:00",
+          "nome": "Mercatino dell'antiquariato",
+          "luogo": "Piazza Libertà, Albino",
+          "sede": "Piazza Libertà",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-dellantiquariato-piazza-comune-albino-15/",
+          "keyword": [
+            "antiquariato"
+          ]
+        },
+        {
+          "ora": "09:00",
+          "nome": "Rievocazione storica Coppa della Presolana",
+          "luogo": "Piazzale Donizetti, Castione della Presolana",
+          "sede": "Piazzale Donizetti",
+          "comune": "Castione della Presolana",
+          "zona": "Valli",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/manifestazioni/castione-della-presolana/rievocazione-storica-della-coppa-della-presolana_307849/",
+          "keyword": [
+            "auto storiche"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "La Casa di Babbo Natale",
+          "luogo": "Agriturismo Sadira, Calusco d'Adda",
+          "sede": "Agriturismo Sadira",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DfuF1IZEVqX/",
+          "keyword": [
+            "natale",
+            "bambini",
+            "babbo natale"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "Mercatino di Natale",
+          "luogo": "Centro paese, Selvino",
+          "sede": "Centro paese",
+          "comune": "Selvino",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-di-natale-centro-paese-selvino-17/",
+          "keyword": [
+            "natale"
+          ]
+        },
+        {
+          "ora": "14:00",
+          "nome": "Safari Urbano di Bergamo Alta",
+          "luogo": "Colle Aperto, Bergamo",
+          "sede": "Colle Aperto",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/bergamo/safari-urbano-di-bergamo-alta_307801/",
+          "keyword": [
+            "bambini",
+            "visita guidata"
+          ]
+        },
+        {
+          "ora": "14:30",
+          "nome": "Passeggiata agronomica guidata",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgCy2ODiMlg/",
+          "keyword": [
+            "passeggiata",
+            "natura",
+            "guidata"
+          ]
+        },
+        {
+          "ora": "15:00",
+          "nome": "Caccia al tesoro di Natale",
+          "luogo": "Vie del paese, Alzano Lombardo",
+          "sede": "Vie del paese",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.bergamonews.it/evento/ad-alzano-torna-la-caccia-al-tesoro-di-natale/",
+          "keyword": [
+            "caccia al tesoro",
+            "natale"
+          ]
+        },
+        {
+          "ora": "16:30",
+          "nome": "Punto e Punta",
+          "luogo": "Teatro di Loreto, Bergamo",
+          "sede": "Teatro di Loreto",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 7
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-punto-e-punta-spettacolo-teatro-di-loreto-bergamo-citta/",
+          "keyword": [
+            "teatro ragazzi"
+          ]
+        },
+        {
+          "ora": "18:00",
+          "nome": "Karaoke con Karaoby",
+          "luogo": "Le Pupe Bistrò, via Marconi 44, Ambivere",
+          "sede": "Le Pupe Bistrò, via Marconi 44",
+          "comune": "Ambivere",
+          "zona": "Isola",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 20
+          },
+          "fonte": "https://www.instagram.com/p/DgJ9X-2tagK/",
+          "keyword": [
+            "karaoke",
+            "pizza"
+          ]
+        },
+        {
+          "ora": "18:00",
+          "nome": "Donizetti Direttore Della Musica",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Cena Cantata + Dj Set",
+          "luogo": "Like It, Cenate Sotto",
+          "sede": "Like It",
+          "comune": "Cenate Sotto",
+          "zona": "Valli",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set",
+            "cena cantata"
+          ]
+        },
+        {
+          "ora": "19:00",
+          "nome": "Si mangia con le mani, si beve naturale",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF1VUyIYBv/",
+          "keyword": [
+            "vino naturale",
+            "cucina stellata"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa di Sant'Andrea",
+          "luogo": "Sede Alpini, Gorlago",
+          "sede": "Sede Alpini",
+          "comune": "Gorlago",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-di-santandrea-sede-alpini-gorlago-4/",
+          "keyword": [
+            "alpini",
+            "tradizione"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Zola, Taleggio, Bollito",
+          "luogo": "Nxt, Bergamo",
+          "sede": "Nxt",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "20:00",
+          "nome": "utopia x Tassino",
+          "luogo": "Tassino Cafè, Bergamo",
+          "sede": "Tassino Cafè",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFL4THoa40/",
+          "keyword": [
+            "dj set",
+            "aperitivo"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "La cena spettacolo del Brina",
+          "luogo": "Brina Bistrot, Brignano Gera d'Adda",
+          "sede": "Brina Bistrot",
+          "comune": "Brignano Gera d'Adda",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 35
+          },
+          "fonte": "https://www.instagram.com/p/Df4Zu8HCPUu/",
+          "keyword": [
+            "cena spettacolo",
+            "musica"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Serata Bolliti",
+          "luogo": "Arturo Lounge Bar, Levate",
+          "sede": "Arturo Lounge Bar",
+          "comune": "Levate",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 45
+          },
+          "fonte": "https://www.instagram.com/p/DgIICvnt3L0/",
+          "keyword": [
+            "bollito",
+            "tradizione"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Cena Cantata",
+          "luogo": "Into the Woods, Torre Boldone",
+          "sede": "Into the Woods",
+          "comune": "Torre Boldone",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set",
+            "cena cantata"
+          ]
+        },
+        {
+          "ora": "20:30",
+          "nome": "Cena cantata anni 80-90-2000",
+          "luogo": "Bro Eat Drinks, Bergamo",
+          "sede": "Bro Eat Drinks",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DfrlezPu5i9/",
+          "keyword": [
+            "cena cantata",
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "20:45",
+          "nome": "Tributo Zucchero, L'Urlo",
+          "luogo": "Auditorium Cuminetti, Albino",
+          "sede": "Auditorium Cuminetti",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-zucchero-lurlo-auditorium-cuminetti-albino/",
+          "keyword": [
+            "tributo",
+            "zucchero"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Loft Hi-Fi Bar e Premium Club",
+          "luogo": "Loft, Azzano San Paolo",
+          "sede": "Loft",
+          "comune": "Azzano San Paolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DfzPZPrtGfJ/",
+          "keyword": [
+            "deep house",
+            "vinyl",
+            "apericena"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Dinner Show",
+          "luogo": "Casa Costez, Bergamo",
+          "sede": "Casa Costez",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set",
+            "musica dal vivo"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Terra Di Mezzo - Atalanta",
+          "luogo": "Teatro San Fedele, Calusco d'Adda",
+          "sede": "Teatro San Fedele",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Karaoke 2.0: canta che ti passa",
+          "luogo": "Easy Drink & Food, Capriate San Gervasio",
+          "sede": "Easy Drink & Food",
+          "comune": "Capriate San Gervasio",
+          "zona": "Isola",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/Df2zL_iOYi0/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Unusual Cocktail Bar",
+          "luogo": "Mint Lounge, Chiuduno",
+          "sede": "Mint Lounge",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFpY0jAtyB/",
+          "keyword": [
+            "cocktail",
+            "drink list"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Divina",
+          "luogo": "Divina, Grassobbio",
+          "sede": "Divina",
+          "comune": "Grassobbio",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Fuori tendenza",
+          "luogo": "Paprika Jazz Club, Mariano al Brembo",
+          "sede": "Paprika Jazz Club",
+          "comune": "Mariano al Brembo",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-fuori-tendenza-in-concerto-paprika-dalmine-2/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Music Night",
+          "luogo": "Posto Fisso, Palosco",
+          "sede": "Posto Fisso",
+          "comune": "Palosco",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Berghem Arena",
+          "luogo": "Arya Lounge, Romano di Lombardia",
+          "sede": "Arya Lounge",
+          "comune": "Romano di Lombardia",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Aura",
+          "luogo": "Karma Lounge, Treviolo",
+          "sede": "Karma Lounge",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Sister Act",
+          "luogo": "Teatro Serassi, Villa d'Almè",
+          "sede": "Teatro Serassi",
+          "comune": "Villa d'Almè",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/spettacoli/villa-dalme/sister-act_306303/",
+          "keyword": [
+            "commedia musicale",
+            "aido"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Play Your Music",
+          "luogo": "Be Up, Albino",
+          "sede": "Be Up",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Tributo Litfiba, Arriba Litfiba",
+          "luogo": "Kraken Factory, Alzano Lombardo",
+          "sede": "Kraken Factory",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-litfiba-arriba-litfiba-kraken-factory-alzano-lombardo-2/",
+          "keyword": [
+            "tributo",
+            "litfiba"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Hi-Fi Fever",
+          "luogo": "Sprint, Bergamo",
+          "sede": "Sprint",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:30",
+          "nome": "Melophiles Band",
+          "luogo": "Dieci10, Bergamo",
+          "sede": "Dieci10",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "rock"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Ruvido Tributo Rock Italiano",
+          "luogo": "Dieci10, Bergamo",
+          "sede": "Dieci10",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "tributo",
+            "dj set",
+            "rock"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "The Swing Home",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "rock"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Karaoke night",
+          "luogo": "Eleven 11, Bonate Sotto",
+          "sede": "Eleven 11",
+          "comune": "Bonate Sotto",
+          "zona": "Isola",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Ladies of Jazz",
+          "luogo": "Trattoria Pascoletto, Mozzo",
+          "sede": "Trattoria Pascoletto",
+          "comune": "Mozzo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-ladies-of-jazz-in-concerto-trattoria-pascoletto-mozzo-2/",
+          "keyword": [
+            "jazz"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Dream Up",
+          "luogo": "Dream Cafe, Seriate",
+          "sede": "Dream Cafe",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Preset by Vibe - Logic",
+          "luogo": "Vibe Club, Treviolo",
+          "sede": "Vibe Club",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgDT_qojmfr/",
+          "keyword": [
+            "pre serata"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Night of Eagles",
+          "luogo": "Majorelle Lounge, Bergamo",
+          "sede": "Majorelle Lounge",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/reel/DgGQAelsrT-/",
+          "keyword": [
+            "musica albanese"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Side A",
+          "luogo": "In Croissanteria Lab, Carobbio degli Angeli",
+          "sede": "In Croissanteria Lab",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Latin Night",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.instagram.com/p/DgGhr_6jxOE/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Yuppi Band e Dj Set",
+          "luogo": "Keller Factory, Curno",
+          "sede": "Keller Factory",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "tributo",
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Smart Pong",
+          "luogo": "Smart24, Nembro",
+          "sede": "Smart24",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Parasson",
+          "luogo": "JClub, Ponte San Pietro",
+          "sede": "JClub",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "22:00",
+          "nome": "Over Time",
+          "luogo": "Bar San Marco, Sarnico",
+          "sede": "Bar San Marco",
+          "comune": "Sarnico",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgIdmEfq6Ui/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Tributo Ligabue, LigaStory",
+          "luogo": "Fabbrica in Pedavena, Treviglio",
+          "sede": "Fabbrica in Pedavena",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-tributo-ligabue-ligastory-fabbrica-pedavena-treviglio-3/",
+          "keyword": [
+            "tributo",
+            "ligabue"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Ritmo Latino School Party",
+          "luogo": "Amadeus, Urgnano",
+          "sede": "Amadeus",
+          "comune": "Urgnano",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.instagram.com/p/DgH-BkzAMH8/",
+          "keyword": [
+            "latino",
+            "school party"
+          ]
+        },
+        {
+          "ora": "22:00",
+          "nome": "Tonda Bonita",
+          "luogo": "Caffetteria Nuova Rotonda, Urgnano",
+          "sede": "Caffetteria Nuova Rotonda",
+          "comune": "Urgnano",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Kontrol",
+          "luogo": "Balzer, Bergamo",
+          "sede": "Balzer",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "house"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "BAIA - DJ set",
+          "luogo": "Baia, Brignano Gera d'Adda",
+          "sede": "Baia",
+          "comune": "Brignano Gera d'Adda",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgF4zOCjLge/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Sabato alla Cascina: cena, musica e ballo",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Dfm2odpG2Ux/",
+          "keyword": [
+            "musica",
+            "ballo"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Afrostation",
+          "luogo": "Al Campe, Isola di Fondra",
+          "sede": "Al Campe",
+          "comune": "Isola di Fondra",
+          "zona": "Valli",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "afro"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "DJ set di Kino DJ",
+          "luogo": "Jam Live Studio, Nembro",
+          "sede": "Jam Live Studio",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfHR80kiHf4/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "Boomer 90/2000 Party - Il Super Show",
+          "luogo": "Discoteca Queen, Seriate",
+          "sede": "Discoteca Queen",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/reel/DgDTN_5tMpz/",
+          "keyword": [
+            "anni 90",
+            "anni 2000",
+            "show"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Groove Code",
+          "luogo": "Movida The Club, Chiuduno",
+          "sede": "Movida The Club",
+          "comune": "Chiuduno",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "house"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Urban",
+          "luogo": "Bobadilla, Dalmine",
+          "sede": "Bobadilla",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "trap"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Sabado Latino",
+          "luogo": "Ritrovo Brasil, Ponte San Pietro",
+          "sede": "Ritrovo Brasil",
+          "comune": "Ponte San Pietro",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Cocorita",
+          "luogo": "Coco Clubbing, Rogno",
+          "sede": "Coco Clubbing",
+          "comune": "Rogno",
+          "zona": "Valli",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 12
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "latino",
+            "trap"
+          ]
+        },
+        {
+          "ora": "23:30",
+          "nome": "Face2face",
+          "luogo": "Setai Club, Orio al Serio",
+          "sede": "Setai Club",
+          "comune": "Orio al Serio",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "23:30",
+          "nome": "Gloss",
+          "luogo": "Thanka, Seriate",
+          "sede": "Thanka",
+          "comune": "Seriate",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgH5QXzhP10/",
+          "keyword": [
+            "nuovo format"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Liscio con orchestra",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 13
+          },
+          "fonte": "https://www.instagram.com/p/DgGhr_6jxOE/",
+          "keyword": [
+            "liscio",
+            "orchestra"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Pikete",
+          "luogo": "Garota de Ipanema, Curno",
+          "sede": "Garota de Ipanema",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": null,
+          "nome": "Sabado De Salseros",
+          "luogo": "Khale Music, Curno",
+          "sede": "Khale Music",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Saturday vibes",
+          "luogo": "Cafeteria, Treviolo",
+          "sede": "Cafeteria",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": null,
+          "nome": "Bazzooka",
+          "luogo": "Oasi Fiorita, Villongo",
+          "sede": "Oasi Fiorita",
+          "comune": "Villongo",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "anni '80"
+          ]
+        }
+      ],
+      "guida": "weekend-2026-11-27",
+      "formato": "weekend"
+    },
+    {
+      "data": "2026-11-29",
+      "etichetta": "Domenica 29 novembre",
+      "breve": "Domenica 29",
+      "nota": "Malpaga Winter Night: gratis, 16-21. Ninfea: serve la tessera.",
+      "eventi": [
+        {
+          "ora": "10:00",
+          "nome": "Fiera di Sant'Andrea",
+          "luogo": "Centro paese, Gorlago",
+          "sede": "Centro paese",
+          "comune": "Gorlago",
+          "zona": "Bassa",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/handmade/gorlago/mercatini-di-santandrea_307403/",
+          "keyword": [
+            "bancarelle",
+            "km0"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "10:30",
+          "nome": "Dixit",
+          "luogo": "Santa Maria Maggiore, Bergamo",
+          "sede": "Santa Maria Maggiore",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
+          "keyword": [
+            "musica sacra",
+            "donizetti"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "10:30",
+          "nome": "In mezzo ai villaggi d'Europa",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgK6PCkDO4m/",
+          "keyword": [
+            "musica popolare",
+            "concerto",
+            "incontro"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "11:00",
+          "nome": "The Donizetti Brunch: Songs III",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 15
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "rilevanza": 3
+        },
+        {
+          "ora": "12:00",
+          "nome": "Pomeriggissimo in Pista",
+          "luogo": "In Croissanteria Lab, Carobbio degli Angeli",
+          "sede": "In Croissanteria Lab",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFwKawBHT0/",
+          "keyword": [
+            "soft clubbing",
+            "daytime"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "15:00",
+          "nome": "Liscio con Gianni Cosmai",
+          "luogo": "Amadeus Dancing, Urgnano",
+          "sede": "Amadeus Dancing",
+          "comune": "Urgnano",
+          "zona": "Bassa",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-gianni-cosmai-amadeus-urgnano-2/",
+          "keyword": [
+            "liscio",
+            "orchestra"
+          ],
+          "rilevanza": 1
+        },
+        {
+          "ora": "15:30",
+          "nome": "L'esule di Roma",
+          "luogo": "Teatro Donizetti, Bergamo",
+          "sede": "Teatro Donizetti",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 38
+          },
+          "fonte": "https://www.instagram.com/p/DfPnKwOEdAG/",
+          "keyword": [
+            "opera lirica",
+            "donizetti opera"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "16:00",
+          "nome": "Malpaga Winter Night",
+          "luogo": "Druso, Ranica",
+          "sede": "Druso",
+          "comune": "Ranica",
+          "zona": "Valli",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgFVpfxAE83/",
+          "keyword": [
+            "cinque band",
+            "food truck"
+          ],
+          "rilevanza": 3
+        },
+        {
+          "ora": "16:30",
+          "nome": "Natalie Clein, violoncello",
+          "luogo": "Aula Magna Università, Bergamo",
+          "sede": "Aula Magna Università",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%b8-natalie-clein-in-concerto-aula-magna-universita-bergamo-citta/",
+          "keyword": [
+            "classica",
+            "violoncello"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "16:30",
+          "nome": "Il Brutto Anatroccolo",
+          "luogo": "Teatro di Loreto, Bergamo",
+          "sede": "Teatro di Loreto",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 7
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-il-brutto-anatroccolo-spettacolo-teatro-di-loreto-bergamo-citta/",
+          "keyword": [
+            "teatro ragazzi"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "18:30",
+          "nome": "Tutti Frutti",
+          "luogo": "Zero Club, Bergamo",
+          "sede": "Zero Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Df4--iNCHyO/",
+          "keyword": [
+            "rock'n'roll",
+            "rockabilly",
+            "swing"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "19:30",
+          "nome": "Aperitivo con lab di macramè",
+          "luogo": "Daste, Bergamo",
+          "sede": "Daste",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 31
+          },
+          "fonte": "https://www.instagram.com/p/DgDNPFnsuSc/",
+          "keyword": [
+            "macramè",
+            "decorazioni natalizie",
+            "aperitivo"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:00",
+          "nome": "Meri Lu Jacket live",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dfm6T3SK1g_/",
+          "keyword": [
+            "blues rock",
+            "cantautrice"
+          ],
+          "rilevanza": 2
+        },
+        {
+          "ora": "21:30",
+          "nome": "Bachata Sensual",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/p/DgGgQHvF_Zu/",
+          "keyword": [
+            "bachata"
+          ],
+          "rilevanza": 1
+        }
+      ],
+      "altri": [
+        {
+          "ora": "09:00",
+          "nome": "Mercatino dell'antiquariato",
+          "luogo": "Viale Papa Giovanni XXIII, San Pellegrino Terme",
+          "sede": "Viale Papa Giovanni XXIII",
+          "comune": "San Pellegrino Terme",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-antiquariato-viale-papa-giovanni-san-pellegrino-terme-17/",
+          "keyword": [
+            "antiquariato"
+          ]
+        },
+        {
+          "ora": "09:00",
+          "nome": "Torneo Dilettanti",
+          "luogo": "Crazy Padel, Treviolo",
+          "sede": "Crazy Padel",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "torneo",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 25
+          },
+          "fonte": "https://www.instagram.com/p/DgA7swVCP8L/",
+          "keyword": [
+            "padel",
+            "dilettanti"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "Oriente Day",
+          "luogo": "Spazio Fase, Alzano Lombardo",
+          "sede": "Spazio Fase",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "mostra",
+          "prezzo": {
+            "tipo": "da",
+            "valore": 7
+          },
+          "fonte": "https://www.instagram.com/p/DfUYTyAjT8t/",
+          "keyword": [
+            "artigianato",
+            "benessere",
+            "street food"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "La Casa di Babbo Natale",
+          "luogo": "Agriturismo Sadira, Calusco d'Adda",
+          "sede": "Agriturismo Sadira",
+          "comune": "Calusco d'Adda",
+          "zona": "Isola",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DfuF1IZEVqX/",
+          "keyword": [
+            "natale",
+            "bambini",
+            "babbo natale"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "Mercatini di Natale",
+          "luogo": "Lungolago Garibaldi, Sarnico",
+          "sede": "Lungolago Garibaldi",
+          "comune": "Sarnico",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/incontri/sarnico/mercatini-di-natale-a-sarnico_306963/",
+          "keyword": [
+            "natale",
+            "lago"
+          ]
+        },
+        {
+          "ora": "10:00",
+          "nome": "Mercatino di Natale",
+          "luogo": "Centro paese, Selvino",
+          "sede": "Centro paese",
+          "comune": "Selvino",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%9b%8d%ef%b8%8f-mercatino-di-natale-centro-paese-selvino-18/",
+          "keyword": [
+            "natale"
+          ]
+        },
+        {
+          "ora": "10:45",
+          "nome": "Ratablòtt",
+          "luogo": "Teatro Prova, Albino",
+          "sede": "Teatro Prova",
+          "comune": "Albino",
+          "zona": "Valli",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 7
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "11:00",
+          "nome": "Domenichissima",
+          "luogo": "Bombonera Social Pub, Bergamo",
+          "sede": "Bombonera Social Pub",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "11:00",
+          "nome": "Visita al Villaggio operaio di Crespi d'Adda",
+          "luogo": "Crespi d'Adda, Capriate San Gervasio",
+          "sede": "Crespi d'Adda",
+          "comune": "Capriate San Gervasio",
+          "zona": "Isola",
+          "categoria": "visita",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 8
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/visite_guidate/capriate-san-gervasio/scopri-il-villaggio-operaio-di-crespi-dadda_306341/",
+          "keyword": [
+            "unesco"
+          ]
+        },
+        {
+          "ora": "11:00",
+          "nome": "Liberamente Bimbi",
+          "luogo": "Parco Avventura, Torre Boldone",
+          "sede": "Parco Avventura",
+          "comune": "Torre Boldone",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/bambini/torre-boldone/liberamente-bimbi_307882/",
+          "keyword": [
+            "bambini"
+          ]
+        },
+        {
+          "ora": "12:00",
+          "nome": "Festa VinAnima",
+          "luogo": "Convento dei Neveri, Bariano",
+          "sede": "Convento dei Neveri",
+          "comune": "Bariano",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 35
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-festa-vinanima-enogastronomico-convento-dei-neveri-bariano/",
+          "keyword": [
+            "enogastronomia"
+          ]
+        },
+        {
+          "ora": "12:00",
+          "nome": "Pranzo e degustazione di panettoni",
+          "luogo": "Badaboom, via Francesca 20, Verdellino",
+          "sede": "Badaboom, via Francesca 20",
+          "comune": "Verdellino",
+          "zona": "Bassa",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 10
+          },
+          "fonte": "https://www.instagram.com/reel/DgJ8HOpihUX/",
+          "keyword": [
+            "panettone",
+            "pranzo",
+            "truccabimbi"
+          ]
+        },
+        {
+          "ora": "12:30",
+          "nome": "Pranzo della domenica",
+          "luogo": "Retrobottega, Curno",
+          "sede": "Retrobottega",
+          "comune": "Curno",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 36
+          },
+          "fonte": "https://www.instagram.com/p/Df65MRCDKhT/",
+          "keyword": [
+            "menù bergamasco",
+            "domenica a tavola"
+          ]
+        },
+        {
+          "ora": "14:00",
+          "nome": "Cibi e Cultura Del Territorio",
+          "luogo": "Sapori & Cultura, Zogno",
+          "sede": "Sapori & Cultura",
+          "comune": "Zogno",
+          "zona": "Valli",
+          "categoria": "mercatino",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "15:00",
+          "nome": "Liscio con la Mauri Band",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%95%ba-liscio-con-orchestra-mauri-band-discoteca-decibel-chignolo-disola-2/",
+          "keyword": [
+            "liscio",
+            "orchestra"
+          ]
+        },
+        {
+          "ora": "15:00",
+          "nome": "Frozen",
+          "luogo": "Centro Sportivo Vivalavida, Entratico",
+          "sede": "Centro Sportivo Vivalavida",
+          "comune": "Entratico",
+          "zona": "Valli",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-frozen-spettacolo-centro-sportivo-entratico/",
+          "keyword": [
+            "spettacolo bambini"
+          ]
+        },
+        {
+          "ora": "15:00",
+          "nome": "Robin Hood",
+          "luogo": "Sala Multifunzionale, Grassobbio",
+          "sede": "Sala Multifunzionale",
+          "comune": "Grassobbio",
+          "zona": "Centro",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%8e%aa-robin-hood-spettacolo-sala-multifunzionale-grassobbio/",
+          "keyword": [
+            "spettacolo bambini"
+          ]
+        },
+        {
+          "ora": "15:00",
+          "nome": "LEI balla, suona e canta",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/",
+          "keyword": [
+            "violenza sulle donne",
+            "musica dal vivo"
+          ]
+        },
+        {
+          "ora": "16:00",
+          "nome": "Cappuccetto Rosso",
+          "luogo": "Teatro Nuovo, Treviglio",
+          "sede": "Teatro Nuovo",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 7
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "16:15",
+          "nome": "Dalla rampa di lancio: voliamo nello spazio",
+          "luogo": "Parco Astronomico La Torre del Sole, Brembate di Sopra",
+          "sede": "Parco Astronomico La Torre del Sole",
+          "comune": "Brembate di Sopra",
+          "zona": "Isola",
+          "categoria": "famiglia",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 15
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/scienza/brembate-di-sopra/dalla-rampa-di-lancio-voliamo-nello-spazio-al-planetario_307229/",
+          "keyword": [
+            "planetario"
+          ]
+        },
+        {
+          "ora": "16:30",
+          "nome": "È vietato piangere",
+          "luogo": "Teatro degli Storti, Alzano Lombardo",
+          "sede": "Teatro degli Storti",
+          "comune": "Alzano Lombardo",
+          "zona": "Valli",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 7
+          },
+          "fonte": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/teatro/alzano-lombardo/e-vietato-piangere-domenica-29-novembre-2026_304908/",
+          "keyword": [
+            "commedia"
+          ]
+        },
+        {
+          "ora": "16:30",
+          "nome": "Internet non è un posto per femmine",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/",
+          "keyword": [
+            "lettura",
+            "confronto"
+          ]
+        },
+        {
+          "ora": "17:00",
+          "nome": "Baci&Abbracci",
+          "luogo": "Caffe' del Colleoni, Bergamo",
+          "sede": "Caffe' del Colleoni",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "altro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "17:00",
+          "nome": "Ti Amo Da Morire",
+          "luogo": "Biblioteca Comunale, Pontida",
+          "sede": "Biblioteca Comunale",
+          "comune": "Pontida",
+          "zona": "Isola",
+          "categoria": "teatro",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "17:30",
+          "nome": "Auto ritratto, laboratorio di pittura",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "laboratorio",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/",
+          "keyword": [
+            "pittura"
+          ]
+        },
+        {
+          "ora": "17:30",
+          "nome": "DJ set Giulia Santori",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/"
+        },
+        {
+          "ora": "18:30",
+          "nome": "Gli attimi, non i giorni",
+          "luogo": "NXT Bergamo, Bergamo",
+          "sede": "NXT Bergamo",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "incontro",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/Dfmd9AgtYkN/",
+          "keyword": [
+            "reading",
+            "montagna",
+            "musica"
+          ]
+        },
+        {
+          "ora": "18:30",
+          "nome": "Ballo emozionale",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/",
+          "keyword": [
+            "ichnos didymos"
+          ]
+        },
+        {
+          "ora": "18:30",
+          "nome": "Vino naturale e Krapfen",
+          "luogo": "Ninfea Social Club, Sorisole",
+          "sede": "Ninfea Social Club",
+          "comune": "Sorisole",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgF9XM0n3TH/",
+          "keyword": [
+            "vino naturale",
+            "krapfen"
+          ]
+        },
+        {
+          "ora": "18:30",
+          "nome": "l'Aperitif by Earth",
+          "luogo": "Cafeteria, Treviolo",
+          "sede": "Cafeteria",
+          "comune": "Treviolo",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "19:00",
+          "nome": "Serata Latina",
+          "luogo": "Dieci10, Bergamo",
+          "sede": "Dieci10",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "danza",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Karaoke e Latin Night",
+          "luogo": "Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/Df5ghfjxckF/",
+          "keyword": [
+            "karaoke",
+            "salsa",
+            "bachata"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Festa di Sant'Andrea",
+          "luogo": "Sede Alpini, Gorlago",
+          "sede": "Sede Alpini",
+          "comune": "Gorlago",
+          "zona": "Bassa",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.eventi.bergamo.it/evento/%f0%9f%a5%b3-sagra-di-santandrea-sede-alpini-gorlago-4/",
+          "keyword": [
+            "alpini",
+            "tradizione"
+          ]
+        },
+        {
+          "ora": "19:30",
+          "nome": "Columbia, tributo Oasis",
+          "luogo": "Revel, Treviglio",
+          "sede": "Revel",
+          "comune": "Treviglio",
+          "zona": "Bassa",
+          "categoria": "live",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.bergamonews.it/evento/al-revel-tributo-agli-oasis/",
+          "keyword": [
+            "tributo",
+            "oasis"
+          ]
+        },
+        {
+          "ora": "20:00",
+          "nome": "Zola, Taleggio e bollito",
+          "luogo": "Nxt, Bergamo",
+          "sede": "Nxt",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sagra",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "20:00",
+          "nome": "San-Day",
+          "luogo": "Bar San Marco, Sarnico",
+          "sede": "Bar San Marco",
+          "comune": "Sarnico",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgLGyUlNSwz/",
+          "keyword": [
+            "dj set",
+            "domenica"
+          ]
+        },
+        {
+          "ora": "20:30",
+          "nome": "The swing home",
+          "luogo": "Zero Club, Bergamo",
+          "sede": "Zero Club",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/"
+        },
+        {
+          "ora": "21:00",
+          "nome": "Top Events, ginnastica ritmica",
+          "luogo": "ChorusLife Arena, Bergamo",
+          "sede": "ChorusLife Arena",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "sport",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.bergamonews.it/evento/le-stelle-della-ritmica-italiana-incantano-la-choruslife-arena/",
+          "keyword": [
+            "ginnastica ritmica",
+            "serie a"
+          ]
+        },
+        {
+          "ora": "21:00",
+          "nome": "Karaoke",
+          "luogo": "Eleven 11, Bonate Sotto",
+          "sede": "Eleven 11",
+          "comune": "Bonate Sotto",
+          "zona": "Isola",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Latino 360°",
+          "luogo": "Decibel Club, Chignolo d'Isola",
+          "sede": "Decibel Club",
+          "comune": "Chignolo d'Isola",
+          "zona": "Isola",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgGgQHvF_Zu/",
+          "keyword": [
+            "latino"
+          ]
+        },
+        {
+          "ora": "21:30",
+          "nome": "Apericena Latino",
+          "luogo": "Batik Food & Drink, Orio al Serio",
+          "sede": "Batik Food & Drink",
+          "comune": "Orio al Serio",
+          "zona": "Centro",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "fisso",
+            "valore": 18
+          },
+          "fonte": "https://www.instagram.com/p/DgHye0HoGwb/",
+          "keyword": [
+            "latino",
+            "apericena"
+          ]
+        },
+        {
+          "ora": "22:30",
+          "nome": "NO FILTER! DJ set di DJ Potto",
+          "luogo": "Jam Live Studio, Nembro",
+          "sede": "Jam Live Studio",
+          "comune": "Nembro",
+          "zona": "Valli",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "gratis"
+          },
+          "fonte": "https://www.instagram.com/p/DfHR80kiHf4/",
+          "keyword": [
+            "dj set"
+          ]
+        },
+        {
+          "ora": "23:00",
+          "nome": "Aperitivo Martini",
+          "luogo": "Bobadilla, Dalmine",
+          "sede": "Bobadilla",
+          "comune": "Dalmine",
+          "zona": "Bassa",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgKhOb7CJcl/",
+          "keyword": [
+            "buffet"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Le vie del riso Carnaroli",
+          "luogo": "Frontemura, Bergamo",
+          "sede": "Frontemura",
+          "comune": "Bergamo",
+          "zona": "Centro",
+          "categoria": "cena",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgFruwOjsHt/",
+          "keyword": [
+            "riso carnaroli",
+            "vino bio"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Karaoke con Paolo Winner",
+          "luogo": "Ranch Cascina del Sole, Carobbio degli Angeli",
+          "sede": "Ranch Cascina del Sole",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "aperitivo",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/p/DgLUqUDR0w4/",
+          "keyword": [
+            "karaoke"
+          ]
+        },
+        {
+          "ora": null,
+          "nome": "Pomeriggissimo cinepanettone",
+          "luogo": "In Croissanteria Lab, Carobbio degli Angeli",
+          "sede": "In Croissanteria Lab",
+          "comune": "Carobbio degli Angeli",
+          "zona": "Bassa",
+          "categoria": "dj",
+          "prezzo": {
+            "tipo": "nd"
+          },
+          "fonte": "https://www.instagram.com/reel/Dfz0be4xIGA/",
+          "keyword": [
+            "brunch",
+            "soft clubbing"
+          ]
+        }
+      ],
+      "guida": "weekend-2026-11-27",
+      "formato": "weekend"
     }
   ],
   "cinema": [
